@@ -1,7 +1,7 @@
 \section{Theorie}
 \label{sec:Theorie}
 \subsection{Grundlagen der magnetischen Kernresonanz}
-Die meisten Atomekerne besitzen neben Kernladung und Masse, auch einen Eigendrehimpuls, welcher als Spin $I$ bezeichnet wird.
+Die meisten Atomkerne besitzen neben Kernladung und Masse, auch einen Eigendrehimpuls, welcher als Spin $I$ bezeichnet wird.
 Der Spin und das magnetische Dipolmoment des Atomkerns sind wie folgt miteinander verkn\"{u}pft:
 \begin{align}
 	\overrightarrow{\mu} = \hbar \gamma \overrightarrow{I}
@@ -21,9 +21,8 @@ In einem \"{a}u{\ss}eren Magnetfeld befinden sich die Atomkerne somit auf versch
 Durch die unterschiedlichen Besetzungszahlen der einzelnen Niveaus kommt es zur  makroskopische Magnetisierung der Probe, dem Kernmagnetismus.
 %- thermodynamischen Gleichgewicht Boltzmann-Verteilung
 %- Kernmoment klein -> Ausrichtung durch externes Magnetfeld, Ausrichtung ist unab\"{a}ngig von der Orientierung der Molek\"{u}le
-
 Zu der Ausrichtung kommt auf Grund des Drehimpulses eine Pr\"{a}zessionsbewegung dazu.
-- Drehimpuls im Magnetfeld -> Pr\"{a}zessionsbewegung, diese ist senkrecht zum externen Magnetfeld, winkel zwischen $\mu$ und $B_0$ zeitlich konstant
+Diese Pr\"{a}zessionsbewegung ist senkrecht zum externen Magnetfeld, womit der Winkel zwischen $\overrightarrow{\mu}$ und $\overrightarrow{B_0}$ zeitlich konstant ist.
 - Lamorfrequenz: $\omega_0 = \gamma B_0$ hier: $\omega = 2\pi \cdot 90 \text{\, MHz}$
 - wir betrachten die Summe aller Kernmomente: $M = \sum_i \mu_i$
 - im Gleichgewicht ahebn alle die gleiche z-Komponente: $M = (0,0,M_z)$
@@ -49,12 +48,14 @@ Somit wirkt das fiktive Feld $- \frac{\Omega}{\gamma}$ dem \"{a}u{\ss}eren Magne
 	\begin{subfigure}[c]{0.4\textwidth}
 	\includegraphics[width=\textwidth]{Plots/rotKoordinatensystem.png} 
 	\subcaption{}
+	\label{}
 	\end{subfigure}
 	~
 	~
 	\begin{subfigure}[c]{0.3\textwidth}
 	\includegraphics[width=\textwidth]{Plots/B1Felder.png}
 	\subcaption{}
+	\label{}
 	\end{subfigure}
 \caption{XXX}
 \label{rotKoordi}
@@ -70,12 +71,13 @@ Nun kann die Komponente, die sich mit dem Koordinatensystem rotiert, kann als st
 Im Gegenschluss rotiert dann die andere Komponente mit $-2\Omega$ und ist im Allgemeinen vernachl\"{a}ssigbar.
 
 \paragraph{Wirkungen von Hochfrequenzpulsen}
-- wird aus einem kontinuierlichen Feld 'herausgeschnitten'
-- HF-Puls, auch $90^{\circ}$-Puls oder $\frac{\pi}{2}$-Puls
-- durch HF-Puls -> $\overrightarrow{\mu}$ macht viertel Drehung -> Quermagnetisierung
-- beliebigen Winkel $\alpha$ einstellen: $\omega_1 = \frac{\alpha}{t_p} \Rightarrow t_p = \frac{2 \alpha}{\gamma B_x}$
-- nach dem $90^{\circ}$-Puls: Pr\"{a}zession um $B_0$
-- Pr\"{a}zession induziert Spannung in der Spule um die Probe -> Kerninduktionssignal
+Um mit dem Hochfrequenzfeld, welches mit einer Spule erzeugt wird, einen Hochfrequenzpuls (HF-Puls) zu erzeugen, wird aus dem kontinuierlichen Feld der Spule ein Puls mit bestimmter L\"{a}nge herausgeschnitten.
+Solch ein HF-Puls wei{\ss}t genau die L\"{a}nge auf, dass sich die Magnetisierung um $90^{\circ}$ dreht und sich eine Quermagnetisierung einstellt.
+Daher wir der HF-Puls h\"{a}ufig auch als $90^{\circ}$-Puls oder $\frac{\pi}{2}$-Puls bezeichnet.
+%- beliebigen Winkel $\alpha$ einstellen: $\omega_1 = \frac{\alpha}{t_p} \Rightarrow t_p = \frac{2 \alpha}{\gamma B_x}$
+Nschdem ein $90^{\circ}$-Puls eingeschaltet wurde pr\"{a}zediert die Magnetisierung um $\overrightarrow{B_0}$.
+Diese Pr\"{a}zessionsbewegung der magnetischen Momente induziert dann eine Spannung in der Spule, in der die Probe sich befindet.
+-> Kerninduktionssignal
 - Messung des Momentanwerts der L\"{a}ngsmagnetisierung
 - Quermagnetisierung wird mit der Zeit kleiner
 - effektive Quermagnetisierung dephasiert
