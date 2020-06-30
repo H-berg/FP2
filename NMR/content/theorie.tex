@@ -163,21 +163,24 @@ Hierbei wird zun\"{a}chst die Magnetisierung duch zuf\"{a}llig hintereinander ge
 Durch den Wideraufbau der L\"{a}ngmagnetisierung kann dann die $T_1$-Zeit bestimmt werden.
 
 \paragraph{Spin-Spin-Relaxation}
-- kein Energiefluss ins gitter
-- Spin-Spin-WW -> Dipol-Dipol-WW
-- WW zwischen Spins, also St\"{a}rke der Zusatzfelder abh\"{a}ngig von dem Winkel $\vartheta$, winkel zwischen $B_0$ und $r$
-\begin{align}
-	B_z^{DD} = \sum_s \hbar \gamma_s S \left( 3 cos^2 \left(\vartheta_{IS}\right) - 1 \right) \frac{1}{r_{IS}^3} \\
-	B_{x,y}^{DD} = \sum_s \hbar \gamma_s S \left( \frac{3}{2} \cdot sin\left(2 \vartheta_{IS}\right) \right) \frac{1}{r_{IS}^3} \\
-\end{align}
-- $T_2$ immer kleiner als $T_1$
-\begin{figure}[hbtp]
+\begin{wrapfigure}[12]{r}{0.35\textwidth}
 	\centering
-	\includegraphics[width=0.5\textwidth]{Plots/spin_spin.png}
-	\caption{Spin-Spin-Wechselwirkung.}
+	\vspace{-10pt}
+	\includegraphics[width=0.3\textwidth]{Plots/spin_spin.png}
+	\caption{Schematische Darstellung der Spin-Spin-Wechselwirkung.}
 	\label{SpinSpin}
-\end{figure}
+\end{wrapfigure}
+Die zweite Relaxation be{\-}ruht auf der Spin-Spin-Wechselwirkung, welche auch als magnetische Wechselwirkung zwischen den Dipolen aufgefasst werden kann.
+Und anders als bei der Spin-Gitter-Relaxation flie{\ss}t hierbei kein Energiefluss ins Gitter.
+Durch die Wechselwirkung zwischen den Spins ist die St\"{a}rke der Zusatzfelder abh\"{a}ngig von dem Winkel, $\vartheta$, zwischen $B_0$ und $r$ (Abbildung (\ref{SpinSpin})).
+Mathematisch ergeben sich die Zusatzfelder der Nachbarspins zu:
+\begin{align*}
+	B_z^{DD} &= \sum_s \hbar \gamma_s S \left( 3 cos^2 \left(\vartheta_{IS}\right) - 1 \right) \frac{1}{r_{IS}^3} \\
+	\text{und} \, \, \, \, B_{x,y}^{DD} &= \sum_s \hbar \gamma_s S \left( \frac{3}{2} \cdot sin\left(2 \vartheta_{IS}\right) \right) \frac{1}{r_{IS}^3} 
+\end{align*}
 
+Im Vergleich zu $T_1$-Relaxationszeit ist die Spin-Spin-Relaxationszeit $T_2$ in Festk\"{o}rpern immer kleiner.
+Nur in Fl\"{u}ssigkeiten sind beide Relaxationszeiten in dergleichen Gr\"{o}{\ss}enordnung.
 
 \subsection{Hahn-Echo und Festk\"{o}rper-Echo}
 1. Hahn-Echo
