@@ -18,6 +18,7 @@ Erlaubt sind die Winkeleinstellungen, welche folgende Bedingung erf\"{u}llen:
 	\text{mit:} \, \, \,  m &= +I, +(I-1), ..., -(I-1), -I \nonumber
 \end{align}
 In einem \"{a}u{\ss}eren Magnetfeld befinden sich die Atomkerne somit auf verschiedenen Energieniveaus.
+
 Atome mit einem Kernspin von $I=\frac{1}{2}$ sind die wichtigsten Kerne für die NMR-Spektroskopie.
 %- "Zeeman-Effekt"
 \begin{figure}[hbtp]
@@ -26,18 +27,22 @@ Atome mit einem Kernspin von $I=\frac{1}{2}$ sind die wichtigsten Kerne für die
 	\caption{Aufspaltung der Energieniveaus f\"{u}r eine Atom mit Kernspin $\frac{1}{2}$.}
 	\label{Energieniveaus}
 \end{figure}
-In Abbildung (\ref{Energieniveaus}) Aufspaltung der Energieniveaus f\"{u}r solche Atmoe zu sehen, mit der \"{U}bergangsenergie $\Delta E = \hbar \gamma B_0$.
-Durch die unterschiedlichen Besetzungszahlen der einzelnen Niveaus kommt es zur  makroskopische Magnetisierung der Probe, dem Kernmagnetismus.
+In Abbildung (\ref{Energieniveaus}) ist Aufspaltung der Energieniveaus f\"{u}r solche Atome zu sehen, mit der \"{U}bergangsenergie $\Delta E = \hbar \gamma B_0$ zwischen den Niveaus.
+Durch die unterschiedlichen Besetzungszahlen der einzelnen Niveaus kommt es zur makroskopischen Magnetisierung der Probe, dem sogenannten Kernmagnetismus.
 %- thermodynamischen Gleichgewicht Boltzmann-Verteilung
 %- Kernmoment klein -> Ausrichtung durch externes Magnetfeld, Ausrichtung ist unab\"{a}ngig von der Orientierung der Molek\"{u}le
-Zus\"{a}tzlich zu der Ausrichtung kommt auf Grund des Drehimpulses eine Pr\"{a}zessionsbewegung um $\overrightarrow{B_0}$ dazu.
+Zus\"{a}tzlich zu der Aus{\-}richt{\-}ung kommt auf Grund des Drehimpulses eine Pr\"{a}zessionsbewegung um $\overrightarrow{B_0}$ dazu.
+Die Spins pr\"{a}zedieren mit der Lamorfrequenz, $\omega_0 = \gamma B_0$.
+In diesem Experiment betr\"{a}gt die Lamorfrequenz $2\pi \cdot 90 \text{\, MHz}$.
 Diese Pr\"{a}zessionsbewegung ist senkrecht zum externen Magnetfeld, womit der Winkel zwischen $\overrightarrow{\mu}$ und $\overrightarrow{B_0}$ zeitlich konstant ist.
-- Lamorfrequenz: $\omega_0 = \gamma B_0$ hier: $\omega = 2\pi \cdot 90 \text{\, MHz}$
-- wir betrachten die Summe aller Kernmomente: $M = \sum_i \mu_i$
-- im Gleichgewicht ahebn alle die gleiche z-Komponente: $M = (0,0,M_z)$
-- Gesamtmagnetisierung: $\frac{\vartheta M}{\vartheta t} = \gamma M_x B_0$
-- $M und B_0$ sind parallel zueinander und damit zeitlich konstant
-(- M kann auch pr\"{a}zidieren)
+Betrachtet wird die Summe aller Kernmomente $M = \sum_i \mu_i$.
+Im Gleichgewicht besitzen alle Summanden die gleiche $z$-Komponente, $M = (0,0,M_z)^{\text{T}}$.
+F\"{u}r die Gesamtmagnetisierung ergibt sich
+\begin{align*}
+	\frac{\vartheta M}{\vartheta t} = \gamma M_x B_0
+\end{align*}
+Dabei sind $M$ und $B_0$ parallel zueinander und damit zeitlich konstant.
+%(- M kann auch pr\"{a}zidieren)
 
 \paragraph{Rotierendes Koordinatensystem}
 Da im folgenden senkrecht zu dem konstanten Magnet\-feld ein zeitliches Hochfrequenzfeld (HF-Feld) $B_1(t)$ hinzugeschaltet wird, wird hier nun zun\"{a}chst das rotierende Koordinatensystem als Konzept eingef\"{u}hrt.
