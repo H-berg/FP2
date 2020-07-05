@@ -1,2 +1,76 @@
-\section{Durchführung}
-\label{sec:Durchführung}
+\section{Das Experiment}
+\subsection{Das Spektrometer}
+Ein NMR-Spektrometer besteht aus zwei miteinander verbundenen Teilen, dem Sender- und Empf\"{a}ngerkreis.
+Der Senderkreis ist zur Erzeugung der HF-Pulse verantwortlich und der Empf\"{a}ngerkreis detektiert das Kernspininduktionssignals.
+
+Der Aufbau des Senderkreises ist in Abbildung (\ref{senderkreis.}) schematisch dargestellt.
+Mit dem HF-Generator (1) wird ein Signal mit Lamorfrequenz generiert, welches \"{u}ber zwei schalter (3) geschickt wird.
+Diese Schalter werden zeitlich vom Pulsgenerator (2) so gesteuert, dass die HF-Pulse mit der richtigen L\"{a}nge aus dem kontinuierlichen Signal erzuegt werden.
+Die HF-Pulse werden \"{u}ber (4) zim Leistungsverst\"{a}rker gef\"{u}hrt.
+Um zu gew\"{a}hrleisten, dass nur die eintreffenden Pulse um den Faktor $10^6$ verst\"{a}rkt werden, besitzt der Leistungsverst\"{a}rker einen weiteren Eingang, den Gating-Eingang.
+Der Pulsgenerator kann \"{u}ber diesen zweiten Eingang den Verst\"{a}rker gezielt ein- und ausschalten.
+\"{U}ber ein Kabel (6) werden die verst\"{a}rkten HF-Pulse dann zur Probe geleitet.
+\begin{SCfigure}[1][!h]
+	\centering
+	\includegraphics[width=0.6\textwidth]{Plots/spektrometer.png}
+	\caption{Aufbau des Senderkreises zur Erzeugung der HF-Pulse. (1) erzeugt ein HF-Signal. \"{U}ber (2) und (5) kann der Pulsgenerator die Schalter und den Vorverst\"{a}rker zeitlich ansteuern. Mittels der Schalter (3) wird ein HF-Puls generiert, welches zum Vorverst\"{a}rker (4) gef\"{u}hrt wird. Und \"{u}ber (6) kann der HF-Puls  zur Probe gef\"{u}hrt werden.}
+	\label{senderkreis.}
+\end{SCfigure}
+
+Damit HF-Pulsen in der Probenspulen ein maximales $B_1$-Magnetfeld erzeugen, muss m\"{o}glichst viel Leistung in den Probenstab gebracht werden.
+Hierf\"{u}r wird eine Kombination aus einem $\lambda / 4$-Kabel und zwei Diodenp\"{a}archen ben\"{o}tigt, siehe Abbildung (\ref{lambda4.}).
+W\"{a}hrend der Zeit eines HF-Pulses liegt an dem Diodenp\"{a}archen (A) eine so hohe Spannung an, dass diesen den ankommenden HF-Puls durchgelassen.
+Das $\lambda /4$-Kabel bewirkt f\"{u}r diese Zeit durch eine Impedanztransformation einen unendlich hohen Wellenwiderstand, sodass die 
+\begin{wrapfigure}[9]{r}{0.5\textwidth}
+	\centering
+	\framebox[0.45\textwidth]{
+	\includegraphics[width=0.4\textwidth]{Plots/diodengruen.png} }
+%	\includegraphics[width=0.4\textwidth]{Plots/diodenschwarz.png} }
+%	\includegraphics[width=0.4\textwidth]{Plots/lambda4tel.png} }
+	\caption{Schaltbild des $\lambda / 4$-Kabels.}
+	\label{lambda4.}
+\end{wrapfigure}
+Welle des HF-Pulses den Weg in den Probenstab nehmen muss.
+Anders als bei dem kleinen Kerninduktionssignal, hier sperrt das Diodenpaar (A).
+Um zu gew\"{a}hrleisten, dass das Kerninduk{\-}tions{\-}sig{\-}nal vollst\"{a}ndig zum Vorverst\"{a}rker gelangt t, ist ein zweites Diodenpaar (B) in der Sendeleitung eingebaut.
+Auch dieses l\"{a}sst nur hochfrequente Pulse durch und sperrt f\"{u}r das kleinen Kerninduktionssignal.
+Au{\ss}erdem wird das Restrauschen des Leistungsverst\"{a}rker von dem Diodenpaar (B) nicht durchgelassen.
+
+\paragraph{Probenkopf}
+\begin{wrapfigure}[11]{r}{0.35\textwidth}
+	\centering
+	\framebox[0.3\textwidth]{
+	\includegraphics[width=0.25\textwidth]{Plots/schwingkreis.png} }
+	\caption{Schaltbild des Reihenresonanzkreis im Probenkopf.}
+	\label{probenkopf.}
+\end{wrapfigure}
+Der Aufbau des Probenkopfes bestehlt aus einem Reihenresonanzkreis.
+Die Resonanzfrequenz entspricht hierbei der Lamorfrequenz und die Impedanz ist auf $50 \Omega$ justiert.
+In Abbildung (\ref{probenkopf.}) ist der Reihenresonanzkreis schematisch dargestellt.
+Die Probenspule $L_P$ ist teil des Schwingkreises.
+Auf Grund dessen muss die Resoanzfrequenz vor jeder Messung und auch nach jeder Temperatur\"{a}nderung erneut angepasst werden.
+Die Anpassung erfolgt \"{u}ber ein Netzwerkanalysator, der das Stehwellenverhältnis (VSWR) misst.
+Eine optimale Impedanzanpassung wird bei VSWR = 1 erreicht.
+
+\paragraph{Detektions}
+Das zu detektierende Kerninduktionssignal $\omega_{RF}$ besitzt eine Frequenz im MHz-Bereich.
+F\"{u}r die direkte Detektion so hoher Frequenzen werden schnellen Analog-Digital Wandler ben\"{o}tigt.
+Diese Analog-Digital Wandler bestitzen jedoch nur ein schlechtes Aufl\"{o}ungsverm\"{o}gen.
+Zur L\"{o}sung des Probles wird das Kerninduktionssignal mit dem Signal der Hochfrequenzquelle gemischt und in zwei Komponenten zerlegt.
+Die erste Komponente ist die Summe der beiden Kreisfrequenzen, $\omega_1 = \omega_L + \omega_{RF}$, und die zweite Komponente ist die Differenzfrequenz, $\omega_2 = \omega_L - \omega_{RF}$.
+Mittels eines Tiefpassfilters wird die niederfrequente Komponente $\omega_2$ herausgefiltert.
+Im n\"{a}chsten Schritt l\"{a}sst sich $\omega_2$ nun exakt digitalisieren.
+Da lediglich die Differenfrequenz analysiert wird, kann dadurch experimentell nicht geschlussfolgert werden welche der beiden Frequenzen gr\"{o}{\ss}er beziehungsweise kleiner ist.
+Um diese H\"{u}rde zu \"{u}berwinden wir einen Quadraturdetektion durchgef\"{u}hrt.
+Hierbei wird das Kerninduktionssignal zus\"{a}tzlich noch mit einem um $90^{\circ}$ phasenverschobenen Signal gemischt.
+In der NMR werden die Komponenten, die sich daruch ergeben, mit Real- und Imagin\"{a}rteil gekennzeichnet.
+%\begin{figure}[hbtp]
+%	\centering
+%	\includegraphics[width=0.5\textwidth]{Plots/mischer.png}
+%	\caption{.}
+%	\label{.}
+%\end{figure}
+
+
+
+\subsection{Durchf\"{u}hrung}
