@@ -1,6 +1,7 @@
 \section{Theorie}
 \label{sec:Theorie}
 \subsection{Grundlagen der magnetischen Kernresonanz}
+\label{sec:grundlagen}
 Die meisten Atomkerne besitzen neben Kernladung und Masse, auch einen Eigendrehimpuls, welcher als Spin $I$ bezeichnet wird.
 Der Spin und das magnetische Dipolmoment des Atomkerns sind wie folgt miteinander verkn\"{u}pft:
 \begin{align*}
@@ -41,7 +42,7 @@ Diese Pr\"{a}zessionsbewegung ist senkrecht zum externen Magnetfeld, womit der W
 \paragraph{Rotierendes Koordinatensystem}
 Da im folgenden senkrecht zu dem konstanten Magnet\-feld ein zeitliches Hochfrequenzfeld (HF-Feld) $B_1(t)$ hinzugeschaltet wird, wird hier nun zun\"{a}chst das rotierende Koordinatensystem als Konzept eingef\"{u}hrt.
 In solch einem rotierenden Koordinatensystem ergeben sich $B_0$ und $B_1(t)$ zusammen zu einem effektiven Magnetfeld $B_{eff}$.
-Dreht sich die Z-Achse beispielsweise mit der Frequenz $\Omega$, siehe Abbildung (\ref{rotK1}), um sich selbst, so gilt f\"{u}r die Gesamtmagnetisierung:
+Dreht sich die Z-Achse beispielsweise mit der Frequenz $\Omega$, siehe Abbildung (\ref{rotKoordi}a), um sich selbst, so gilt f\"{u}r die Gesamtmagnetisierung:
 \begin{align*}
 	\frac{dM}{dt} = \gamma M \times B - \Omega \times M = \gamma M \times \left(B - \frac{\Omega}{\gamma} \right)
 \end{align*}
@@ -54,21 +55,20 @@ Das Hochfrequenzfeld wir mit einer Spule erzeugt und ist im Labor gegeben durch:
 \begin{align*}
 	B_1(t) = B_x cos(\Omega t)
 \end{align*}
-Im rotierenden Koordinatensystem wird diese HF-Feld in eine linke $B_{1,\text{links}}$ und eine rechte $B_{1,\text{rechts}}$ Komponente aufgeteilt, siehe Abbildung (\ref{rotK2}).
+Im rotierenden Koordinatensystem wird diese HF-Feld in eine linke $B_{1,\text{links}}$ und eine rechte $B_{1,\text{rechts}}$ Komponente aufgeteilt, siehe Abbildung (\ref{rotKoordi}b).
 \begin{figure}[hbtp]
 \caption{Rotierendes Koordinatensystem.}
 \centering
 	\begin{subfigure}[t]{0.4\textwidth}
 	\includegraphics[width=\textwidth]{Plots/rotKoordinatensystem.png} 
 	\subcaption{Die z-Achse rotiert mit Frequenz $\Omega$.}
-	\label{rotK1}
+%	\label{rotK1}
 	\end{subfigure}
-	~
-	~
+	\qquad
 	\begin{subfigure}[t]{0.4\textwidth}
 	\includegraphics[width=0.8\textwidth]{Plots/B1Felder.png}
 	\subcaption{Zeitabh\"{a}ngiges $B_1$-Feld wird in zwei Komponenten aufgeteilt, welche gegenl\"{a}ufig sind.}
-	\label{rotK2}
+%	\label{rotK2}
 	\end{subfigure}
 \label{rotKoordi}
 \end{figure}
@@ -77,14 +77,14 @@ Nun kann die Komponente, die sich mit dem Koordinatensystem rotiert, als station
 Im Gegenschluss rotiert dann die andere Komponente mit $-2\Omega$ und ist im Allgemeinen vernachl\"{a}ssigbar.
 
 \paragraph{Die Auswirkungen von Hochfrequenzpulsen}
-Um mit dem Hochfrequenzfeld, welches mit einer Spule erzeugt wird, einen Hochfrequenzpuls (HF-Puls) zu erzeugen, wird aus dem kontinuierlichen Feld der Spule ein Puls mit bestimmter L\"{a}nge herausgeschnitten, siehe Abbildung (\ref{HFPuls}).
+Um mit dem Hochfrequenzfeld, welches mit einer Spule erzeugt wird, einen Hochfrequenzpuls (HF-Puls) zu erzeugen, wird aus dem kontinuierlichen Feld der Spule ein Puls mit bestimmter L\"{a}nge herausgeschnitten,  
 \begin{figure}[hbtp]
 	\centering
 	\vspace{-10pt}
 	\includegraphics[width=0.55\textwidth]{Plots/HFPuls.png} 
-	\label{HFpuls}
 	\caption{Erzeugung eines HF-Pulses mit L\"{a}nge $t_p$.}
 \end{figure}
+siehe Abbildung (5).
 Solch ein HF-Puls wei{\ss}t genau die L\"{a}nge $t_p$ auf, dass sich die Magnetisierung um $90^{\circ}$ dreht und sich eine Quermagnetisierung einstellt.
 Daher wir der HF-Puls h\"{a}ufig auch als $90^{\circ}$-Puls oder $\frac{\pi}{2}$-Puls bezeichnet.
 %- beliebigen Winkel $\alpha$ einstellen: $\omega_1 = \frac{\alpha}{t_p} \Rightarrow t_p = \frac{2 \alpha}{\gamma B_x}$
@@ -92,18 +92,20 @@ Nachdem ein $90^{\circ}$-Puls eingeschaltet wurde, pr\"{a}zediert die Magnetisie
 Diese Pr\"{a}zessionsbewegung der magnetischen Momente induziert dann eine Spannung in der Spule, in der die Probe sich befindet.
 Es wird ein Kerninduktionssignal erzeugt.
 Gemessen wird der Momentanwert 
-\begin{wrapfigure}{r}{0.5\textwidth}
-	\vspace{-10pt}
+\begin{wrapfigure}[15]{r}{0.5\textwidth}
+	\vspace{-5pt}
 	\centering
-	\includegraphics[width=0.45\textwidth]{Plots/hahnEcho.png} 
+	\framebox[0.5\textwidth]{
+	\includegraphics[width=0.45\textwidth]{Plots/hahnEcho.png} }
 	\caption{Erzeugung eines Hahn-Echos durch die einen $90^{\circ}$-Puls (a) gefolgt von einem $180^{\circ}$-Puls (c).}
 	\label{HahnEcho}
 \end{wrapfigure}
 der L\"{a}ngsmagnetisierung.
 Die durch den $90^{\circ}$-Puls erzeugte Quermagnetisierung wird mit der Zeit kleiner, da die effektive Quermagnetisierung anf\"{a}ngt zu dephasieren, siehe Abbildung (\ref{HahnEcho}b).
-Durch einen danach eingeschalteten $180^{\circ}$-Puls kommt es zur Rephasierung der Dipol{\-}mo{\-}men{\-}te (Abbildung (\ref{HahnEcho}d)).
+Der Zerfall der Quermagnetisierung wird auch als freier Induktionszerfall bezeichnet und mit FID (\textbf{F}ree \textbf{I}nduction \textbf{D}ecay) abgek\"{u}zt.
+Durch einen danach eingeschalteten $180^{\circ}${\-}Puls kommt es zur Rephasierung der Dipol{\-}mo{\-}men{\-}te (Abbildung (\ref{HahnEcho}d)).
 Das Zusam{\-}men{\-}tref{\-}fen der Signalpunkte (Abbildung (\ref{HahnEcho}e)) wird als Hahn-Echo bezeichnet und kann gemessen werden.
-Zu beachten ist, das die Magnetisierung im Hahn-Echo nicht der Magnetisierung nach dem $90^{\circ}$-Puls entspricht.
+Dabei ist zu beachten, dass die Magnetisierung im Hahn-Echo nicht der Magnetisierung nach dem $90^{\circ}$-Puls entspricht.
 %- rotatorische und translatorische Molek\"{u}lbewegung -> Zerfall der Magnetisierung
 
 \subsection{Relaxationen}
@@ -137,11 +139,11 @@ Jedoch ist der Energiequantenfluss relatiiv klein.
 
 Die dazugeh\"{o}rige $T_1$ Zeit kann mit der Inversionserholung gemessen werden.
 Hierbei folgt auf einen $180^{\circ}$-Puls ein $90^{\circ}$-Puls.
-In Abbildung (\ref{inversion}) ist diese Pulsreihenfolge schematisch gezeigt.
+In Abbildung (\ref{inversion}) ist diese Pulssequenz schematisch gezeigt.
 \begin{SCfigure}[1][!h]
 	\centering
-	\includegraphics[width=0.4\textwidth]{Plots/inversionserholung.png}
-	\caption{Oben die Pulsreihenfolge f\"{u}r eine Inversionserholung zur Messung der $T_1$-Zeit. Darunter ist die dazugeh\"{o}rige Magnetisierung veranschaulicht.}
+	\includegraphics[width=0.5\textwidth]{Plots/inversionserholung.png}
+	\caption{Oben die Pulssequenz f\"{u}r eine Inversionserholung zur Messung der $T_1$-Zeit. Darunter ist die dazugeh\"{o}rige Magnetisierung veranschaulicht.}
 	\label{inversion}
 \end{SCfigure}
 Nach den zwei eingeschalteten Pulsen zerf\"{a}llt die erzeugte Quer{\-}mag{\-}ne{\-}ti{\-}sie{\-}rung wieder und ein FID-Signal ist messbar.
@@ -166,7 +168,8 @@ Durch den Wideraufbau der L\"{a}ngmagnetisierung kann dann die $T_1$-Zeit bestim
 \begin{wrapfigure}[12]{r}{0.35\textwidth}
 	\centering
 	\vspace{-10pt}
-	\includegraphics[width=0.3\textwidth]{Plots/spin_spin.png}
+	\framebox[0.3\textwidth]{
+	\includegraphics[width=0.25\textwidth]{Plots/spin_spin.png} }
 	\caption{Schematische Darstellung der Spin-Spin-Wechselwirkung.}
 	\label{SpinSpin}
 \end{wrapfigure}
@@ -180,77 +183,90 @@ Mathematisch ergeben sich die Zusatzfelder der Nachbarspins zu:
 \end{align*}
 
 Im Vergleich zu $T_1$-Relaxationszeit ist die Spin-Spin-Relaxationszeit $T_2$ in Festk\"{o}rpern immer kleiner.
-Nur in Fl\"{u}ssigkeiten sind beide Relaxationszeiten in dergleichen Gr\"{o}{\ss}enordnung.
+Nur in Fl\"{u}ssigkeiten sind beide Relaxationszeiten in dergleichen Gr\"{o}{\ss}en{\-}ord{\-}nung.
 
-\subsection{Hahn-Echo und Festk\"{o}rper-Echo}
-1. Hahn-Echo
-- f\"{u}r die Refokussierung von Wechselwirkungen, die linear in $\widehat{I}_z$ sind
-- zum Beispiel: chemische Verschiebung, Dipol-Dipol-Wechselwirkung, Inhomogenit\"{a}ten von $B_{ext}$
--> mit $\widehat{H}_z = \omega \widehat{I}_z$
--> $90^{\circ}$-Puls und $180^{\circ}$-Puls
-\begin{figure}[hbtp]
-	\centering
-	\includegraphics[width=0.5\textwidth]{Plots/hahnEcho.png}
-	\caption{Hahn-Echo}
-	\label{hahn}
-\end{figure}
-
-
-2. Festk\"{o}rper-Echo
-- f\"{u}r die Refokussierung von Wechselwirkung die linear in homonuklearen Spinoperatoren 
--> $90^{\circ}$-Puls X und $90^{\circ}$-Puls, der um $\frac{\pi}{2}$ mit dem ersten Puls au{\ss}er Phase ist ($\pm Y$)
-\begin{figure}
-\centering
-	\begin{subfigure}[b]{0.4\textwidth}
-		\includegraphics[width=\textwidth]{Plots/festkoerperecho.png}
-		\caption{.}
-		\label{.}
-	\end{subfigure}
-	~
-	\begin{subfigure}[b]{0.4\textwidth}
-		\includegraphics[width=\textwidth]{Plots/festkoerperecho2.png}
-		\caption{.}
-		\label{.}
-	\end{subfigure}
-\caption{Festk\"{o}rper-Echo}
-\label{.}
-\end{figure}
-
-
-\subsection{Der $^2$H-Kernspin-Hamiltonoperator}
-- aufspaltung
-- Quadropolwechselwirkung
+\subsection{Der Kernspin des Deuterons}
+Befindet sich ein Atomkern in einem externen Magnetfeld so spalten sich die Energie{\-}ni{\-}veaus.
+Dieser Effekt ist auch unter dem Namen Zeeman-Effekt bekannt.
+Anders als die bisher behandelten Atomkerne hat das Deuteron einen Spin von $I = 1$.
+Zus\"{a}tzlich besitzt das Deuteron auch ein elektrisches Quadrupolmoment.
 \begin{figure}[hbtp]
 	\centering
 	\includegraphics[width=0.4\textwidth]{Plots/aufspaltung.png}
-	\caption{Aufspaltung}
-	\label{}
+	\caption{Aufspaltung der Energieniveaus im externen Magnetfeld unter ber\"{u}cksichtigung der Zeeman- und Quadropol-Wechselwirkung.}
+	\label{QWW}
 \end{figure}
+Im externen Magnetfeld muss nun also nicht nur die Zeeman-Wechselwirkung, sondern auch die Quadropol-Wechselwirkung ber\"{u}cksichtigt werden, da das Quadropolmoment mit dem elektrischem Feldgradienten wechselwirkt.
+Dadurch verschieben sich sich die Energieniveaus, siehe Abbildung (\ref{QWW}).
+Zu sehen ist, dass sich der Abstand zwischen den Energieniveaus einmal um $\omega_Q$ vergr\"{o}{\ss}ert und einmal verkleinert.
 
+\subsection{Echo-Signale in der NMR}
+In der Festk\"{o}rper-NMR sind die Signale oft auf Grund der schnellen Dephasierung der Spins sehr breit.
+Um eine Rephasierung der Spins, und somit ein Echo-Signal, herbeizuf\"{u}hren und die sonst sehr kurze Beobachtungszeit zu \"{u}berwinden, wird ein zweiter HF-Puls verwendet.
+Zwischen den beiden Pulsen sollte die Wartezeit der Totzeit entsprechen, um sicherzustellen, dasss die Spins wieder in Phase gebracht werden.
+Im Folgenden werden zwei % bzw drei
+Echo-Signale n\"{a}her erl\"{a}utert.
 
+\paragraph{Hahn-Echo}
+Wie schon in Kapitel (\ref{sec:grundlagen}) erw\"{a}hnt, wird das Hahn-Echo mit einem $90^{\circ}$- und einem $180^{\circ}$-Puls erzeugt.
+Auf Grund von Inhomogenit\"{a}ten im Magnetfeld rephasieren die Spins nach dem $90^{\circ}$-Puls, da die Spins mit unterschiedliecher Lamorfrequenz pr\"{a}zedieren.
+Wie in Abbildung (\ref{HahnEcho} b) zu sehen, laufen Spins mit schnellerer und langsamerer Lamor{\-}fre{\-}quenz auseinander.
+Durch den dahinter geschalteten $180^{\circ}$-Puls werden die Spins so gedreht, dass sie nun alle auf einem Punk zusammentreffen und ein Echo erzeugen.
+
+Das Hahn-Echo wird meist f\"{u}r die Refokussierung von Wechselwirkungen verwendet, welche linear in $\widehat{I}_z$ sind.
+%- zum Beispiel: chemische Verschiebung, Dipol-Dipol-Wechselwirkung, Inhomogenit\"{a}ten von $B_{ext}$
+%-> mit $\widehat{H}_z = \omega \widehat{I}_z$
+
+\paragraph{Festk\"{o}rper-Echo}
+Das Festk\"{o}rper-Echo wird durch eine Pulssequenz von zwei aufeinan{\-}der folgenden $90^{\circ}$-Pulsen verwendet, welche um $\frac{\pi}{2}$ zueinander phasenverschoben sind, erzeugt.
+Das zweiten $90^{\circ}$-Puls dient hierbei zur Refokussierung der gegenseitigen magne{\-}tisch{\-}en Dipol-Dipol-Wechselwirkung der Kerne im Festkörper.
+%welche bilinear in homonuklearen Spinoperatoren sind.
+Wird dieser zweite Puls zur Zeit $t_p$ eingestrahlt, so folgt die Rephasierung der Spins zum Zeitpunkt $2 t_p$.
+Mit dem Festk\"{o}rper-Echo kann somit der Informationsverlust w\"{a}hrend der Totzeit umgangen werden.
+\begin{SCfigure}
+\centering
+	\includegraphics[width=0.4\textwidth]{Plots/festkoerperecho2.png}
+%	\includegraphics[width=0.4\textwidth]{Plots/FK_Echo_diss.png}
+	\caption{Zwei verschiedene Pulssequenzen zur Erzuegung eines Festk\"{o}rper-Echos. Die Variable $\tau$ in der Abbildung entspricht der Zeit $t_p$.}
+	\label{FK_echo.}
+\end{SCfigure}
+In Abbildung (\ref{FK_echo.}) ist die Pulssequenz f\"{u}r solch ein Festk\"{o}rper-Echo schematisch aufgezeicht.
+Zu sehen ist dort auch, dass es f\"{u}r das erzeugte Echo keinen Unterschied macht, ob der zweite Puls eine Rotation um die $+Y$- oder $-Y$-Achse ausf\"{u}hrt.
+Lediglich das Vorzezichen des FID h\"{a}ngt von der Phase des zweiten Pulses ab.
 
 \subsection{Stimuliertes Echo}
--> Korrelationszeit
+Ist es nun erw\"{u}nscht sehr langsame Prozesse zu studieren, so ist es sinnvoll die Dephasie{\-}rung von der Rephasierung zu trennen.
+Dies kann mit dem stimulierten Echo erreicht werden.
+Daf\"{u}r wird bei einer Pulssequenz der zweite HF-Puls aufgeteilt.
+Die Zeit zwischen dem dann zweiten und dritten Puls ist die sogenannte Mischzeit $t_m$.
 \begin{figure}
 \centering
-	\begin{subfigure}[b]{0.4\textwidth}
+\caption{Stimuliertes-Echo.}
+\vspace{+5pt}
+	\begin{subfigure}[t]{0.4\textwidth}
 		\includegraphics[width=\textwidth]{Plots/stimuliertesecho.png} 
-		\caption{.}
-		\label{.}
+		\caption{Schematische Pulssequenz des Stimulierten-Echos mit zugeh\"{o}riger Magnetisierung.}
+%		\label{stimEcho_a.}
 	\end{subfigure}
 	~
-	\begin{subfigure}[b]{0.4\textwidth}
+	\begin{subfigure}[t]{0.4\textwidth}
 		\includegraphics[width=\textwidth]{Plots/stimuliertesecho2.png}
-		\caption{.}
-		\label{.}
+		\caption{Die Magnetisierung des Echo-Signal ist beim Stimulierten-Echo nur halb so gro{\ss} wie die anf\"{a}ngliche Magnetisierung.}
+%		\label{stimEcho_b.}
 	\end{subfigure}
-\caption{Festk\"{o}rper-Echo}
-\label{.}
+\label{stimEcho.}
 \end{figure}
-
-\begin{figure}[hbtp]
-	\centering
-	\includegraphics[width=0.5\textwidth]{Plots/mischzeit.png}
-	\caption{.}
-	\label{.}
-\end{figure}
+Anschaulich sind die drei HF-Pulse in Abbildung (\ref{stimEcho.}a) zu sehen.
+Mit dem ersten Puls wird die transversale Magnetisierung hergestellt, welche bekanntlich w\"{a}hrend der $t_1$ Zeit dephasiert.
+Nun kann mit dem zweiten Puls die cos- oder sin-Komponente ausgew\"{a}hlt werden.
+Diese ausgew\"{a}hlte Komponente wird zur\"{u}ck in die z-Richtung gedrehtund somit in die langlebige longitudinale Magnetisierung gebracht, welche nur noch mit $T_2$ zerf\"{a}llt.
+Der zweite Puls wird daher auch oft als Scheicherpuls bezeichnet.
+Erf\"{u}llt die Mischzeit $t_m$ folgende Bedingung: $T_2 \ll t_m \ll T_1 $, so dephasiert die Quermagnetisierung, welche vom Speicherpuls unber\"{u}hrt in der xy-Ebene verblieben ist.
+Mittels des dritten $90^{\circ}$-Pulses wird gespeicherte Magnetisierung abgerufen und kann nach der Zeit $t_1 = t_2$ als Stimuliertes-Echo gemessen werden.
+Die Magnetisierung des Echos ist dabei nur halb so gro{\ss}, siehe Abbildung (\ref{stimEcho.}b).
+%\begin{figure}[hbtp]
+%	\centering
+%	\includegraphics[width=0.5\textwidth]{Plots/mischzeit.png}
+%	\caption{.}
+%	\label{.}
+%\end{figure}
