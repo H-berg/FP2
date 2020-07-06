@@ -10,6 +10,7 @@ Die HF-Pulse werden \"{u}ber (4) zim Leistungsverst\"{a}rker gef\"{u}hrt.
 Um zu gew\"{a}hrleisten, dass nur die eintreffenden Pulse um den Faktor $10^6$ verst\"{a}rkt werden, besitzt der Leistungsverst\"{a}rker einen weiteren Eingang, den Gating-Eingang.
 Der Pulsgenerator kann \"{u}ber diesen zweiten Eingang den Verst\"{a}rker gezielt ein- und ausschalten.
 \"{U}ber ein Kabel (6) werden die verst\"{a}rkten HF-Pulse dann zur Probe geleitet.
+\setcounter{figure}{10}
 \begin{SCfigure}[1][!h]
 	\centering
 	\includegraphics[width=0.6\textwidth]{Plots/spektrometer.png}
@@ -47,9 +48,13 @@ Au{\ss}erdem wird das Restrauschen des Leistungsverst\"{a}rker von dem Diodenpaa
 Der Aufbau des Probenkopfes bestehlt aus einem Reihenresonanzkreis.
 Die Resonanzfrequenz entspricht hierbei der Lamorfrequenz und die Impedanz ist auf $50 \Omega$ justiert.
 In Abbildung (\ref{probenkopf.}) ist der Reihenresonanzkreis schematisch dargestellt.
-Die Probenspule $L_P$ ist teil des Schwingkreises.
+Die Probenspule $L_P$ ist Teil des Schwingkreises.
 Auf Grund dessen muss die Resoanzfrequenz vor jeder Messung und auch nach jeder Temperatur\"{a}nderung erneut angepasst werden.
 Die Anpassung erfolgt \"{u}ber ein Netzwerkanalysator, der das Stehwellenverhältnis (VSWR) misst.
+Diese l\"{a}sst sich auch wie folgt aus den Spannungsamplituden aus der tranmitterten ($U_T$) und der reflektierten ($U_R$) Welle berechnen:
+\begin{align*}
+	\text{VSWR} = \frac{U_T + U_R}{U_T - U_R} .
+\end{align*}
 Eine optimale Impedanzanpassung wird bei VSWR = 1 erreicht.
 
 \paragraph{Detektions}
@@ -72,5 +77,17 @@ In der NMR werden die Komponenten, die sich daruch ergeben, mit Real- und Imagin
 %\end{figure}
 
 
-
 \subsection{Durchf\"{u}hrung}
+Bevor mit der ersten Messung gestartet werden kann, wird dir Probe in den Probenkopf eingesetzt.
+Dieser wird dann in das NMR-Spekrometer eingebaut.
+Um im ersten Schritt den Probenkopf abzustimmen, wird dieser mit einem Netzwerkanalysator verbunden und das Stehwellenverh\"{a}ltnis (VSWR) zu bestimmen.
+%oder war das ein Oszilloskop?
+F\"{u}r die weiteren Messungen wird der Probenkopf mit dem $\lambda / 4$-Kabel und den Steuerger\"{a}ten verbunden.
+
+Alle Messungen werden \"{u}ber ein Python-Skript angesteuert.
+Experimente k\"{o}nnen ausgew\"{a}hlt und Variablen, so wie beispielsweise die $t_p$-Zeit, ver\"{a}ndert werden.
+So werden die Pulsl\"{a}nge eines $180^{\circ}$-Pulses, die $T_1$- und die $T_2$-Relaxationszeit bestimmt.
+
+Im zweiten Teil des Versuches wird ein stimuliertes Echo f\"{u}r verschiedene Temperaturen gemessen.
+Zun\"{a}chst m\"{u}ssen hierf\"{u}r alle Parameter bestmmt und eingestellt werden.
+%310-345 in 3K schritten
