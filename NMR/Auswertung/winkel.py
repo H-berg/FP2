@@ -5,18 +5,22 @@ import math
 
 plt.rc('text', usetex=True)
 phi, real, real_err, imaginary, imaginery_err, real_off, real_off_err, imaginary_off, imaginary_off_err, sample_temperature = np.genfromtxt('winkel.dat.nmr', unpack=True)
-phi_a, real_a, real_err_a, imaginary_a, imaginery_err_a, real_off_a, real_off_err_a, imaginary_off_a, imaginary_off_err_a, sample_temperature = np.genfromtxt('winkel.dat.nmr', unpack=True)
 
 # fiiting klappt irgendwie nicht..
 x = np.linspace(0,350, 1000)
 def sinus(A,b,c,d,x):
     return A*np.sin(b*x+c)+d
 
-offset  = max(real) + min(real)
+offset  = max(real_off) + min(real)
 offset *= 0.5
-Amp     = max(real) - offset
+Amp     = max(real_off) - offset
 freq    = 2*np.pi / max(phi)
 phase   = -np.pi/2
+#Normierung
+real_off_err /= abs(max(real_off)-min(real_off))
+real_off     /= abs(max(real_off)-min(real_off))
+
+
 
 print(phase)
 
@@ -25,19 +29,19 @@ p0 = np.array([Amp, freq, phase, offset])
 
 #phi *= np.pi/180 # in rad
 
-params, covariance_matrix = curve_fit(sinus, phi, real, p0)
-print((max(real) - min(real))*0.5)
+#params, covariance_matrix = curve_fit(sinus, phi, real, p0)
+#print((max(real) - min(real))*0.5)
 
-i = np.argmax(real)
-
-
+i = np.argmax(real_off)
 
 
 
-plt.plot(185*np.ones(10), np.linspace(min(real)-500, max(real)+500, 10), "--", color="#862F29", label="gewähltes Maximum")
-plt.errorbar(phi, real + real_err, yerr=real_err, capsize=3, fmt='.', label="Messwerte")
-plt.axis([-5,355,-6000,800])
-plt.xlabel(r"Winkel / Grad")
+
+
+plt.plot(185*np.ones(10), np.linspace(min(real_off)-0.2, max(real_off)+0.2, 10), "--", color="#e17c16", label="gewählte Phase")
+plt.errorbar(phi, real_off, yerr=real_off_err, capsize=3, fmt='.', color="#505054",label="Echo")
+plt.axis([-5,355,-0.62,0.46])
+plt.xlabel(r"Phase $\varphi$ / °")
 plt.ylabel("Amplitude (Realanteil)")
 #plt.plot(phi, sinus(phi, *params), label = "fit")
 #plt.plot(phi, sinus(*p0, phi), label = "sinus mit p0")

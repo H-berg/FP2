@@ -1,7 +1,29 @@
 \boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
 \selectlanguage *{german}
-\contentsline {section}{\numberline {1}Ziel}{3}{section.1}%
+\contentsline {section}{\numberline {1}Einleitung und Zielsetzung}{3}{section.1}%
 \contentsline {section}{\numberline {2}Theorie}{3}{section.2}%
-\contentsline {section}{\numberline {3}Durchführung}{3}{section.3}%
-\contentsline {section}{\numberline {4}Auswertung}{3}{section.4}%
-\contentsline {section}{\numberline {5}Diskussion}{3}{section.5}%
+\contentsline {subsection}{\numberline {2.1}Grundlagen der magnetischen Kernresonanz}{3}{subsection.2.1}%
+\contentsline {paragraph}{\nonumberline Rotierendes Koordinatensystem}{4}{section*.4}%
+\contentsline {paragraph}{\nonumberline Die Auswirkungen von Hochfrequenzpulsen}{4}{section*.6}%
+\contentsline {subsection}{\numberline {2.2}Relaxationen}{6}{subsection.2.2}%
+\contentsline {paragraph}{\nonumberline Spin-Gitter-Relaxation}{6}{section*.9}%
+\contentsline {paragraph}{\nonumberline Spin-Spin-Relaxation}{7}{figure.caption.12}%
+\contentsline {subsection}{\numberline {2.3}Der Kernspin des Deuterons}{8}{subsection.2.3}%
+\contentsline {subsection}{\numberline {2.4}Echo-Signale in der NMR}{8}{subsection.2.4}%
+\contentsline {paragraph}{\nonumberline Hahn-Echo}{8}{section*.14}%
+\contentsline {paragraph}{\nonumberline Festk\"{o}rper-Echo}{8}{section*.15}%
+\contentsline {subsection}{\numberline {2.5}Stimuliertes Echo}{9}{subsection.2.5}%
+\contentsline {section}{\numberline {3}Das Experiment}{10}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Das Spektrometer}{10}{subsection.3.1}%
+\contentsline {paragraph}{\nonumberline Probenkopf}{11}{figure.caption.21}%
+\contentsline {paragraph}{\nonumberline Detektions}{11}{section*.22}%
+\contentsline {subsection}{\numberline {3.2}Durchf\"{u}hrung}{12}{subsection.3.2}%
+\contentsline {section}{\numberline {4}Auswertung}{12}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Abstimmung des Probekopfes}{12}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Bestimmung der Phase}{12}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}Bestimmung der Pulslänge}{13}{subsection.4.3}%
+\contentsline {subsection}{\numberline {4.4}Bestimmung der Spin-Gitter Relaxationszeit $T_1$}{14}{subsection.4.4}%
+\contentsline {subsection}{\numberline {4.5}Bestimmung der Spin-Spin Relaxationszeit $T_2$}{15}{subsection.4.5}%
+\contentsline {subsection}{\numberline {4.6}Messungen des stimulierten Echos}{16}{subsection.4.6}%
+\contentsline {subsection}{\numberline {4.7}Temperaturabhängigkeit}{18}{subsection.4.7}%
+\contentsline {section}{\numberline {5}Diskussion}{19}{section.5}%

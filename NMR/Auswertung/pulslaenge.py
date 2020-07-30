@@ -13,9 +13,8 @@ Amp = abs(min(real_off)) + max(real_off)
 real_off += Amp/2 - max(real_off)
 
 # Normierung
-maxi = max(real_off)
-real_off /= (maxi + real_off_err[np.where(maxi)])
-real_off_err /= maxi
+real_off_err /= abs(max(real_off)-min(real_off))
+real_off /= abs(max(real_off)-min(real_off))
 
 
 # fiiting klappt irgendwie nicht..
@@ -31,11 +30,11 @@ params, covariance_matrix = curve_fit(sinus, time, real_off)#, p0)
 
 i = np.argmin(real_off)
 
-plt.plot(time[i]*np.ones(10), np.linspace(min(real_off)-0.2, max(real_off)+0.2, 10), "--", color="#862F29", label="gewähltes Pulslänge")
-plt.errorbar(time, real_off + real_off_err, yerr=real_off_err, capsize=3, fmt='.', label="Messwerte")
-plt.xlabel(r"Zeit t / $\mu$s")
+plt.plot(time[i]*np.ones(10), np.linspace(min(real_off)-0.2, max(real_off)+0.2, 10), "--", color="#e17c16", label="gewählte Pulslänge")
+plt.errorbar(time, real_off + real_off_err, yerr=real_off_err, capsize=3, fmt='.', color="#505054", label="Echo-Signal")
+plt.xlabel(r"Pulsdauer $t_p$ / $\mu$s")
 plt.ylabel("Amplitude (Realanteil)")
-plt.axis([min(time)-0.2, max(time)+0.2, -1.05, 1.05])
+plt.axis([min(time)-0.2, max(time)+0.2, -0.55, 0.55])
 #plt.plot(time, sinus(time, *params), label = "fit")
 #plt.plot(x, sinus(*p0, x), label = "sinus mit p0")
 #plt.plot(phi, imaginary, "bx", label = "Imaginär")

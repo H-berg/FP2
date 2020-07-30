@@ -6,40 +6,41 @@ from scipy.optimize import curve_fit
 def auslesen(file):
     x = np.genfromtxt(file, unpack=True)
     x[0] *= 1e3      # in millisek
-    # Offset weg
-    x[5]        -= min(x[5])
-    # Normierung
-    x[5]        /= max(x[5])
+    # Nomierung
+    x[5] /= max(x[5])-min(x[5])
     return x[0], x[5]
 
 # ----------------------- Plot ------------------------------------------------
-def plot(x,y,file,func, params):
-    t = np.linspace(min(x),max(x), 100000)
+def plot(x,y,file,func, params,i, Norm):
+    t = np.logspace(-2,3, 1000)
     plt.figure(figsize=(10,5))
-    plt.plot(x,y, "r.", label="Messwerte")
-    plt.plot(t, func(t, *params), label = "S2-Fit-Funktion")
+    Offset = params[i]
+    y = y-Offset
+    plt.plot(x,y/Norm, "r.", label="Messwerte")
+    plt.plot(t, (func(t, *params)-Offset)/Norm, label = "Fit-Funktion")
 
     plt.xscale("log")
     plt.xlabel(r"Mischzeit t$_m$(ms)")
     plt.ylabel("Amplitude (stimuliertes Echo)")
-    plt.axis([min(x)-0.002,max(x)+100,-0.05, 1.05])
+    #plt.axis([min(x)-0.002,max(x)+200,min(y)-0.05, max(y)+0.05])
     plt.legend()
     plt.savefig("Abb/"+file+".pdf", dpi = 1000)
     plt.close()
 
 
 # -------------------- T1 - Zeit bestimmen ------------------------------------
-def exp_T1(t,A,b,T):
-    return A*np.exp(-(t/T)**b)
+def exp_T1(t,A,B,b,T):
+    return A*np.exp(-(t/T)**b)+B
 
 def T1(file):
     time, real_off   = auslesen(file)
-    p0 = np.array([max(real_off), 2.5,14])   #Schätzwerte
-    bounds = ([0,-np.inf,0],[1,np.inf,100])   # Intervall
+    p0 = np.array([max(real_off),1, 1,14])   #Schätzwerte
+    bounds = ([-np.inf,-np.inf,-10,0],[np.inf,np.inf,10,100])   # Intervall
     params, covariance_matrix = curve_fit(exp_T1, time, real_off, p0, bounds=bounds)
     uncertainties = np.sqrt(np.diag(covariance_matrix))
-    plot(time,real_off,file, exp_T1, params)
-    return params[2], uncertainties[2]
+    Norm = params[0] + params[1]
+    plot(time,real_off,file, exp_T1, params,1,Norm)
+    return params[3], uncertainties[3]
 
 # ---------------------------cos-cos-------------------------------------------
 def coscos(file, T1):
@@ -49,12 +50,12 @@ def coscos(file, T1):
     time, real_off  = auslesen(file)
     # Fit
     p0 = np.array([0.2,0.5, 0.3,1.5, 1.5, 1])   #Schätzwerte
-    bounds = ([0,0,0,-np.inf,-np.inf,0],[2,2,2,np.inf,np.inf,T1])   # Intervall
+    bounds = ([-np.inf,-np.inf,-np.inf,-np.inf,-np.inf,0],[2,2,2,np.inf,np.inf,T1])   # Intervall
     params, covariance_matrix = curve_fit(exp_cos, time, real_off, p0, bounds=bounds)
 
     uncertainties = np.sqrt(np.diag(covariance_matrix))
-    #print(params)
-    plot(time,real_off,file, exp_cos, params)
+    Norm = params[0] + params[1] + params[2]
+    plot(time,real_off,file, exp_cos, params,0,Norm)
     return params[5], uncertainties[5]
 
 
@@ -65,12 +66,13 @@ def exp_sin(t,S0,A,B,b,c,tau,T1):
 def sinsin(file):
     time, real_off  = auslesen(file)
     # Fit
-    p0 = np.array([0.2,0.5, 0.3,1.5, 1.5, 1,14])   #Schätzwerte
-    bounds = ([0,0,0,-np.inf,-np.inf,0,0],[2,1,1,np.inf,np.inf,20,100])   # Intervall
+    p0 = np.array([0.2,0.5, 0.3,1, 1, 1,14])   #Schätzwerte
+    bounds = ([-np.inf,-np.inf,-np.inf,-np.inf,-np.inf,0,0],[1,1,1,np.inf,np.inf,20,100])   # Intervall
     params, covariance_matrix = curve_fit(exp_sin, time, real_off, p0, bounds=bounds)
 
     uncertainties = np.sqrt(np.diag(covariance_matrix))
-    plot(time,real_off,file, exp_sin, params)
+    Norm = params[0] + params[1] + params[2]
+    plot(time,real_off,file, exp_sin, params,0,Norm)
     return params[5], uncertainties[5], params[6], uncertainties[6]
 
 
