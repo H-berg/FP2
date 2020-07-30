@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.12.0 (TeX Live 2020)  (format=lualatex 2020.5.18)  30 JUL 2020 16:41
+This is LuaHBTeX, Version 1.12.0 (TeX Live 2020)  (format=lualatex 2020.5.18)  30 JUL 2020 23:22
  restricted system commands enabled.
 **main.tex
 (./main.tex
@@ -509,12 +509,12 @@ braces):
 >  {german/localnumeral}  =>  {polyglossia@C@localnumeral}
 >  {german/Localnumeral}  =>  {polyglossia@C@localnumeral}.
 Module polyglossia Info: Language data for german
-(polyglossia)            hyphenation	
-(polyglossia)            loader	loadhyph-de-1901.tex
-(polyglossia)            synonyms	
 (polyglossia)            lefthyphenmin	2
 (polyglossia)            patterns	hyph-de-1901.pat.txt
-(polyglossia)            righthyphenmin	2 on input line 10
+(polyglossia)            loader	loadhyph-de-1901.tex
+(polyglossia)            righthyphenmin	2
+(polyglossia)            hyphenation	
+(polyglossia)            synonyms	 on input line 10
 Module polyglossia Info: Language german was not yet loaded; created with id 2 o
 n input line 10
 Package polyglossia Info: Option: German, spelling=new.
@@ -1451,12 +1451,12 @@ LaTeX Info: Redefining \rmfamily on input line 26.
 LaTeX Info: Redefining \sffamily on input line 26.
 LaTeX Info: Redefining \ttfamily on input line 26.
 Module polyglossia Info: Language data for ngerman
-(polyglossia)            hyphenation	
-(polyglossia)            loader	loadhyph-de-1996.tex
-(polyglossia)            synonyms	
 (polyglossia)            lefthyphenmin	2
 (polyglossia)            patterns	hyph-de-1996.pat.txt
-(polyglossia)            righthyphenmin	2 on input line 26
+(polyglossia)            loader	loadhyph-de-1996.tex
+(polyglossia)            righthyphenmin	2
+(polyglossia)            hyphenation	
+(polyglossia)            synonyms	 on input line 26
 Module polyglossia Info: Language ngerman was not yet loaded; created with id 4 
 on input line 26
 )
@@ -1706,7 +1706,7 @@ LaTeX Info: Redefining \ttfamily on input line 2.
  [2
 
 ] (./content/ziel.tex
-<Plots/Probe.png, id=72, 359.3425pt x 331.2375pt>
+<Plots/Probe.png, id=74, 359.3425pt x 331.2375pt>
 File: Plots/Probe.png Graphic file (type png)
 <use Plots/Probe.png>
 Package luatex.def Info: Plots/Probe.png  used on input line 6.
@@ -1717,7 +1717,7 @@ Overfull \hbox (10.85123pt too wide) in paragraph at lines 7--7
  []
 
 ) (./content/theorie.tex
-<Plots/energieniveaus.png, id=73, 560.0925pt x 220.825pt>
+<Plots/energieniveaus.png, id=75, 560.0925pt x 220.825pt>
 File: Plots/energieniveaus.png Graphic file (type png)
 <use Plots/energieniveaus.png>
 Package luatex.def Info: Plots/energieniveaus.png  used on input line 26.
@@ -1727,7 +1727,7 @@ LaTeX Font Info:    Font shape `TU/LatinModernMath(2)/m/n' will be
 LaTeX Font Info:    Font shape `TU/LatinModernMath(3)/m/n' will be
 (Font)              scaled to size 4.99947pt on input line 27.
  [3<./Plots/Probe.png>]
-<Plots/rotKoordinatensystem.png, id=86, 689.57625pt x 362.35374pt>
+<Plots/rotKoordinatensystem.png, id=88, 689.57625pt x 362.35374pt>
 File: Plots/rotKoordinatensystem.png Graphic file (type png)
 <use Plots/rotKoordinatensystem.png>
 Package luatex.def Info: Plots/rotKoordinatensystem.png  used on input line 67.
@@ -1740,7 +1740,7 @@ LaTeX Font Info:    Font shape `TU/LatinModernMath(3)/m/n' will be
 (Font)              scaled to size 8.99904pt on input line 68.
 LaTeX Font Info:    Font shape `TU/LatinModernMath(3)/m/n' will be
 (Font)              scaled to size 5.99936pt on input line 68.
-<Plots/B1Felder.png, id=87, 497.86pt x 337.26pt>
+<Plots/B1Felder.png, id=89, 497.86pt x 337.26pt>
 File: Plots/B1Felder.png Graphic file (type png)
 <use Plots/B1Felder.png>
 Package luatex.def Info: Plots/B1Felder.png  used on input line 74.
@@ -1750,12 +1750,12 @@ Underfull \hbox (badness 1509) in paragraph at lines 75--75
 \TU/lmr/m/n/9 zwei Kom-po-nen-ten auf-ge-teilt,
  []
 
-<Plots/HFPuls.png, id=89, 1415.2875pt x 501.875pt>
+<Plots/HFPuls.png, id=91, 1415.2875pt x 501.875pt>
 File: Plots/HFPuls.png Graphic file (type png)
 <use Plots/HFPuls.png>
 Package luatex.def Info: Plots/HFPuls.png  used on input line 92.
 (luatex.def)             Requested size: 230.04182pt x 81.57286pt.
-<Plots/hahnEcho.png, id=90, 1195.46625pt x 853.1875pt>
+<Plots/hahnEcho.png, id=92, 1195.46625pt x 853.1875pt>
 File: Plots/hahnEcho.png Graphic file (type png)
 <use Plots/hahnEcho.png>
 Package luatex.def Info: Plots/hahnEcho.png  used on input line 106.
@@ -1773,7 +1773,7 @@ Underfull \hbox (badness 5302) in paragraph at lines 109--117
 
 [5<./Plots/rotKoordinatensystem.png><./Plots/B1Felder.png><./Plots/HFPuls.png><.
 /Plots/hahnEcho.png>]
-<Plots/inversionserholung.png, id=122, 709.65125pt x 595.22375pt>
+<Plots/inversionserholung.png, id=124, 709.65125pt x 595.22375pt>
 File: Plots/inversionserholung.png Graphic file (type png)
 <use Plots/inversionserholung.png>
 Package luatex.def Info: Plots/inversionserholung.png  used on input line 152.
@@ -1783,7 +1783,7 @@ Package luatex.def Info: Plots/inversionserholung.png  used on input line 152.
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [6]
-<Plots/spin_spin.png, id=132, 509.905pt x 495.8525pt>
+<Plots/spin_spin.png, id=134, 509.905pt x 495.8525pt>
 File: Plots/spin_spin.png Graphic file (type png)
 <use Plots/spin_spin.png>
 Package luatex.def Info: Plots/spin_spin.png  used on input line 179.
@@ -1803,19 +1803,19 @@ Underfull \hbox (badness 10000) in paragraph at lines 180--180
 \TU/lmr/m/n/10 der Spin-Spin-
  []
 
-<Plots/aufspaltung.png, id=134, 784.9325pt x 454.69875pt>
+<Plots/aufspaltung.png, id=136, 784.9325pt x 454.69875pt>
 File: Plots/aufspaltung.png Graphic file (type png)
 <use Plots/aufspaltung.png>
 Package luatex.def Info: Plots/aufspaltung.png  used on input line 202.
 (luatex.def)             Requested size: 167.29967pt x 96.91187pt.
 [7<./Plots/inversionserholung.png><./Plots/spin_spin.png>]
-<Plots/festkoerperecho2.png, id=147, 806.01125pt x 558.085pt>
+<Plots/festkoerperecho2.png, id=149, 806.01125pt x 558.085pt>
 File: Plots/festkoerperecho2.png Graphic file (type png)
 <use Plots/festkoerperecho2.png>
 Package luatex.def Info: Plots/festkoerperecho2.png  used on input line 235.
 (luatex.def)             Requested size: 167.29967pt x 115.83879pt.
  [8<./Plots/aufspaltung.png>]
-<Plots/stimuliertesecho.png, id=158, 1077.02374pt x 468.75125pt>
+<Plots/stimuliertesecho.png, id=160, 1077.02374pt x 468.75125pt>
 File: Plots/stimuliertesecho.png Graphic file (type png)
 <use Plots/stimuliertesecho.png>
 Package luatex.def Info: Plots/stimuliertesecho.png  used on input line 254.
@@ -1825,14 +1825,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 255--255
 [][]|\TU/lmr/m/n/9 Sche-ma-ti-sche Puls-se-quenz des
  []
 
-<Plots/stimuliertesecho2.png, id=159, 862.22125pt x 343.2825pt>
+<Plots/stimuliertesecho2.png, id=161, 862.22125pt x 343.2825pt>
 File: Plots/stimuliertesecho2.png Graphic file (type png)
 <use Plots/stimuliertesecho2.png>
 Package luatex.def Info: Plots/stimuliertesecho2.png  used on input line 260.
 (luatex.def)             Requested size: 167.29967pt x 66.6072pt.
 ) (./content/durchfuehrung.tex [9<./Plots/festkoerperecho2.png><./Plots/stimulie
 rtesecho.png><./Plots/stimuliertesecho2.png>]
-<Plots/spektrometer.png, id=174, 957.5775pt x 738.76pt>
+<Plots/spektrometer.png, id=176, 957.5775pt x 738.76pt>
 File: Plots/spektrometer.png Graphic file (type png)
 <use Plots/spektrometer.png>
 Package luatex.def Info: Plots/spektrometer.png  used on input line 16.
@@ -1917,7 +1917,7 @@ l.28 ...idth=0.4\textwidth]{Plots/diodengruen.png} }
                                                   
 ? 
 [10<./Plots/spektrometer.png>]
-<Plots/schwingkreis.png, id=183, 407.5225pt x 331.2375pt>
+<Plots/schwingkreis.png, id=185, 407.5225pt x 331.2375pt>
 File: Plots/schwingkreis.png Graphic file (type png)
 <use Plots/schwingkreis.png>
 Package luatex.def Info: Plots/schwingkreis.png  used on input line 44.
@@ -1938,13 +1938,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 45--45
  []
 
 [11<./Plots/schwingkreis.png>]) (./content/auswertung.tex
-<Auswertung/winkel.pdf, id=198, 462.528pt x 346.896pt>
+<Auswertung/winkel.pdf, id=200, 462.528pt x 346.896pt>
 File: Auswertung/winkel.pdf Graphic file (type pdf)
 <use Auswertung/winkel.pdf>
 Package luatex.def Info: Auswertung/winkel.pdf  used on input line 31.
 (luatex.def)             Requested size: 334.60571pt x 250.96648pt.
  [12]
-<Auswertung/pulslaenge.pdf, id=207, 462.528pt x 346.896pt>
+<Auswertung/pulslaenge.pdf, id=209, 462.528pt x 346.896pt>
 File: Auswertung/pulslaenge.pdf Graphic file (type pdf)
 <use Auswertung/pulslaenge.pdf>
 Package luatex.def Info: Auswertung/pulslaenge.pdf  used on input line 48.
@@ -1971,7 +1971,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 55.
 
-<Auswertung/T1.pdf, id=243, 722.7pt x 361.35pt>
+<Auswertung/T1.pdf, id=245, 722.7pt x 361.35pt>
 File: Auswertung/T1.pdf Graphic file (type pdf)
 <use Auswertung/T1.pdf>
 Package luatex.def Info: Auswertung/T1.pdf  used on input line 80.
@@ -1989,7 +1989,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 88.
 
-<Auswertung/T2.pdf, id=283, 722.7pt x 361.35pt>
+<Auswertung/T2.pdf, id=285, 722.7pt x 361.35pt>
 File: Auswertung/T2.pdf Graphic file (type pdf)
 <use Auswertung/T2.pdf>
 Package luatex.def Info: Auswertung/T2.pdf  used on input line 116.
@@ -2000,34 +2000,43 @@ Overfull \hbox (44.94455pt too wide) in paragraph at lines 145--149
 0.95 𝜏[]$\TU/lmr/m/n/10.95 . Fol-gen-de Pa-ra-me-ter er-ge-ben sich mit-tels $[]$: 
  []
 
-<Auswertung/Para_der_Korrfkt/cos_cos.pdf, id=326, 722.7pt x 361.35pt>
+<Auswertung/Para_der_Korrfkt/cos_cos.pdf, id=328, 722.7pt x 361.35pt>
 File: Auswertung/Para_der_Korrfkt/cos_cos.pdf Graphic file (type pdf)
 <use Auswertung/Para_der_Korrfkt/cos_cos.pdf>
 Package luatex.def Info: Auswertung/Para_der_Korrfkt/cos_cos.pdf  used on input 
 line 166.
 (luatex.def)             Requested size: 418.25555pt x 209.1255pt.
 [16<./Auswertung/T2.pdf>]
-<Auswertung/Para_der_Korrfkt/sin_sin.pdf, id=366, 722.7pt x 361.35pt>
+<Auswertung/Para_der_Korrfkt/sin_sin.pdf, id=368, 722.7pt x 361.35pt>
 File: Auswertung/Para_der_Korrfkt/sin_sin.pdf Graphic file (type pdf)
 <use Auswertung/Para_der_Korrfkt/sin_sin.pdf>
 Package luatex.def Info: Auswertung/Para_der_Korrfkt/sin_sin.pdf  used on input 
 line 205.
 (luatex.def)             Requested size: 418.25555pt x 209.1255pt.
  [17<./Auswertung/Para_der_Korrfkt/cos_cos.pdf>]
-
-LaTeX Warning: Reference `fig:korrtemp' on page 18 undefined on input line 218.
-
-<Auswertung/Tempabh/Korr_Temp.pdf, id=408, 722.7pt x 361.35pt>
+<Auswertung/Tempabh/Korr_Temp.pdf, id=411, 722.7pt x 361.35pt>
 File: Auswertung/Tempabh/Korr_Temp.pdf Graphic file (type pdf)
 <use Auswertung/Tempabh/Korr_Temp.pdf>
 Package luatex.def Info: Auswertung/Tempabh/Korr_Temp.pdf  used on input line 25
 2.
 (luatex.def)             Requested size: 418.25555pt x 209.1255pt.
+
 [18<./Auswertung/Para_der_Korrfkt/sin_sin.pdf>]
-<Auswertung/Tempabh/T1.pdf, id=455, 722.7pt x 361.35pt>
+<Auswertung/Tempabh/T1.pdf, id=459, 722.7pt x 361.35pt>
 File: Auswertung/Tempabh/T1.pdf Graphic file (type pdf)
 <use Auswertung/Tempabh/T1.pdf>
 Package luatex.def Info: Auswertung/Tempabh/T1.pdf  used on input line 260.
+(luatex.def)             Requested size: 418.25555pt x 209.1255pt.
+<Auswertung/Spek/FID.pdf, id=461, 722.7pt x 361.35pt>
+File: Auswertung/Spek/FID.pdf Graphic file (type pdf)
+<use Auswertung/Spek/FID.pdf>
+Package luatex.def Info: Auswertung/Spek/FID.pdf  used on input line 275.
+(luatex.def)             Requested size: 418.25555pt x 209.1255pt.
+ [19<./Auswertung/Tempabh/Korr_Temp.pdf><./Auswertung/Tempabh/T1.pdf>]
+<Auswertung/Spek/Spek.pdf, id=544, 722.7pt x 361.35pt>
+File: Auswertung/Spek/Spek.pdf Graphic file (type pdf)
+<use Auswertung/Spek/Spek.pdf>
+Package luatex.def Info: Auswertung/Spek/Spek.pdf  used on input line 287.
 (luatex.def)             Requested size: 418.25555pt x 209.1255pt.
 ) (./content/diskussion.tex)
 
@@ -2068,30 +2077,22 @@ braces):
 >  {german/localnumeral}  =>  {polyglossia@C@localnumeral}
 >  {german/Localnumeral}  =>  {polyglossia@C@localnumeral}.
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 23.
-[19<./Auswertung/Tempabh/Korr_Temp.pdf><./Auswertung/Tempabh/T1.pdf>]
+[20<./Auswertung/Spek/FID.pdf><./Auswertung/Spek/Spek.pdf>]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 23.
-
-(./main.aux
+ (./main.aux
 LaTeX Info: Redefining \rmfamily on input line 26.
 LaTeX Info: Redefining \sffamily on input line 26.
 LaTeX Info: Redefining \ttfamily on input line 26.
 )
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 23.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 23.
-
-
-Package rerunfilecheck Warning: File `main.aux' has changed. Rerun.
-
-Package rerunfilecheck Info: Checksums for `main.aux':
-(rerunfilecheck)             Before: E50C96176D526374263D69ED1F52294F;22847
-(rerunfilecheck)             After:  90F4E03EC7944AFF96CBDD5105EBE360;23037.
+Package rerunfilecheck Info: File `main.aux' has not changed.
+(rerunfilecheck)             Checksum: 6022C90F06A0442C8E3283588BE530D3;23818.
 Package rerunfilecheck Info: File `main.toc' has not changed.
-(rerunfilecheck)             Checksum: 189461D0D1BB4EFA11979C75D885EEC2;2424.
+(rerunfilecheck)             Checksum: 38EEF57DA865857D4DA77A3BC4F4DA28;2499.
+
 
 LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
 
 Package biblatex Warning: Please (re)run Biber on the file:
@@ -2104,14 +2105,14 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 )
 
 Here is how much of LuaTeX's memory you used:
- 36897 strings out of 480883
+ 36926 strings out of 480883
  100000,1977958 words of node,token memory allocated
  788 words of node memory still in use:
    7 hlist, 2 vlist, 2 rule, 2 glue, 4 kern, 1 glyph, 26 attribute, 95 glue_spec
 , 26 attribute_list, 1 write nodes
-   avail lists: 1:8,2:669,3:143,4:50,5:248,6:49,7:3632,8:77,9:336,10:25,11:394
- 53255 multiletter control sequences out of 65536+600000
- 213 fonts using 76971183 bytes
+   avail lists: 1:8,2:667,3:150,4:50,5:248,6:51,7:3632,8:77,9:336,10:25,11:394
+ 53268 multiletter control sequences out of 65536+600000
+ 213 fonts using 76970535 bytes
  62i,11n,114p,10117b,2933s stack positions out of 5000i,500n,10000p,200000b,100000s
 </home/alex/.local/texlive/2020/texmf-dist/fonts/opentype/public/lm/lmroman10-it
 alic.otf></home/alex/.local/texlive/2020/texmf-dist/fonts/opentype/public/lm/lmr
@@ -2129,10 +2130,10 @@ blic/lm/lmroman10-regular.otf></home/alex/.local/texlive/2020/texmf-dist/fonts/o
 pentype/public/lm/lmroman12-regular.otf></home/alex/.local/texlive/2020/texmf-di
 st/fonts/opentype/public/lm/lmsans10-bold.otf></home/alex/.local/texlive/2020/te
 xmf-dist/fonts/opentype/public/lm/lmroman12-bold.otf>
-Output written on main.pdf (19 pages, 2509341 bytes).
+Output written on main.pdf (20 pages, 2538758 bytes).
 
-PDF statistics: 687 PDF objects out of 1000 (max. 8388607)
- 500 compressed objects within 5 object streams
- 75 named destinations out of 1000 (max. 131072)
- 153 words of extra memory for PDF output out of 10000 (max. 100000000)
+PDF statistics: 779 PDF objects out of 1000 (max. 8388607)
+ 533 compressed objects within 6 object streams
+ 79 named destinations out of 1000 (max. 131072)
+ 161 words of extra memory for PDF output out of 10000 (max. 100000000)
 

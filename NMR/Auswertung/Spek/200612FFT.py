@@ -19,8 +19,8 @@ real     = x[1]
 imag     = x[2]
 
 # schneide alles weg vor real_max weg
-index_real_max = np.argmax(real)
-time = time[0:len(time)-1]
+index_real_max = np.argmax(abs(real))
+time = time[0:len(time)-index_real_max]
 real = real[index_real_max::]
 imag = imag[index_real_max::]
 # Offset wegmachen
@@ -33,23 +33,25 @@ imag -= mean_imag
 real[index_zero] = 0
 imag[index_zero] = 0
 # Um Nullen nach dem Signal ergänzt
-dt = time[1]-time[0]
-ext = np.arange(time[len(time)-1],5,dt)
-time = np.append(time,ext)
-real = np.append(real, np.zeros(len(ext)))
-imag = np.append(imag, np.zeros(len(ext)))
+#dt = time[1]-time[0]
+#ext = np.arange(time[len(time)-1],5,dt)
+#time = np.append(time,ext)
+#real = np.append(real, np.zeros(len(ext)))
+#imag = np.append(imag, np.zeros(len(ext)))
 
 
 Phi = np.arctan(imag[0]/real[0])
-Phi=(Phi*180)/np.pi    # in degree
+Phi =(Phi*180)/np.pi             # in degree
+Phi += 180                       # Phasenverschieung korrigieren
+print("Phi = ",Phi,"°")
 
 # Plot
 plt.figure(figsize=(10,5))
-plt.plot(time, real, "b-", label="real")
-plt.plot(time, imag, "r-", label="imag")
-plt.axis([0,0.0003, -4200, 3000])
+plt.plot(time, real, "b-", label="Realteil")
+plt.plot(time, imag, "r-", label="Imaginärteil")
+plt.axis([0,0.0003, -4200, 1000])
 plt.legend()
-#plt.savefig("real_iamg.pdf", dpi = 1000)
+plt.savefig("FID.pdf", dpi = 1000)
 #plt.show()
 plt.clf()
 
@@ -88,9 +90,33 @@ def do_fft(times, real, imag, apo, phase0 = 0):
 apo = 1e3
 freqs, realspek, imagspek = do_fft(time,real,imag,apo,Phi)
 freqs *= 1e-3   #in kHz
-plt.plot(freqs, realspek, "b-", label="real")
-plt.plot(freqs, imagspek, "r-", label="imag")
-plt.axis([-80,80,-1,1.2])
+
+# beiden Extrema der real
+x_0         = int(len(real)/2)
+real_max1   = np.argmax(abs(realspek[0:x_0]))
+real_max2   = np.argmax((realspek[x_0::])) + x_0
+real_dx     = abs(freqs[real_max1] - freqs[real_max2])
+real_half    = 0.5*abs(realspek[real_max1]-realspek[real_max2]) + realspek[real_max2]
+
+# beiden Extrema der imag
+imag_max1   = np.argmax(abs(imagspek[0:x_0]))
+imag_max2   = np.argmax(abs(imagspek[x_0::])) + x_0
+imag_dx     = abs(freqs[imag_max1] - freqs[imag_max2])
+imag_half    = 0.5*abs(imagspek[imag_max1]-imagspek[imag_max2]) + imagspek[imag_max2]
+
+# plot
+plt.plot(freqs, realspek, "b-", label="Realteil", zorder=0)
+plt.plot(freqs, imagspek, "r-", label="Imaginärteil", zorder=0)
+# Abstand der beiden real Peaks
+plt.arrow(freqs[real_max1],real_half, real_dx-2,0,head_width=0.05,head_length=2,fc="black", zorder=1)
+plt.arrow(freqs[real_max2],real_half, -real_dx+2,0,head_width=0.05,head_length=2,fc="black", zorder=1)
+plt.text(-8, real_half+0.05, str(round(real_dx,2))+' kHz')
+# Abstand der beiden imag Peaks
+plt.arrow(freqs[imag_max1],imag_half, imag_dx-2,0,head_width=0.05,head_length=2,fc="black", zorder=1)
+plt.arrow(freqs[imag_max2],imag_half, -imag_dx+2,0,head_width=0.05,head_length=2,fc="black", zorder=1)
+plt.text(-8, imag_half-0.1, str(round(imag_dx,2))+' kHz')
+
+plt.axis([-80,80,-1,1.1])
 
 plt.xlabel(r"Frequenz / kHz")
 plt.ylabel(r"Amplitude")

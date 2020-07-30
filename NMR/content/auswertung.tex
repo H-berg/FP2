@@ -221,7 +221,7 @@ in Abhängigkeit der Temperatur aufgetragen. Die Korrelationszeit folgt
 dem Arrhenius-Gesetz $\tau = \tau_0 \exp{E/k_{\text{B}}T}$, sodass man den Messwerten
 folgende Ausgleichsgerade anlegt:
 \begin{equation*}
-  \ln{\tau} = m \cdot \frac{1}{T} + b
+  \ln{(\tau)} = m \cdot \frac{1}{T} + b
 \end{equation*}
 \noindent
 und damit die Aktivierungsenergie $E$ = m $\cdot k_{\text{B}}$ und den Vorfaktor $\tau_0 = \exp{(b)}$ erhält. Es ergeben sich mittels
@@ -251,7 +251,7 @@ $\textit{Python 3.7.6--scipy.optimize}$ folgende Werte:
     \centering
     \includegraphics[width=\textwidth]{Auswertung/Tempabh/Korr_Temp.pdf}
     \caption{}
-    \label{fig:tempabh}
+    \label{fig:korrtemp}
 \end{figure}
 
 
@@ -260,4 +260,31 @@ $\textit{Python 3.7.6--scipy.optimize}$ folgende Werte:
     \includegraphics[width=\textwidth]{Auswertung/Tempabh/T1.pdf}
     \caption{}
     \label{fig:t1t1q}
+\end{figure}
+
+\subsection{Spektrum}
+\label{sec:spektr}
+Um ein Spektrum zu erhalten, wird eine $T_2$-Messung mittels FFT
+($\textit{fast Fourier transform}$) in seine Frequenzanteile zerlegt.
+Damit das Echo genau bei dem Signal anfängt, wird das FID
+($\textit{free iduction decay}$) zunächst an der Stelle abgeschnitten, an dem der
+Realteil maximal ist (siehe Abbildung \ref{fig:fid}).
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\textwidth]{Auswertung/Spek/FID.pdf}
+    \caption{}
+    \label{fig:fid}
+\end{figure}
+\noindent
+Die Phasenverschiebung zwischen Real- und Imaginärteil wird durch die Phase $\phi$ =
+$\text{arctan}\biggl(\frac{\text{Im}}{\text{Re}}\biggr)$ = $171,33\,°$ korrigiert.
+Es ergibt sich nach Anwendung der FFT das in Abbildung \ref{fig:spekt} dargestelle
+Spektrum.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\textwidth]{Auswertung/Spek/Spek.pdf}
+    \caption{}
+    \label{fig:spekt}
 \end{figure}
