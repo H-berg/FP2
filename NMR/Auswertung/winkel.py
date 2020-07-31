@@ -11,7 +11,7 @@ x = np.linspace(0,350, 1000)
 def sinus(A,b,c,d,x):
     return A*np.sin(b*x+c)+d
 
-offset  = max(real_off) + min(real)
+offset  = max(real_off) + min(real_off)
 offset *= 0.5
 Amp     = max(real_off) - offset
 freq    = 2*np.pi / max(phi)
@@ -38,7 +38,7 @@ i = np.argmax(real_off)
 
 
 
-plt.plot(185*np.ones(10), np.linspace(min(real_off)-0.2, max(real_off)+0.2, 10), "--", color="#e17c16", label="gewählte Phase")
+plt.plot(5*np.ones(10), np.linspace(min(real_off)-0.2, max(real_off)+0.2, 10), "--", color="#e17c16", label="gewählte Phase")
 plt.errorbar(phi, real_off, yerr=real_off_err, capsize=3, fmt='.', color="#505054",label="Echo")
 plt.axis([-5,355,-0.62,0.46])
 plt.xlabel(r"Phase $\varphi$ / °")

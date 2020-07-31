@@ -42,7 +42,8 @@ imag[index_zero] = 0
 
 Phi = np.arctan(imag[0]/real[0])
 Phi =(Phi*180)/np.pi             # in degree
-Phi += 180                       # Phasenverschieung korrigieren
+Phi = abs(Phi)
+Phi += 180                      # Phasenverschieung korrigieren
 print("Phi = ",Phi,"°")
 
 # Plot

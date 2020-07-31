@@ -23,8 +23,8 @@ $P_{\text{R}} \approx \SI{14}{\watt}$
 \subsection{Bestimmung der Phase}
 \label{sec:phase}
 In Abbildung \ref{fig:phase} ist der Reailteil der Signalintensität I($\varphi$) in Abhängigkeit
-der Phase $\varphi$ für eine voll Periode dargestellt. Dabei wird eine maximale
-Signalintensität von $185°$ (gestrichelte orangene Linie) gewählt.
+der Phase $\varphi$ für eine voll Periode dargestellt. Dabei wird eine betragsmäßig
+maximale Signalintensität von $5\,°$ (gestrichelte orangene Linie) gewählt.
 
 \begin{figure}[H]
     \centering
@@ -218,48 +218,38 @@ Korrelationszeit $\tau$ Temperaturen zwischen $\SI{310}{\kelvin}$
 und $\SI{346}{\kelvin}$ bestimmt. In Abbildung \ref{fig:korrtemp}
 ist die Korrelationszeit $\tau$ der $cos$-$cos$- und $sin$-$sin$-Messungen
 in Abhängigkeit der Temperatur aufgetragen. Die Korrelationszeit folgt
-dem Arrhenius-Gesetz $\tau = \tau_0 \exp{E/k_{\text{B}}T}$, sodass man den Messwerten
-folgende Ausgleichsgerade anlegt:
+dem Arrhenius-Gesetz: $\tau = \tau_0 \exp{(E/k_{\text{B}}T)}$, sodass den Messwerten
+folgende Ausgleichsgerade anlegt wird:
 \begin{equation*}
   \ln{(\tau)} = m \cdot \frac{1}{T} + b
 \end{equation*}
 \noindent
-und damit die Aktivierungsenergie $E$ = m $\cdot k_{\text{B}}$ und den Vorfaktor $\tau_0 = \exp{(b)}$ erhält. Es ergeben sich mittels
-$\textit{Python 3.7.6--scipy.optimize}$ folgende Werte:
-\begin{equation*}
-  \text{m}_{\text{cos}} = \SI{10588,585\pm594,569}{\kelvin}
-  \quad\rightarrow\quad
-  E = \SI{0.912\pm0.051}{\electronvolt}
-\end{equation*}
-\begin{equation*}
-  \text{b}_{\text{cos}} = \SI{-33,536\pm1,816}
-  \quad\rightarrow\quad
-  \tau_0 = \SI{27,258\pm0.012 e-13}{\second}
-\end{equation*}
-\begin{equation*}
-  \text{m}_{\text{sin}} = \SI{9641,512\pm140,781}{\kelvin}
-  \quad\rightarrow\quad
-  E = \SI{0.831\pm0.012}{\electronvolt}
-\end{equation*}
-\begin{equation*}
-  \text{b}_{\text{sin}} = \SI{-30,597\pm0.430}
-  \quad\rightarrow\quad
-  \tau_0 = \SI{515,100\pm0.012 e-13}{\second}
-\end{equation*}
+und damit die Aktivierungsenergie $E$ = m $\cdot k_{\text{B}}$ und den Vorfaktor
+$\tau_0 = \exp{(b)}$ erhält. Es ergeben sich mittels
+$\textit{Python 3.7.6--scipy.optimize}$ die Werte:
+\begin{align*}
+  \text{m}_{\text{cos}} &= \SI{10588,585\pm594,569}{\kelvin}
+  \quad\rightarrow
+  &E &= \SI{0.912\pm0.051}{\electronvolt} \\
+  \text{b}_{\text{cos}} &= \SI{-33,536\pm1,816}
+  \qquad\quad\,\;\;\rightarrow
+  &\tau_0 &= \SI{27,258\pm1,476 e-13}{\second} \\
+  \text{m}_{\text{sin}} &= \SI{9641,512\pm140,781}{\kelvin}
+  \,\;\;\quad\rightarrow
+  &E &= \SI{0.831\pm0.012}{\electronvolt} \\
+  \text{b}_{\text{sin}} &= \SI{-30,597\pm0.430}
+  \qquad\quad\,\;\;\rightarrow
+  &\tau_0 &= \SI{515,100\pm7,239 e-13}{\second}
+\end{align*}
+\noindent
+Zusätzlich sich die Spin-Gitter Relaxationszeiten $T$ der jeweiligen $cos$-$cos$-
+und $sin$-$sin$-Messung in das Arrheniusdiagramm eingetragen.
 
 \begin{figure}[H]
     \centering
     \includegraphics[width=\textwidth]{Auswertung/Tempabh/Korr_Temp.pdf}
     \caption{}
     \label{fig:korrtemp}
-\end{figure}
-
-
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=\textwidth]{Auswertung/Tempabh/T1.pdf}
-    \caption{}
-    \label{fig:t1t1q}
 \end{figure}
 
 \subsection{Spektrum}
@@ -278,7 +268,7 @@ Realteil maximal ist (siehe Abbildung \ref{fig:fid}).
 \end{figure}
 \noindent
 Die Phasenverschiebung zwischen Real- und Imaginärteil wird durch die Phase $\phi$ =
-$\text{arctan}\biggl(\frac{\text{Im}}{\text{Re}}\biggr)$ = $171,33\,°$ korrigiert.
+$\text{arctan}\biggl(\frac{\text{Im}}{\text{Re}}\biggr)$ = $188,67\,°$ korrigiert.
 Es ergibt sich nach Anwendung der FFT das in Abbildung \ref{fig:spekt} dargestelle
 Spektrum.
 
