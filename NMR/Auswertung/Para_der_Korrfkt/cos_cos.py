@@ -8,13 +8,6 @@ time, real, real_err, imaginary, imaginery_err, real_off, real_off_err, imaginar
 
 time *= 1e3# Mischzeit in millisek
 
-# Offset
-#real_off -= min(real_off)
-
-## Normierung
-#real_off_err /= max(real_off)-min(real_off)
-#real_off /= max(real_off)-min(real_off)
-
 T1 = 18.313
 
 def exp(t,S0,A,B,b,c,tau):
@@ -32,7 +25,6 @@ uncertainties = np.sqrt(np.diag(covariance_matrix))
 Offset      = params[0]
 Norm        = params[0] + params[1] + params[2]
 
-
 # Plot
 plt.figure(figsize=(10,5))
 
@@ -44,7 +36,7 @@ plt.annotate(s=r'$T_{1}$ = ' + str(round(T1,2)) + " ms", xy=(T1, 0.25), xytext=(
 
 
 plt.xscale("log")
-plt.xlabel(r"Mischzeit t$_m$(ms)")
+plt.xlabel(r"Mischzeit t$_m$ / ms")
 plt.ylabel("Amplitude S (stimuliertes Echo, Realanteil)")
 #plt.axis([min(time)-0.002,max(time)+100,-0.05, 1.05])
 plt.title("cos-cos")

@@ -117,9 +117,11 @@ plt.arrow(freqs[imag_max1],imag_half, imag_dx-2,0,head_width=0.05,head_length=2,
 plt.arrow(freqs[imag_max2],imag_half, -imag_dx+2,0,head_width=0.05,head_length=2,fc="black", zorder=1)
 plt.text(-8, imag_half-0.1, str(round(imag_dx,2))+' kHz')
 
+plt.text(55, 0.05, r'$\nu_L$ = 46,22 MHz')
+
 plt.axis([-80,80,-1,1.1])
 
-plt.xlabel(r"Frequenz / kHz")
+plt.xlabel(r"Frequenz $\nu$-$\nu_L$ / kHz")
 plt.ylabel(r"Amplitude")
 plt.legend()
 #plt.show()

@@ -23,8 +23,10 @@ $P_{\text{R}} \approx \SI{14}{\watt}$
 \subsection{Bestimmung der Phase}
 \label{sec:phase}
 In Abbildung \ref{fig:phase} ist der Reailteil der Signalintensität I($\varphi$) in Abhängigkeit
-der Phase $\varphi$ für eine voll Periode dargestellt. Dabei wird eine betragsmäßig
-maximale Signalintensität von $5\,°$ (gestrichelte orangene Linie) gewählt.
+der Phase $\varphi$ für eine voll Periode dargestellt. Ein Maximum befindet sich
+in etwa bei $180\,°$. Hingegen zeigt sich eine betragsmäßig maximale Signalintensität
+bei $\varphi\approx 5\,°$ (gestrichelte orangene Linie), weshalb diese
+auch für die weiteren Einstellungen gewählt wird.
 
 \begin{figure}[H]
     \centering
@@ -169,7 +171,7 @@ mittels $\textit{Python 3.7.6--scipy.optimize}$:
     Korrelationszeit $\tau_{\text{cos}}$ ist durch die beiden Pfeile gekennzeichnet.
     Der Offset wird durch den Fitparameter $S_0$ korrigiert und die
     Singalintensität auf ihre Amplituden $S_0+A+B$ normiert.}
-    \label{fig:cos-cos}
+    \label{fig:cos}
 \end{figure}
 \noindent
 Die $sin$-$sin$-Messung wird mit der gleichen Fit-Funktion untersucht, nur das hier die $T_1$-Zeit nun auch als Parameter $T_{1,Q}$ freigegeben wird:
@@ -208,7 +210,7 @@ $\textit{Python 3.7.6--scipy.optimize}$ gibt dabei folgende Parameter wieder:
     Korrelationszeit $\tau_{\text{sin}}$ ist durch die beiden Pfeile gekennzeichnet.
     Der Offset wird durch den Fitparameter $S_0$ korrigiert und die
     Singalintensität auf ihre Amplitude $S_0+A+B$ normiert.}
-    \label{fig:sin-sin}
+    \label{fig:sin}
 \end{figure}
 
 \subsection{Temperaturabhängigkeit}
@@ -249,11 +251,11 @@ und $sin$-$sin$-Messung in das Arrheniusdiagramm eingetragen.
     \centering
     \includegraphics[width=\textwidth]{Auswertung/Tempabh/Korr_Temp.pdf}
     \caption{}
-    \label{fig:korrtemp}
+    \label{fig:tempabh}
 \end{figure}
 
 \subsection{Spektrum}
-\label{sec:spektr}
+\label{sec:spek}
 Um ein Spektrum zu erhalten, wird eine $T_2$-Messung mittels FFT
 ($\textit{fast Fourier transform}$) in seine Frequenzanteile zerlegt.
 Damit das Echo genau bei dem Signal anfängt, wird das FID
@@ -269,12 +271,12 @@ Realteil maximal ist (siehe Abbildung \ref{fig:fid}).
 \noindent
 Die Phasenverschiebung zwischen Real- und Imaginärteil wird durch die Phase $\phi$ =
 $\text{arctan}\biggl(\frac{\text{Im}}{\text{Re}}\biggr)$ = $188,67\,°$ korrigiert.
-Es ergibt sich nach Anwendung der FFT das in Abbildung \ref{fig:spekt} dargestelle
+Es ergibt sich nach Anwendung der FFT das in Abbildung \ref{fig:spek} dargestelle
 Spektrum.
 
 \begin{figure}[H]
     \centering
     \includegraphics[width=\textwidth]{Auswertung/Spek/Spek.pdf}
     \caption{}
-    \label{fig:spekt}
+    \label{fig:spek}
 \end{figure}

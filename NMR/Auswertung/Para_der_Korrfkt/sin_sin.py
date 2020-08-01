@@ -23,7 +23,6 @@ uncertainties = np.sqrt(np.diag(covariance_matrix))
 Offset  = params[0]
 Norm    = params[0] + params[1] + params[2]
 
-
 # Plot
 plt.figure(figsize=(10,5))
 
@@ -49,5 +48,5 @@ for i in range(3):
     params[i]       /= Norm
     uncertainties[i]/= Norm
 
-    for name, value, uncertainty in zip('SABbctT', params, uncertainties):
-        print(f'{name} = {value:8.3f} ± {uncertainty:.3f}')
+for name, value, uncertainty in zip('SABbctT', params, uncertainties):
+    print(f'{name} = {value:8.3f} ± {uncertainty:.3f}')
