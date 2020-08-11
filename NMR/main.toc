@@ -11,7 +11,7 @@
 \contentsline {subsection}{\numberline {2.3}Der Kernspin des Deuterons}{8}{subsection.2.3}%
 \contentsline {subsection}{\numberline {2.4}Echo-Signale in der NMR}{8}{subsection.2.4}%
 \contentsline {paragraph}{\nonumberline Hahn-Echo}{8}{section*.14}%
-\contentsline {paragraph}{\nonumberline Festk\"{o}rper-Echo}{8}{section*.15}%
+\contentsline {paragraph}{\nonumberline Festk\"{o}rper-Echo}{9}{section*.15}%
 \contentsline {subsection}{\numberline {2.5}Stimuliertes Echo}{9}{subsection.2.5}%
 \contentsline {section}{\numberline {3}Das Experiment}{10}{section.3}%
 \contentsline {subsection}{\numberline {3.1}Das Spektrometer}{10}{subsection.3.1}%
