@@ -134,8 +134,8 @@ und die Signalintensität $I(t_{\text{m}})$ für unterschiedliche Mischzeiten
 $t_{\text{m}}$ zwischen $\SI{20}{\micro\second}$ und $\SI{1}{\second}$ gemessen.
 Die Magnetisierung ist unterteilt in einen $cos$-$cos$- und $sin$-$sin$-Anteil, welche
 mittels zweier seperater Experimente untersucht werden. Die Messung des
-$cos$-$cos$-Anteils ist in Abbildung \ref{fig:cos-cos}, und die des $sin$-$sin$-Anteils
-in Abbildung \ref{fig:sin-sin} dargstellt.\\
+$cos$-$cos$-Anteils ist in Abbildung \ref{fig:cos}, und die des $sin$-$sin$-Anteils
+in Abbildung \ref{fig:sin} dargstellt.\\
 Die $cos$-$cos$-Messung wird durch folgende Fit-Funktion genauer untersucht:
 \begin{equation*}
   S(t) = S_0 + \biggl\{
@@ -217,7 +217,7 @@ $\textit{Python 3.7.6--scipy.optimize}$ gibt dabei folgende Parameter wieder:
 \label{sec:tempabh}
 Analog zu der Messung aus dem Unterkapitel \ref{sec:stecho}, wird nun die
 Korrelationszeit $\tau$ Temperaturen zwischen $\SI{310}{\kelvin}$
-und $\SI{346}{\kelvin}$ bestimmt. In Abbildung \ref{fig:korrtemp}
+und $\SI{346}{\kelvin}$ bestimmt. In Abbildung \ref{fig:tempabh}
 ist die Korrelationszeit $\tau$ der $cos$-$cos$- und $sin$-$sin$-Messungen
 in Abhängigkeit der Temperatur aufgetragen. Die Korrelationszeit folgt
 dem Arrhenius-Gesetz: $\tau = \tau_0 \exp{(E/k_{\text{B}}T)}$, sodass den Messwerten
@@ -244,8 +244,8 @@ $\textit{Python 3.7.6--scipy.optimize}$ die Werte:
   &\tau_0 &= \SI{515,100\pm7,239 e-13}{\second}
 \end{align*}
 \noindent
-Zusätzlich sich die Spin-Gitter Relaxationszeiten $T$ der jeweiligen $cos$-$cos$-
-und $sin$-$sin$-Messung in das Arrheniusdiagramm eingetragen.
+Zusätzlich sich die Spin-Gitter Relaxationszeiten $T_1$ und $T_{1,Q}$
+der jeweiligen $cos$-$cos$-und $sin$-$sin$-Messung in das Arrheniusdiagramm eingetragen.
 
 \begin{figure}[H]
     \centering
@@ -265,7 +265,7 @@ Realteil maximal ist (siehe Abbildung \ref{fig:fid}).
 \begin{figure}[H]
     \centering
     \includegraphics[width=\textwidth]{Auswertung/Spek/FID.pdf}
-    \caption{}
+    \caption{Aufbereitetes FID-Signal}
     \label{fig:fid}
 \end{figure}
 \noindent
@@ -277,6 +277,7 @@ Spektrum.
 \begin{figure}[H]
     \centering
     \includegraphics[width=\textwidth]{Auswertung/Spek/Spek.pdf}
-    \caption{}
+    \caption{Nach FFT resultierende Spektrum für den Real und Imaginärteil des
+    FIDs mit einer Phasenkorretur von $\varphi$ = 188,67° }
     \label{fig:spek}
 \end{figure}

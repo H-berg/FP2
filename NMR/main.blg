@@ -1,0 +1,17 @@
+[0] Config.pm:304> INFO - This is Biber 2.14
+[0] Config.pm:307> INFO - Logfile is 'main.blg'
+[104] biber:322> INFO - === Di Aug 11, 2020, 13:11:23
+[124] Biber.pm:415> INFO - Reading 'main.bcf'
+[206] Biber.pm:940> INFO - Using all citekeys in bib section 0
+[222] Biber.pm:4256> INFO - Processing section 0
+[222] Utils.pm:75> INFO - Globbing data source 'lit.bib'
+[222] Utils.pm:91> INFO - Globbed data source 'lit.bib' to lit.bib
+[238] Biber.pm:4455> INFO - Looking for bibtex format file 'lit.bib' for section 0
+[239] bibtex.pm:1653> INFO - LaTeX decoding ...
+[242] bibtex.pm:1471> INFO - Found BibTeX data source 'lit.bib'
+[269] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[270] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'variable = shifted' with 'variable = non-ignorable'
+[270] Biber.pm:4084> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'de-DE'
+[270] Biber.pm:4090> INFO - No sort tailoring available for locale 'de-DE'
+[278] bbl.pm:652> INFO - Writing 'main.bbl' with encoding 'UTF-8'
+[279] bbl.pm:755> INFO - Output to main.bbl
