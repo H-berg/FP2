@@ -11,7 +11,7 @@ $\si{1,27}$ abgelesen. Damit ergibt sich nach:
     \text{VSWR} = \frac{\sqrt{P_{\text{T}}} + \sqrt{P_{\text{R}}}}
                 {\sqrt{P_{\text{T}}} - \sqrt{P_{\text{R}}}}
     \iff
-    P_{\text{R}} = \biggl( \frac{1-\text{VSWR}}{1+\text{VSWR}}^2 \biggr) \cdot P_{\text{T}}
+    P_{\text{R}} = \biggl( \frac{1-\text{VSWR}}{1+\text{VSWR}} \biggr)^2 \cdot P_{\text{T}}
 \end{equation}
 
 \noindent
@@ -23,7 +23,7 @@ $P_{\text{R}} \approx \SI{14}{\watt}$
 \subsection{Bestimmung der Phase}
 \label{sec:phase}
 In Abbildung \ref{fig:phase} ist der Reailteil der Signalintensität I($\varphi$) in Abhängigkeit
-der Phase $\varphi$ für eine voll Periode dargestellt. Ein Maximum befindet sich
+der Phase $\varphi$ für eine volle Periode dargestellt. Ein Maximum befindet sich
 in etwa bei $180\,°$. Hingegen zeigt sich eine betragsmäßig maximale Signalintensität
 bei $\varphi\approx 5\,°$ (gestrichelte orangene Linie), weshalb diese
 auch für die weiteren Einstellungen gewählt wird.
@@ -39,11 +39,11 @@ auch für die weiteren Einstellungen gewählt wird.
 
 \subsection{Bestimmung der Pulslänge}
 \label{sec:pulslaenge}
-Um die Pulslänge $t_{\pi}$ des $180°$-Pulses zu bestimmen, wird die Singalintensität für
+Um die Pulslänge $t_{\pi}$ des $180°$-Pulses zu bestimmen, wird die Signalintensität für
 Pulsdauern von $\SI{1}{\micro\second}$ bis $\SI{20}{\micro\second}$ gemessen und das
-Resultat in Abbildung \ref{fig:pulslaenge} aufgetragen. Eine maximale Singalintensität
+Resultat in Abbildung \ref{fig:pulslaenge} aufgetragen. Eine maximale Signalintensität
 ist bei einer Pulsdauer $t_{\pi} = \SI{5}{\micro\second}$ zu beobachten (siehe gestrichelte
-orangene Linie in).
+orangene Linie in Abbildung \ref{fig:pulslaenge}).
 
 \begin{figure}[H]
     \centering
@@ -71,7 +71,7 @@ $\textit{Python 3.7.6--scipy.optimize}$ sich dabei folgenden Parameter:
   \quad
   B = \SI{0,546\pm0,004}{}
   \quad
-  b = \SI{0,546\pm0,004}{}
+  b = \SI{1,037\pm0,024}{}
   \quad
   T_1 = \SI{18.313\pm0.350}{\milli\second}
 \end{equation*}
@@ -104,19 +104,19 @@ wieder rephasiert ($t_{\text{dep}}$ = $t_{\text{rep}} \rightarrow $ 2$t$).\\
 Für die Kohlrausch-Parameter ergben sich mittels $\textit{Python 3.7.6--scipy.optimize}$
 folgende Werte:
 \begin{equation*}
-  A = \SI{1,007\pm0,034}{}
+  A = \SI{0,033\pm0,010}{}
   \quad
-  B = \SI{-1,060\pm0,060}{}
+  B = \SI{0,967\pm0,029}{}
   \quad
-  b = \SI{-1,359\pm0,173}{}
+  b = \SI{1,642\pm0,124}{}
   \quad
-  T_2 = \SI{0.160\pm0.011}{\milli\second}
+  T_2 = \SI{0.259\pm0.008}{\milli\second}
 \end{equation*}
 
 \begin{figure}[H]
     \centering
     \includegraphics[width=\textwidth]{Auswertung/T2.pdf}
-    \caption{$\textit{Saturation-recovery}$-Messung zu Bestimmung der Spin-Spin
+    \caption{Festkörper-Echo-Messung zu Bestimmung der Spin-Spin
     Relaxationszeit. Die $T_2$-Zeit wird mittels einer Kohlrauschfunktion (hellgrau)
     ermittelt. Der Offset wird durch den Fitparameter $B$ korrigiert und die
     Singalintensität auf ihre Amplituden $A+B$ normiert.}
@@ -149,18 +149,18 @@ Die $cos$-$cos$-Messung wird durch folgende Fit-Funktion genauer untersucht:
 mit der Korrelationszeit $\tau_{\text{cos}}$. Folgende Parameter ergeben sich
 mittels $\textit{Python 3.7.6--scipy.optimize}$:
 \begin{equation*}
-  S_0 = \SI{-0.067\pm0.003}{}
+  S_0 = \SI{-0.062\pm0.003}{}
   \quad
-  A   = \SI{0.468\pm0.012}{}
+  A   = \SI{0.469\pm0.013}{}
   \quad
-  B   = \SI{0.599\pm0.012}{}
+  B   = \SI{0.593\pm0.013}{}
   \quad
-  b_1 = \SI{1,028\pm0,048}{}
+  b_1 = \SI{1.024\pm0.051}{}
 \end{equation*}
 \begin{equation*}
-  b_2 = \SI{1,021\pm0.042}{}
+  b_2 = \SI{1.010\pm0.044}{}
   \quad
-  \tau_{\text{cos}} = \SI{1,810\pm0,084}{\milli\second}
+  \tau_{\text{cos}} = \SI{1,838\pm0,093}{\milli\second}
 \end{equation*}
 
 \begin{figure}[H]
@@ -186,20 +186,20 @@ Die $sin$-$sin$-Messung wird mit der gleichen Fit-Funktion untersucht, nur das h
 \noindent
 $\textit{Python 3.7.6--scipy.optimize}$ gibt dabei folgende Parameter wieder:
 \begin{equation*}
-  S_0 = \SI{-0.080\pm0.010}{}
+  S_0 = \SI{-0.069\pm0.003}{}
   \quad
-  A   = \SI{0.589\pm0.037}{}
+  A   = \SI{0.627\pm0.032}{}
   \quad
-  B   = \SI{0.491\pm0.024}{}
+  B   = \SI{0.443\pm0.031}{}
   \quad
-  b_1 = \SI{1,119\pm0.148}{}
+  b_1 = \SI{0.991\pm0,038}{}
 \end{equation*}
 \begin{equation*}
-  b_2 = \SI{0,907\pm0,113}{}
+  b_2 = \SI{0,967\pm0.093}{}
   \quad
-  \tau_{\text{sin}} = \SI{0,253\pm0,019}{\milli\second}
+  \tau_{\text{sin}} = \SI{1,854\pm0,064}{\milli\second}
   \quad
-  T_{1,Q} = \SI{42,754\pm3,911}{\milli\second}
+  T_{1,Q} = \SI{31,385\pm2,661}{\milli\second}
 \end{equation*}
 
 \begin{figure}[H]
@@ -218,8 +218,11 @@ $\textit{Python 3.7.6--scipy.optimize}$ gibt dabei folgende Parameter wieder:
 Analog zu der Messung aus dem Unterkapitel \ref{sec:stecho}, wird nun die
 Korrelationszeit $\tau$ Temperaturen zwischen $\SI{310}{\kelvin}$
 und $\SI{346}{\kelvin}$ bestimmt. In Abbildung \ref{fig:tempabh}
-ist die Korrelationszeit $\tau$ der $cos$-$cos$- und $sin$-$sin$-Messungen
-in Abhängigkeit der Temperatur aufgetragen. Die Korrelationszeit folgt
+ist die Korrelationszeit $\tau$ für die $cos$-$cos$- und $sin$-$sin$-Messungen
+in Abhängigkeit der Temperatur aufgetragen. Dabei weichen die fünf
+$cos$-$cos$-Messwerte unterhalb von $\SI{1e-4}{\second}$ von den anderen Messwerte
+ab. Deshalb werden diese in der weiteren Auswertung nicht mehr berücksichtigt.
+Die Korrelationszeit folgt
 dem Arrhenius-Gesetz: $\tau = \tau_0 \exp{(E/k_{\text{B}}T)}$, sodass den Messwerten
 folgende Ausgleichsgerade anlegt wird:
 \begin{equation*}
@@ -230,18 +233,18 @@ und damit die Aktivierungsenergie $E$ = m $\cdot k_{\text{B}}$ und den Vorfaktor
 $\tau_0 = \exp{(b)}$ erhält. Es ergeben sich mittels
 $\textit{Python 3.7.6--scipy.optimize}$ die Werte:
 \begin{align*}
-  \text{m}_{\text{cos}} &= \SI{10588,585\pm594,569}{\kelvin}
+  \text{m}_{\text{cos}} &= \SI{9798,17\pm116,90}{\kelvin}
   \quad\rightarrow
-  &E &= \SI{0.912\pm0.051}{\electronvolt} \\
-  \text{b}_{\text{cos}} &= \SI{-33,536\pm1,816}
+  &E &= \SI{0.84\pm0.01}{\electronvolt} \\
+  \text{b}_{\text{cos}} &= \SI{-37,92\pm0,37}
   \qquad\quad\,\;\;\rightarrow
-  &\tau_0 &= \SI{27,258\pm1,476 e-13}{\second} \\
-  \text{m}_{\text{sin}} &= \SI{9641,512\pm140,781}{\kelvin}
+  &\tau_0 &= \SI{3,39\pm0,06 e-17}{\second} \\
+  \text{m}_{\text{sin}} &= \SI{9651,51\pm140,78}{\kelvin}
   \,\;\;\quad\rightarrow
-  &E &= \SI{0.831\pm0.012}{\electronvolt} \\
-  \text{b}_{\text{sin}} &= \SI{-30,597\pm0.430}
+  &E &= \SI{0.83\pm0.01}{\electronvolt} \\
+  \text{b}_{\text{sin}} &= \SI{-37,50\pm0.43}
   \qquad\quad\,\;\;\rightarrow
-  &\tau_0 &= \SI{515,100\pm7,239 e-13}{\second}
+  &\tau_0 &= \SI{5,16\pm0,06 e-17}{\second}
 \end{align*}
 \noindent
 Zusätzlich sich die Spin-Gitter Relaxationszeiten $T_1$ und $T_{1,Q}$
@@ -251,7 +254,8 @@ der jeweiligen $cos$-$cos$-und $sin$-$sin$-Messung in das Arrheniusdiagramm eing
     \centering
     \includegraphics[width=\textwidth]{Auswertung/Tempabh/Korr_Temp.pdf}
     \caption{Arrheniusdiagramm für die Relaxationszeiten $T_1$ und $T_{1,Q}$, sowie
-    für Korrelationszeit $\tau$}
+    für Korrelationszeit $\tau$. Die Ausreißer aus der $cos$-$cos$-Messungen werden
+    bei der linearen Regression nicht berücksichtigt.}
     \label{fig:tempabh}
 \end{figure}
 
@@ -278,7 +282,7 @@ Spektrum.
 \begin{figure}[H]
     \centering
     \includegraphics[width=\textwidth]{Auswertung/Spek/Spek.pdf}
-    \caption{Nach FFT resultierende Spektrum für den Real und Imaginärteil des
-    FIDs mit einer Phasenkorretur von $\varphi$ = 188,67° }
+    \caption{Nach FFT resultierendes Spektrum für den Real und Imaginärteil des
+    FIDs mit einer Phasenkorrektur von $\varphi$ = 188,67°.}
     \label{fig:spek}
 \end{figure}

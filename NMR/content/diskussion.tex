@@ -1,11 +1,10 @@
 \section{Diskussion}
 \label{sec:Diskussion}
-Zunächst werden auf die im Unterkapitel \ref{sec:Abstimmung} bis \ref{sec:T2}
+Zunächst wird auf die im Unterkapitel \ref{sec:Abstimmung} bis \ref{sec:T2}
 bestimmten Einstellparameter eingegangen.
 Bei der Abstimmung des Probekopfes wird etwa $1,4\,\%$ der Eingangsleistung
-$P_{\text{T}}$ reflektiert, womit das Magnetfeld der RF-Spule genügen stark sein
-sollte. Ein besserer Probekopf würde denoch vermutlich ein VSWR $\approx1$ erzielen
-können.\\
+$P_{\text{T}}$ reflektiert, womit das Magnetfeld der RF-Spule genügend stark sein
+sollte.\\
 Im Unterkapitel \ref{sec:phase} wurde die Phase $\varphi$ bestimmt. Dabei fällt
 in Abbildung \ref{fig:phase} auf, dass die Signal-Amplitude im Minimum (etwa bei $5\,°$)
 betragsmäßig größer ist als das Maximum (etwa bei $185\,°$), woraus sicht deuten
@@ -13,54 +12,55 @@ lässt, dass das Mess-Signal um $180\,°$ gedreht ist.
 Auch bei der Bestimmung der Pulslänge $t_{\pi}$ im Unterkapitel \ref{sec:pulslaenge}
 zeigt sich in Abbildung \ref{fig:pulslaenge}, dass das Mess-Signal gedreht ist.
 Denn das Mess-Signal verhält sich wie eine Sinus-Funktion, welche um $180\,°$
-verschoben ist.\\
+verschoben ist. Die Pulslänge beträgt $t_{\pi}$ = $\SI{5}{\micro\second}$ und es
+kann schätzungsweise angenommen werden, dass das eingestrahlte
+$B_1$-Feld stark genug ist.\\
 Die im Unterkapitel \ref{sec:T1} bestimmte $T_1$-Zeit liegt bei
 $T_1 = \SI{18.313\pm0.350}{\milli\second}$ und für den Exponenten $b$ der
-Kohlrauschfunktion ergibt sich ein Wert von $b = \SI{0,546\pm0,004}{}$. $b$ liegt
-dem optimalen Wert von eins nah. Bei $b$=1 würde sich die longitudinale
+Kohlrauschfunktion ergibt sich ein Wert von $b = \SI{1,037\pm0,024}{}$ und liegt
+damit erwartungsgemäßg bei einem Wert von eins. Denn bei $b$=1 würde sich die longitudinale
 Magnetisierung $M_{\text{z}}$, wie in der Theorie unter Gleichung \ref{eq:Mz}
 beschrieben, verhalten. In Abbildung \ref{fig:T1} zeigt sich das typische Verhalten
 der $T_1$-Relaxation. Nachdem die Magnetisierung $M$ in die transversale Ebene gekippt ist,
 kann anfangs kaum longitudinale Magnetisierung $M_{\text{z}}$ gemessen werden.
 Erst nachdem einige Millisekunden vergangen sind, kann bedingt durch die Spin-Gitter
-Relaxation eine Magnetisierung $M_{\text{z}}$ gemessen werden. Nach der Evolutionszeit
+Relaxation eine Magnetisierung $M_{\text{z}}$ gemessen werden. Nach der Erholungszeit
 $t=T_1$ hat sich etwa $63\,\%$ der Magnetisierung aufgebaut. Schließlich ist nach
 ungefähr $\SI{100}{\milli\second}$ die longitudinale Magnetisierung $M_{\text{z}}$
 etwa auf den ursprünglichen Wert relaxiert ist.\\
-Die $T_2$ wird im Unterkapitel \ref{sec:T2} bestimmt und ergibt eine Spin-Spin
-Relaxationszeit von $\SI{0.160\pm0.011}{\milli\second}$.Damit sei die Bedingung:
+Die $T_2$-Zeit wird im Unterkapitel \ref{sec:T2} bestimmt und ergibt eine Spin-Spin
+Relaxationszeit von $\SI{0.259\pm0.008}{\milli\second}$. Damit sei die Bedingung:
 $T_1 \gg T_2$ erfüllt.
-Für den Exponenten ergibt sich ein Wert von $b = \SI{-1,359\pm0,173}{}$, welcher
-stark von der Theorie abweicht. Hier ist nach Gleichung \ref{eq:Mxy} ein Exponenten $b$ von
+Für den Exponenten ergibt sich ein Wert von $b = \SI{1,624\pm0,124}{}$ und weicht
+damit ein wenig von der Theorie ab. Hier ist nach Gleichung \ref{eq:Mxy} ein Exponenten $b$ von
 eins zu erwarten gewesen. In Abbildung \ref{fig:T2} zeigt sich das Verhalten der
 Spin-Spin Relaxation. Sobald die Magnetisierung $M$ in die transversale Ebene gekippt
-ist, zeigt sich betragsmäßig das Signal am stärksten. Nachdem der Evolutionszeit
-$t=T_2$ hat sich etwa $37\,\%$ der transversalen Magnetisierung $M_{\text{xy}}$
-wieder aufgebaut.Aufgrund eines Problems mit dem Phasenzyklus wird hier der
+ist, zeigt sich betragsmäßig das Signal am stärksten. Nach der Erholungszeit
+$t=T_2$ ist etwa $37\,\%$ der transversalen Magnetisierung $M_{\text{xy}}$
+dephasiert. Aufgrund eines Problems mit dem Phasenzyklus wird hier der
 Betrag des Mess-Signals: $|$Re$+$Im$|$ dargestellt. Damit ist das Problem leider
 nur teilweise behoben, denn in Abbildung \ref{fig:T2} bei einer Evolutionszeit
 von ungefähr $\SI{0,6}{\milli\second}$ zeigt sich eine erneuerte Ansteigung des
-Mess-Singals. Die ist vermutich auch der Grund für den fälschlichen Expontenten $b$.
-Im weiteren ist es nicht bei jeder $T_2$-Messung möglich, eine Kohlrauschfunktion
-an die Messwerte gelegt werden.\\
-Zunächst werden die beiden Abbildungen \ref{fig:sin} und \ref{fig:cos} aus den
+Mess-Singals. Die ist vermutlich auch der Grund für die Abweichung des Expontenten $b$.
+Dieser fälschliche Anstieg ist in den meisten $T_2$-Messung so sehr ausgeprägt, dass
+das anlegen einer Kohlrauschfunktion an die Messwerte nicht mehr gelingt (siehe Abbildung
+\ref{fig:T2err} im Anhang).\\
+Zunächst werden die beiden Abbildungen \ref{fig:cos} und \ref{fig:sin} aus den
 stimulierten Echo Messungen verglichen. Der Kurvenverlauf der beiden Messungen
-unterscheiden sich. Die $sin$-$sin$-Messung in Abbildung \ref{fig:sin}
-zeigt sofort am Anfang einen starken Abfall. Hingegen zeigt die $cos$-$cos$-Messung
-anfangs einen sehr schwachen Abfall. Bedingt durch die Dynamik bei er Umoriertierung
-des Dimethylsulfon Moleküls wäre ein schneller Zerfall am Anfang zu erwarten.
-Dieser zeigt sich hingegen nur bei der $sin$-$sin$-Messung. Im weiteren Kurvenverlauf
-zeigt sich bedingt durch die eintretende Dekorrelation eine Änderung der Steigung.
-Bei der $cos$-$cos$-Messung etwa nach $\SI{3}{\milli\second}$ und bei der
-$sin$-$sin$-Messung nach etwa $\SI{0.5}{\milli\second}$, wobei sich bei der
-$sin$-$sin$-Messung daraufhin ein leichtes Plateau bildet.
-Zuletzt zeigen beide Kurven wieder ein abfallendes Verhalten, wobei die Steigung
-des $cos$-$cos$-Abfalls relativ steil ist und die $sin$-$sin$-Messung einen eher
-milderen Abfall zeigt. Aufgrund der Spin-Gitter Relaxation wäre hier ein eher
-schwacher Zerfall, wie $sin$-$sin$-Messung zu erwarten gewesen. Im Fall, dass die
-Mischzeit $t_{\text{m}} \rightarrow\infty$, streben beide Funktionen gegen den
-Fitparameter $S_0$, welche eine Ähnliche Amplitude besitzen ($S_{0_{\text{cos}}} = \SI{-0.067\pm0.003}{}$ und
-$S_{0_{\text{sin}}} = \SI{-0.080\pm0.01}{}$).\\
+unterscheiden sich geringfügig. Bedingt durch die Dynamik bei der Umoriertierung
+des Dimethylsulfon Moleküls nimmt die Kurve anfänglich ab, wobei beide Messungen
+nach einer Mischzeit $t_{\text{m}}$ von etwa $\SI{1}{\milli\second}$ eine zunehmende
+abfallende Steigung zeigen.
+Im weiteren Kurvenverlauf zeigt sich nach ungefähr $\SI{4}{\milli\second}$,
+bedingt durch die eintretende Dekorrelation, eine Änderung der Steigung (Knick).
+Die Dynamik ist bei niedrigeren Temperaturen weniger, wodurch die Dekorrelations-Zeit
+$\tau$ näher an die $T_1$/$T_{1,{\text{Q}}}$-Zeit rückt und deshalb der typische
+zweistufen Zerfall, bei der sich anstelle des Knickes ein Plateau zeigt, kaum zu erkennen ist.
+Zuletzt zeigen beide Kurven, aufgrund der Spin-Gitter Relaxation, ein
+abgeschwächtes abfallendes Verhalten. Für denn Fall, dass die
+Mischzeit $t_{\text{m}}$ gegen unendlich läuft, streben beide Funktionen gegen den
+Fitparameter $S_0$, welche eine Ähnliche Amplitude besitzen ($S_{0_{\text{cos}}} = \SI{-0.062\pm0.003}{}$ und
+$S_{0_{\text{sin}}} = \SI{-0.069\pm0.01}{}$).\\
 Es fällt besonders auf, dass sich die beiden Korrelationszeiten $\tau$ (siehe
 Tabelle \ref{tab:tau}) stark unterscheiden. Der Bedingung: $T_2 \ll \tau \ll T_1$
 zufolge, ist die Korrelationszeit $\tau_{\text{cos}}$ der sinnvollere Wert.
@@ -81,7 +81,7 @@ als doppelt so lang, wie die $T_1$-Zeit.
     \toprule
     {$\tau_{\text{cos}}$ / ms} & {$T_1$ / ms} & {$\tau_{\text{sin}}$ / ms} & {$T_{1\text{,Q}}$ / ms}\\
     \midrule
-    {1,810\pm0,084} & {18,313\pm0,350} & {0,253\pm0,019} & {42,754\pm3,911}\\
+    {1,838\pm0,093} & {18,313\pm0,350} & {1,854\pm0,064} & {31,385\pm2,661}\\
     \bottomrule
   \end{tabular}
 \end{table}
@@ -93,11 +93,15 @@ ein exponentieller Anstieg der Korrelationszeit $\tau$ mit kleiner werdenden Tem
 beobachtet werden. Denn bei kleineren Temperaturen ist bedingt durch den
 Boltzmann-Faktor $\exp{(-E/K_{\text{B}}T)}$, die Sprungrate kleiner als bei
 höheren Temperaturen. Es zeigt sich in den $cos$-$cos$- und $sin$-$sin$-Messungen
-eine annähert übereinstimmende Aktivierungsenergie $E$.
-Hingegen liegt der Unterschied zwischen den beiden Vorfaktoren $\tau_{0,\text{cos}}$
-und $\tau_{0,\text{sin}}$ bei einer Größenordnung (siehe Tabelle \ref{tab:tempabh}).
-Grund dafür mag das oben diskutierte unterschiedliche Verhalten zwischen den
-$cos$-$cos$- und $sin$-$sin$-Messungen sein.\\
+eine annähernd übereinstimmende Aktivierungsenergie $E$.
+Nachdem die Ausreißer in Abbildung \ref{fig:tempabh} aus der Auswertung ausgeschlossen
+wurden, liegen die beiden Vorfaktoren $\tau_{0,\text{cos}}$ und $\tau_{0,\text{sin}}$
+in der gleichen Größenordnung. (siehe Tabelle \ref{tab:tempabh}).
+Eine mögliche Begründung für das abweichende Verhalten der fünf Werte könnte darin liegen,
+dass die Korrelationszeit $\tau$ in der Größenordnung der gewählten Evolutionszeit
+liegt und die Dynamik damit bereits während der Evolutionszeit statt gefunden hat.
+Auffällig ist dabei, dass in der $sin$-$sin$-Messungen solche Ausreißer nicht zu
+beobachten sind.\\
 Die Spin-Gitter Relaxationszeit in Abbildung \ref{fig:tempabh} wird hingegen bei
 kleineren Temperaturen kürzer, da auch diese dem Arrehenius-Gesetz folgt. Die
 Spin-Spin-Relaxationszeit konnten leider nicht genauer untersucht werden (s.o.).
@@ -111,15 +115,19 @@ Spin-Spin-Relaxationszeit konnten leider nicht genauer untersucht werden (s.o.).
   \begin{tabular}{S S S S}
     \toprule
     \multicolumn{2}{c}{cos-cos} & \multicolumn{2}{c}{sin-sin} \\
-    {E / eV} & {$\tau_0$ / $\SI{1e-13}{\second}$} & {E / eV} & {$\tau_0$ / $\SI{1e-13}{\second}$} \\
+    {E / eV} & {$\tau_0$ / $\SI{1e-17}{\second}$} & {E / eV} & {$\tau_0$ / $\SI{1e-17}{\second}$} \\
     \midrule
-    {0,912\pm0,051} & {27,258\pm1,476} & {0,831\pm0,012} & {515,100 ± 7,239} \\
+    {0,84\pm0,01} & {3,39\pm0,06} & {0,83\pm0,01} & {5,16\pm0,06} \\
     \bottomrule
   \end{tabular}
 \end{table}
 \noindent
-\\
-In dem Spektrum in Abbildung \ref{fig:spek} ist eine Dublet-Struktur zu erkennen,
+In dem Spektrum in Abbildung \ref{fig:spek} ist sind zwei Peaks zu erkenne, welche
+durch den Übergang
+
+
+
+Dublet-Struktur zu erkennen,
 welches durch die beiden Deuteronen verursacht werden. Der Abstand zwischen den
 Extremstellen beschreibt dabei ihre Kopplungskonstante, welche zum einen bei
 $\SI{39,51}{\kilo\hertz}$ und zum anderen bei $\SI{44,66}{\kilo\hertz}$ liegt.

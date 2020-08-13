@@ -29,8 +29,9 @@ plt.figure(figsize=(10,5))
 plt.errorbar(time, (real_off-Offset)/Norm, yerr=real_off_err/Norm, capsize=3, fmt='.', label="Mess-Signal", color="#970e21")
 plt.plot(t, (exp(t, *params)-Offset)/Norm, color="#ec6073")
 #plt.plot(t,exp(t, *p0), label="Einstellung") # Schätzer testen
-plt.annotate(s=r'$\tau$ = ' + str(round(params[5],2)) + " ms", xy=(params[5], 0.73), xytext=(params[5]-0.11,0.94), arrowprops=dict(color="black", arrowstyle="simple"))
-plt.annotate(s=r'$T_{1,Q}$ = ' + str(round(params[6],2)) + " ms", xy=(params[6], 0.2), xytext=(params[6]-22.7,0.41), arrowprops=dict(color="black", arrowstyle="simple"))
+plt.annotate(s=r'$\tau$ = ' + str(round(params[5],2)) + " ms", xy=(params[5], 0.68), xytext=(params[5]-0.78,0.89), arrowprops=dict(color="black", arrowstyle="simple"))
+plt.annotate(s=r'$T_{1,Q}$ = ' + str(round(params[6],2)) + " ms", xy=(params[6], 0.2), xytext=(params[6]-17,0.41), arrowprops=dict(color="black", arrowstyle="simple"))
+plt.text(8,0.8,s="310 K", fontsize=20 , bbox=dict(facecolor='white', alpha=0.5))
 
 #plt.text(params[6]-0.09, 0.41, s=r'$T_{1Q}$ = ' + str(round(params[5],2)) + " ms")
 

@@ -22,8 +22,8 @@ def plot(x,y,file,func, params):
 
     plt.xscale("log")
     plt.xlabel(r"Mischzeit t$_m$(ms)")
-    plt.ylabel("Amplitude (stimuliertes Echo)")
-    plt.axis([min(x)-0.002,max(x)+100,-0.05, 1.05])
+    plt.ylabel(r"Signalintensität I ($|Re + Im|$)")
+    plt.axis([min(x)-0.002,1.2,-0.05, 1.05])
     plt.legend()
     plt.savefig("Abb/"+file+".pdf", dpi = 1000)
     plt.close()
@@ -31,7 +31,7 @@ def plot(x,y,file,func, params):
 
 # -------------------- T2 - Zeit bestimmen ------------------------------------
 def exp_T2(t,A,B,b,T2):
-    return A - B*np.exp(-(t/T2)**b)
+    return A + B*np.exp(-(t/T2)**b)
 
 def T2(file):
     time, y   = auslesen(file)

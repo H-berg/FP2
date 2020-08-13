@@ -32,7 +32,8 @@ plt.errorbar(time, (real_off-Offset)/Norm, yerr=real_off_err/Norm, capsize=3, fm
 plt.plot(t, (exp(t, *params)-Offset)/Norm, color="#7875d6")
 #plt.plot(t,exp(t, *p0), label="Einstellung") # Schätzer testen
 plt.annotate(s=r'$\tau$ = ' + str(round(params[5],2)) + " ms", xy=(params[5], 0.73), xytext=(params[5]-0.8,0.95), arrowprops=dict(color="black", arrowstyle="simple"))
-plt.annotate(s=r'$T_{1}$ = ' + str(round(T1,2)) + " ms", xy=(T1, 0.25), xytext=(T1-9,0.46), arrowprops=dict(color="black", arrowstyle="simple"))
+plt.annotate(s=r'$T_{1}$ = ' + str(round(T1,2)) + " ms", xy=(T1, 0.25), xytext=(T1-9.2,0.46), arrowprops=dict(color="black", arrowstyle="simple"))
+plt.text(8,0.8,s="310 K", fontsize=20 , bbox=dict(facecolor='white', alpha=0.5))
 
 
 plt.xscale("log")
