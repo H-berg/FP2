@@ -100,12 +100,14 @@ real_max1   = np.argmax(abs(realspek[0:x_0]))
 real_max2   = np.argmax((realspek[x_0::])) + x_0
 real_dx     = abs(freqs[real_max1] - freqs[real_max2])
 real_half    = 0.5*abs(realspek[real_max1]-realspek[real_max2]) + realspek[real_max2]
+print("Real-Extrema bei:", freqs[real_max1], "und",freqs[real_max2])
 
 # beiden Extrema der imag
 imag_max1   = np.argmax(abs(imagspek[0:x_0]))
 imag_max2   = np.argmax(abs(imagspek[x_0::])) + x_0
 imag_dx     = abs(freqs[imag_max1] - freqs[imag_max2])
 imag_half    = 0.5*abs(imagspek[imag_max1]-imagspek[imag_max2]) + imagspek[imag_max2]
+print("Imag-Extrema bei:", freqs[imag_max1], "und",freqs[imag_max2])
 
 # plot
 plt.plot(freqs, realspek, "b-", label="Realteil", zorder=0)
