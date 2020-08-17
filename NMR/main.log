@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.12.0 (TeX Live 2020)  (format=lualatex 2020.5.18)  17 AUG 2020 09:00
+This is LuaHBTeX, Version 1.12.0 (TeX Live 2020)  (format=lualatex 2020.5.18)  17 AUG 2020 09:19
  restricted system commands enabled.
 **main.tex
 (./main.tex
@@ -509,12 +509,12 @@ braces):
 >  {german/localnumeral}  =>  {polyglossia@C@localnumeral}
 >  {german/Localnumeral}  =>  {polyglossia@C@localnumeral}.
 Module polyglossia Info: Language data for german
-(polyglossia)            loader	loadhyph-de-1901.tex
 (polyglossia)            hyphenation	
 (polyglossia)            lefthyphenmin	2
-(polyglossia)            patterns	hyph-de-1901.pat.txt
+(polyglossia)            righthyphenmin	2
+(polyglossia)            loader	loadhyph-de-1901.tex
 (polyglossia)            synonyms	
-(polyglossia)            righthyphenmin	2 on input line 10
+(polyglossia)            patterns	hyph-de-1901.pat.txt on input line 10
 Module polyglossia Info: Language german was not yet loaded; created with id 2 o
 n input line 10
 Package polyglossia Info: Option: German, spelling=new.
@@ -1451,12 +1451,12 @@ LaTeX Info: Redefining \rmfamily on input line 26.
 LaTeX Info: Redefining \sffamily on input line 26.
 LaTeX Info: Redefining \ttfamily on input line 26.
 Module polyglossia Info: Language data for ngerman
-(polyglossia)            loader	loadhyph-de-1996.tex
 (polyglossia)            hyphenation	
 (polyglossia)            lefthyphenmin	2
-(polyglossia)            patterns	hyph-de-1996.pat.txt
+(polyglossia)            righthyphenmin	2
+(polyglossia)            loader	loadhyph-de-1996.tex
 (polyglossia)            synonyms	
-(polyglossia)            righthyphenmin	2 on input line 26
+(polyglossia)            patterns	hyph-de-1996.pat.txt on input line 26
 Module polyglossia Info: Language ngerman was not yet loaded; created with id 4 
 on input line 26
 )
@@ -2019,7 +2019,7 @@ Here is how much of LuaTeX's memory you used:
 , 26 attribute_list, 1 write, 1 pdf_action nodes
    avail lists: 1:8,2:704,3:178,4:56,5:323,6:61,7:6598,8:111,9:334,10:28,11:611
  53470 multiletter control sequences out of 65536+600000
- 214 fonts using 77101427 bytes
+ 214 fonts using 77101103 bytes
  62i,14n,114p,10117b,2933s stack positions out of 5000i,500n,10000p,200000b,100000s
 </home/alex/.local/texlive/2020/texmf-dist/fonts/opentype/public/lm/lmmono10-reg
 ular.otf></home/alex/.local/texlive/2020/texmf-dist/fonts/opentype/public/lm/lmr
