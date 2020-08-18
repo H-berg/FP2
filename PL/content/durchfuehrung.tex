@@ -1,2 +1,62 @@
 \section{Durchführung}
 \label{sec:Durchführung}
+
+\subsection{Aubau}
+\label{sec:Aufbau}
+
+In Abbildung \ref{fig:aufbau} ist zunächst eine Aufnahme des Versuchsaufbau zu
+sehen. Dabei befindet sich oben links eine Halbleiter-Laserdiode($\SI{405}{\nano\meter}$).
+Das entsendete Licht fällt zunächst in einen optischen Isolator/Diode, welche
+unerwünschte Rückreflexionen unterbindet und damit dem Laser vor Störungen schützt.
+Bei dem optischen Isolator wird der Faraday-Effekt genutzt, indem ein Faraday-Rotator,
+welche auf die Wellenlänge von $\SI{405}{\nano\meter}$ eingestellt ist,
+zwischen zwei um $\SI{45}{\degree}$ zueinandere verdrehten Polarisationsfiltern
+hintereinandere geschaltet werden. Licht aus dem Laser wird nun durch den Faraday-Rotator
+um $\SI{45}{\degree}$ gedreht und passiert den dahinter geschalteten Polarisationsfilter.
+Licht aus der anderen Richtung wird hingegen so gedreht, dass es den Filter nicht
+mehr passieren kann.
+Der dem optischen Isolator hintergeschaltende Gradientenfilter hat die Aufgabe,
+die Laserleistung zu regulieren, damit darauffolgende Bauteile nicht übersteuert
+werden. Dabei lässt sich die ausgehende Intensität über Ändernung des Polarwinkels
+regulieren. Dem Gradientenfilter folgen eine $\lambda$/2-Platte und ein
+Glan-Taylor-Prisma, welche beide auf dem Effekt der Doppelbrechung basieren. Bei
+der Doppelbrechung wird das Licht in einen außerordentlichen und in einen ordentlichen
+Strahlanteil zerlegt, wobei beide Anteile nun linear polarisiert sind und deren
+Polarisation senkrecht zueinander steht. Der ordentliche Anteil folgt dem
+Snelliusschen Brechungsgesetz, wohingegen der außerordentliche Anteil diesem
+eben nicht folgt. Beide Strahlanteile haben damit unterschiedliche Brechzahlen.
+Die $\lambda$/2-Platte nutzt den Unterschied in der Brechzahlen, um die Phase
+zwischen den beiden Anteilen um $\lambda$/2 zu drehen.
+
+\begin{figure}[hbtp]
+	\centering
+	\includegraphics[width=\textwidth]{Abb/aufbau.png}
+	\caption{Versuchsaufbau \cite{flex} zur Untersuchung der Photolumineszenz. Die
+    hier dargestellte Weißlicht-LED-Quelle wird in diesem Versuch jeweils durch einen
+    448, 518 und einem $\SI{636}{\nano\meter}$ Laser ausgetauscht. Ebenso wird in diesem
+    Versuch auf die Sammellinse im Strahlengang verzichtet.}
+	\label{fig:aufbau}
+\end{figure}
+\noindent
+Ist die Polarisation
+nun richtig eingestellt, lässt sich der ordentliche Strahlanteil rausfiltern und
+nur der außerordentliche Strahl kann das Primsa passieren. Im letzten Schritt
+durchläuft das Licht den dichroischen Spiegel, welcher nur Licht aber einer bestimmten
+Wellenlänge passieren lässt. Ausgenutzt wird hier, dass sinnvoll hintereinander
+geschaltete Medien mit unterschiedlichen Brechzahlen, Wellenlängen unterhalb von
+$\SI{435}{\nano\meter}$ destruktiv und Wellenlänge oberhalb konstruktiv interferieren.
+Nun trifft das linear polarisiert Licht der Wellenlänge größer als $\SI{435}{\nano\meter}$
+die Probe und es kommt zu den in der Theorie \ref{sec:Theorie} benannten Effekten,
+welche mittels des Detektionpfades gemessen wird. Dazu wird die entsendete
+Photolumineszenz zunächst mit einer Sammellinse mit einer Brennweite von
+$\SI{60}{\milli\meter}$ gebündelt. Dann durchläuft das Licht wieder die Kombination
+aus $\lambda$/2-Platte und dem Glan-Taylor-Prisma und wird schließlich durch einen
+Glasfaserkoppler in das CCD Spektrometer geleitet.
+Im weiteren Verlauf des Versuches, wird ein weiterer Anregungspfad aufgebaut. Dabei
+wird anstelle der in Abbildung \ref{fig:aufbau} dargestellten Weißlicht-LED-Quelle
+jeweils ein Laser der Wellenlänge 448, 518 und $\SI{636}{\nano\meter}$
+aufgestellt. Der Silberspiegelt erlaubt es dann, das Licht auf den dichroischen Spiegel
+und damit auf die Probe zu leiten.\\
+
+\subsection{Experiment}
+\label{sec:Experiment}

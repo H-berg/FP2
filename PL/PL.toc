@@ -3,18 +3,20 @@
 \contentsline {section}{\numberline {1}Einleitung und Zielsetzung}{3}{section.1}%
 \contentsline {section}{\numberline {2}Theorie}{3}{section.2}%
 \contentsline {section}{\numberline {3}Durchführung}{6}{section.3}%
-\contentsline {section}{\numberline {4}Auswertung}{6}{section.4}%
-\contentsline {subsection}{\numberline {4.1}Photolumineszenz-Eigenschaften der kolloidalen Nanokristalle}{6}{subsection.4.1}%
-\contentsline {subsubsection}{\numberline {4.1.1}Gr\"{o}{\ss }e der Nanokristalle}{6}{subsubsection.4.1.1}%
-\contentsline {subsubsection}{\numberline {4.1.2}Polarisation der Photolumineszenz}{7}{subsubsection.4.1.2}%
-\contentsline {subsubsection}{\numberline {4.1.3}Leistungsabh\"{a}ngige Peak-Energie}{9}{subsubsection.4.1.3}%
-\contentsline {subsection}{\numberline {4.2}Abhängigkeit der Photolumineszenz von der Laserwellenlänge}{10}{subsection.4.2}%
-\contentsline {subsection}{\numberline {4.3}Linearer Polarisationsgrad von Flüssigkeiten (Bonus-Aufgabe)}{10}{subsection.4.3}%
-\contentsline {section}{\numberline {5}Diskussion}{12}{section.5}%
-\contentsline {subsection}{\numberline {5.1}Photolumineszenz-Eigenschaften der kolloidalen Nanokristalle}{12}{subsection.5.1}%
-\contentsline {subsubsection}{\numberline {5.1.1}Gr\"{o}{\ss }e der Nanokristalle}{12}{subsubsection.5.1.1}%
-\contentsline {subsubsection}{\numberline {5.1.2}Polarisation der Photolumineszenz}{12}{subsubsection.5.1.2}%
-\contentsline {subsubsection}{\numberline {5.1.3}Leistungsabh\"{a}ngige Peak-Energie}{12}{subsubsection.5.1.3}%
-\contentsline {subsection}{\numberline {5.2}Abhängigkeit der Photolumineszenz von der Laserwellenlänge}{12}{subsection.5.2}%
-\contentsline {subsection}{\numberline {5.3}Linearer Polarisationsgrad von Flüssigkeiten (Bonus-Aufgabe)}{12}{subsection.5.3}%
-\contentsline {section}{\nonumberline Literatur}{12}{section*.16}%
+\contentsline {subsection}{\numberline {3.1}Aubau}{6}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Experiment}{8}{subsection.3.2}%
+\contentsline {section}{\numberline {4}Auswertung}{8}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Photolumineszenz-Eigenschaften der kolloidalen Nanokristalle}{8}{subsection.4.1}%
+\contentsline {subsubsection}{\numberline {4.1.1}Gr\"{o}{\ss }e der Nanokristalle}{8}{subsubsection.4.1.1}%
+\contentsline {subsubsection}{\numberline {4.1.2}Polarisation der Photolumineszenz}{9}{subsubsection.4.1.2}%
+\contentsline {subsubsection}{\numberline {4.1.3}Leistungsabh\"{a}ngige Peak-Energie}{11}{subsubsection.4.1.3}%
+\contentsline {subsection}{\numberline {4.2}Abhängigkeit der Photolumineszenz von der Laserwellenlänge}{12}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}Linearer Polarisationsgrad von Flüssigkeiten (Bonus-Aufgabe)}{12}{subsection.4.3}%
+\contentsline {section}{\numberline {5}Diskussion}{14}{section.5}%
+\contentsline {subsection}{\numberline {5.1}Photolumineszenz-Eigenschaften der kolloidalen Nanokristalle}{14}{subsection.5.1}%
+\contentsline {subsubsection}{\numberline {5.1.1}Gr\"{o}{\ss }e der Nanokristalle}{14}{subsubsection.5.1.1}%
+\contentsline {subsubsection}{\numberline {5.1.2}Polarisation der Photolumineszenz}{14}{subsubsection.5.1.2}%
+\contentsline {subsubsection}{\numberline {5.1.3}Leistungsabh\"{a}ngige Peak-Energie}{14}{subsubsection.5.1.3}%
+\contentsline {subsection}{\numberline {5.2}Abhängigkeit der Photolumineszenz von der Laserwellenlänge}{14}{subsection.5.2}%
+\contentsline {subsection}{\numberline {5.3}Linearer Polarisationsgrad von Flüssigkeiten (Bonus-Aufgabe)}{14}{subsection.5.3}%
+\contentsline {section}{\nonumberline Literatur}{14}{section*.17}%

@@ -171,6 +171,33 @@
       \field{pages}{345\bibrangedash 349}
       \range{pages}{5}
     \endentry
+    \entry{flex}{article}{}
+      \name{author}{2}{}{%
+        {{hash=4c13f5a57c802e4e0e12333b6e09131e}{%
+           family={Helfrich},
+           familyi={H\bibinitperiod},
+           given={Melina},
+           giveni={M\bibinitperiod}}}%
+        {{hash=ac5f2bcdb7e9c8612c78ddfdf799ed4f}{%
+           family={Landmeyer},
+           familyi={L\bibinitperiod},
+           given={Felix},
+           giveni={F\bibinitperiod}}}%
+      }
+      \strng{namehash}{987b2645d966fc6c9023eeac854a6632}
+      \strng{fullhash}{987b2645d966fc6c9023eeac854a6632}
+      \strng{bibnamehash}{987b2645d966fc6c9023eeac854a6632}
+      \strng{authorbibnamehash}{987b2645d966fc6c9023eeac854a6632}
+      \strng{authornamehash}{987b2645d966fc6c9023eeac854a6632}
+      \strng{authorfullhash}{987b2645d966fc6c9023eeac854a6632}
+      \field{sortinit}{H}
+      \field{sortinithash}{6db6145dae8dc9e1271a8d556090b50a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{FP2, TU Dortmund}
+      \field{title}{Photolumineszenz von kolloidalen Nanokristallen}
+      \field{year}{2019}
+    \endentry
     \entry{lars}{article}{}
       \name{author}{1}{}{%
         {{hash=b4fe3d295260871611c0b3b758287b49}{%
