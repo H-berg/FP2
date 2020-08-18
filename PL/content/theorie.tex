@@ -51,21 +51,62 @@ den Elektron-Loch-Paaren, zur Veränderung der Bandstruktur kommen.
 \begin{figure}[hbtp]
 	\centering
 	\includegraphics[width=0.8\textwidth]{Abb/photoqp.png}
-	\caption{Schematische Darstellung eines kolloidalen Typ-I CdSe/ZnS Quantenpunkts
-   und seiner Energiestruktur \cite{lars}.}
+	\caption{Schematische Darstellung des Einfangprozesses eines Exziton in einen
+	Quantenpunkt (a), eines geladenen Exzitons (b) und einer Relaxation
+	aus höheren Energieniveaus bedingt durch vermehrter Anzahl von Exzitonen (c) \cite{lars}.}
 	\label{fig:photoqp}
 \end{figure}
 \noindent
 Wie oben erwähnt, kann das Wachstum der Nanokristalle kontrolliert werden und
 somit unterschiedlich große Bandlücken erzeugt werden. Dementsprechend lässt
-sich auch die Energie des beim Rekombinieren entstehenden Photons, und damit auch
-nach $E$ = $\frac{hc}{\lambda}$ die Wellenlänge $\lambda$ der Photolumineszenz wählen.
+sich auch die Energie des beim Rekombinieren entstehenden Photons nach der Brus-Formel
+
+\begin{equation}
+	E_{\gamma} = \frac{h^2}{8R^2}\cdot \biggl(\frac{1}{m_{\text{e}}} + \frac{1}{m_{\text{d}}} \biggr)
+								- \frac{1,8e^2}{4\pi\epsilon\epsilon_0 R},
+	\label{F1}
+\end{equation}
+\noindent
+und damit auch nach $E$ = $\frac{hc}{\lambda}$ die Wellenlänge $\lambda$ der
+Photolumineszenz wählen. Hierbei definiert $R$ die Partikelgröße und
+$m_{\text{e,d}}$ die effektive Masse des Elektrons bzw. des Defektelektrons.
 Dieses Verhalten ist in Abbildung \ref{fig:size} schematisch dargestellt.
+
+\begin{figure}[H]
+\centering
+	\begin{subfigure}[t]{0.4\textwidth}
+	\includegraphics[width=\textwidth]{Abb/size.png}
+	\end{subfigure}
+	~
+	\begin{subfigure}[t]{0.4\textwidth}
+	\includegraphics[width=\textwidth]{Abb/size2.png}
+	\end{subfigure}
+	\caption{Schematische Darstellung des Verhalten zwischen Nanokristallgröße und
+	Wellenlänge $\lambda$ der Photolumineszenz\cite{size}\cite{blink}.}
+\label{fig:size}
+\end{figure}
+\noindent
+Beim aussende von Licht kann es zu Intensitätsschwankungen kommen, welche als
+Blinken wahrgenommen werden. Eine sehr unwahrscheinliche Ursache dafür kann die
+Auger Autoionisation sein, bei der sich zwei Exzitonen (ein sogenannts Biexziton)
+in einem Quantenpunkt befinden und eins davon rekombiniert. Die freigesetze Energie
+kann das übrige Elektron aus dem Quantenpunkt heben (Abbildung \ref{fig:blink}($a_1$)).
+Auch können thermische Ionisierungen (Abbildung \ref{fig:blink}($a_2$)) und
+direktes Tunnel (Abbildung \ref{fig:blink}($a_3$)) Ursache für die
+Intensitätsschwankungen sein. Ein Defektelektron bleibt zurück und damit löscht
+die statistisch bevorzugte nichtstrahlende Auger-Rekombination (Abbildung
+\ref{fig:blink}($b$)) die Photolumineszenz aus, indem die freigesete Energie in
+Form von Wärme abgegeben wird.
+
+bei dem Ladungsträger durch thermische Energie aus dem Nanopartikel gehoben werden.
 \begin{figure}[hbtp]
 	\centering
-	\includegraphics[width=0.6\textwidth]{Abb/size.png}
-	\caption{Schematische Darstellung des Verhalten zwischen Nanokristallgröße und
-  Wellenlänge $\lambda$ der Photolumineszenz\cite{size}.}
-	\label{fig:size}
+	\includegraphics[width=0.8\textwidth]{Abb/blink.png}
+	\caption{Schematischer Darstellung der Intensitätsschwankungen. Dabei sind die
+	in (a) beschriebenen ionisierenden Vorgänge nichtstrahlend. In (b) wird ein
+	nichtstrahlende Rekombination und in (c) eine Neutralisation in den Ausgangszustand
+	illustiert. Der bereits beschriebene Photolumineszenz-Vorgang ist (e) zu finden
+	\cite{blink}.}
+	\label{fig:blink}
 \end{figure}
 \noindent

@@ -73,6 +73,28 @@
       \field{volume}{292}
       \field{year}{2001}
     \endentry
+    \entry{blink}{article}{}
+      \name{author}{1}{}{%
+        {{hash=c98cb2d93bd7d293e4d576c8c0da4d21}{%
+           family={Braam},
+           familyi={B\bibinitperiod},
+           given={Daniel},
+           giveni={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{c98cb2d93bd7d293e4d576c8c0da4d21}
+      \strng{fullhash}{c98cb2d93bd7d293e4d576c8c0da4d21}
+      \strng{bibnamehash}{c98cb2d93bd7d293e4d576c8c0da4d21}
+      \strng{authorbibnamehash}{c98cb2d93bd7d293e4d576c8c0da4d21}
+      \strng{authornamehash}{c98cb2d93bd7d293e4d576c8c0da4d21}
+      \strng{authorfullhash}{c98cb2d93bd7d293e4d576c8c0da4d21}
+      \field{sortinit}{B}
+      \field{sortinithash}{8de16967003c7207dae369d874f1456e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Diplomarbeit}
+      \field{title}{Photolumineszenz-Spektroskopiean einzelnen Nanopartikeln}
+      \field{year}{2011}
+    \endentry
     \entry{cryp}{article}{}
       \name{author}{1}{}{%
         {{hash=fc90583f3cb5fbe8f478f911604182cd}{%
@@ -249,7 +271,6 @@
       \field{urlmonth}{8}
       \field{urlyear}{2020}
       \field{urldateera}{ce}
-      \true{nocite}
       \verb{urlraw}
       \verb https://www.sigmaaldrich.com/technical-documents/articles/materials-science/nanomaterials/quantum-dots.html
       \endverb

@@ -2193,7 +2193,11 @@
     <bcf:citekey order="9">lars</bcf:citekey>
     <bcf:citekey order="10">lars</bcf:citekey>
     <bcf:citekey order="11">size</bcf:citekey>
-    <bcf:citekey order="12">size</bcf:citekey>
+    <bcf:citekey order="12">blink</bcf:citekey>
+    <bcf:citekey order="13">size</bcf:citekey>
+    <bcf:citekey order="14">blink</bcf:citekey>
+    <bcf:citekey order="15">blink</bcf:citekey>
+    <bcf:citekey order="16">blink</bcf:citekey>
     <bcf:citekey order="0" nocite="1">*</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
