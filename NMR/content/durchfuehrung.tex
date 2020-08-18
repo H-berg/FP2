@@ -14,33 +14,35 @@ Der Pulsgenerator kann \"{u}ber diesen zweiten Eingang den Verst\"{a}rker geziel
 \begin{SCfigure}[1][!h]
 	\centering
 	\includegraphics[width=0.6\textwidth]{Plots/spektrometer.png}
-	\caption{Aufbau des Senderkreises zur Erzeugung der HF-Pulse. (1) erzeugt ein HF-Signal. \"{U}ber (2) und (5) kann der Pulsgenerator die Schalter und den Vorverst\"{a}rker zeitlich ansteuern. Mittels der Schalter (3) wird ein HF-Puls generiert, welches zum Vorverst\"{a}rker (4) gef\"{u}hrt wird. Und \"{u}ber (6) kann der HF-Puls  zur Probe gef\"{u}hrt werden.}
+	\caption{Aufbau des Senderkreises zur Erzeugung der HF-Pulse. (1) erzeugt ein HF-Signal. \"{U}ber (2) und (5) kann der Pulsgenerator die Schalter und den Vorverst\"{a}rker zeitlich ansteuern. Mittels der Schalter (3) wird ein HF-Puls generiert, welches zum Vorverst\"{a}rker (4) gef\"{u}hrt wird. Und \"{u}ber (6) kann der HF-Puls  zur Probe gef\"{u}hrt werden (siehe Versuchsanleitung \cite{Anleitung}[S.28]).}
 	\label{senderkreis.}
 \end{SCfigure}
 
 Damit HF-Pulsen in der Probenspulen ein maximales $B_1$-Magnetfeld erzeugen, muss m\"{o}glichst viel Leistung in den Probenstab gebracht werden.
-Hierf\"{u}r wird eine Kombination aus einem $\lambda / 4$-Kabel und zwei Diodenp\"{a}archen ben\"{o}tigt, siehe Abbildung (\ref{lambda4.}).
+Hierf\"{u}r ist zum einen die Abstimmung des Probenkopfs wichtig und zum anderen wird eine Kombination aus einem $\lambda / 4$-Kabel und zwei Diodenp\"{a}archen ben\"{o}tigt, siehe Abbildung (\ref{lambda4.}).
 W\"{a}hrend der Zeit eines HF-Pulses liegt an dem Diodenp\"{a}archen (A) eine so hohe Spannung an, dass diesen den ankommenden HF-Puls durchgelassen.
-Das $\lambda /4$-Kabel bewirkt f\"{u}r diese Zeit durch eine Impedanztransformation einen unendlich hohen Wellenwiderstand, sodass die 
-\begin{wrapfigure}[9]{r}{0.5\textwidth}
+Das $\lambda /4$-Kabel bewirkt f\"{u}r diese Zeit durch eine Impedanztransformation einen unendlich hohen Wellenwiderstand, sodass die Welle des HF-Pulses den Weg in den Probenstab nehmen muss.
+Anders als bei dem kleinen Kerninduktionssignal, hier sperrt das Diodenpaar (A).
+Um zu 
+\begin{wrapfigure}[10]{r}{0.5\textwidth}
 	\centering
 	\framebox[0.45\textwidth]{
 	\includegraphics[width=0.4\textwidth]{Plots/diodengruen.png} }
-	\caption{Schaltbild des $\lambda / 4$-Kabels.}
+	\caption{Schaltbild des $\lambda / 4$-Kabels (siehe Versuchsanleitung \cite{Anleitung}[S.28]).}
 	\label{lambda4.}
 \end{wrapfigure}
-Welle des HF-Pulses den Weg in den Probenstab nehmen muss.
-Anders als bei dem kleinen Kerninduktionssignal, hier sperrt das Diodenpaar (A).
-Um zu gew\"{a}hrleisten, dass das Kerninduk{\-}tions{\-}sig{\-}nal vollst\"{a}ndig zum Vorverst\"{a}rker gelangt t, ist ein zweites Diodenpaar (B) in der Sendeleitung eingebaut.
+gew\"{a}hrleisten, dass das Kerninduk{\-}tions{\-}sig{\-}nal vollst\"{a}ndig zum Vorverst\"{a}rker gelangt, ist ein zweites Diodenpaar (B) in der Sendeleitung eingebaut.
 Auch dieses l\"{a}sst nur hochfrequente Pulse durch und sperrt f\"{u}r das kleinen Kerninduktionssignal.
-Au{\ss}erdem wird das Restrauschen des Leistungsverst\"{a}rker von dem Diodenpaar (B) nicht durchgelassen.
+Anders ausgedr\"{u}ckt verhindert das Dioden{\-}paar (B), dass starke Pulse in den Vorverst\"{a}rker gelangen k\"{o}nnen und ist f\"{u}r die Impe{\-}danz{\-}trans{\-}formation wichtig.
+Zus\"{a}tzlich wird das Restrauschen des Leistungsverst\"{a}rker von dem Diodenpaar (A) nicht durchgelassen.
+Eine weitere sehr wichtige Funktion des $\lambda / 4$-Kabels ist das Umschalten von Sende- zu Empfangssignal und andersherum.
 
 \paragraph{Probenkopf}
-\begin{wrapfigure}[11]{r}{0.35\textwidth}
+\begin{wrapfigure}[13]{r}{0.35\textwidth}
 	\centering
 	\framebox[0.3\textwidth]{
 	\includegraphics[width=0.25\textwidth]{Plots/schwingkreis.png} }
-	\caption{Schaltbild des Reihenresonanzkreis im Probenkopf.}
+	\caption{Schaltbild des Reihenresonanzkreis im Probenkopf (siehe Versuchsanleitung \cite{Anleitung}[S.30]).}
 	\label{probenkopf.}
 \end{wrapfigure}
 Der Aufbau des Probenkopfes bestehlt aus einem Reihenresonanzkreis.
@@ -67,11 +69,19 @@ Da lediglich die Differenfrequenz analysiert wird, kann dadurch experimentell ni
 Um diese H\"{u}rde zu \"{u}berwinden wir einen Quadraturdetektion durchgef\"{u}hrt.
 Hierbei wird das Kerninduktionssignal zus\"{a}tzlich noch mit einem um $90^{\circ}$ phasenverschobenen Signal gemischt.
 In der NMR werden die Komponenten, die sich daruch ergeben, mit Real- und Imagin\"{a}rteil gekennzeichnet.
+%\begin{figure}[hbtp]
+%	\centering
+%	\includegraphics[width=0.5\textwidth]{Plots/mischer.png}
+%	\caption{.}
+%	\label{.}
+%\end{figure}
+
 
 \subsection{Durchf\"{u}hrung}
 Bevor mit der ersten Messung gestartet werden kann, wird dir Probe in den Probenkopf eingesetzt.
 Dieser wird dann in das NMR-Spekrometer eingebaut.
 Um im ersten Schritt den Probenkopf abzustimmen, wird dieser mit einem Netzwerkanalysator verbunden und das Stehwellenverh\"{a}ltnis (VSWR) zu bestimmen.
+%oder war das ein Oszilloskop?
 F\"{u}r die weiteren Messungen wird der Probenkopf mit dem $\lambda / 4$-Kabel und den Steuerger\"{a}ten verbunden.
 
 Alle Messungen werden \"{u}ber ein Python-Skript angesteuert.
