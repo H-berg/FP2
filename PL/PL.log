@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.12.0 (TeX Live 2020)  (format=lualatex 2020.5.18)  18 AUG 2020 14:52
+This is LuaHBTeX, Version 1.12.0 (TeX Live 2020)  (format=lualatex 2020.5.18)  18 AUG 2020 16:58
  restricted system commands enabled.
 **PL.tex
 (./PL.tex
@@ -509,12 +509,12 @@ braces):
 >  {german/localnumeral}  =>  {polyglossia@C@localnumeral}
 >  {german/Localnumeral}  =>  {polyglossia@C@localnumeral}.
 Module polyglossia Info: Language data for german
-(polyglossia)            lefthyphenmin	2
+(polyglossia)            loader	loadhyph-de-1901.tex
+(polyglossia)            synonyms	
+(polyglossia)            hyphenation	
 (polyglossia)            patterns	hyph-de-1901.pat.txt
 (polyglossia)            righthyphenmin	2
-(polyglossia)            hyphenation	
-(polyglossia)            synonyms	
-(polyglossia)            loader	loadhyph-de-1901.tex on input line 10
+(polyglossia)            lefthyphenmin	2 on input line 10
 Module polyglossia Info: Language german was not yet loaded; created with id 2 o
 n input line 10
 Package polyglossia Info: Option: German, spelling=new.
@@ -1386,60 +1386,14 @@ LaTeX Info: Redefining \rmfamily on input line 26.
 LaTeX Info: Redefining \sffamily on input line 26.
 LaTeX Info: Redefining \ttfamily on input line 26.
 Module polyglossia Info: Language data for ngerman
-(polyglossia)            lefthyphenmin	2
+(polyglossia)            loader	loadhyph-de-1996.tex
+(polyglossia)            synonyms	
+(polyglossia)            hyphenation	
 (polyglossia)            patterns	hyph-de-1996.pat.txt
 (polyglossia)            righthyphenmin	2
-(polyglossia)            hyphenation	
-(polyglossia)            synonyms	
-(polyglossia)            loader	loadhyph-de-1996.tex on input line 26
+(polyglossia)            lefthyphenmin	2 on input line 26
 Module polyglossia Info: Language ngerman was not yet loaded; created with id 4 
 on input line 26
-
-
-LaTeX Warning: Label `abb:verLeistung' multiply defined.
-
-
-LaTeX Warning: Label `sub@abb:verLeistung' multiply defined.
-
-
-LaTeX Warning: Label `' multiply defined.
-
-
-LaTeX Warning: Label `sub@' multiply defined.
-
-
-LaTeX Warning: Label `' multiply defined.
-
-
-LaTeX Warning: Label `' multiply defined.
-
-
-LaTeX Warning: Label `sub@' multiply defined.
-
-
-LaTeX Warning: Label `' multiply defined.
-
-
-LaTeX Warning: Label `sub@' multiply defined.
-
-
-LaTeX Warning: Label `' multiply defined.
-
-
-LaTeX Warning: Label `' multiply defined.
-
-
-LaTeX Warning: Label `sub@' multiply defined.
-
-
-LaTeX Warning: Label `' multiply defined.
-
-
-LaTeX Warning: Label `sub@' multiply defined.
-
-
-LaTeX Warning: Label `' multiply defined.
-
 )
 \openout1 = PL.aux
 
@@ -1687,24 +1641,23 @@ Underfull \hbox (badness 10000) in paragraph at lines 7--18
 
  []
 
-<Abb/ZnS_CdSe.png, id=75, 574.145pt x 274.02374pt>
+<Abb/ZnS_CdSe.png, id=79, 574.145pt x 274.02374pt>
 File: Abb/ZnS_CdSe.png Graphic file (type png)
 <use Abb/ZnS_CdSe.png>
 Package luatex.def Info: Abb/ZnS_CdSe.png  used on input line 21.
 (luatex.def)             Requested size: 209.12778pt x 99.81085pt.
 [3<./Abb/ZnS_CdSe.png>]
-<Abb/photoqp.png, id=96, 839.135pt x 497.86pt>
+<Abb/photoqp.png, id=100, 839.135pt x 497.86pt>
 File: Abb/photoqp.png Graphic file (type png)
 <use Abb/photoqp.png>
 Package luatex.def Info: Abb/photoqp.png  used on input line 53.
-(luatex.def)             Requested size: 334.60571pt x 198.51753pt.
- [4<./Abb/photoqp.png>]
-<Abb/size.png, id=112, 945.5325pt x 751.80875pt>
+(luatex.def)             Requested size: 250.95587pt x 148.88815pt.
+<Abb/size.png, id=104, 945.5325pt x 751.80875pt>
 File: Abb/size.png Graphic file (type png)
 <use Abb/size.png>
 Package luatex.def Info: Abb/size.png  used on input line 78.
 (luatex.def)             Requested size: 167.29967pt x 133.01393pt.
-<Abb/size2.png, id=113, 635.37375pt x 453.695pt>
+<Abb/size2.png, id=105, 635.37375pt x 453.695pt>
 File: Abb/size2.png Graphic file (type png)
 <use Abb/size2.png>
 Package luatex.def Info: Abb/size2.png  used on input line 82.
@@ -1713,137 +1666,142 @@ LaTeX Font Info:    Font shape `TU/LatinModernMath(2)/m/n' will be
 (Font)              scaled to size 5.00053pt on input line 85.
 LaTeX Font Info:    Font shape `TU/LatinModernMath(3)/m/n' will be
 (Font)              scaled to size 4.99947pt on input line 85.
-<Abb/blink.png, id=122, 882.29625pt x 512.91624pt>
+ [4<./Abb/photoqp.png>]
+<Abb/blink.png, id=127, 882.29625pt x 512.91624pt>
 File: Abb/blink.png Graphic file (type png)
 <use Abb/blink.png>
 Package luatex.def Info: Abb/blink.png  used on input line 103.
 (luatex.def)             Requested size: 334.60571pt x 194.51888pt.
 ) (./content/durchfuehrung.tex
-[5<./Abb/size.png><./Abb/size2.png>]
-<Abb/aufbau.png, id=137, 986.68625pt x 863.225pt>
+[5<./Abb/size.png><./Abb/size2.png><./Abb/blink.png>]
+<Abb/aufbau.png, id=142, 986.68625pt x 863.225pt>
 File: Abb/aufbau.png Graphic file (type png)
 <use Abb/aufbau.png>
 Package luatex.def Info: Abb/aufbau.png  used on input line 33.
 (luatex.def)             Requested size: 418.25555pt x 365.924pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 40--60
+Underfull \hbox (badness 10000) in paragraph at lines 40--59
 
  []
 
-[6<./Abb/blink.png>] [7<./Abb/aufbau.png>]) (./content/auswertung.tex
-<Plots/aufgabe1a_P1.pdf, id=158, 462.528pt x 346.896pt>
+) (./content/auswertung.tex [6] [7<./Abb/aufbau.png>]
+<Plots/aufgabe1a_P1.pdf, id=161, 462.528pt x 346.896pt>
 File: Plots/aufgabe1a_P1.pdf Graphic file (type pdf)
 <use Plots/aufgabe1a_P1.pdf>
-Package luatex.def Info: Plots/aufgabe1a_P1.pdf  used on input line 24.
+Package luatex.def Info: Plots/aufgabe1a_P1.pdf  used on input line 15.
 (luatex.def)             Requested size: 167.29967pt x 125.4753pt.
 LaTeX Font Info:    Font shape `TU/LatinModernMath(2)/m/n' will be
-(Font)              scaled to size 9.00096pt on input line 25.
+(Font)              scaled to size 9.00096pt on input line 16.
 LaTeX Font Info:    Font shape `TU/LatinModernMath(2)/m/n' will be
-(Font)              scaled to size 6.00064pt on input line 25.
+(Font)              scaled to size 6.00064pt on input line 16.
 LaTeX Font Info:    Font shape `TU/LatinModernMath(3)/m/n' will be
-(Font)              scaled to size 8.99904pt on input line 25.
+(Font)              scaled to size 8.99904pt on input line 16.
 LaTeX Font Info:    Font shape `TU/LatinModernMath(3)/m/n' will be
-(Font)              scaled to size 5.99936pt on input line 25.
-<Plots/aufgabe1a_P2.pdf, id=159, 462.528pt x 346.896pt>
+(Font)              scaled to size 5.99936pt on input line 16.
+<Plots/aufgabe1a_P2.pdf, id=162, 462.528pt x 346.896pt>
 File: Plots/aufgabe1a_P2.pdf Graphic file (type pdf)
 <use Plots/aufgabe1a_P2.pdf>
-Package luatex.def Info: Plots/aufgabe1a_P2.pdf  used on input line 30.
+Package luatex.def Info: Plots/aufgabe1a_P2.pdf  used on input line 21.
 (luatex.def)             Requested size: 167.29967pt x 125.4753pt.
-<Plots/aufgabe1a_P3.pdf, id=160, 462.528pt x 346.896pt>
+<Plots/aufgabe1a_P3.pdf, id=163, 462.528pt x 346.896pt>
 File: Plots/aufgabe1a_P3.pdf Graphic file (type pdf)
 <use Plots/aufgabe1a_P3.pdf>
-Package luatex.def Info: Plots/aufgabe1a_P3.pdf  used on input line 36.
+Package luatex.def Info: Plots/aufgabe1a_P3.pdf  used on input line 27.
 (luatex.def)             Requested size: 167.29967pt x 125.4753pt.
  [8]
-<Plots/aufgabe1b.pdf, id=174, 462.528pt x 346.896pt>
+<Plots/aufgabe1b.pdf, id=176, 462.528pt x 346.896pt>
 File: Plots/aufgabe1b.pdf Graphic file (type pdf)
 <use Plots/aufgabe1b.pdf>
-Package luatex.def Info: Plots/aufgabe1b.pdf  used on input line 73.
+Package luatex.def Info: Plots/aufgabe1b.pdf  used on input line 70.
 (luatex.def)             Requested size: 209.12778pt x 156.84808pt.
-<Plots/aufgabe1c2.pdf, id=175, 462.528pt x 346.896pt>
-File: Plots/aufgabe1c2.pdf Graphic file (type pdf)
-<use Plots/aufgabe1c2.pdf>
-Package luatex.def Info: Plots/aufgabe1c2.pdf  used on input line 83.
-(luatex.def)             Requested size: 188.21371pt x 141.15904pt.
-<Plots/aufgabe1c2_1s.pdf, id=176, 462.528pt x 346.896pt>
+ [9<./Plots/aufgabe1a_P1.pdf><./Plots/aufgabe1a_P2.pdf><./Plots/aufgabe1a_P3.pdf
+>]
+<Plots/aufgabe1c2_1s.pdf, id=355, 462.528pt x 346.896pt>
 File: Plots/aufgabe1c2_1s.pdf Graphic file (type pdf)
 <use Plots/aufgabe1c2_1s.pdf>
-Package luatex.def Info: Plots/aufgabe1c2_1s.pdf  used on input line 89.
+Package luatex.def Info: Plots/aufgabe1c2_1s.pdf  used on input line 116.
 (luatex.def)             Requested size: 188.21371pt x 141.15904pt.
-<Plots/aufgabe1c3.pdf, id=177, 462.528pt x 346.896pt>
+<Plots/aufgabe1c3.pdf, id=356, 462.528pt x 346.896pt>
 File: Plots/aufgabe1c3.pdf Graphic file (type pdf)
 <use Plots/aufgabe1c3.pdf>
-Package luatex.def Info: Plots/aufgabe1c3.pdf  used on input line 95.
+Package luatex.def Info: Plots/aufgabe1c3.pdf  used on input line 122.
 (luatex.def)             Requested size: 188.21371pt x 141.15904pt.
+ [10<./Plots/aufgabe1b.pdf>]
 
-[9<./Plots/aufgabe1a_P1.pdf><./Plots/aufgabe1a_P2.pdf><./Plots/aufgabe1a_P3.pdf>
-] [10<./Plots/aufgabe1b.pdf>]
-<Plots/aufgabe2P1.pdf, id=404, 462.528pt x 346.896pt>
+LaTeX Warning: File `Plots/aufgabe1c4.pdf' not found on input line 159.
+
+
+! Package luatex.def Error: File `Plots/aufgabe1c4.pdf' not found: using draft 
+setting.
+
+See the luatex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.159 ...[width=0.6\textwidth]{Plots/aufgabe1c4.pdf}
+                                                  
+? 
+[11<./Plots/aufgabe1c2_1s.pdf><./Plots/aufgabe1c3.pdf>] [12]
+<Plots/aufgabe2P1.pdf, id=519, 462.528pt x 346.896pt>
 File: Plots/aufgabe2P1.pdf Graphic file (type pdf)
 <use Plots/aufgabe2P1.pdf>
-Package luatex.def Info: Plots/aufgabe2P1.pdf  used on input line 130.
+Package luatex.def Info: Plots/aufgabe2P1.pdf  used on input line 181.
 (luatex.def)             Requested size: 188.21371pt x 141.15904pt.
-<Plots/aufgabe2P1_fit_1s.pdf, id=405, 462.528pt x 346.896pt>
+<Plots/aufgabe2P1_fit_1s.pdf, id=520, 462.528pt x 346.896pt>
 File: Plots/aufgabe2P1_fit_1s.pdf Graphic file (type pdf)
 <use Plots/aufgabe2P1_fit_1s.pdf>
-Package luatex.def Info: Plots/aufgabe2P1_fit_1s.pdf  used on input line 136.
+Package luatex.def Info: Plots/aufgabe2P1_fit_1s.pdf  used on input line 187.
 (luatex.def)             Requested size: 188.21371pt x 141.15904pt.
- [11<./Plots/aufgabe1c2.pdf><./Plots/aufgabe1c2_1s.pdf><./Plots/aufgabe1c3.pdf>]
-<Plots/aufgabe2P2.pdf, id=538, 462.528pt x 346.896pt>
+<Plots/aufgabe2P2.pdf, id=525, 462.528pt x 346.896pt>
 File: Plots/aufgabe2P2.pdf Graphic file (type pdf)
 <use Plots/aufgabe2P2.pdf>
-Package luatex.def Info: Plots/aufgabe2P2.pdf  used on input line 148.
+Package luatex.def Info: Plots/aufgabe2P2.pdf  used on input line 217.
 (luatex.def)             Requested size: 188.21371pt x 141.15904pt.
-<Plots/aufgabe2P2_fit_1s.pdf, id=539, 462.528pt x 346.896pt>
+<Plots/aufgabe2P2_fit_1s.pdf, id=526, 462.528pt x 346.896pt>
 File: Plots/aufgabe2P2_fit_1s.pdf Graphic file (type pdf)
 <use Plots/aufgabe2P2_fit_1s.pdf>
-Package luatex.def Info: Plots/aufgabe2P2_fit_1s.pdf  used on input line 154.
+Package luatex.def Info: Plots/aufgabe2P2_fit_1s.pdf  used on input line 223.
 (luatex.def)             Requested size: 188.21371pt x 141.15904pt.
-<Plots/aufgabe2P3.pdf, id=540, 462.528pt x 346.896pt>
+<Plots/aufgabe2P3.pdf, id=530, 462.528pt x 346.896pt>
 File: Plots/aufgabe2P3.pdf Graphic file (type pdf)
 <use Plots/aufgabe2P3.pdf>
-Package luatex.def Info: Plots/aufgabe2P3.pdf  used on input line 166.
+Package luatex.def Info: Plots/aufgabe2P3.pdf  used on input line 252.
 (luatex.def)             Requested size: 188.21371pt x 141.15904pt.
-<Plots/aufgabe2P3_fit_1s.pdf, id=541, 462.528pt x 346.896pt>
+<Plots/aufgabe2P3_fit_1s.pdf, id=531, 462.528pt x 346.896pt>
 File: Plots/aufgabe2P3_fit_1s.pdf Graphic file (type pdf)
 <use Plots/aufgabe2P3_fit_1s.pdf>
-Package luatex.def Info: Plots/aufgabe2P3_fit_1s.pdf  used on input line 172.
+Package luatex.def Info: Plots/aufgabe2P3_fit_1s.pdf  used on input line 258.
 (luatex.def)             Requested size: 188.21371pt x 141.15904pt.
-<Plots/aufgabe3_P1.pdf, id=542, 462.528pt x 346.896pt>
+ [13<./Plots/aufgabe2P1.pdf><./Plots/aufgabe2P1_fit_1s.pdf>]
+<Plots/aufgabe3_P1.pdf, id=648, 462.528pt x 346.896pt>
 File: Plots/aufgabe3_P1.pdf Graphic file (type pdf)
 <use Plots/aufgabe3_P1.pdf>
-Package luatex.def Info: Plots/aufgabe3_P1.pdf  used on input line 186.
+Package luatex.def Info: Plots/aufgabe3_P1.pdf  used on input line 291.
 (luatex.def)             Requested size: 188.21371pt x 141.15904pt.
-<Plots/aufgabe3_P2.pdf, id=543, 462.528pt x 346.896pt>
+<Plots/aufgabe3_P2.pdf, id=649, 462.528pt x 346.896pt>
 File: Plots/aufgabe3_P2.pdf Graphic file (type pdf)
 <use Plots/aufgabe3_P2.pdf>
-Package luatex.def Info: Plots/aufgabe3_P2.pdf  used on input line 192.
+Package luatex.def Info: Plots/aufgabe3_P2.pdf  used on input line 297.
 (luatex.def)             Requested size: 188.21371pt x 141.15904pt.
-<Plots/aufgabe3_P3.pdf, id=544, 462.528pt x 346.896pt>
+<Plots/aufgabe3_P3.pdf, id=650, 462.528pt x 346.896pt>
 File: Plots/aufgabe3_P3.pdf Graphic file (type pdf)
 <use Plots/aufgabe3_P3.pdf>
-Package luatex.def Info: Plots/aufgabe3_P3.pdf  used on input line 198.
+Package luatex.def Info: Plots/aufgabe3_P3.pdf  used on input line 303.
 (luatex.def)             Requested size: 188.21371pt x 141.15904pt.
-<Plots/aufgabe3_P4.pdf, id=545, 462.528pt x 346.896pt>
+<Plots/aufgabe3_P4.pdf, id=651, 462.528pt x 346.896pt>
 File: Plots/aufgabe3_P4.pdf Graphic file (type pdf)
 <use Plots/aufgabe3_P4.pdf>
-Package luatex.def Info: Plots/aufgabe3_P4.pdf  used on input line 204.
+Package luatex.def Info: Plots/aufgabe3_P4.pdf  used on input line 309.
 (luatex.def)             Requested size: 188.21371pt x 141.15904pt.
-<Plots/aufgabe3_vergleich.pdf, id=546, 462.528pt x 346.896pt>
+<Plots/aufgabe3_vergleich.pdf, id=654, 462.528pt x 346.896pt>
 File: Plots/aufgabe3_vergleich.pdf Graphic file (type pdf)
 <use Plots/aufgabe3_vergleich.pdf>
-Package luatex.def Info: Plots/aufgabe3_vergleich.pdf  used on input line 216.
-(luatex.def)             Requested size: 188.21371pt x 141.15904pt.
-
-Overfull \hbox (40.22229pt too wide) in paragraph at lines 223--233
-[][] 
- []
-
-) (./content/diskussion.tex [12<./Plots/aufgabe2P1.pdf><./Plots/aufgabe2P1_fit_1
-s.pdf><./Plots/aufgabe2P2.pdf><./Plots/aufgabe2P2_fit_1s.pdf>] [13<./Plots/aufga
-be2P3.pdf><./Plots/aufgabe2P3_fit_1s.pdf><./Plots/aufgabe3_P1.pdf><./Plots/aufga
-be3_P2.pdf><./Plots/aufgabe3_P3.pdf><./Plots/aufgabe3_P4.pdf>]) [14<./Plots/aufg
-abe3_vergleich.pdf>]
+Package luatex.def Info: Plots/aufgabe3_vergleich.pdf  used on input line 321.
+(luatex.def)             Requested size: 250.95587pt x 188.22089pt.
+ [14<./Plots/aufgabe2P2.pdf><./Plots/aufgabe2P2_fit_1s.pdf>] [15<./Plots/aufgabe
+2P3.pdf><./Plots/aufgabe2P3_fit_1s.pdf><./Plots/aufgabe3_P1.pdf><./Plots/aufgabe
+3_P2.pdf><./Plots/aufgabe3_P3.pdf><./Plots/aufgabe3_P4.pdf>]) (./content/diskus
+sion.tex [16<./Plots/aufgabe3_vergleich.pdf>])
 The property list \polyglossia@langsetup contains the pairs (without outer
 braces):
 >  {latex/script}  =>  {latin}
@@ -1879,7 +1837,7 @@ braces):
 >  {german/localnumeral}  =>  {polyglossia@C@localnumeral}
 >  {german/Localnumeral}  =>  {polyglossia@C@localnumeral}.
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 21.
- [15]
+ [17]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 21.
  (./PL.aux
 LaTeX Info: Redefining \rmfamily on input line 26.
@@ -1888,42 +1846,30 @@ LaTeX Info: Redefining \ttfamily on input line 26.
 )
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 21.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 21.
-
-
-Package rerunfilecheck Warning: File `PL.aux' has changed. Rerun.
-
-Package rerunfilecheck Info: Checksums for `PL.aux':
-(rerunfilecheck)             Before: 2A2683679092708944F5A61DB846B734;24573
-(rerunfilecheck)             After:  54FB0033FD0654BCA7B9BB84BA69EB83;25374.
-
-Package rerunfilecheck Warning: File `PL.toc' has changed. Rerun.
-
-Package rerunfilecheck Info: Checksums for `PL.toc':
-(rerunfilecheck)             Before: 388AA623C839F6887BCA59899931F5F2;1967
-(rerunfilecheck)             After:  6938E254BD2F0B407A6FF6430477116D;2114.
-
-LaTeX Warning: There were multiply-defined labels.
-
+Package rerunfilecheck Info: File `PL.aux' has not changed.
+(rerunfilecheck)             Checksum: 2B220452D46C1D0270C2A9C4FCCFC4EA;27414.
+Package rerunfilecheck Info: File `PL.toc' has not changed.
+(rerunfilecheck)             Checksum: F0975FB23F41F9498D2851087F1424B8;2116.
 Package logreq Info: Writing requests to 'PL.run.xml'.
 
 \openout1 = PL.run.xml
 )
 
 Here is how much of LuaTeX's memory you used:
- 36965 strings out of 480883
+ 37044 strings out of 480883
  100000,1977958 words of node,token memory allocated
- 745 words of node memory still in use:
-   7 hlist, 2 vlist, 2 rule, 2 glue, 4 kern, 1 glyph, 11 attribute, 96 glue_spec
-, 11 attribute_list, 1 write, 2 pdf_action nodes
-   avail lists: 1:2,2:793,3:229,4:58,5:292,6:52,7:4612,8:115,9:405,10:26,11:518
- 53358 multiletter control sequences out of 65536+600000
- 155 fonts using 45011243 bytes
- 62i,11n,114p,10115b,2279s stack positions out of 5000i,500n,10000p,200000b,100000s
-</home/alex/.local/texlive/2020/texmf-dist/fonts/opentype/public/lm/lmmono10-reg
-ular.otf></home/alex/.local/texlive/2020/texmf-dist/fonts/opentype/public/lm/lmr
-omancaps10-regular.otf></home/alex/.local/texlive/2020/texmf-dist/fonts/opentype
-/public/lm/lmroman10-italic.otf></home/alex/.local/texlive/2020/texmf-dist/fonts
-/opentype/public/lm-math/latinmodern-math.otf></home/alex/.local/texlive/2020/te
+ 753 words of node memory still in use:
+   7 hlist, 2 vlist, 2 rule, 2 glue, 4 kern, 1 glyph, 13 attribute, 96 glue_spec
+, 13 attribute_list, 1 write, 2 pdf_action nodes
+   avail lists: 1:2,2:875,3:254,4:53,5:324,6:57,7:5327,8:128,9:385,10:31,11:623
+ 53387 multiletter control sequences out of 65536+600000
+ 155 fonts using 45011407 bytes
+ 62i,13n,114p,10115b,2279s stack positions out of 5000i,500n,10000p,200000b,100000s
+</home/alex/.local/texlive/2020/texmf-dist/fonts/opentype/public/lm/lmromancaps1
+0-regular.otf></home/alex/.local/texlive/2020/texmf-dist/fonts/opentype/public/l
+m/lmroman10-italic.otf></home/alex/.local/texlive/2020/texmf-dist/fonts/opentype
+/public/lm-math/latinmodern-math.otf></home/alex/.local/texlive/2020/texmf-dist/
+fonts/opentype/public/lm/lmmono10-regular.otf></home/alex/.local/texlive/2020/te
 xmf-dist/fonts/opentype/public/lm/lmroman9-regular.otf></home/alex/.local/texliv
 e/2020/texmf-dist/fonts/opentype/public/lm/lmroman9-bold.otf></home/alex/.local/
 texlive/2020/texmf-dist/fonts/opentype/public/lm/lmroman8-regular.otf></home/ale
@@ -1935,10 +1881,10 @@ pe/public/lm/lmroman10-regular.otf></home/alex/.local/texlive/2020/texmf-dist/fo
 nts/opentype/public/lm/lmroman12-regular.otf></home/alex/.local/texlive/2020/tex
 mf-dist/fonts/opentype/public/lm/lmsans10-bold.otf></home/alex/.local/texlive/20
 20/texmf-dist/fonts/opentype/public/lm/lmroman12-bold.otf>
-Output written on PL.pdf (15 pages, 2995235 bytes).
+Output written on PL.pdf (17 pages, 2984984 bytes).
 
-PDF statistics: 1316 PDF objects out of 1440 (max. 8388607)
- 529 compressed objects within 6 object streams
- 68 named destinations out of 1000 (max. 131072)
+PDF statistics: 1324 PDF objects out of 1440 (max. 8388607)
+ 561 compressed objects within 6 object streams
+ 76 named destinations out of 1000 (max. 131072)
  161 words of extra memory for PDF output out of 10000 (max. 100000000)
 
