@@ -85,7 +85,7 @@ plt.plot(1000/T, np.exp(lin(T, *params_cos)), color="#7875d6", zorder=1)
 plt.plot(1000/T, np.exp(lin(T, *params_sin)), color="#ec6073",zorder=1)
 # Ausreißer kennzeichnen
 plt.errorbar(1000/Temp_raus, tau_cos_raus, yerr=tau_cos_err_raus,capsize=3, fmt='.', color="#2a3e87",zorder=2)
-plt.plot(1000/Temp_raus, tau_cos_raus, "ro", mew=3,markerfacecolor="white",markeredgewidth=1, markersize=10,label="Ausreißer",zorder=1)
+plt.plot(1000/Temp_raus, tau_cos_raus, "ro", mew=1,markerfacecolor="white", markersize=10,label="Ausreißer",zorder=1)
 #plt.axis([2.88, 3.23, 0.05, 60])
 #plt.plot(T, arrhenius(T, *params), label = "S2-Fit-Funktion")
 #plt.plot(T,arrhenius(T, *p0), label="Einstellung") # Schätzer testen
