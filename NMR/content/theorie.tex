@@ -33,13 +33,13 @@ Durch die unterschiedlichen Besetzungszahlen der einzelnen Niveaus kommt es zur 
 %- Kernmoment klein -> Ausrichtung durch externes Magnetfeld, Ausrichtung ist unab\"{a}ngig von der Orientierung der Molek\"{u}le
 Zus\"{a}tzlich zu der Aus{\-}richt{\-}ung kommt auf Grund des Drehimpulses eine Pr\"{a}zessionsbewegung um $\overrightarrow{B_0}$ dazu.
 Die Spins pr\"{a}zedieren mit der Lamorfrequenz, $\omega_0 = \gamma B_0$.
-In diesem Experiment betr\"{a}gt die Lamorfrequenz $2\pi \cdot 90 \text{\, MHz}$.
+Die die Lamorfrequenz der Deuteronen liegt bei $\SI{46,233}{\mega\hertz}$.
 Diese Pr\"{a}zessionsbewegung ist senkrecht zum externen Magnetfeld, womit der Winkel zwischen $\overrightarrow{\mu}$ und $\overrightarrow{B_0}$ zeitlich konstant ist.
 Betrachtet wird die Summe aller Kernmomente $M = \sum_i \mu_i$.
 Im Gleichgewicht besitzen alle Summanden die gleiche $z$-Komponente, $M = (0,0,M_z)^{\text{T}}$.
 F\"{u}r die Gesamtmagnetisierung ergibt sich
 \begin{align*}
-	\frac{d \mu}{d t} = \gamma \mu \times B_0
+	\frac{d \vec{\mu}}{d t} = \gamma \vec{\mu} \times \vec{B_0}
 \end{align*}
 Dabei sind $M$ und $B_0$ parallel zueinander und damit zeitlich konstant.
 %(- M kann auch pr\"{a}zidieren)
@@ -64,7 +64,7 @@ Das Hochfrequenzfeld wir mit einer Spule erzeugt und ist im Labor gegeben durch:
 \caption{Rotierendes Koordinatensystem.}
 \centering
 	\begin{subfigure}[t]{0.35\textwidth}
-	\includegraphics[width=\textwidth]{Plots/rotKoordinatensystem.png} 
+	\includegraphics[width=\textwidth]{Plots/rotKoordinatensystem.png}
 	\subcaption{Die z-Achse rotiert mit Frequenz $\Omega$ (siehe Versuchsanleitung \cite{Anleitung}[S.5]).}
 %	\label{rotK1}
 	\end{subfigure}
@@ -83,18 +83,21 @@ Nun kann die Komponente, die sich mit dem Koordinatensystem rotiert, als station
 Im Gegenschluss rotiert dann die andere Komponente mit $-2\Omega$ und ist im Allgemeinen vernachl\"{a}ssigbar.
 
 \paragraph{Die Auswirkungen von Hochfrequenzpulsen}
-Um mit dem Hochfrequenzfeld, welches mit einer Spule erzeugt wird, einen Hochfrequenzpuls (HF-Puls) zu erzeugen, wird aus dem kontinuierlichen Feld der Spule ein Puls mit bestimmter L\"{a}nge herausgeschnitten,  
+Ein Frequenzgenerator erzeugt ein konstantes Sinussignal, welches in Abbildung \ref{fig:erz}
+(links) dargestellt ist. Wird ein Puls der Dauer $t_{\text{p}}$ aus dem Sinussignal
+herausgeschnitten, lässt sich so ein Hochfrequenzpuls (HF-Puls) erzeugen. Dieser
+ist in Abbildung \ref{fig:erz} (rechts) dargestellt. Der HF-Puls wird nun mittels
+einer Spule in das zu untersuchende System eigestrahlt.
 \setcounter{figure}{3}
 \begin{figure}[hbtp]
 	\centering
 	\vspace{-10pt}
 	\caption{Erzeugung eines HF-Pulses mit L\"{a}nge $t_p$ (siehe Versuchsanleitung \cite{Anleitung}[S.7]).}
-	\includegraphics[width=0.55\textwidth]{Plots/HFPuls.png} 
+	\includegraphics[width=0.55\textwidth]{Plots/HFPuls.png}
+	\label{fig:erz}
 \end{figure}
-siehe Abbildung (5).
-Solch ein HF-Puls wei{\ss}t genau die L\"{a}nge $t_p$ auf, dass sich die Magnetisierung um $90^{\circ}$ dreht und sich eine Quermagnetisierung einstellt.
-Daher wir der HF-Puls h\"{a}ufig auch als $90^{\circ}$-Puls oder $\frac{\pi}{2}$-Puls bezeichnet.
-Nachdem ein $90^{\circ}$-Puls 
+Solch ein HF-Puls weist genau die L\"{a}nge $t_p$ auf, dass sich die Magnetisierung um $90^{\circ}$ dreht und sich eine Quermagnetisierung einstellt.
+Daher wird der HF-Puls h\"{a}ufig auch als $90^{\circ}$-Puls oder $\frac{\pi}{2}$-Puls bezeichnet.
 \begin{wrapfigure}[15]{r}{0.5\textwidth}
 	\vspace{-5pt}
 	\centering
@@ -103,7 +106,7 @@ Nachdem ein $90^{\circ}$-Puls
 	\caption{Erzeugung eines Hahn-Echos durch die einen $90^{\circ}$-Puls (a) gefolgt von einem $180^{\circ}$-Puls (c) (siehe Versuchsanleitung \cite{Anleitung}[S.8]).}
 	\label{HahnEcho}
 \end{wrapfigure}
-eingeschaltet wurde, pr\"{a}zediert die Magneti{\-}sie{\-}rung $M$ um $\overrightarrow{B_0}$.
+Nachdem ein $90^{\circ}$-Puls eingeschaltet wurde, pr\"{a}zediert die Magneti{\-}sie{\-}rung $M$ um $\overrightarrow{B_0}$.
 Diese Pr\"{a}zessionsbewe{\-}gung der magnetischen Momente induziert dann eine Spannung in der Spule, in der die Probe sich befindet.
 Es wird ein Kerninduktionssignal erzeugt.
 Gemessen wird der Momentanwert der L\"{a}ngsmagnetisierung.
@@ -121,14 +124,14 @@ Die Magnetisierung $M(t)$ welche nach einen HF-Puls in der Probe vorliegt strebt
 Die Relaxation der Magnetisierung beruht auf der Wechselwirkung zwischen den Spins und deren Umgebung und wird in zwei Komponenten geteilt.
 Zum Einen die longitudinale Relaxation entlang der z-Achse
 \begin{align}
-	\frac{d M_z(t)}{d t} = - \frac{M_z(t) - M_{eq}}{T_1} 
+	\frac{d M_z(t)}{d t} = - \frac{M_z(t) - M_{eq}}{T_1}
 	\label{eq:bloch1}
 \end{align}
 und zum Anderen die transversale Relaxation in der x,y-Ebene
-\begin{align}
-	\frac{d M_{x,y}(t)}{d t} = - \frac{M_{x,y}(t)}{T_2}. 
+\begin{equation}
+	\frac{d M_{x,y}(t)}{d t} = - \frac{M_{x,y}(t)}{T_2}.
 	\label{eq:bloch2}
-\end{align}
+\end{equation}
 Diese beiden Gleichungen \eqref{eq:bloch1} und \eqref{eq:bloch2} sind als die Bloch-Gleichungen bekannt.
 Dabei ist $T_1$ die Spin-Gitter-Relaxationszeit und $T_2$ die Spin-Spin-Relaxationszeit.
 Im folgenden wird n\"{a}her auf die beiden Relaxationen eingegangen.
@@ -158,16 +161,17 @@ In Abbildung (\ref{inversion}) ist diese Pulssequenz schematisch gezeigt.
 Nach den zwei eingeschalteten Pulsen zerf\"{a}llt die erzeugte Quer{\-}mag{\-}ne{\-}ti{\-}sie{\-}rung wieder und ein FID-Signal ist messbar.
 Da die Amplitude dieses Signals proportiuonal zu der longitudinalen Magnetisierung ist, kann daraus dann die Relaxationszeit $T_1$ bestimmt werden.
 Zus\"{a}tzlich dazu kann aus der ersten Blochgleichung die zeitabh\"{a}ngige longitudianle Magnetisierung ermittelt werden.
-\begin{align*}
+\begin{equation*}
 	M_z(t) = M_{eq} \left(1 - 2 exp\left( - \frac{t}{T_1} \right) \right)
-\end{align*}
+	\label{eq:Mz}
+\end{equation*}
 Um eine grobe Absch\"{a}tzung der longitudinalen Relaxationszeit vorzunehmen, kann folgende Gleichung verwendet werden:
 \begin{align*}
 	t_{\frac{1}{2}} = T_1 \cdot ln(2) \, \Rightarrow \, M_z(t) = 0
 \end{align*}
 Solch eine Absch\"{a}tzung ist wichtig, da sichergestellt werden soll, dass jede neue Messung wieder mit im Gleichgewichtszustand starten soll.
 Um dies zu gew\"{a}hrleisten sollt zwischen zwei Messungen eine Wartezeit von $t \approx 4 \cdot T_1$ sein.
-Dadruch wird auch das Sihnal-zu-Rauch-Verh\"{a}ltnis verbessert.
+Dadruch wird auch das Signal-zu-Rauch-Verh\"{a}ltnis verbessert.
 
 Neben der Inversionserholung gibt es noch die M\"{o}glichkeit mittels einer S\"{a}ttigungs{\-}erhol{\-}ung die $T_1$-Zeit du bestimmen.
 Hierbei wird zun\"{a}chst die Magnetisierung duch zuf\"{a}llig hintereinander geschaltete Pulse zerst\"{o}rt.
@@ -182,6 +186,12 @@ Durch den Wideraufbau der L\"{a}ngmagnetisierung kann dann die $T_1$-Zeit bestim
 %	\caption{Schematische Darstellung der Spin-Spin-Wechselwirkung (siehe Versuchsanleitung \cite{Anleitung}[S.12]).}
 %	\label{SpinSpin}
 %\end{wrapfigure}
+Lösen der Blochgleichung \ref{eq:bloch2} ergibt für die Magnetisierung in der
+x,y-Ebene
+\begin{equation*}
+	M_{\text{xy}}(t) = M_{\text{eq}} \cdot exp\left( - \frac{t}{T_2} \right)
+	\label{eq:Mxy}
+\end{equation*}
 Die zweite Relaxation be{\-}ruht auf der Spin-Spin-Wechselwirkung, welche auch als magnetische Wechselwirkung zwischen den Dipolen aufgefasst werden kann.
 Und anders als bei der Spin-Gitter-Relaxation flie{\ss}t hierbei kein Energiefluss ins Gitter.
 Durch die Wechselwirkung zwischen den Spins ist die St\"{a}rke der Zusatzfelder abh\"{a}ngig von dem Winkel, $\vartheta$, zwischen $B_0$ und $r$ (Abbildung (\ref{SpinSpin})).
@@ -194,7 +204,7 @@ Durch die Wechselwirkung zwischen den Spins ist die St\"{a}rke der Zusatzfelder 
 Mathematisch ergeben sich die Zusatzfelder der Nachbarspins zu:
 \begin{align*}
 	B_z^{DD} &= \sum_s \hbar \gamma_s S \left( 3 cos^2 \left(\vartheta_{IS}\right) - 1 \right) \frac{1}{r_{IS}^3} \\
-	\text{und} \, \, \, \, B_{x,y}^{DD} &= \sum_s \hbar \gamma_s S \left( \frac{3}{2} \cdot sin\left(2 \vartheta_{IS}\right) \right) \frac{1}{r_{IS}^3} 
+	\text{und} \, \, \, \, B_{x,y}^{DD} &= \sum_s \hbar \gamma_s S \left( \frac{3}{2} \cdot sin\left(2 \vartheta_{IS}\right) \right) \frac{1}{r_{IS}^3}
 \end{align*}
 
 Im Vergleich zu $T_1$-Relaxationszeit ist die Spin-Spin-Relaxationszeit $T_2$ in Festk\"{o}rpern immer kleiner.
@@ -224,7 +234,7 @@ Echo-Signale n\"{a}her erl\"{a}utert.
 
 \paragraph{Hahn-Echo}
 Wie schon in Kapitel (\ref{sec:grundlagen}) erw\"{a}hnt, wird das Hahn-Echo mit einem $90^{\circ}$- und einem $180^{\circ}$-Puls erzeugt.
-Auf Grund von Inhomogenit\"{a}ten im Magnetfeld rephasieren die Spins nach dem $90^{\circ}$-Puls, da die Spins mit unterschiedliecher Lamorfrequenz pr\"{a}zedieren.
+Auf Grund von Inhomogenit\"{a}ten im Magnetfeld dephasieren die Spins nach dem $90^{\circ}$-Puls, da die Spins mit unterschiedliecher Lamorfrequenz pr\"{a}zedieren.
 Wie in Abbildung (\ref{HahnEcho} b) zu sehen, laufen Spins mit schnellerer und langsamerer Lamor{\-}fre{\-}quenz auseinander.
 Durch den dahinter geschalteten $180^{\circ}$-Puls werden die Spins so gedreht, dass sie nun alle auf einem Punk zusammentreffen und ein Echo erzeugen.
 
@@ -259,7 +269,7 @@ Die Zeit zwischen dem dann zweiten und dritten Puls ist die sogenannte Mischzeit
 \caption{Stimuliertes-Echo.}
 \vspace{+5pt}
 	\begin{subfigure}[t]{0.4\textwidth}
-		\includegraphics[width=\textwidth]{Plots/stimuliertesecho.png} 
+		\includegraphics[width=\textwidth]{Plots/stimuliertesecho.png}
 		\caption{Schematische Pulssequenz des Stimulierten-Echos mit zugeh\"{o}riger Magnetisierung (siehe Versuchsanleitung \cite{Anleitung}[S.21]).}
 %		\label{stimEcho_a.}
 	\end{subfigure}
