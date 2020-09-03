@@ -109,7 +109,7 @@ for i in range(1,6):
 def lin(T,m,b):
     return m*T+b
 
-Temp = np.linspace(75,117.5,100)
+Temp = np.linspace(75,120,100)
 # I(Tkrit) zu Bestimmung des kritischen Stroms
 
 plt.errorbar(Tkrit, Ampere, xerr=dTmittel+1, capsize=3, fmt='.', label="Kritische Temperatur", color="#606da4", zorder=3)
@@ -128,14 +128,21 @@ print("m = ",params1[0], "+-", uncertainties1[0])
 print("b = ",params1[1], "+-", uncertainties1[1])
 
 plt.plot(Temp, lin(Temp, *params1), label="Ausgleichsgerade",color="#acb2ba",zorder=2)
-Ikrit = lin(77, *params1)
-plt.plot(77, Ikrit, "o", mew=1,markerfacecolor="white", markersize=8,label=r"Kritscher Strom I$_{krit}$",color="#e5961c",zorder=1)
-plt.plot(77, Ikrit, ".", color="#e5961c")
+Ikrit       = lin(77, *params1)
+Ikrit_err   = np.sqrt(77*77*uncertainties1[0]*uncertainties1[0]+uncertainties1[1]*uncertainties1[1])
+plt.plot(77, Ikrit, "o", mew=1,markerfacecolor="white", markersize=8,color="#e5961c",zorder=1)
+plt.errorbar(77, Ikrit, yerr=Ikrit_err, capsize=3, fmt='.',label=r"Kritscher Strom I$_{krit}$", color="#e5961c", zorder=1)
+#plt.plot(77, Ikrit, ".", color="#e5961c")
 plt.text(78, lin(78, *params1)+0.2, s=str(round(Ikrit, 2))+"$\,$A",color="#e5961c")
 
+plt.axis([76,119,0,16])
 plt.xlabel(r"Temperatur T / K")
 plt.ylabel(r"Strom I / A")
 plt.legend()
 
 plt.savefig("I_krit.pdf")
 plt.clf()
+
+# kritschen Strom ausgeben:
+print()
+print("Der kritische Strom liegt bei",Ikrit,"+-",Ikrit_err, " A")

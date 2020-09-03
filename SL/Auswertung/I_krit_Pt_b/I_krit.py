@@ -30,7 +30,7 @@ for i in range(1,3):
 
 
 def R(U,I):
-    return U/I
+    return U/IWert
 
 # Kalibrierungsdaten des Platin-Temp-Sensors
 
@@ -54,7 +54,7 @@ def dT(R):
 
 # Plot R(T) für 1, 0.8, 0.6, 0.4, 0.2 A
 Ampere = np.array([0.8,0.6])
-tkrit  = np.array([24,25])
+tkrit  = np.array([23,23])
 Tkrit  = np.empty(2)
 dTmittel = np.zeros(2)
 
@@ -109,7 +109,7 @@ for i in range(1,3):
 def lin(T,m,b):
     return m*T+b
 
-Temp = np.linspace(75,117.5,100)
+Temp = np.linspace(75,120,100)
 # I(Tkrit) zu Bestimmung des kritischen Stroms
 
 plt.errorbar(Tkrit, Ampere, xerr=dTmittel+1, capsize=3, fmt='.', label="Kritische Temperatur", color="#606da4", zorder=3)
@@ -129,10 +129,11 @@ print("b = ",params1[1], "+-", uncertainties1[1])
 
 plt.plot(Temp, lin(Temp, *params1), label="Ausgleichsgerade",color="#acb2ba",zorder=2)
 Ikrit = lin(77, *params1)
-plt.plot(77, Ikrit, "o", mew=1,markerfacecolor="white", markersize=8,label=r"Kritscher Strom I$_{krit}$",color="#e5961c",zorder=1)
-plt.plot(77, Ikrit, ".", color="#e5961c")
+plt.plot(77, Ikrit, "o", mew=1,markerfacecolor="white", markersize=8,color="#e5961c",zorder=1)
+plt.plot(77, Ikrit, ".", color="#e5961c",label=r"Kritscher Strom I$_{krit}$")
 plt.text(78, lin(78, *params1)+0.05, s=str(round(Ikrit, 2))+"$\,$A",color="#e5961c")
 
+plt.axis([76,119,0,3])
 plt.xlabel(r"Temperatur T / K")
 plt.ylabel(r"Strom I / A")
 plt.legend()

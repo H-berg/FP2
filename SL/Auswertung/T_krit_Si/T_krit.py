@@ -10,16 +10,17 @@ t3,U3 = np.genfromtxt('A2_7.txt', unpack=True)
 Rkrit = np.empty(3)
 tkrit = np.empty(3)
 
-fall  = np.array([160, 143, 179])
+fall  = np.array([160, 179, 143]) # M1, M2, M3
 # Zeitpunkt, an dem Magnet absenkt ist
 # Werte abschneiden, Zeit bei Null beginnen lassen und U_krit bestimmen
-
+cut = np.array([140,155,115])
 for i in range(1,4):
-    locals()["t"+str(i)]    = locals()["t"+str(i)][100::]
-    locals()["U"+str(i)]    = locals()["U"+str(i)][100::]
+    locals()["t"+str(i)]    = locals()["t"+str(i)][cut[i-1]::]
+    locals()["U"+str(i)]    = locals()["U"+str(i)][cut[i-1]::]
     locals()["t"+str(i)]    -= min(locals()["t"+str(i)])
 
-fall -= 100
+fall -= cut
+
 
 
 # Kalibrierungsdaten des Silizium-Temp-Sensors
@@ -44,12 +45,13 @@ plt.plot(t1,U1,".", label="Messung 1", color="#606da4",zorder=2)
 plt.plot(t2,U2,".", label="Messung 2", color="#2c3767",zorder=2)
 plt.plot(t3,U3,".", label="Messung 3", color="#a4aed8",zorder=2)
 plt.plot(t1[fall[0]],U1[fall[0]], "o", color="#e5961c", mew=1,markerfacecolor="white", markersize=8,label=r"$U_{krit}$",zorder=1)
-plt.plot(t2[fall[2]],U2[fall[2]], "o", color="#e5961c", mew=1,markerfacecolor="white", markersize=8,zorder=1)
-plt.plot(t3[fall[1]],U3[fall[1]], "o", color="#e5961c", mew=1,markerfacecolor="white", markersize=8,zorder=1)
+plt.plot(t2[fall[1]],U2[fall[1]], "o", color="#e5961c", mew=1,markerfacecolor="white", markersize=8,zorder=1)
+plt.plot(t3[fall[2]],U3[fall[2]], "o", color="#e5961c", mew=1,markerfacecolor="white", markersize=8,zorder=1)
 
-plt.xlabel("Zeit t / s")
+plt.xlabel("Messzeit t / s")
 plt.ylabel("Spannung U / V")
 plt.legend()
+plt.axis([0,65,0.85,1.035])
 #plt.show()
 plt.savefig("U_krit.pdf")
 plt.clf()
@@ -59,16 +61,23 @@ plt.clf()
 plt.plot(t1,T(U1),".", label="Messung 1", color="#606da4",zorder=2)
 plt.plot(t2,T(U2),".", label="Messung 2", color="#2c3767",zorder=2)
 plt.plot(t3,T(U3),".", label="Messung 3", color="#a4aed8",zorder=2)
-plt.plot(t1[fall[0]],T(U1[fall[0]]), "o", color="#e5961c", mew=1,markerfacecolor="white", markersize=8,label=r"$U_{krit}$",zorder=1)
-plt.plot(t2[fall[2]],T(U2[fall[2]]), "o", color="#e5961c", mew=1,markerfacecolor="white", markersize=8,zorder=1)
-plt.plot(t3[fall[1]],T(U3[fall[1]]), "o", color="#e5961c", mew=1,markerfacecolor="white", markersize=8,zorder=1)
+plt.plot(t1[fall[0]],T(U1[fall[0]]), "o", color="#e5961c", mew=1,markerfacecolor="white", markersize=8,label=r"$T^{MCE}_{c}$",zorder=1)
+plt.plot(t2[fall[1]],T(U2[fall[1]]), "o", color="#e5961c", mew=1,markerfacecolor="white", markersize=8,zorder=1)
+plt.plot(t3[fall[2]],T(U3[fall[2]]), "o", color="#e5961c", mew=1,markerfacecolor="white", markersize=8,zorder=1)
 
 #plt.yticks(np.linspace(min(T(U(R1,I)*1e-6)), max(T(U(R1,I)*1e-6)),10),np.linspace(min(T(U(R1,I)*1e-6)), max(T(U(R1,I)*1e-6)),10))
 
 #plt.yscale("log")
-plt.xlabel(r"Zeit t / s")
+plt.xlabel(r"Messzeit t / s")
 plt.ylabel(r"Temperatur T / K")
 plt.legend()
 #plt.show()
+plt.axis([0,65,76,160])
 plt.savefig("T_krit.pdf")
 plt.clf()
+
+# Ausgabe der kritschen Temp und Spannung
+for i in range(1,4):
+    U = locals()["U"+str(i)][fall[i-1]]
+    print("Messung", i)
+    print("kritsche Temperatur = ",T(U))
