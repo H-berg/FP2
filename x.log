@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.12.0 (TeX Live 2020)  (format=lualatex 2020.5.18)  11 AUG 2020 12:04
+This is LuaHBTeX, Version 1.12.0 (TeX Live 2020)  (format=lualatex 2020.5.18)  3 SEP 2020 16:24
  restricted system commands enabled.
 **main.tex
 (/home/alex/.local/texlive/2020/texmf-dist/tex/latex/tools/x.tex
@@ -84,7 +84,7 @@ and deduce the truth by order and method.
 )
 
 Here is how much of LuaTeX's memory you used:
- 21 strings out of 480883
+ 20 strings out of 480883
  100000,319454 words of node,token memory allocated
  296 words of node memory still in use:
    1 hlist, 3 kern, 1 glyph, 1 attribute, 39 glue_spec, 1 attribute_list nodes

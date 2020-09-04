@@ -2182,6 +2182,9 @@
     <bcf:datasource type="file" datatype="bibtex">lit.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="0">
+    <bcf:citekey order="1">Hohenester</bcf:citekey>
+    <bcf:citekey order="2">Hohenester</bcf:citekey>
+    <bcf:citekey order="3">2223</bcf:citekey>
     <bcf:citekey order="0" nocite="1">*</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->

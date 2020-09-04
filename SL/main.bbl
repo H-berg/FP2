@@ -1,0 +1,93 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.1 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nty/global//global/global}
+    \entry{Hohenester}{online}{}
+      \name{author}{1}{}{%
+        {{hash=56ff03d7e7d737bc60ba92937e0a993b}{%
+           family={Hohenester},
+           familyi={H\bibinitperiod},
+           given={Prof.\bibnamedelimi Dr.\bibnamedelimi Ulrich},
+           giveni={P\bibinitperiod\bibinitdelim D\bibinitperiod\bibinitdelim U\bibinitperiod}}}%
+      }
+      \strng{namehash}{56ff03d7e7d737bc60ba92937e0a993b}
+      \strng{fullhash}{56ff03d7e7d737bc60ba92937e0a993b}
+      \strng{bibnamehash}{56ff03d7e7d737bc60ba92937e0a993b}
+      \strng{authorbibnamehash}{56ff03d7e7d737bc60ba92937e0a993b}
+      \strng{authornamehash}{56ff03d7e7d737bc60ba92937e0a993b}
+      \strng{authorfullhash}{56ff03d7e7d737bc60ba92937e0a993b}
+      \field{sortinit}{H}
+      \field{sortinithash}{6db6145dae8dc9e1271a8d556090b50a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Die Entdeckung der Supraleitung}
+      \field{urlday}{28}
+      \field{urlmonth}{8}
+      \field{urlyear}{2020}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://physik.uni-graz.at/~uxh/teaching/supraleitung/SL.pdf
+      \endverb
+      \verb{url}
+      \verb https://physik.uni-graz.at/~uxh/teaching/supraleitung/SL.pdf
+      \endverb
+    \endentry
+    \entry{2223}{article}{}
+      \name{author}{5}{}{%
+        {{hash=0941973b390b7c59bb9c5e2fe87db140}{%
+           family={M.S.Shalaby},
+           familyi={M\bibinitperiod}}}%
+        {{hash=006a0e94f9a86c4147bfb55e730cd458}{%
+           family={H.M.Hashem},
+           familyi={H\bibinitperiod}}}%
+        {{hash=24cec0a6a7750b804d16779c3a5abfd7}{%
+           family={T.R.Hammad},
+           familyi={T\bibinitperiod}}}%
+        {{hash=7277473f0bbd0d3caed225a005a46f50}{%
+           family={L.A.Wahab},
+           familyi={L\bibinitperiod}}}%
+        {{hash=3c8d556cb0f80ee83d0172878a03289f}{%
+           family={andS.Soltana},
+           familyi={a\bibinitperiod},
+           given={K.H.Marzouk},
+           giveni={K\bibinitperiod}}}%
+      }
+      \strng{namehash}{3fce160c8d367e98207c4b3c64ad9bed}
+      \strng{fullhash}{11ff22b803013035d4d0cf3ec4e2d96e}
+      \strng{bibnamehash}{3fce160c8d367e98207c4b3c64ad9bed}
+      \strng{authorbibnamehash}{3fce160c8d367e98207c4b3c64ad9bed}
+      \strng{authornamehash}{3fce160c8d367e98207c4b3c64ad9bed}
+      \strng{authorfullhash}{11ff22b803013035d4d0cf3ec4e2d96e}
+      \field{sortinit}{M}
+      \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issue}{3}
+      \field{journaltitle}{Journal of Radiation Research and Applied Sciences}
+      \field{title}{Higher critical current density achieved in Bi-2223 High-Tc superconductors}
+      \field{volume}{9}
+      \field{year}{2016}
+      \field{pages}{345\bibrangedash 351}
+      \range{pages}{7}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

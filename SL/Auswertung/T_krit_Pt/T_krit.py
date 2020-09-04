@@ -92,8 +92,8 @@ tkrit = 43
 dTmittel = 0
 # Temperaturänderung im Ablesebereich zur Fehlerabschätzung
 for k in range(1,3):
-    dTmittel += np.abs(T(RMG0[tkrit])-T(RMG0[tkrit-k]))
-    dTmittel += np.abs(T(RMG0[tkrit])-T(RMG0[tkrit+k]))
+    dTmittel += np.abs(T(RMG1[tkrit])-T(RMG1[tkrit-k]))
+    dTmittel += np.abs(T(RMG1[tkrit])-T(RMG1[tkrit+k]))
 dTmittel /= 2*k
 dTmittel += 2       # abgeschätzter systematische Fehler
 
@@ -129,8 +129,8 @@ tkrit = 49
 dTmittel = 0
 # Temperaturänderung im Ablesebereich zur Fehlerabschätzung
 for k in range(1,3):
-    dTmittel += np.abs(T(RMG0[tkrit])-T(RMG0[tkrit-k]))
-    dTmittel += np.abs(T(RMG0[tkrit])-T(RMG0[tkrit+k]))
+    dTmittel += np.abs(T(RMG2[tkrit])-T(RMG2[tkrit-k]))
+    dTmittel += np.abs(T(RMG2[tkrit])-T(RMG2[tkrit+k]))
 dTmittel /= 2*k
 dTmittel += 2       # abgeschätzter systematische Fehler
 

@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.12.0 (TeX Live 2020)  (format=lualatex 2020.5.18)  3 SEP 2020 14:06
+This is LuaHBTeX, Version 1.12.0 (TeX Live 2020)  (format=lualatex 2020.5.18)  4 SEP 2020 11:33
  restricted system commands enabled.
 **main.tex
 (./main.tex
@@ -509,12 +509,12 @@ braces):
 >  {german/localnumeral}  =>  {polyglossia@C@localnumeral}
 >  {german/Localnumeral}  =>  {polyglossia@C@localnumeral}.
 Module polyglossia Info: Language data for german
-(polyglossia)            patterns	hyph-de-1901.pat.txt
-(polyglossia)            loader	loadhyph-de-1901.tex
 (polyglossia)            righthyphenmin	2
+(polyglossia)            patterns	hyph-de-1901.pat.txt
 (polyglossia)            hyphenation	
-(polyglossia)            synonyms	
-(polyglossia)            lefthyphenmin	2 on input line 10
+(polyglossia)            loader	loadhyph-de-1901.tex
+(polyglossia)            lefthyphenmin	2
+(polyglossia)            synonyms	 on input line 10
 Module polyglossia Info: Language german was not yet loaded; created with id 2 o
 n input line 10
 Package polyglossia Info: Option: German, spelling=new.
@@ -1433,12 +1433,12 @@ LaTeX Info: Redefining \rmfamily on input line 26.
 LaTeX Info: Redefining \sffamily on input line 26.
 LaTeX Info: Redefining \ttfamily on input line 26.
 Module polyglossia Info: Language data for ngerman
-(polyglossia)            patterns	hyph-de-1996.pat.txt
-(polyglossia)            loader	loadhyph-de-1996.tex
 (polyglossia)            righthyphenmin	2
+(polyglossia)            patterns	hyph-de-1996.pat.txt
 (polyglossia)            hyphenation	
-(polyglossia)            synonyms	
-(polyglossia)            lefthyphenmin	2 on input line 26
+(polyglossia)            loader	loadhyph-de-1996.tex
+(polyglossia)            lefthyphenmin	2
+(polyglossia)            synonyms	 on input line 26
 Module polyglossia Info: Language ngerman was not yet loaded; created with id 4 
 on input line 26
 )
@@ -1578,13 +1578,14 @@ Package biblatex Info: Automatic encoding selection.
 
 \openout3 = main.bcf
 Package biblatex Info: Trying to load bibliographic data...
-Package biblatex Info: ... file 'main.bbl' not found.
+Package biblatex Info: ... file 'main.bbl' found.
 
-No file main.bbl.
+(./main.bbl)
 Package biblatex Info: Reference section=0 on input line 8.
 Package biblatex Info: Reference segment=0 on input line 8.
 \AtBeginShipoutBox=\box65
 Package hyperref Info: Link coloring OFF on input line 8.
+
 (/home/alex/.local/texlive/2020/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
 
@@ -1664,147 +1665,144 @@ LaTeX Info: Redefining \ttfamily on input line 2.
 
 ] (./content/ziel.tex) (./content/theorie.tex)
 (./content/durchfuehrung.tex) (./content/auswertung.tex
-<Auswertung/SL_1.jpg, id=71, 224.037pt x 207.8967pt>
+<Auswertung/SL_1.jpg, id=73, 224.037pt x 207.8967pt>
 File: Auswertung/SL_1.jpg Graphic file (type jpg)
 <use Auswertung/SL_1.jpg>
-Package luatex.def Info: Auswertung/SL_1.jpg  used on input line 17.
+Package luatex.def Info: Auswertung/SL_1.jpg  used on input line 18.
 (luatex.def)             Requested size: 188.21371pt x 174.6574pt.
-<Auswertung/SL_2.jpg, id=72, 2910.875pt x 2549.525pt>
+<Auswertung/SL_2.jpg, id=74, 2910.875pt x 2549.525pt>
 File: Auswertung/SL_2.jpg Graphic file (type jpg)
 <use Auswertung/SL_2.jpg>
-Package luatex.def Info: Auswertung/SL_2.jpg  used on input line 24.
+Package luatex.def Info: Auswertung/SL_2.jpg  used on input line 25.
 (luatex.def)             Requested size: 199.50607pt x 174.71143pt.
 
-Overfull \hbox (11.29236pt too wide) in paragraph at lines 24--26
+Overfull \hbox (11.29236pt too wide) in paragraph at lines 25--27
 [][] 
  []
 
 [3<./Auswertung/SL_1.jpg><./Auswertung/SL_2.jpg>]
-<Auswertung/SL_3.jpg, id=86, 260.172pt x 241.3818pt>
+<Auswertung/SL_3.jpg, id=88, 260.172pt x 241.3818pt>
 File: Auswertung/SL_3.jpg Graphic file (type jpg)
 <use Auswertung/SL_3.jpg>
-Package luatex.def Info: Auswertung/SL_3.jpg  used on input line 47.
+Package luatex.def Info: Auswertung/SL_3.jpg  used on input line 48.
 (luatex.def)             Requested size: 188.21371pt x 174.62715pt.
-<Auswertung/SL_4.jpg, id=87, 259.6902pt x 241.3818pt>
+<Auswertung/SL_4.jpg, id=89, 259.6902pt x 241.3818pt>
 File: Auswertung/SL_4.jpg Graphic file (type jpg)
 <use Auswertung/SL_4.jpg>
-Package luatex.def Info: Auswertung/SL_4.jpg  used on input line 55.
+Package luatex.def Info: Auswertung/SL_4.jpg  used on input line 56.
 (luatex.def)             Requested size: 188.21371pt x 174.94391pt.
 LaTeX Font Info:    Font shape `TU/LatinModernMath(2)/m/n' will be
-(Font)              scaled to size 12.00128pt on input line 62.
+(Font)              scaled to size 12.00128pt on input line 63.
 LaTeX Font Info:    Font shape `TU/LatinModernMath(2)/m/n' will be
-(Font)              scaled to size 8.00085pt on input line 62.
+(Font)              scaled to size 8.00085pt on input line 63.
 LaTeX Font Info:    Font shape `TU/LatinModernMath(2)/m/n' will be
-(Font)              scaled to size 6.00064pt on input line 62.
+(Font)              scaled to size 6.00064pt on input line 63.
 LaTeX Font Info:    Font shape `TU/LatinModernMath(3)/m/n' will be
-(Font)              scaled to size 11.99872pt on input line 62.
+(Font)              scaled to size 11.99872pt on input line 63.
 LaTeX Font Info:    Font shape `TU/LatinModernMath(3)/m/n' will be
-(Font)              scaled to size 7.99915pt on input line 62.
+(Font)              scaled to size 7.99915pt on input line 63.
 LaTeX Font Info:    Font shape `TU/LatinModernMath(3)/m/n' will be
-(Font)              scaled to size 5.99936pt on input line 62.
+(Font)              scaled to size 5.99936pt on input line 63.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 62.
+(hyperref)                removing `math shift' on input line 63.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 62.
+(hyperref)                removing `subscript' on input line 63.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 62.
+(hyperref)                removing `math shift' on input line 63.
 
 [4<./Auswertung/SL_3.jpg><./Auswertung/SL_4.jpg>]
-<Auswertung/T_krit_Si/T_krit.pdf, id=98, 462.528pt x 346.896pt>
+<Auswertung/T_krit_Si/T_krit.pdf, id=100, 462.528pt x 346.896pt>
 File: Auswertung/T_krit_Si/T_krit.pdf Graphic file (type pdf)
 <use Auswertung/T_krit_Si/T_krit.pdf>
-Package luatex.def Info: Auswertung/T_krit_Si/T_krit.pdf  used on input line 105
+Package luatex.def Info: Auswertung/T_krit_Si/T_krit.pdf  used on input line 106
 .
 (luatex.def)             Requested size: 334.60571pt x 250.96648pt.
 LaTeX Font Info:    Font shape `TU/LatinModernMath(2)/m/n' will be
-(Font)              scaled to size 5.00053pt on input line 110.
+(Font)              scaled to size 5.00053pt on input line 111.
 LaTeX Font Info:    Font shape `TU/LatinModernMath(3)/m/n' will be
-(Font)              scaled to size 4.99947pt on input line 110.
+(Font)              scaled to size 4.99947pt on input line 111.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 130.
+(hyperref)                removing `math shift' on input line 131.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 130.
+(hyperref)                removing `subscript' on input line 131.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 130.
+(hyperref)                removing `math shift' on input line 131.
 
 [5<./Auswertung/T_krit_Si/T_krit.pdf>]
-<Auswertung/T_krit_Pt/R_T.pdf, id=133, 462.528pt x 346.896pt>
+<Auswertung/T_krit_Pt/R_T.pdf, id=135, 462.528pt x 346.896pt>
 File: Auswertung/T_krit_Pt/R_T.pdf Graphic file (type pdf)
 <use Auswertung/T_krit_Pt/R_T.pdf>
-Package luatex.def Info: Auswertung/T_krit_Pt/R_T.pdf  used on input line 196.
+Package luatex.def Info: Auswertung/T_krit_Pt/R_T.pdf  used on input line 197.
 (luatex.def)             Requested size: 334.60571pt x 250.96648pt.
  [6]
-<Auswertung/T_krit_Pt/R_T_10mm.pdf, id=150, 462.528pt x 346.896pt>
+<Auswertung/T_krit_Pt/R_T_10mm.pdf, id=152, 462.528pt x 346.896pt>
 File: Auswertung/T_krit_Pt/R_T_10mm.pdf Graphic file (type pdf)
 <use Auswertung/T_krit_Pt/R_T_10mm.pdf>
 Package luatex.def Info: Auswertung/T_krit_Pt/R_T_10mm.pdf  used on input line 2
-30.
+31.
 (luatex.def)             Requested size: 334.60571pt x 250.96648pt.
  [7<./Auswertung/T_krit_Pt/R_T.pdf>]
-<Auswertung/T_krit_Pt/R_T_16mm.pdf, id=190, 462.528pt x 346.896pt>
+<Auswertung/T_krit_Pt/R_T_16mm.pdf, id=192, 462.528pt x 346.896pt>
 File: Auswertung/T_krit_Pt/R_T_16mm.pdf Graphic file (type pdf)
 <use Auswertung/T_krit_Pt/R_T_16mm.pdf>
 Package luatex.def Info: Auswertung/T_krit_Pt/R_T_16mm.pdf  used on input line 2
-43.
+44.
 (luatex.def)             Requested size: 334.60571pt x 250.96648pt.
 
 [8<./Auswertung/T_krit_Pt/R_T_10mm.pdf>]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 271.
+(hyperref)                removing `math shift' on input line 272.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 271.
+(hyperref)                removing `subscript' on input line 272.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 271.
+(hyperref)                removing `math shift' on input line 272.
 
 [9<./Auswertung/T_krit_Pt/R_T_16mm.pdf>]
-<Auswertung/I_krit_Pt/I_krit.pdf, id=267, 462.528pt x 346.896pt>
+<Auswertung/I_krit_Pt/I_krit.pdf, id=269, 462.528pt x 346.896pt>
 File: Auswertung/I_krit_Pt/I_krit.pdf Graphic file (type pdf)
 <use Auswertung/I_krit_Pt/I_krit.pdf>
-Package luatex.def Info: Auswertung/I_krit_Pt/I_krit.pdf  used on input line 338
+Package luatex.def Info: Auswertung/I_krit_Pt/I_krit.pdf  used on input line 339
 .
 (luatex.def)             Requested size: 334.60571pt x 250.96648pt.
  [10] [11<./Auswertung/I_krit_Pt/I_krit.pdf>]
-<Auswertung/I_krit_Pt_b/I_krit.pdf, id=309, 462.528pt x 346.896pt>
+<Auswertung/I_krit_Pt_b/I_krit.pdf, id=311, 462.528pt x 346.896pt>
 File: Auswertung/I_krit_Pt_b/I_krit.pdf Graphic file (type pdf)
 <use Auswertung/I_krit_Pt_b/I_krit.pdf>
 Package luatex.def Info: Auswertung/I_krit_Pt_b/I_krit.pdf  used on input line 3
-92.
+93.
 (luatex.def)             Requested size: 334.60571pt x 250.96648pt.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 401.
+(hyperref)                removing `math shift' on input line 402.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 401.
+(hyperref)                removing `subscript' on input line 402.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 401.
+(hyperref)                removing `math shift' on input line 402.
 
-) (./content/diskussion.tex [12<./Auswertung/I_krit_Pt_b/I_krit.pdf>])
-
-LaTeX Warning: Empty bibliography on input line 21.
-
-(./content/anhang.tex
+) (./content/diskussion.tex [12<./Auswertung/I_krit_Pt_b/I_krit.pdf>] [13])
+[14] (./content/anhang.tex
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 4.
@@ -1817,54 +1815,54 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 4.
 
-<Auswertung/I_krit_Pt/R_T_0.2A.pdf, id=339, 462.528pt x 346.896pt>
+<Auswertung/I_krit_Pt/R_T_0.2A.pdf, id=373, 462.528pt x 346.896pt>
 File: Auswertung/I_krit_Pt/R_T_0.2A.pdf Graphic file (type pdf)
 <use Auswertung/I_krit_Pt/R_T_0.2A.pdf>
 Package luatex.def Info: Auswertung/I_krit_Pt/R_T_0.2A.pdf  used on input line 9
 .
 (luatex.def)             Requested size: 334.60571pt x 250.96648pt.
-<Auswertung/I_krit_Pt/R_T_0.4A.pdf, id=340, 462.528pt x 346.896pt>
+<Auswertung/I_krit_Pt/R_T_0.4A.pdf, id=374, 462.528pt x 346.896pt>
 File: Auswertung/I_krit_Pt/R_T_0.4A.pdf Graphic file (type pdf)
 <use Auswertung/I_krit_Pt/R_T_0.4A.pdf>
 Package luatex.def Info: Auswertung/I_krit_Pt/R_T_0.4A.pdf  used on input line 2
 2.
 (luatex.def)             Requested size: 334.60571pt x 250.96648pt.
-[13<./Auswertung/I_krit_Pt/R_T_0.2A.pdf>]
-<Auswertung/I_krit_Pt/R_T_0.6A.pdf, id=372, 462.528pt x 346.896pt>
+[15<./Auswertung/I_krit_Pt/R_T_0.2A.pdf>]
+<Auswertung/I_krit_Pt/R_T_0.6A.pdf, id=411, 462.528pt x 346.896pt>
 File: Auswertung/I_krit_Pt/R_T_0.6A.pdf Graphic file (type pdf)
 <use Auswertung/I_krit_Pt/R_T_0.6A.pdf>
 Package luatex.def Info: Auswertung/I_krit_Pt/R_T_0.6A.pdf  used on input line 3
 5.
 (luatex.def)             Requested size: 334.60571pt x 250.96648pt.
- [14<./Auswertung/I_krit_Pt/R_T_0.4A.pdf>]
-<Auswertung/I_krit_Pt/R_T_0.8A.pdf, id=405, 462.528pt x 346.896pt>
+ [16<./Auswertung/I_krit_Pt/R_T_0.4A.pdf>]
+<Auswertung/I_krit_Pt/R_T_0.8A.pdf, id=443, 462.528pt x 346.896pt>
 File: Auswertung/I_krit_Pt/R_T_0.8A.pdf Graphic file (type pdf)
 <use Auswertung/I_krit_Pt/R_T_0.8A.pdf>
 Package luatex.def Info: Auswertung/I_krit_Pt/R_T_0.8A.pdf  used on input line 4
 8.
 (luatex.def)             Requested size: 334.60571pt x 250.96648pt.
- [15<./Auswertung/I_krit_Pt/R_T_0.6A.pdf>]
-<Auswertung/I_krit_Pt/R_T_1.0A.pdf, id=436, 462.528pt x 346.896pt>
+ [17<./Auswertung/I_krit_Pt/R_T_0.6A.pdf>]
+<Auswertung/I_krit_Pt/R_T_1.0A.pdf, id=474, 462.528pt x 346.896pt>
 File: Auswertung/I_krit_Pt/R_T_1.0A.pdf Graphic file (type pdf)
 <use Auswertung/I_krit_Pt/R_T_1.0A.pdf>
 Package luatex.def Info: Auswertung/I_krit_Pt/R_T_1.0A.pdf  used on input line 6
 1.
 (luatex.def)             Requested size: 334.60571pt x 250.96648pt.
- [16<./Auswertung/I_krit_Pt/R_T_0.8A.pdf>]
-<Auswertung/I_krit_Pt_b/R_T_0.6A.pdf, id=468, 462.528pt x 346.896pt>
+ [18<./Auswertung/I_krit_Pt/R_T_0.8A.pdf>]
+<Auswertung/I_krit_Pt_b/R_T_0.6A.pdf, id=506, 462.528pt x 346.896pt>
 File: Auswertung/I_krit_Pt_b/R_T_0.6A.pdf Graphic file (type pdf)
 <use Auswertung/I_krit_Pt_b/R_T_0.6A.pdf>
 Package luatex.def Info: Auswertung/I_krit_Pt_b/R_T_0.6A.pdf  used on input line
  74.
 (luatex.def)             Requested size: 334.60571pt x 250.96648pt.
- [17<./Auswertung/I_krit_Pt/R_T_1.0A.pdf>]
-<Auswertung/I_krit_Pt_b/R_T_0.8A.pdf, id=500, 462.528pt x 346.896pt>
+ [19<./Auswertung/I_krit_Pt/R_T_1.0A.pdf>]
+<Auswertung/I_krit_Pt_b/R_T_0.8A.pdf, id=539, 462.528pt x 346.896pt>
 File: Auswertung/I_krit_Pt_b/R_T_0.8A.pdf Graphic file (type pdf)
 <use Auswertung/I_krit_Pt_b/R_T_0.8A.pdf>
 Package luatex.def Info: Auswertung/I_krit_Pt_b/R_T_0.8A.pdf  used on input line
  88.
 (luatex.def)             Requested size: 334.60571pt x 250.96648pt.
-) [18<./Auswertung/I_krit_Pt_b/R_T_0.6A.pdf>]
+) [20<./Auswertung/I_krit_Pt_b/R_T_0.6A.pdf>]
 The property list \polyglossia@langsetup contains the pairs (without outer
 braces):
 >  {latex/script}  =>  {latin}
@@ -1900,7 +1898,7 @@ braces):
 >  {german/localnumeral}  =>  {polyglossia@C@localnumeral}
 >  {german/Localnumeral}  =>  {polyglossia@C@localnumeral}.
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 25.
- [19<./Auswertung/I_krit_Pt_b/R_T_0.8A.pdf>]
+ [21<./Auswertung/I_krit_Pt_b/R_T_0.8A.pdf>]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 25.
  (./main.aux
 LaTeX Info: Redefining \rmfamily on input line 26.
@@ -1909,52 +1907,51 @@ LaTeX Info: Redefining \ttfamily on input line 26.
 )
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 25.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 25.
-Package rerunfilecheck Info: File `main.aux' has not changed.
-(rerunfilecheck)             Checksum: 26C5E436A06631E3F3FF68AEBCDDAF6B;28728.
+
+
+Package rerunfilecheck Warning: File `main.aux' has changed. Rerun.
+
+Package rerunfilecheck Info: Checksums for `main.aux':
+(rerunfilecheck)             Before: F3FDF0EFFEBFAC9A946CA469A7B71A4A;29586
+(rerunfilecheck)             After:  6DED85E0EDF7F5C4D7DB2E6BDECBDA10;29460.
 Package rerunfilecheck Info: File `main.toc' has not changed.
-(rerunfilecheck)             Checksum: 825BB31EBEAB985A90CEE18D7C4C1859;1627.
-
-
-LaTeX Warning: There were undefined references.
-
-
-Package biblatex Warning: Please (re)run Biber on the file:
-(biblatex)                main
-(biblatex)                and rerun LaTeX afterwards.
-
+(rerunfilecheck)             Checksum: 3D29D67865F6043894018B86DAE14951;1694.
 Package logreq Info: Writing requests to 'main.run.xml'.
 
 \openout1 = main.run.xml
 )
 
 Here is how much of LuaTeX's memory you used:
- 36653 strings out of 480883
+ 37011 strings out of 480883
  100000,1977958 words of node,token memory allocated
- 652 words of node memory still in use:
-   6 hlist, 2 vlist, 2 rule, 2 glue, 4 kern, 1 glyph, 13 attribute, 80 glue_spec
-, 13 attribute_list, 1 write nodes
-   avail lists: 1:3,2:816,3:185,4:64,5:208,6:33,7:3124,8:64,9:244,10:26,11:324
- 53131 multiletter control sequences out of 65536+600000
- 268 fonts using 98692579 bytes
- 62i,14n,114p,10117b,2933s stack positions out of 5000i,500n,10000p,200000b,100000s
-</home/alex/.local/texlive/2020/texmf-dist/fonts/opentype/public/lm/lmroman10-it
-alic.otf></home/alex/.local/texlive/2020/texmf-dist/fonts/opentype/public/lm/lmr
-oman7-regular.otf></home/alex/.local/texlive/2020/texmf-dist/fonts/opentype/publ
-ic/lm/lmroman10-bold.otf></home/alex/.local/texlive/2020/texmf-dist/fonts/openty
-pe/public/lm-math/latinmodern-math.otf></home/alex/.local/texlive/2020/texmf-dis
-t/fonts/opentype/public/lm/lmroman9-regular.otf></home/alex/.local/texlive/2020/
-texmf-dist/fonts/opentype/public/lm/lmroman9-bold.otf></home/alex/.local/texlive
-/2020/texmf-dist/fonts/opentype/public/lm/lmroman8-regular.otf></home/alex/.loca
-l/texlive/2020/texmf-dist/fonts/opentype/public/lm-math/latinmodern-math.otf></h
-ome/alex/.local/texlive/2020/texmf-dist/fonts/opentype/public/lm/lmroman10-regul
-ar.otf></home/alex/.local/texlive/2020/texmf-dist/fonts/opentype/public/lm/lmrom
-an12-regular.otf></home/alex/.local/texlive/2020/texmf-dist/fonts/opentype/publi
-c/lm/lmsans10-bold.otf></home/alex/.local/texlive/2020/texmf-dist/fonts/opentype
-/public/lm/lmroman12-bold.otf>
-Output written on main.pdf (19 pages, 5260945 bytes).
+ 671 words of node memory still in use:
+   6 hlist, 2 vlist, 2 rule, 2 glue, 4 kern, 1 glyph, 15 attribute, 81 glue_spec
+, 15 attribute_list, 1 write, 1 pdf_action nodes
+   avail lists: 1:2,2:987,3:210,4:70,5:362,6:38,7:6012,8:71,9:255,10:26,11:612
+ 53479 multiletter control sequences out of 65536+600000
+ 335 fonts using 124886387 bytes
+ 62i,21n,114p,10117b,2933s stack positions out of 5000i,500n,10000p,200000b,100000s
+</home/alex/.local/texlive/2020/texmf-dist/fonts/opentype/public/lm/lmmono10-reg
+ular.otf></home/alex/.local/texlive/2020/texmf-dist/fonts/opentype/public/lm/lmr
+omancaps10-regular.otf></home/alex/.local/texlive/2020/texmf-dist/fonts/opentype
+/public/lm-math/latinmodern-math.otf></home/alex/.local/texlive/2020/texmf-dist/
+fonts/opentype/public/lm/lmroman10-italic.otf></home/alex/.local/texlive/2020/te
+xmf-dist/fonts/opentype/public/lm/lmroman7-regular.otf></home/alex/.local/texliv
+e/2020/texmf-dist/fonts/opentype/public/lm/lmroman10-bold.otf></home/alex/.local
+/texlive/2020/texmf-dist/fonts/opentype/public/lm-math/latinmodern-math.otf></ho
+me/alex/.local/texlive/2020/texmf-dist/fonts/opentype/public/lm/lmroman9-regular
+.otf></home/alex/.local/texlive/2020/texmf-dist/fonts/opentype/public/lm/lmroman
+9-bold.otf></home/alex/.local/texlive/2020/texmf-dist/fonts/opentype/public/lm/l
+mroman8-regular.otf></home/alex/.local/texlive/2020/texmf-dist/fonts/opentype/pu
+blic/lm-math/latinmodern-math.otf></home/alex/.local/texlive/2020/texmf-dist/fon
+ts/opentype/public/lm/lmroman10-regular.otf></home/alex/.local/texlive/2020/texm
+f-dist/fonts/opentype/public/lm/lmroman12-regular.otf></home/alex/.local/texlive
+/2020/texmf-dist/fonts/opentype/public/lm/lmsans10-bold.otf></home/alex/.local/t
+exlive/2020/texmf-dist/fonts/opentype/public/lm/lmroman12-bold.otf>
+Output written on main.pdf (21 pages, 5283159 bytes).
 
-PDF statistics: 693 PDF objects out of 1000 (max. 8388607)
- 528 compressed objects within 6 object streams
- 56 named destinations out of 1000 (max. 131072)
- 129 words of extra memory for PDF output out of 10000 (max. 100000000)
+PDF statistics: 753 PDF objects out of 1000 (max. 8388607)
+ 577 compressed objects within 6 object streams
+ 61 named destinations out of 1000 (max. 131072)
+ 137 words of extra memory for PDF output out of 10000 (max. 100000000)
 

@@ -9,8 +9,8 @@ def I(z,R,B):
 
 B       = 1.59*1e-3   # T
 z       = 0
-R       = 0.5*12.6*1e-3 # m
+R       = 0.5*15*1e-3 # m
 z_err   = 1e-3          # m
 I_err   = np.abs(I(z,R,B)-I(z_err,R,B)) # absolute Fehler
 
-print("Der induzierte Strom hat eine Staerke von ", I(z,R,B), "#-", I_err,"A")
+print("Der induzierte Strom hat eine Staerke von ", I(z,R,B), "+-", I_err,"A")
