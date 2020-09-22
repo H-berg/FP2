@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.12.0 (TeX Live 2020)  (format=lualatex 2020.5.18)  24 AUG 2020 19:24
+This is LuaHBTeX, Version 1.12.0 (TeX Live 2020)  (format=lualatex 2020.5.18)  22 SEP 2020 20:46
  restricted system commands enabled.
 **PL.tex
 (./PL.tex
@@ -509,11 +509,11 @@ braces):
 >  {german/localnumeral}  =>  {polyglossia@C@localnumeral}
 >  {german/Localnumeral}  =>  {polyglossia@C@localnumeral}.
 Module polyglossia Info: Language data for german
-(polyglossia)            righthyphenmin	2
-(polyglossia)            hyphenation	
 (polyglossia)            lefthyphenmin	2
-(polyglossia)            patterns	hyph-de-1901.pat.txt
 (polyglossia)            synonyms	
+(polyglossia)            patterns	hyph-de-1901.pat.txt
+(polyglossia)            hyphenation	
+(polyglossia)            righthyphenmin	2
 (polyglossia)            loader	loadhyph-de-1901.tex on input line 10
 Module polyglossia Info: Language german was not yet loaded; created with id 2 o
 n input line 10
@@ -1133,6 +1133,12 @@ Package biblatex Info: ... file 'blx-dm.def' found.
 (/home/alex/.local/texlive/2020/texmf-dist/tex/latex/biblatex/blx-dm.def
 File: blx-dm.def 2019/12/01 v3.14 biblatex localization (PK/MW)
 )
+Package biblatex Info: Trying to load biblatex style data model...
+Package biblatex Info: ... file 'phys.dbx' found.
+
+(/home/alex/.local/texlive/2020/texmf-dist/tex/latex/biblatex-phys/phys.dbx
+File: phys.dbx 2019/12/03 v1.1b biblatex database model extension
+)
 Package biblatex Info: Trying to load biblatex custom data model...
 Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
 \c@afterword=\count362
@@ -1246,6 +1252,25 @@ File: biblatex.def 2019/12/01 v3.14 biblatex compatibility (PK/MW)
 \biburllcskip=\muskip25
 \c@smartand=\count438
 )
+Package biblatex Info: Trying to load natbib compatibility...
+Package biblatex Info: ... file 'blx-natbib.def' found.
+
+(/home/alex/.local/texlive/2020/texmf-dist/tex/latex/biblatex/blx-natbib.def
+File: blx-natbib.def 2019/12/01 v3.14 biblatex compatibility (PK/MW)
+Package biblatex Info: Delimiter 'nameyeardelim' in context '' already defined, 
+overwriting.
+)
+Package biblatex Info: Trying to load bibliography style 'phys'...
+Package biblatex Info: ... file 'phys.bbx' found.
+
+(/home/alex/.local/texlive/2020/texmf-dist/tex/latex/biblatex-phys/phys.bbx
+File: phys.bbx 2019/12/03 v1.1b biblatex bibliography style
+Package biblatex Info: Trying to load bibliography style 'numeric-comp'...
+Package biblatex Info: ... file 'numeric-comp.bbx' found.
+
+(/home/alex/.local/texlive/2020/texmf-dist/tex/latex/biblatex/bbx/numeric-comp.
+bbx
+File: numeric-comp.bbx 2019/12/01 v3.14 biblatex bibliography style (PK/MW)
 Package biblatex Info: Trying to load bibliography style 'numeric'...
 Package biblatex Info: ... file 'numeric.bbx' found.
 
@@ -1258,11 +1283,19 @@ Package biblatex Info: ... file 'standard.bbx' found.
 File: standard.bbx 2019/12/01 v3.14 biblatex bibliography style (PK/MW)
 \c@bbx:relatedcount=\count439
 \c@bbx:relatedtotal=\count440
-))
-Package biblatex Info: Trying to load citation style 'numeric'...
-Package biblatex Info: ... file 'numeric.cbx' found.
- (/home/alex/.local/texlive/2020/texmf-dist/tex/latex/biblatex/cbx/numeric.cbx
-File: numeric.cbx 2019/12/01 v3.14 biblatex citation style (PK/MW)
+))))
+Package biblatex Info: Trying to load citation style 'phys'...
+Package biblatex Info: ... file 'phys.cbx' found.
+ (/home/alex/.local/texlive/2020/texmf-dist/tex/latex/biblatex-phys/phys.cbx
+File: phys.cbx 2019/12/03 v1.1b biblatex citation style
+Package biblatex Info: Trying to load citation style 'numeric-comp'...
+Package biblatex Info: ... file 'numeric-comp.cbx' found.
+
+(/home/alex/.local/texlive/2020/texmf-dist/tex/latex/biblatex/cbx/numeric-comp.
+cbx
+File: numeric-comp.cbx 2019/12/01 v3.14 biblatex citation style (PK/MW)
+\c@cbx@tempcnta=\count441
+\c@cbx@tempcntb=\count442
 Package biblatex Info: Redefining '\cite'.
 Package biblatex Info: Redefining '\parencite'.
 Package biblatex Info: Redefining '\footcite'.
@@ -1274,15 +1307,16 @@ Package biblatex Info: Redefining '\textcites'.
 Package biblatex Info: Redefining '\cites'.
 Package biblatex Info: Redefining '\parencites'.
 Package biblatex Info: Redefining '\smartcites'.
-)
+))
 Package biblatex Info: Trying to load configuration file...
 Package biblatex Info: ... file 'biblatex.cfg' found.
- (/home/alex/.local/texlive/2020/texmf-dist/tex/latex/biblatex/biblatex.cfg
+
+(/home/alex/.local/texlive/2020/texmf-dist/tex/latex/biblatex/biblatex.cfg
 File: biblatex.cfg 
 ))
 Package scrhack Info: hyperref hack deactivated because of
 (scrhack)             detection of KOMA-Script class, that doesn't
-(scrhack)             need that hack, on input line 133.
+(scrhack)             need that hack, on input line 141.
 
 (/home/alex/.local/texlive/2020/texmf-dist/tex/latex/hyperref/hyperref.sty
 Package: hyperref 2020-05-15 v7.00e Hypertext links for LaTeX
@@ -1303,8 +1337,8 @@ Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
 Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
 )
 \@linkdim=\dimen266
-\Hy@linkcounter=\count441
-\Hy@pagecounter=\count442
+\Hy@linkcounter=\count443
+\Hy@pagecounter=\count444
 
 (/home/alex/.local/texlive/2020/texmf-dist/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2020-05-15 v7.00e Hyperref: PDFDocEncoding definition (HO)
@@ -1315,7 +1349,7 @@ Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 (/home/alex/.local/texlive/2020/texmf-dist/tex/generic/etexcmds/etexcmds.sty
 Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
 )
-\Hy@SavedSpaceFactor=\count443
+\Hy@SavedSpaceFactor=\count445
 Package hyperref Info: Option `unicode' set `true' on input line 4338.
 
 (/home/alex/.local/texlive/2020/texmf-dist/tex/latex/hyperref/puenc.def
@@ -1329,14 +1363,14 @@ Package hyperref Info: Plain pages OFF on input line 4479.
 Package hyperref Info: Backreferencing OFF on input line 4484.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4717.
-\c@Hy@tempcnt=\count444
+\c@Hy@tempcnt=\count446
 LaTeX Info: Redefining \url on input line 5076.
 \XeTeXLinkMargin=\dimen267
 
 (/home/alex/.local/texlive/2020/texmf-dist/tex/generic/bitset/bitset.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
 )
-\Fld@menulength=\count445
+\Fld@menulength=\count447
 \Field@Width=\dimen268
 \Fld@charsize=\dimen269
 Package hyperref Info: Hyper figures OFF on input line 6347.
@@ -1352,9 +1386,9 @@ LaTeX Info: Redefining \pageref on input line 6421.
 (/home/alex/.local/texlive/2020/texmf-dist/tex/generic/atbegshi/atbegshi.sty
 Package: atbegshi 2019/12/05 v1.19 At begin shipout hook (HO)
 )
-\Hy@abspage=\count446
-\c@Item=\count447
-\c@Hfootnote=\count448
+\Hy@abspage=\count448
+\c@Item=\count449
+\c@Hfootnote=\count450
 )
 Package hyperref Info: Driver (autodetected): hluatex.
 
@@ -1365,15 +1399,15 @@ File: hluatex.def 2020-05-15 v7.00e Hyperref driver for luaTeX
 Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO)
 
 )
-\Fld@listcount=\count449
-\c@bookmark@seq@number=\count450
+\Fld@listcount=\count451
+\c@bookmark@seq@number=\count452
 \Hy@SectionHShift=\skip111
 ) (/home/alex/.local/texlive/2020/texmf-dist/tex/latex/bookmark/bookmark.sty
 Package: bookmark 2019/12/03 v1.28 PDF bookmarks (HO)
 
 (/home/alex/.local/texlive/2020/texmf-dist/tex/latex/bookmark/bkm-pdftex.def
 File: bkm-pdftex.def 2019/12/03 v1.28 bookmark driver for pdfTeX (HO)
-\BKM@id=\count451
+\BKM@id=\count453
 ))
 (/home/alex/.local/texlive/2020/texmf-dist/tex/latex/ncctools/extdash.sty
 Package: extdash 2018/06/24 v1.3 Extended Dash Package (NCC)
@@ -1386,11 +1420,11 @@ LaTeX Info: Redefining \rmfamily on input line 26.
 LaTeX Info: Redefining \sffamily on input line 26.
 LaTeX Info: Redefining \ttfamily on input line 26.
 Module polyglossia Info: Language data for ngerman
-(polyglossia)            righthyphenmin	2
-(polyglossia)            hyphenation	
 (polyglossia)            lefthyphenmin	2
-(polyglossia)            patterns	hyph-de-1996.pat.txt
 (polyglossia)            synonyms	
+(polyglossia)            patterns	hyph-de-1996.pat.txt
+(polyglossia)            hyphenation	
+(polyglossia)            righthyphenmin	2
 (polyglossia)            loader	loadhyph-de-1996.tex on input line 26
 Module polyglossia Info: Language ngerman was not yet loaded; created with id 4 
 on input line 26
@@ -1450,16 +1484,16 @@ Package chemgreek Info: Activating mapping `fontspec' on line 6.
 
 (/home/alex/.local/texlive/2020/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count452
+\scratchcounter=\count454
 \scratchdimen=\dimen270
 \scratchbox=\box66
-\nofMPsegments=\count453
-\nofMParguments=\count454
+\nofMPsegments=\count455
+\nofMParguments=\count456
 \everyMPshowfont=\toks30
-\MPscratchCnt=\count455
+\MPscratchCnt=\count457
 \MPscratchDim=\dimen271
-\MPnumerator=\count456
-\makeMPintoPDFobject=\count457
+\MPnumerator=\count458
+\makeMPintoPDFobject=\count459
 \everyMPtoPDFconversion=\toks31
 )
 (/home/alex/.local/texlive/2020/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base
@@ -1558,7 +1592,7 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'PL.bbl' found.
 
-(./PL.bbl)
+(./pl.bbl)
 Package biblatex Info: Reference section=0 on input line 6.
 Package biblatex Info: Reference segment=0 on input line 6.
 \AtBeginShipoutBox=\box67
@@ -1574,7 +1608,7 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 tring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count458
+\c@section@level=\count460
 )
 LaTeX Info: Redefining \ref on input line 6.
 LaTeX Info: Redefining \pageref on input line 6.
@@ -1652,40 +1686,36 @@ File: Abb/photoqp.png Graphic file (type png)
 <use Abb/photoqp.png>
 Package luatex.def Info: Abb/photoqp.png  used on input line 53.
 (luatex.def)             Requested size: 250.95587pt x 148.88815pt.
-<Abb/size.png, id=98, 945.5325pt x 751.80875pt>
+<Abb/size.png, id=99, 945.5325pt x 751.80875pt>
 File: Abb/size.png Graphic file (type png)
 <use Abb/size.png>
-Package luatex.def Info: Abb/size.png  used on input line 78.
+Package luatex.def Info: Abb/size.png  used on input line 79.
 (luatex.def)             Requested size: 167.29967pt x 133.01393pt.
-<Abb/size2.png, id=99, 635.37375pt x 453.695pt>
+<Abb/size2.png, id=100, 635.37375pt x 453.695pt>
 File: Abb/size2.png Graphic file (type png)
 <use Abb/size2.png>
-Package luatex.def Info: Abb/size2.png  used on input line 82.
+Package luatex.def Info: Abb/size2.png  used on input line 83.
 (luatex.def)             Requested size: 167.29967pt x 119.46016pt.
 LaTeX Font Info:    Font shape `TU/LatinModernMath(2)/m/n' will be
-(Font)              scaled to size 5.00053pt on input line 85.
+(Font)              scaled to size 5.00053pt on input line 86.
 LaTeX Font Info:    Font shape `TU/LatinModernMath(3)/m/n' will be
-(Font)              scaled to size 4.99947pt on input line 85.
+(Font)              scaled to size 4.99947pt on input line 86.
  [4<./Abb/photoqp.png>]
-<Abb/blink.png, id=121, 882.29625pt x 512.91624pt>
+<Abb/blink.png, id=123, 882.29625pt x 512.91624pt>
 File: Abb/blink.png Graphic file (type png)
 <use Abb/blink.png>
-Package luatex.def Info: Abb/blink.png  used on input line 103.
+Package luatex.def Info: Abb/blink.png  used on input line 104.
 (luatex.def)             Requested size: 334.60571pt x 194.51888pt.
 ) (./content/durchfuehrung.tex
 [5<./Abb/size.png><./Abb/size2.png><./Abb/blink.png>]
-<Abb/aufbau.png, id=136, 986.68625pt x 863.225pt>
+<Abb/aufbau.png, id=138, 546.54187pt x 472.76625pt>
 File: Abb/aufbau.png Graphic file (type png)
 <use Abb/aufbau.png>
-Package luatex.def Info: Abb/aufbau.png  used on input line 33.
-(luatex.def)             Requested size: 418.25555pt x 365.924pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 40--59
-
- []
-
-) (./content/auswertung.tex [6] [7<./Abb/aufbau.png>]
-<Plots/aufgabe1a_P1.pdf, id=155, 462.528pt x 346.896pt>
+Package luatex.def Info: Abb/aufbau.png  used on input line 35.
+(luatex.def)             Requested size: 418.25555pt x 361.80206pt.
+)
+(./content/auswertung.tex [6] [7<./Abb/aufbau.png>]
+<Plots/aufgabe1a_P1.pdf, id=157, 462.528pt x 346.896pt>
 File: Plots/aufgabe1a_P1.pdf Graphic file (type pdf)
 <use Plots/aufgabe1a_P1.pdf>
 Package luatex.def Info: Plots/aufgabe1a_P1.pdf  used on input line 15.
@@ -1698,94 +1728,94 @@ LaTeX Font Info:    Font shape `TU/LatinModernMath(3)/m/n' will be
 (Font)              scaled to size 8.99904pt on input line 16.
 LaTeX Font Info:    Font shape `TU/LatinModernMath(3)/m/n' will be
 (Font)              scaled to size 5.99936pt on input line 16.
-<Plots/aufgabe1a_P2.pdf, id=156, 462.528pt x 346.896pt>
+<Plots/aufgabe1a_P2.pdf, id=158, 462.528pt x 346.896pt>
 File: Plots/aufgabe1a_P2.pdf Graphic file (type pdf)
 <use Plots/aufgabe1a_P2.pdf>
 Package luatex.def Info: Plots/aufgabe1a_P2.pdf  used on input line 21.
 (luatex.def)             Requested size: 167.29967pt x 125.4753pt.
-<Plots/aufgabe1a_P3.pdf, id=157, 462.528pt x 346.896pt>
+<Plots/aufgabe1a_P3.pdf, id=159, 462.528pt x 346.896pt>
 File: Plots/aufgabe1a_P3.pdf Graphic file (type pdf)
 <use Plots/aufgabe1a_P3.pdf>
 Package luatex.def Info: Plots/aufgabe1a_P3.pdf  used on input line 27.
 (luatex.def)             Requested size: 167.29967pt x 125.4753pt.
  [8]
-<Plots/aufgabe1b.pdf, id=169, 462.528pt x 346.896pt>
+<Plots/aufgabe1b.pdf, id=171, 462.528pt x 346.896pt>
 File: Plots/aufgabe1b.pdf Graphic file (type pdf)
 <use Plots/aufgabe1b.pdf>
 Package luatex.def Info: Plots/aufgabe1b.pdf  used on input line 70.
 (luatex.def)             Requested size: 209.12778pt x 156.84808pt.
  [9<./Plots/aufgabe1a_P1.pdf><./Plots/aufgabe1a_P2.pdf><./Plots/aufgabe1a_P3.pdf
 >]
-<Plots/aufgabe1c2_1s.pdf, id=350, 462.528pt x 346.896pt>
+<Plots/aufgabe1c2_1s.pdf, id=352, 462.528pt x 346.896pt>
 File: Plots/aufgabe1c2_1s.pdf Graphic file (type pdf)
 <use Plots/aufgabe1c2_1s.pdf>
 Package luatex.def Info: Plots/aufgabe1c2_1s.pdf  used on input line 116.
 (luatex.def)             Requested size: 188.21371pt x 141.15904pt.
-<Plots/aufgabe1c3.pdf, id=351, 462.528pt x 346.896pt>
+<Plots/aufgabe1c3.pdf, id=353, 462.528pt x 346.896pt>
 File: Plots/aufgabe1c3.pdf Graphic file (type pdf)
 <use Plots/aufgabe1c3.pdf>
 Package luatex.def Info: Plots/aufgabe1c3.pdf  used on input line 122.
 (luatex.def)             Requested size: 188.21371pt x 141.15904pt.
  [10<./Plots/aufgabe1b.pdf>]
-<Plots/aufgabe1c4.pdf, id=409, 462.528pt x 346.896pt>
+<Plots/aufgabe1c4.pdf, id=411, 462.528pt x 346.896pt>
 File: Plots/aufgabe1c4.pdf Graphic file (type pdf)
 <use Plots/aufgabe1c4.pdf>
 Package luatex.def Info: Plots/aufgabe1c4.pdf  used on input line 159.
 (luatex.def)             Requested size: 250.95587pt x 188.22089pt.
  [11<./Plots/aufgabe1c2_1s.pdf><./Plots/aufgabe1c3.pdf>] [12<./Plots/aufgabe1c4.
 pdf>]
-<Plots/aufgabe2P1.pdf, id=553, 462.528pt x 346.896pt>
+<Plots/aufgabe2P1.pdf, id=555, 462.528pt x 346.896pt>
 File: Plots/aufgabe2P1.pdf Graphic file (type pdf)
 <use Plots/aufgabe2P1.pdf>
 Package luatex.def Info: Plots/aufgabe2P1.pdf  used on input line 181.
 (luatex.def)             Requested size: 188.21371pt x 141.15904pt.
-<Plots/aufgabe2P1_fit_1s.pdf, id=554, 462.528pt x 346.896pt>
+<Plots/aufgabe2P1_fit_1s.pdf, id=556, 462.528pt x 346.896pt>
 File: Plots/aufgabe2P1_fit_1s.pdf Graphic file (type pdf)
 <use Plots/aufgabe2P1_fit_1s.pdf>
 Package luatex.def Info: Plots/aufgabe2P1_fit_1s.pdf  used on input line 187.
 (luatex.def)             Requested size: 188.21371pt x 141.15904pt.
-<Plots/aufgabe2P2.pdf, id=559, 462.528pt x 346.896pt>
+<Plots/aufgabe2P2.pdf, id=561, 462.528pt x 346.896pt>
 File: Plots/aufgabe2P2.pdf Graphic file (type pdf)
 <use Plots/aufgabe2P2.pdf>
 Package luatex.def Info: Plots/aufgabe2P2.pdf  used on input line 217.
 (luatex.def)             Requested size: 188.21371pt x 141.15904pt.
-<Plots/aufgabe2P2_fit_1s.pdf, id=560, 462.528pt x 346.896pt>
+<Plots/aufgabe2P2_fit_1s.pdf, id=562, 462.528pt x 346.896pt>
 File: Plots/aufgabe2P2_fit_1s.pdf Graphic file (type pdf)
 <use Plots/aufgabe2P2_fit_1s.pdf>
 Package luatex.def Info: Plots/aufgabe2P2_fit_1s.pdf  used on input line 223.
 (luatex.def)             Requested size: 188.21371pt x 141.15904pt.
-<Plots/aufgabe2P3.pdf, id=564, 462.528pt x 346.896pt>
+<Plots/aufgabe2P3.pdf, id=566, 462.528pt x 346.896pt>
 File: Plots/aufgabe2P3.pdf Graphic file (type pdf)
 <use Plots/aufgabe2P3.pdf>
 Package luatex.def Info: Plots/aufgabe2P3.pdf  used on input line 252.
 (luatex.def)             Requested size: 188.21371pt x 141.15904pt.
-<Plots/aufgabe2P3_fit_1s.pdf, id=565, 462.528pt x 346.896pt>
+<Plots/aufgabe2P3_fit_1s.pdf, id=567, 462.528pt x 346.896pt>
 File: Plots/aufgabe2P3_fit_1s.pdf Graphic file (type pdf)
 <use Plots/aufgabe2P3_fit_1s.pdf>
 Package luatex.def Info: Plots/aufgabe2P3_fit_1s.pdf  used on input line 258.
 (luatex.def)             Requested size: 188.21371pt x 141.15904pt.
  [13<./Plots/aufgabe2P1.pdf><./Plots/aufgabe2P1_fit_1s.pdf>]
-<Plots/aufgabe3_P1.pdf, id=682, 462.528pt x 346.896pt>
+<Plots/aufgabe3_P1.pdf, id=684, 462.528pt x 346.896pt>
 File: Plots/aufgabe3_P1.pdf Graphic file (type pdf)
 <use Plots/aufgabe3_P1.pdf>
 Package luatex.def Info: Plots/aufgabe3_P1.pdf  used on input line 291.
 (luatex.def)             Requested size: 188.21371pt x 141.15904pt.
-<Plots/aufgabe3_P2.pdf, id=683, 462.528pt x 346.896pt>
+<Plots/aufgabe3_P2.pdf, id=685, 462.528pt x 346.896pt>
 File: Plots/aufgabe3_P2.pdf Graphic file (type pdf)
 <use Plots/aufgabe3_P2.pdf>
 Package luatex.def Info: Plots/aufgabe3_P2.pdf  used on input line 297.
 (luatex.def)             Requested size: 188.21371pt x 141.15904pt.
-<Plots/aufgabe3_P3.pdf, id=684, 462.528pt x 346.896pt>
+<Plots/aufgabe3_P3.pdf, id=686, 462.528pt x 346.896pt>
 File: Plots/aufgabe3_P3.pdf Graphic file (type pdf)
 <use Plots/aufgabe3_P3.pdf>
 Package luatex.def Info: Plots/aufgabe3_P3.pdf  used on input line 303.
 (luatex.def)             Requested size: 188.21371pt x 141.15904pt.
-<Plots/aufgabe3_P4.pdf, id=685, 462.528pt x 346.896pt>
+<Plots/aufgabe3_P4.pdf, id=687, 462.528pt x 346.896pt>
 File: Plots/aufgabe3_P4.pdf Graphic file (type pdf)
 <use Plots/aufgabe3_P4.pdf>
 Package luatex.def Info: Plots/aufgabe3_P4.pdf  used on input line 309.
 (luatex.def)             Requested size: 188.21371pt x 141.15904pt.
-<Plots/aufgabe3_vergleich.pdf, id=688, 462.528pt x 346.896pt>
+<Plots/aufgabe3_vergleich.pdf, id=690, 462.528pt x 346.896pt>
 File: Plots/aufgabe3_vergleich.pdf Graphic file (type pdf)
 <use Plots/aufgabe3_vergleich.pdf>
 Package luatex.def Info: Plots/aufgabe3_vergleich.pdf  used on input line 321.
@@ -1802,7 +1832,20 @@ LaTeX Warning: Reference `sec:2' on page 17 undefined on input line 51.
 
 LaTeX Warning: Reference `sec:3' on page 18 undefined on input line 57.
 
-) [18]
+)
+Overfull \hbox (35.89877pt too wide) in paragraph at lines 19--19
+[]\TU/lmr/m/n/10.95 Kom-pen-di-um, \TU/lmr/m/it/10.95 Quantenpunkt-Displays\TU/
+lmr/m/n/10.95 , []$\TU/lmtt/m/n/10.95 https : / / kompendium . infotip . de / qu
+antenpunkt -
+ []
+
+[18]
+Overfull \hbox (8.74835pt too wide) in paragraph at lines 19--19
+[]\TU/lmr/m/n/10.95 MERCK, \TU/lmr/m/it/10.95 Quan-tum Dots\TU/lmr/m/n/10.95 , 
+[]$\TU/lmtt/m/n/10.95 https : / / www . sigmaaldrich . com / technical - documen
+ts /
+ []
+
 The property list \polyglossia@langsetup contains the pairs (without outer
 braces):
 >  {latex/script}  =>  {latin}
@@ -1838,7 +1881,7 @@ braces):
 >  {german/localnumeral}  =>  {polyglossia@C@localnumeral}
 >  {german/Localnumeral}  =>  {polyglossia@C@localnumeral}.
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 21.
- [19]
+[19]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 21.
  (./PL.aux
 LaTeX Info: Redefining \rmfamily on input line 26.
@@ -1847,11 +1890,15 @@ LaTeX Info: Redefining \ttfamily on input line 26.
 )
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 21.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 21.
-Package rerunfilecheck Info: File `PL.aux' has not changed.
-(rerunfilecheck)             Checksum: 90A323233CB2C927453845EFB4BF0A81;26110.
-Package rerunfilecheck Info: File `PL.toc' has not changed.
-(rerunfilecheck)             Checksum: 3755E1044DA8B1221778D16643EE8E68;1784.
 
+
+Package rerunfilecheck Warning: File `PL.aux' has changed. Rerun.
+
+Package rerunfilecheck Info: Checksums for `PL.aux':
+(rerunfilecheck)             Before: CE3FF47BB8BDCC933194CA0403BD3000;26240
+(rerunfilecheck)             After:  1F32EB1C78D444C8A4585C387E85CFCF;26240.
+Package rerunfilecheck Info: File `PL.toc' has not changed.
+(rerunfilecheck)             Checksum: 8672B7BB65700753A483D70F8CB41DDE;1784.
 
 LaTeX Warning: There were undefined references.
 
@@ -1861,35 +1908,34 @@ Package logreq Info: Writing requests to 'PL.run.xml'.
 )
 
 Here is how much of LuaTeX's memory you used:
- 36993 strings out of 480883
+ 37125 strings out of 480883
  100000,1977958 words of node,token memory allocated
- 753 words of node memory still in use:
-   7 hlist, 2 vlist, 2 rule, 2 glue, 4 kern, 1 glyph, 13 attribute, 96 glue_spec
-, 13 attribute_list, 1 write, 2 pdf_action nodes
-   avail lists: 1:2,2:875,3:192,4:53,5:324,6:57,7:5329,8:112,9:385,10:31,11:623
- 53377 multiletter control sequences out of 65536+600000
- 155 fonts using 45011243 bytes
+ 763 words of node memory still in use:
+   7 hlist, 2 vlist, 2 rule, 2 glue, 4 kern, 1 glyph, 14 attribute, 96 glue_spec
+, 14 attribute_list, 1 write, 3 pdf_action nodes
+   avail lists: 1:2,2:866,3:192,4:61,5:342,6:56,7:5628,8:111,9:385,10:30,11:675
+ 53469 multiletter control sequences out of 65536+600000
+ 154 fonts using 44880675 bytes
  62i,13n,114p,10115b,2279s stack positions out of 5000i,500n,10000p,200000b,100000s
 </home/alex/.local/texlive/2020/texmf-dist/fonts/opentype/public/lm/lmmono10-reg
 ular.otf></home/alex/.local/texlive/2020/texmf-dist/fonts/opentype/public/lm/lmr
-omancaps10-regular.otf></home/alex/.local/texlive/2020/texmf-dist/fonts/opentype
-/public/lm/lmroman10-italic.otf></home/alex/.local/texlive/2020/texmf-dist/fonts
-/opentype/public/lm-math/latinmodern-math.otf></home/alex/.local/texlive/2020/te
-xmf-dist/fonts/opentype/public/lm/lmroman9-regular.otf></home/alex/.local/texliv
-e/2020/texmf-dist/fonts/opentype/public/lm/lmroman9-bold.otf></home/alex/.local/
-texlive/2020/texmf-dist/fonts/opentype/public/lm/lmroman8-regular.otf></home/ale
+oman10-italic.otf></home/alex/.local/texlive/2020/texmf-dist/fonts/opentype/publ
+ic/lm-math/latinmodern-math.otf></home/alex/.local/texlive/2020/texmf-dist/fonts
+/opentype/public/lm/lmroman9-regular.otf></home/alex/.local/texlive/2020/texmf-d
+ist/fonts/opentype/public/lm/lmroman9-bold.otf></home/alex/.local/texlive/2020/t
+exmf-dist/fonts/opentype/public/lm/lmroman8-regular.otf></home/alex/.local/texli
+ve/2020/texmf-dist/fonts/opentype/public/lm-math/latinmodern-math.otf></home/ale
 x/.local/texlive/2020/texmf-dist/fonts/opentype/public/lm-math/latinmodern-math.
-otf></home/alex/.local/texlive/2020/texmf-dist/fonts/opentype/public/lm-math/lat
-inmodern-math.otf></home/alex/.local/texlive/2020/texmf-dist/fonts/opentype/publ
-ic/lm/lmroman10-bold.otf></home/alex/.local/texlive/2020/texmf-dist/fonts/openty
-pe/public/lm/lmroman10-regular.otf></home/alex/.local/texlive/2020/texmf-dist/fo
-nts/opentype/public/lm/lmroman12-regular.otf></home/alex/.local/texlive/2020/tex
-mf-dist/fonts/opentype/public/lm/lmsans10-bold.otf></home/alex/.local/texlive/20
-20/texmf-dist/fonts/opentype/public/lm/lmroman12-bold.otf>
-Output written on PL.pdf (19 pages, 2999264 bytes).
+otf></home/alex/.local/texlive/2020/texmf-dist/fonts/opentype/public/lm/lmroman1
+0-bold.otf></home/alex/.local/texlive/2020/texmf-dist/fonts/opentype/public/lm/l
+mroman10-regular.otf></home/alex/.local/texlive/2020/texmf-dist/fonts/opentype/p
+ublic/lm/lmroman12-regular.otf></home/alex/.local/texlive/2020/texmf-dist/fonts/
+opentype/public/lm/lmsans10-bold.otf></home/alex/.local/texlive/2020/texmf-dist/
+fonts/opentype/public/lm/lmroman12-bold.otf>
+Output written on PL.pdf (19 pages, 3271233 bytes).
 
-PDF statistics: 1367 PDF objects out of 1440 (max. 8388607)
+PDF statistics: 1364 PDF objects out of 1440 (max. 8388607)
  570 compressed objects within 6 object streams
- 77 named destinations out of 1000 (max. 131072)
+ 78 named destinations out of 1000 (max. 131072)
  137 words of extra memory for PDF output out of 10000 (max. 100000000)
 

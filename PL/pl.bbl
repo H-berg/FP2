@@ -1,0 +1,328 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.1 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global}
+    \entry{eki}{article}{}
+      \name{author}{1}{}{%
+        {{hash=0303c8c9c10e365a1f7767f0dd597050}{%
+           family={{Ekimov, A. I. and Onushchenko, A. A.}},
+           familyi={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{0303c8c9c10e365a1f7767f0dd597050}
+      \strng{fullhash}{0303c8c9c10e365a1f7767f0dd597050}
+      \strng{bibnamehash}{0303c8c9c10e365a1f7767f0dd597050}
+      \strng{authorbibnamehash}{0303c8c9c10e365a1f7767f0dd597050}
+      \strng{authornamehash}{0303c8c9c10e365a1f7767f0dd597050}
+      \strng{authorfullhash}{0303c8c9c10e365a1f7767f0dd597050}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{JETP Letters}
+      \field{number}{6}
+      \field{title}{Quantum size effect in three-dimensional microscopic semiconductor crystals}
+      \field{volume}{34}
+      \field{year}{1981}
+      \field{pages}{345\bibrangedash 349}
+      \range{pages}{5}
+    \endentry
+    \entry{biom}{article}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{1}{}{%
+        {{hash=c08d2aab3232691957ea36673ac623c5}{%
+           family={Bruchez\bibnamedelima Jr.},
+           familyi={B\bibinitperiod\bibinitdelim J\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{869c81df91c39f9857063d8ec555f1fc}
+      \strng{fullhash}{869c81df91c39f9857063d8ec555f1fc}
+      \strng{bibnamehash}{869c81df91c39f9857063d8ec555f1fc}
+      \strng{authorbibnamehash}{869c81df91c39f9857063d8ec555f1fc}
+      \strng{authornamehash}{869c81df91c39f9857063d8ec555f1fc}
+      \strng{authorfullhash}{869c81df91c39f9857063d8ec555f1fc}
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Science}
+      \field{title}{Semiconductor Nanocrystals as Fluorescent Biological Labels}
+      \field{volume}{281}
+      \field{year}{1998}
+      \field{pages}{2013}
+      \range{pages}{1}
+    \endentry
+    \entry{cryp}{article}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{1}{}{%
+        {{hash=1d88dc9ced139c1a7190ea322ce9747f}{%
+           family={Buttler},
+           familyi={B\bibinitperiod},
+           given={W.\bibnamedelimi T.},
+           giveni={W\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+      }
+      \strng{namehash}{ef5d0bc81ea96a057eb305bf8f10161e}
+      \strng{fullhash}{ef5d0bc81ea96a057eb305bf8f10161e}
+      \strng{bibnamehash}{ef5d0bc81ea96a057eb305bf8f10161e}
+      \strng{authorbibnamehash}{ef5d0bc81ea96a057eb305bf8f10161e}
+      \strng{authornamehash}{ef5d0bc81ea96a057eb305bf8f10161e}
+      \strng{authorfullhash}{ef5d0bc81ea96a057eb305bf8f10161e}
+      \field{sortinit}{3}
+      \field{sortinithash}{a37a8ef248a93c322189792c34fc68c9}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Phys. Rev. Lett.}
+      \field{number}{5652}
+      \field{title}{Daylight Quantum Key Distribution over 1.6 km}
+      \field{volume}{84}
+      \field{year}{2000}
+    \endentry
+    \entry{compt}{article}{}
+      \name{author}{2}{}{%
+        {{hash=484a7301172505faf210926187741479}{%
+           family={Loss},
+           familyi={L\bibinitperiod},
+           given={Daniel},
+           giveni={D\bibinitperiod}}}%
+        {{hash=eb086f2913454eb2d88cdec4631aeb3e}{%
+           family={DiVincenzo},
+           familyi={D\bibinitperiod},
+           given={David\bibnamedelima P.},
+           giveni={D\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+      }
+      \strng{namehash}{a65fbc57811596818beb3be5763cd9a3}
+      \strng{fullhash}{a65fbc57811596818beb3be5763cd9a3}
+      \strng{bibnamehash}{a65fbc57811596818beb3be5763cd9a3}
+      \strng{authorbibnamehash}{a65fbc57811596818beb3be5763cd9a3}
+      \strng{authornamehash}{a65fbc57811596818beb3be5763cd9a3}
+      \strng{authorfullhash}{a65fbc57811596818beb3be5763cd9a3}
+      \field{sortinit}{4}
+      \field{sortinithash}{e071e0bcb44634fab398d68ad04e69f4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Phys. Rev. Lett.}
+      \field{number}{120}
+      \field{title}{Quantum computation with quantum dots}
+      \field{volume}{57}
+      \field{year}{1998}
+    \endentry
+    \entry{qled}{article}{}
+      \name{author}{1}{}{%
+        {{hash=62d183d472523c564178bc638e17a9b8}{%
+           family={{J. HU. et al.}},
+           familyi={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{62d183d472523c564178bc638e17a9b8}
+      \strng{fullhash}{62d183d472523c564178bc638e17a9b8}
+      \strng{bibnamehash}{62d183d472523c564178bc638e17a9b8}
+      \strng{authorbibnamehash}{62d183d472523c564178bc638e17a9b8}
+      \strng{authornamehash}{62d183d472523c564178bc638e17a9b8}
+      \strng{authorfullhash}{62d183d472523c564178bc638e17a9b8}
+      \field{sortinit}{5}
+      \field{sortinithash}{5dd416adbafacc8226114bc0202d5fdd}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Science}
+      \field{number}{2060}
+      \field{title}{Linearly Polarized Emission from Colloidal Semiconductor Quantum Rods}
+      \field{volume}{292}
+      \field{year}{2001}
+    \endentry
+    \entry{komp}{online}{}
+      \name{author}{1}{}{%
+        {{hash=8780a5fa565d3a792138de7d368e2532}{%
+           family={{Kompendium}},
+           familyi={K\bibinitperiod}}}%
+      }
+      \strng{namehash}{8780a5fa565d3a792138de7d368e2532}
+      \strng{fullhash}{8780a5fa565d3a792138de7d368e2532}
+      \strng{bibnamehash}{8780a5fa565d3a792138de7d368e2532}
+      \strng{authorbibnamehash}{8780a5fa565d3a792138de7d368e2532}
+      \strng{authornamehash}{8780a5fa565d3a792138de7d368e2532}
+      \strng{authorfullhash}{8780a5fa565d3a792138de7d368e2532}
+      \field{sortinit}{6}
+      \field{sortinithash}{7851c86048328b027313775d8fbd2131}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Quantenpunkt-Displays}
+      \field{urlday}{12}
+      \field{urlmonth}{8}
+      \field{urlyear}{2020}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://kompendium.infotip.de/quantenpunkt-displays.html
+      \endverb
+      \verb{url}
+      \verb https://kompendium.infotip.de/quantenpunkt-displays.html
+      \endverb
+    \endentry
+    \entry{anleitung}{manual}{}
+      \name{author}{1}{}{%
+        {{hash=c5be05eed25cdcc3666ee6b1209ecada}{%
+           family={{TU Dortmund}},
+           familyi={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{c5be05eed25cdcc3666ee6b1209ecada}
+      \strng{fullhash}{c5be05eed25cdcc3666ee6b1209ecada}
+      \strng{bibnamehash}{c5be05eed25cdcc3666ee6b1209ecada}
+      \strng{authorbibnamehash}{c5be05eed25cdcc3666ee6b1209ecada}
+      \strng{authornamehash}{c5be05eed25cdcc3666ee6b1209ecada}
+      \strng{authorfullhash}{c5be05eed25cdcc3666ee6b1209ecada}
+      \field{sortinit}{7}
+      \field{sortinithash}{f615fb9c6fba11c6f962fb3fd599810e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Photolumineszenz von kolloidalen Nanokristallen}
+      \field{version}{4}
+      \field{year}{2020}
+    \endentry
+    \entry{lars}{article}{}
+      \name{author}{1}{}{%
+        {{hash=b4fe3d295260871611c0b3b758287b49}{%
+           family={Karsten},
+           familyi={K\bibinitperiod},
+           given={Lars},
+           giveni={L\bibinitperiod}}}%
+      }
+      \strng{namehash}{b4fe3d295260871611c0b3b758287b49}
+      \strng{fullhash}{b4fe3d295260871611c0b3b758287b49}
+      \strng{bibnamehash}{b4fe3d295260871611c0b3b758287b49}
+      \strng{authorbibnamehash}{b4fe3d295260871611c0b3b758287b49}
+      \strng{authornamehash}{b4fe3d295260871611c0b3b758287b49}
+      \strng{authorfullhash}{b4fe3d295260871611c0b3b758287b49}
+      \field{sortinit}{9}
+      \field{sortinithash}{54047ffb55bdefa0694bbd554c1b11a0}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Cuvillier Verlag}
+      \field{title}{Photolumineszenzspektroskopie an Halbleiterquantenpunkten}
+      \field{year}{2004}
+    \endentry
+    \entry{brus}{online}{}
+      \name{author}{1}{}{%
+        {{hash=9c677286866aad38f8e9b660f5411814}{%
+           family={Wikipedia},
+           familyi={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{9c677286866aad38f8e9b660f5411814}
+      \strng{fullhash}{9c677286866aad38f8e9b660f5411814}
+      \strng{bibnamehash}{9c677286866aad38f8e9b660f5411814}
+      \strng{authorbibnamehash}{9c677286866aad38f8e9b660f5411814}
+      \strng{authornamehash}{9c677286866aad38f8e9b660f5411814}
+      \strng{authorfullhash}{9c677286866aad38f8e9b660f5411814}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Größenquantisierungseffekt}
+      \field{urlday}{12}
+      \field{urlmonth}{8}
+      \field{urlyear}{2020}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://de.wikipedia.org/wiki/Gr%C3%B6%C3%9Fenquantisierungseffekt
+      \endverb
+      \verb{url}
+      \verb https://de.wikipedia.org/wiki/Gr%C3%B6%C3%9Fenquantisierungseffekt
+      \endverb
+    \endentry
+    \entry{size}{online}{}
+      \name{author}{1}{}{%
+        {{hash=c101a48af551378e703cae9d528eb44f}{%
+           family={{MERCK}},
+           familyi={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{c101a48af551378e703cae9d528eb44f}
+      \strng{fullhash}{c101a48af551378e703cae9d528eb44f}
+      \strng{bibnamehash}{c101a48af551378e703cae9d528eb44f}
+      \strng{authorbibnamehash}{c101a48af551378e703cae9d528eb44f}
+      \strng{authornamehash}{c101a48af551378e703cae9d528eb44f}
+      \strng{authorfullhash}{c101a48af551378e703cae9d528eb44f}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Quantum Dots}
+      \field{urlday}{12}
+      \field{urlmonth}{8}
+      \field{urlyear}{2020}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.sigmaaldrich.com/technical-documents/articles/materials-science/nanomaterials/quantum-dots.html
+      \endverb
+      \verb{url}
+      \verb https://www.sigmaaldrich.com/technical-documents/articles/materials-science/nanomaterials/quantum-dots.html
+      \endverb
+    \endentry
+    \entry{blink}{article}{}
+      \name{author}{1}{}{%
+        {{hash=c98cb2d93bd7d293e4d576c8c0da4d21}{%
+           family={Braam},
+           familyi={B\bibinitperiod},
+           given={Daniel},
+           giveni={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{c98cb2d93bd7d293e4d576c8c0da4d21}
+      \strng{fullhash}{c98cb2d93bd7d293e4d576c8c0da4d21}
+      \strng{bibnamehash}{c98cb2d93bd7d293e4d576c8c0da4d21}
+      \strng{authorbibnamehash}{c98cb2d93bd7d293e4d576c8c0da4d21}
+      \strng{authornamehash}{c98cb2d93bd7d293e4d576c8c0da4d21}
+      \strng{authorfullhash}{c98cb2d93bd7d293e4d576c8c0da4d21}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Diplomarbeit}
+      \field{title}{Photolumineszenz-Spektroskopie an einzelnen Nanopartikeln}
+      \field{year}{2011}
+    \endentry
+    \entry{flex}{article}{}
+      \name{author}{2}{}{%
+        {{hash=4c13f5a57c802e4e0e12333b6e09131e}{%
+           family={Helfrich},
+           familyi={H\bibinitperiod},
+           given={Melina},
+           giveni={M\bibinitperiod}}}%
+        {{hash=ac5f2bcdb7e9c8612c78ddfdf799ed4f}{%
+           family={Landmeyer},
+           familyi={L\bibinitperiod},
+           given={Felix},
+           giveni={F\bibinitperiod}}}%
+      }
+      \strng{namehash}{987b2645d966fc6c9023eeac854a6632}
+      \strng{fullhash}{987b2645d966fc6c9023eeac854a6632}
+      \strng{bibnamehash}{987b2645d966fc6c9023eeac854a6632}
+      \strng{authorbibnamehash}{987b2645d966fc6c9023eeac854a6632}
+      \strng{authornamehash}{987b2645d966fc6c9023eeac854a6632}
+      \strng{authorfullhash}{987b2645d966fc6c9023eeac854a6632}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{FP2, TU Dortmund}
+      \field{title}{Photolumineszenz von kolloidalen Nanokristallen}
+      \field{year}{2019}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

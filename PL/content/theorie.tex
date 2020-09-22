@@ -4,17 +4,17 @@
 %\subsection{Nanohalbleiterkristall}
 %\label{sec:Nanohalbleiterkristall}
 
-Die kolloidale Synthese erlaubt es II-VI-Halbleiter Nanokristalle herzustellen.
+Die kolloidale Synthese erlaubt es II-VI-Halbleiter-Nanokristalle herzustellen.
 Dazu werden unter einer Schutzgasatmosphäre (z.B. Argon) Cadmium und Selen in
-eine um mehr als $\SI{200}{\degreeCelsius}$ aufgeheiztes Dispersionsmedimum
+einem um mehr als $\SI{200}{\degreeCelsius}$ aufgeheizten Dispersionsmedium
 gelöst. Bei diesem Prozess bilden sich in dem Dispersionsmedium Nanokristalle
 aus CdSe und können kontrolliert bis zu einer gewünschten Kristallgröße wachsen.
 Im nächsten Schritt werden die Nanokristalle mit einem weiteren II-VI-Halbleiter
-mit größerer Bandlücke ummantel, indem Zinksulfid (ZnS) in die Lösung gegeben wird.
+mit größerer Bandlücke ummantelt, indem Zinksulfid (ZnS) in die Lösung gegeben wird.
 Damit isoliert die ZnS-Schale den CdSe-Kern von der Umwelt (siehe Abbildung
 \ref{fig:ZnS_CdSe}). Da der Nanokristall nahezu kugelförmig ist, handelt es sich
-hier um einen null dimensionalen Nanokristall. Zuletzt werden die Nanokristalle
-aus dem Dispersionsmedimum ausgefällt \cite{komp}.\\
+hier um einen nulldimensionalen Nanokristall. Zuletzt werden die Nanokristalle
+aus dem Dispersionsmedium ausgefällt \cite{komp}.\\
 
 \begin{figure}[hbtp]
 	\centering
@@ -26,17 +26,17 @@ aus dem Dispersionsmedimum ausgefällt \cite{komp}.\\
 \noindent
 Wird einem Nanokristall Energie in Form von Laserlicht zugeführt, so kann ein
 Elektron aus dem Valenzband in das Leitungsband angehoben werden. Dabei hinterlässt
-das Elektron ein Defekt, welches eine positive Ladung zugeschrieben werden kann.
+das Elektron ein Defektelektron, welchem eine positive Ladung zugeschrieben werden kann.
 Sowohl das Elektron als auch das Defektelektron relaxieren in einen energetisch
 günstigeren Zustand nah der Bandlücke. Die überschüssige Energie wird dabei in
-strahlungsloser Form an Phononen, Defekten, Störstellen oder anderen Ladungsträger
+strahlungsloser Form an Phononen, Defekten, Störstellen oder anderen Ladungsträgern
 abgegeben. Da die Bandlücke zu groß ist, entsteht durch die Bindung von Elektron
 und Defektelektron ein Exziton. Nach hinreichender Zeit kann es zu Rekombination
 von Elektron und dem Defektelektron kommen, wodurch ein Photon mit der
-Rekombinationsenergie abzüglich der Exzitonenbidungsenergie emittiert wird.
+Rekombinationsenergie abzüglich der Exzitonenbindungsenergie emittiert wird.
 Es kommt zur Photolumineszenz. Ist die Energie des Laserlichtes größer als die
 des CdSe-Kerns ($\SI{2,0}{\electronvolt}$) und kleiner als die der ZnS-Schale
-($\SI{3,6}{\electronvolt}$), so entsteht in der ZnS-Schale zunächst ein
+($\SI{3,6}{\electronvolt}$), so entsteht in der CdSe-Kern zunächst ein
 Elektron-Loch-Paar. Da es sich hier um einen Quantenpunkt Typ-I handelt, kann das
 Elektron und das Defektelektron an die Bandlücke des CdSe-Kerns relaxieren.
 In Abbildung \ref{fig:photoqp}(a) ist illustriert, wie der Quantenpunkt das
@@ -45,8 +45,8 @@ wie in Abbildung \ref{fig:photoqp}(b) dargestellt, so ist von einem geladenen
 Exziton die Rede. Ist die Laserleistung hoch, können sich auch Exzitonen auf höheren
 Energieniveaus befinden, da eine Relaxation in ein tieferes Niveau nicht mehr
 mögich ist (siehe dazu Abbildung \ref{fig:photoqp}(c)). Allerdings kann es bei
-zu hohen Laserleistungen, und damit zu vermehrte Coulomb-Anziehung zwischen
-den Elektron-Loch-Paaren, zur Veränderung der Bandstruktur kommen.
+hohen Laserleistungen zu vermehrter Coulomb-Anziehung zwischen
+den Elektron-Loch-Paaren, und damit zur Veränderung der Bandstruktur, kommen.
 
 \begin{figure}[hbtp]
 	\centering
@@ -60,6 +60,7 @@ den Elektron-Loch-Paaren, zur Veränderung der Bandstruktur kommen.
 Wie oben erwähnt, kann das Wachstum der Nanokristalle kontrolliert werden und
 somit unterschiedlich große Bandlücken erzeugt werden. Dementsprechend lässt
 sich auch die Energie des beim Rekombinieren entstehenden Photons nach der Brus-Formel
+\cite{brus}
 
 \begin{equation}
 	E_{\gamma} = \frac{h^2}{8R^2}\cdot \biggl(\frac{1}{m_{\text{e}}} + \frac{1}{m_{\text{d}}} \biggr)
@@ -81,30 +82,30 @@ Dieses Verhalten ist in Abbildung \ref{fig:size} schematisch dargestellt.
 	\begin{subfigure}[t]{0.4\textwidth}
 	\includegraphics[width=\textwidth]{Abb/size2.png}
 	\end{subfigure}
-	\caption{Schematische Darstellung des Verhalten zwischen Nanokristallgröße und
+	\caption{Schematische Darstellung des Verhaltens zwischen Nanokristallgröße und
 	Wellenlänge $\lambda$ der Photolumineszenz\cite{size}\cite{blink}.}
 \label{fig:size}
 \end{figure}
 \noindent
-Beim aussende von Licht kann es zu Intensitätsschwankungen kommen, welche als
+Beim Aussenden von Licht kann es zu Intensitätsschwankungen kommen, welche als
 Blinken wahrgenommen werden. Eine sehr unwahrscheinliche Ursache dafür kann die
-Auger Autoionisation sein, bei der sich zwei Exzitonen (ein sogenannts Biexziton)
+Auger-Autoionisation sein, bei der sich zwei Exzitonen (ein sogenannts Biexziton)
 in einem Quantenpunkt befinden und eins davon rekombiniert. Die freigesetze Energie
 kann das übrige Elektron aus dem Quantenpunkt heben (Abbildung \ref{fig:blink}($a_1$)).
 Auch können thermische Ionisierungen (Abbildung \ref{fig:blink}($a_2$)) und
 direktes Tunnel (Abbildung \ref{fig:blink}($a_3$)) Ursache für die
 Intensitätsschwankungen sein. Ein Defektelektron bleibt zurück und damit löscht
 die statistisch bevorzugte nichtstrahlende Auger-Rekombination (Abbildung
-\ref{fig:blink}($b$)) die Photolumineszenz aus, indem die freigesete Energie in
+\ref{fig:blink}($b$)) die Photolumineszenz aus, indem die freigesetzte Energie in
 Form von Wärme abgegeben wird.
 
 \begin{figure}[hbtp]
 	\centering
 	\includegraphics[width=0.8\textwidth]{Abb/blink.png}
-	\caption{Schematischer Darstellung der Intensitätsschwankungen. Dabei sind die
-	in (a) beschriebenen ionisierenden Vorgänge nichtstrahlend. In (b) wird ein
+	\caption{Schematische Darstellung der Intensitätsschwankungen. Dabei sind die
+	in (a) beschriebenen ionisierenden Vorgänge nichtstrahlend. In (b) wird eine
 	nichtstrahlende Rekombination und in (c) eine Neutralisation in den Ausgangszustand
-	illustiert. Der bereits beschriebene Photolumineszenz-Vorgang ist (e) zu finden
+	illustiert. Der bereits beschriebene Photolumineszenz-Vorgang ist in (e) zu finden
 	\cite{blink}.}
 	\label{fig:blink}
 \end{figure}
