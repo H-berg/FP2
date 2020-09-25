@@ -55,6 +55,31 @@
       \field{pages}{930\bibrangedash 933}
       \range{pages}{4}
     \endentry
+    \entry{AFM}{book}{}
+      \name{author}{1}{}{%
+        {{hash=6982f6d287b6edb148928650d9321365}{%
+           family={Voigtländer},
+           familyi={V\bibinitperiod},
+           given={Bert},
+           giveni={B\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer Verlag}%
+      }
+      \strng{namehash}{6982f6d287b6edb148928650d9321365}
+      \strng{fullhash}{6982f6d287b6edb148928650d9321365}
+      \strng{bibnamehash}{6982f6d287b6edb148928650d9321365}
+      \strng{authorbibnamehash}{6982f6d287b6edb148928650d9321365}
+      \strng{authornamehash}{6982f6d287b6edb148928650d9321365}
+      \strng{authorfullhash}{6982f6d287b6edb148928650d9321365}
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{978-3-662-45239-4}
+      \field{title}{Scanning Probe Microscopy - Atomic Force Microscopy and Scanning Tunneling Microscopy}
+      \field{year}{2015}
+    \endentry
     \entry{sample}{manual}{}
       \name{author}{1}{}{%
         {{hash=2821a70f99517ac7757c95300d43e95c}{%
@@ -70,8 +95,8 @@
       \strng{authornamehash}{2821a70f99517ac7757c95300d43e95c}
       \strng{authorfullhash}{2821a70f99517ac7757c95300d43e95c}
       \field{extraname}{1}
-      \field{sortinit}{2}
-      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{sortinit}{3}
+      \field{sortinithash}{a37a8ef248a93c322189792c34fc68c9}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Versuch zum Literaturverzeichnis}
@@ -93,8 +118,8 @@
       \strng{authornamehash}{2821a70f99517ac7757c95300d43e95c}
       \strng{authorfullhash}{2821a70f99517ac7757c95300d43e95c}
       \field{extraname}{2}
-      \field{sortinit}{3}
-      \field{sortinithash}{a37a8ef248a93c322189792c34fc68c9}
+      \field{sortinit}{4}
+      \field{sortinithash}{e071e0bcb44634fab398d68ad04e69f4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{...}
@@ -106,11 +131,6 @@
       \verb http...
       \endverb
       \warn{\item Entry 'V' (lit.bib): Invalid format 'YYYY-MM-DD' of date field 'urldate' - ignoring}
-    \endentry
-    \entry{GP}{book}{}
-      \field{sortinit}{4}
-      \field{sortinithash}{e071e0bcb44634fab398d68ad04e69f4}
-      \true{nocite}
     \endentry
   \enddatalist
 \endrefsection
