@@ -51,8 +51,8 @@
 % Alternativ zum Beispiel:
 %\setmathfont{Libertinus Math}
 
-\setmathfont{XITS Math}[range={scr, bfscr}]
-\setmathfont{XITS Math}[range={cal, bfcal}, StylisticSet=1]
+%\setmathfont{XITS Math}[range={scr, bfscr}]
+%\setmathfont{XITS Math}[range={cal, bfcal}, StylisticSet=1]
 
 % Zahlen und Einheiten
 \usepackage[
@@ -101,6 +101,10 @@
 \usepackage{graphicx}
 % größere Variation von Dateinamen möglich
 \usepackage{grffile}
+% bei der Umgebung \begin{SCfigure} ist die caption rechts von der Abbildung
+\usepackage[rightcaption]{sidecap}
+%fuer eingerueckte bildunterschrift
+\setcapindent{0.2cm}
 
 % schöne Tabellen
 \usepackage{booktabs}
