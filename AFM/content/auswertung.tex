@@ -1,12 +1,11 @@
 \section{Auswertung}
 \label{sec:Auswertung}
-
 \subsection{Messung der Topografie einer Mikrostruktur}
 Im Verlauf der ersten Versuchsreihe werden verschiedene Strukturformen auf einer Mikrostrukturprobe betrachtet.
 Mittels des AFM-Aufbaus werden von den drei vorhandenen Strukturen AFM-Bilder aufgenommen.
 Es wird jeweils eine $(20 \times 20) \, \mu m$ gro{\ss}e Fl\"ache vermessen.
 In den Abbildungen (\ref{abb:kreis}) bis (\ref{abb:streif}) sind diese Bilder zu sehen.
-
+Abgebildet sind nicht nur die AFM-Aufnahmen, sondern auch die Strecken, welche vermessen wurden.
 \begin{figure}[H]
 \centering
 	\begin{subfigure}[t]{0.45\textwidth}
@@ -23,8 +22,7 @@ In den Abbildungen (\ref{abb:kreis}) bis (\ref{abb:streif}) sind diese Bilder zu
 \caption{Vermessung der Kreisstruktur auf der Mikrostrukturprobe. Aufgenommen wurde eine Fl\"ache der Gr\"o{\ss}e von $(20 \times 20) \, \mu m$. Zur Vermessung der jeweiligen Strecken wurde das 'distance and directinos-Tool' des Auswertungsprogramm Gwyddion verwendet.}
 \label{abb:kreis}
 \end{figure}
-
-
+%
 \begin{figure}[H]
 \centering
 	\begin{subfigure}[t]{0.45\textwidth}
@@ -41,8 +39,7 @@ In den Abbildungen (\ref{abb:kreis}) bis (\ref{abb:streif}) sind diese Bilder zu
 \caption{Vermessung der Quadratstruktur auf der Mikrostrukturprobe. Aufgenommen wurde eine Fl\"ache der Gr\"o{\ss}e von $(20 \times 20) \, \mu m$. Zur Vermessung der jeweiligen Strecken wurde das 'distance and directinos-Tool' des Auswertungsprogramm Gwyddion verwendet.}
 \label{abb:quad}
 \end{figure}
-
-
+%
 \begin{figure}[H]
 \centering
 	\begin{subfigure}[t]{0.45\textwidth}
@@ -59,8 +56,11 @@ In den Abbildungen (\ref{abb:kreis}) bis (\ref{abb:streif}) sind diese Bilder zu
 \caption{Vermessung der Streifen auf der Mikrostrukturprobe. Aufgenommen wurde eine Fl\"ache der Gr\"o{\ss}e von $(20 \times 20) \, \mu m$. Zur Vermessung der jeweiligen Strecken wurde das 'distance and directinos-Tool' des Auswertungsprogramm Gwyddion verwendet.}
 \label{abb:streif}
 \end{figure}
-
-
+%
+Diese sind in den einzelnen Bildern mit Nummern versehen und wurden mit Hilfe des Auswertungsprogramm Gwyddion erstellt.
+In Tabelle (\ref{tab:auf1}) sind die Mittelwerte der aufgenommenen Werte aufgelistet.
+Die experimentell bestimmten Daten werden mit den Strukturabst\"anden aus dem Datenblatt \cite{sample} verglichen.
+Diese sind, genau wie die zugeh\"ohrigen Abweichungen, auch in Tabelle (\ref{tab:auf1}) festgehalten.
 \begin{table}
 	\centering
 	\caption{Messwerte der Mikrostrukturprobe. Aufgelistet sind die gemittelten Werte der vermessenen Strecken und Abst\"ande. Der Strukturabstand ergibt sich aus der Summer von Gr\"o{\ss}e und Abstand der Mikrostruktur.}
@@ -80,30 +80,36 @@ In den Abbildungen (\ref{abb:kreis}) bis (\ref{abb:streif}) sind diese Bilder zu
 
 
 \subsection{Topographie einer CD, DVD und Blu-ray}
-
+Im zweiten Teil des Versuches wird die Oberfl\"ache von drei unterschiedliche Speichermedien, eine CD, eine DVD und eine Blu-ray, mit dem AFM untersucht.
+Bevor die aufgenommenen Bilder und Daten mit Gwyddion ausgewertet werden, werden die Bilder gegl\"attet.
+Hierf\"ur werden bearbeitungs Tool von Gwyddion verwendet, welche den Hintergrund entfernen und einzelne Zeilen mit verschiedenen Methoden ausrichten.
+In Abbildung sind die bearbeiteten 3D-AFM-Bilder der drei unterschiedliche Speichermedien zu sehen.
 \begin{figure}[H]
 \centering
 	\begin{subfigure}[t]{0.45\textwidth}
 	\includegraphics[width=\textwidth]{AFM_auswertung/cd_3D.png}
-	\caption{.}
+	\caption{3D-AFM-Bild einer CD Oberfl\"ache der Gr\"o{\ss}e $(10 \times 10) \, \mu m$.}
 	\label{abb:cd_3d}
 	\end{subfigure}
 	~
 	\begin{subfigure}[t]{0.45\textwidth}
 	\includegraphics[width=\textwidth]{AFM_auswertung/dvd_3d.png}
-	\caption{.}
+	\caption{3D-AFM-Bild einer DVD Oberfl\"ache der Gr\"o{\ss}e $(5 \times 5) \, \mu m$.}
 	\label{abb:dvd_3d}
 	\end{subfigure}
-	\\
+	~
 	\begin{subfigure}[t]{0.45\textwidth}
 	\includegraphics[width=\textwidth]{AFM_auswertung/bluray_3d.png}
-	\caption{.}
+	\caption{3D-AFM-Bild einer Blu-ray Oberfl\"ache der Gr\"o{\ss}e $(2 \times 2) \, \mu m$.}
 	\label{abb:br_3d}
 	\end{subfigure}
-\caption{.}
+\caption{Dargestellt sind hier in 3D die bearbeiteten AFM-Aufnahmen der drei zu untersuchenden Speichermedien.}
 \label{abb:3d}
 \end{figure}
-
+Um die Speicherkapazit\"at der einzelnen Medien absch\"atzen zu k\"onnen, werden Gr\"o{\ss}e und Abst\"ande der Pits gemessen.
+Dzu werden Pitbreite, minimale und maximale L\"ange der Pits sowie der Abstand zwischen zwei Pitspuren mit Hilfe Gwyddion bestimmt.
+In Abbildung (\ref{abb:CD}) sind beisielhaft f\"ur die CD die AFM-Bilde hierzu abgebildet.
+Die entsprechenden Aufnahmen der DVD und Blu-ray sind im Anhang zu finden (Abbildungen (\ref{abb:DVD}) und (\ref{abb:BluRay})).
 \begin{figure}[H]
 \centering
 	\begin{subfigure}[t]{0.4\textwidth}
@@ -129,7 +135,7 @@ In den Abbildungen (\ref{abb:kreis}) bis (\ref{abb:streif}) sind diese Bilder zu
 	\caption{.}
 	\label{abb:}
 	\end{subfigure}
-\caption{.}
+\caption{Gezeigt ist hier .}
 \label{abb:CD}
 \end{figure}
 
@@ -182,10 +188,10 @@ In den Abbildungen (\ref{abb:kreis}) bis (\ref{abb:streif}) sind diese Bilder zu
 	\hline
 	{} & {CD} & {DVD} & {Blueray} \\
 	\hline
-	Abstand / $\mu m$ & $1,459 \pm 0,031$ & $0,778 \pm 0,014$ & $0,314 \pm 0,008$ \\
-	Breite	/ $\mu m$ &	$0,454 \pm 0,023$ & $0,153 \pm 0,009$ & $0,102 \pm 0,008$ \\
-	Minimale Länge / $\mu m$ & $0,656 \pm 0,025$ & $0,299 \pm 0,022$ & $0,098 \pm 0,007$ \\
-	Maximale Länge / $\mu m$ & 2,127 & $0,858 \pm 0,022$ & 0,436 \\
+	Pitabstand / $\mu m$ & $1,459 \pm 0,031$ & $0,778 \pm 0,014$ & $0,314 \pm 0,008$ \\
+	Pitbreite	/ $\mu m$ &	$0,454 \pm 0,023$ & $0,153 \pm 0,009$ & $0,102 \pm 0,008$ \\
+	Minimale Pitlänge / $\mu m$ & $0,656 \pm 0,025$ & $0,299 \pm 0,022$ & $0,098 \pm 0,007$ \\
+	Maximale Pitlänge / $\mu m$ & 2,127 & $0,858 \pm 0,022$ & 0,436 \\
 	Pittiefe /  &  &  &  \\
 	\hline
 \end{tabular}

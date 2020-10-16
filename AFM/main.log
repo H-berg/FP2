@@ -1,4 +1,10 @@
+<<<<<<< HEAD
 This is LuaHBTeX, Version 1.12.0 (TeX Live 2020)  (format=lualatex 2020.5.18)  16 OCT 2020 14:15
+||||||| constructed merge base
+This is LuaTeX, Version 1.10.0 (TeX Live 2019/Debian)  (format=lualatex 2020.10.8)  16 OCT 2020 09:29
+=======
+This is LuaTeX, Version 1.10.0 (TeX Live 2019/Debian)  (format=lualatex 2020.10.8)  16 OCT 2020 16:15
+>>>>>>> aufgabe 1 feddig
  restricted system commands enabled.
 **main.tex
 (./main.tex
@@ -1705,18 +1711,74 @@ täts-mo-dul mit-tels Kraft-Abstandskurven[] []
  [2
 
 ] (./content/ziel.tex) (./content/theorie.tex
+<<<<<<< HEAD
 <Abb/AFM.png, id=62, 704.6325pt x 443.6575pt>
+||||||| constructed merge base
+Overfull \hbox (6.95123pt too wide) in paragraph at lines 4--1
+\TU/lmr/m/n/10.95 sowie verschiedene Speichermedien: CD, DVD und Blu-ray mittel
+s des Rasterkraftmikroskop
+ []
+
+<Abb/AFM.png, id=60, 704.6325pt x 443.6575pt>
+=======
+Overfull \hbox (6.95123pt too wide) in paragraph at lines 4--1
+\TU/lmr/m/n/10.95 sowie verschiedene Speichermedien: CD, DVD und Blu-ray mittel
+s des Rasterkraftmikroskop
+ []
+
+<Abb/AFM.png, id=62, 704.6325pt x 443.6575pt>
+>>>>>>> aufgabe 1 feddig
 File: Abb/AFM.png Graphic file (type png)
 <use Abb/AFM.png>
 Package luatex.def Info: Abb/AFM.png  used on input line 14.
+<<<<<<< HEAD
 (luatex.def)             Requested size: 263.50304pt x 165.90404pt.
  [3<./Abb/AFM.png>]
 <Abb/typ1.png, id=84, 222.8325pt x 133.49875pt>
+||||||| constructed merge base
+(luatex.def)             Requested size: 334.60571pt x 210.67856pt.
+Module polyglossia Warning: Language ngerman not found in language.dat.lua on in
+put line 20
+Module polyglossia Warning: Language ngerman not found in language.dat.lua on in
+put line 20
+[3]
+Module polyglossia Warning: Language ngerman not found in language.dat.lua on in
+put line 41
+
+Overfull \hbox (3.05104pt too wide) in paragraph at lines 40--54
+\TU/lmr/m/n/10.95 Geschwindigkeiten zu messen. Zusätzlich wird so auch die Sta
+bilität vor Messverfälschungen
+ []
+
+<Abb/typ1.png, id=79, 222.8325pt x 133.49875pt>
+=======
+(luatex.def)             Requested size: 334.60571pt x 210.67856pt.
+Module polyglossia Warning: Language ngerman not found in language.dat.lua on in
+put line 20
+Module polyglossia Warning: Language ngerman not found in language.dat.lua on in
+put line 20
+[3]
+Module polyglossia Warning: Language ngerman not found in language.dat.lua on in
+put line 41
+
+Overfull \hbox (3.05104pt too wide) in paragraph at lines 40--54
+\TU/lmr/m/n/10.95 Geschwindigkeiten zu messen. Zusätzlich wird so auch die Sta
+bilität vor Messverfälschungen
+ []
+
+<Abb/typ1.png, id=81, 222.8325pt x 133.49875pt>
+>>>>>>> aufgabe 1 feddig
 File: Abb/typ1.png Graphic file (type png)
 <use Abb/typ1.png>
 Package luatex.def Info: Abb/typ1.png  used on input line 59.
 (luatex.def)             Requested size: 100.38362pt x 60.13905pt.
+<<<<<<< HEAD
 <Abb/typ2.png, id=85, 195.73125pt x 136.51pt>
+||||||| constructed merge base
+<Abb/typ2.png, id=80, 195.73125pt x 136.51pt>
+=======
+<Abb/typ2.png, id=82, 195.73125pt x 136.51pt>
+>>>>>>> aufgabe 1 feddig
 File: Abb/typ2.png Graphic file (type png)
 <use Abb/typ2.png>
 Package luatex.def Info: Abb/typ2.png  used on input line 65.
@@ -1726,7 +1788,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 66--66
 [][]|\TU/lmr/m/n/9 In-ter-fe-ro-me-trie-
  []
 
+<<<<<<< HEAD
 <Abb/typ3.png, id=86, 196.735pt x 134.5025pt>
+||||||| constructed merge base
+<Abb/typ3.png, id=81, 196.735pt x 134.5025pt>
+=======
+<Abb/typ3.png, id=83, 196.735pt x 134.5025pt>
+>>>>>>> aufgabe 1 feddig
 File: Abb/typ3.png Graphic file (type png)
 <use Abb/typ3.png>
 Package luatex.def Info: Abb/typ3.png  used on input line 71.
@@ -1736,7 +1804,13 @@ Underfull \hbox (badness 1394) in paragraph at lines 72--72
 [][]|\TU/lmr/m/n/9 Pie-zo-re-sis-ti-ver Ef-
  []
 
+<<<<<<< HEAD
 <Abb/typ4.png, id=87, 200.75pt x 135.50626pt>
+||||||| constructed merge base
+<Abb/typ4.png, id=82, 200.75pt x 135.50626pt>
+=======
+<Abb/typ4.png, id=84, 200.75pt x 135.50626pt>
+>>>>>>> aufgabe 1 feddig
 File: Abb/typ4.png Graphic file (type png)
 <use Abb/typ4.png>
 Package luatex.def Info: Abb/typ4.png  used on input line 77.
@@ -1750,23 +1824,114 @@ LaTeX Font Info:    Font shape `TU/LatinModernMath(2)/m/n' will be
 (Font)              scaled to size 5.00053pt on input line 82.
 LaTeX Font Info:    Font shape `TU/LatinModernMath(3)/m/n' will be
 (Font)              scaled to size 4.99947pt on input line 82.
+<<<<<<< HEAD
 [4<./Abb/typ1.png><./Abb/typ2.png><./Abb/typ3.png><./Abb/typ4.png>]
 <Abb/LJ.png, id=112, 218.8175pt x 245.41687pt>
+||||||| constructed merge base
+[4<./Abb/AFM.png>]
+Overfull \hbox (1.02226pt too wide) in paragraph at lines 86--116
+\TU/lmr/m/n/10.95 Verfahren hat allerdings gegenüber Anderer ein schlechteres 
+Signal-zu-Rauschen-Verhältnis.
+ []
+
+
+Overfull \hbox (9.2337pt too wide) in paragraph at lines 86--116
+\TU/lmr/m/n/10.95 entsteht eine Spannung zwischen den beiden Elektroden, welche
+ proportional zur Auslenkung
+ []
+
+Module polyglossia Warning: Language ngerman not found in language.dat.lua on in
+put line 129
+[5<./Abb/typ1.png><./Abb/typ2.png><./Abb/typ3.png><./Abb/typ4.png>]
+Overfull \hbox (22.96767pt too wide) in paragraph at lines 144--148
+\TU/lmr/m/n/10.95 Sobald der Abstand zwischen Messspitze und Probe genügend ge
+ring ist, wirken elektrostatische,
+ []
+
+<Abb/LJ.png, id=115, 218.8175pt x 245.41687pt>
+=======
+[4<./Abb/AFM.png>]
+Overfull \hbox (1.02226pt too wide) in paragraph at lines 86--116
+\TU/lmr/m/n/10.95 Verfahren hat allerdings gegenüber Anderer ein schlechteres 
+Signal-zu-Rauschen-Verhältnis.
+ []
+
+
+Overfull \hbox (9.2337pt too wide) in paragraph at lines 86--116
+\TU/lmr/m/n/10.95 entsteht eine Spannung zwischen den beiden Elektroden, welche
+ proportional zur Auslenkung
+ []
+
+Module polyglossia Warning: Language ngerman not found in language.dat.lua on in
+put line 129
+[5<./Abb/typ1.png><./Abb/typ2.png><./Abb/typ3.png><./Abb/typ4.png>]
+Overfull \hbox (22.96767pt too wide) in paragraph at lines 144--148
+\TU/lmr/m/n/10.95 Sobald der Abstand zwischen Messspitze und Probe genügend ge
+ring ist, wirken elektrostatische,
+ []
+
+<Abb/LJ.png, id=117, 218.8175pt x 245.41687pt>
+>>>>>>> aufgabe 1 feddig
 File: Abb/LJ.png Graphic file (type png)
 <use Abb/LJ.png>
 Package luatex.def Info: Abb/LJ.png  used on input line 168.
 (luatex.def)             Requested size: 209.12778pt x 234.55272pt.
+<<<<<<< HEAD
  [5]
 <Abb/const-force.png, id=126, 372.89313pt x 132.495pt>
+||||||| constructed merge base
+Module polyglossia Warning: Language ngerman not found in language.dat.lua on in
+put line 169
+Module polyglossia Warning: Language ngerman not found in language.dat.lua on in
+put line 169
+[6<./Abb/LJ.png>]
+<Abb/const-force.png, id=130, 372.89313pt x 132.495pt>
+=======
+Module polyglossia Warning: Language ngerman not found in language.dat.lua on in
+put line 169
+Module polyglossia Warning: Language ngerman not found in language.dat.lua on in
+put line 169
+[6<./Abb/LJ.png>]
+<Abb/const-force.png, id=132, 372.89313pt x 132.495pt>
+>>>>>>> aufgabe 1 feddig
 File: Abb/const-force.png Graphic file (type png)
 <use Abb/const-force.png>
 Package luatex.def Info: Abb/const-force.png  used on input line 199.
 (luatex.def)             Requested size: 334.60571pt x 118.89462pt.
 
+<<<<<<< HEAD
 [6<./Abb/LJ.png>]
 <Abb/Kraft-Abstands-Kurve.png, id=140, 278.54062pt x 208.27812pt>
+||||||| constructed merge base
+Module polyglossia Warning: Language ngerman not found in language.dat.lua on in
+put line 199
+Module polyglossia Warning: Language ngerman not found in language.dat.lua on in
+put line 199
+
+Overfull \hbox (13.47035pt too wide) in paragraph at lines 203--212
+\TU/lmr/m/n/10.95 abgerastert werden. Der $[]$-Modus funktioniert ganz ohne ein
+en $[]$,
+ []
+
+[7<./Abb/const-force.png>]
+<Abb/Kraft-Abstands-Kurve.png, id=143, 278.54062pt x 208.27812pt>
+=======
+Module polyglossia Warning: Language ngerman not found in language.dat.lua on in
+put line 199
+Module polyglossia Warning: Language ngerman not found in language.dat.lua on in
+put line 199
+
+Overfull \hbox (13.47035pt too wide) in paragraph at lines 203--212
+\TU/lmr/m/n/10.95 abgerastert werden. Der $[]$-Modus funktioniert ganz ohne ein
+en $[]$,
+ []
+
+[7<./Abb/const-force.png>]
+<Abb/Kraft-Abstands-Kurve.png, id=145, 278.54062pt x 208.27812pt>
+>>>>>>> aufgabe 1 feddig
 File: Abb/Kraft-Abstands-Kurve.png Graphic file (type png)
 <use Abb/Kraft-Abstands-Kurve.png>
+<<<<<<< HEAD
 Package luatex.def Info: Abb/Kraft-Abstands-Kurve.png  used on input line 235.
 (luatex.def)             Requested size: 292.7776pt x 218.93047pt.
 ) (./content/durchfuehrung.tex [7<./Abb/const-force.png>]
@@ -1789,180 +1954,449 @@ Package luatex.def Info: Abb/MSP.png  used on input line 91.
 (luatex.def)             Requested size: 209.12778pt x 207.90784pt.
  [10<./Abb/butterfly.png>]) (./content/auswertung.tex
 <AFM_auswertung/Kreis_durch_vor.png, id=189, 1069.9975pt x 902.37125pt>
+||||||| constructed merge base
+Package luatex.def Info: Abb/Kraft-Abstands-Kurve.png  used on input line 231.
+(luatex.def)             Requested size: 334.60571pt x 250.2058pt.
+
+Module polyglossia Warning: Language ngerman not found in language.dat.lua on in
+put line 237
+Module polyglossia Warning: Language ngerman not found in language.dat.lua on in
+put line 237
+) (./content/durchfuehrung.tex) (./content/auswertung.tex
+Overfull \hbox (7.00203pt too wide) in paragraph at lines 5--9
+\TU/lmr/m/n/10.95 Mikrostrukturprobe betrachtet. Mittels des AFM-Aufbaus werden
+ von den drei vorhandenen
+ []
+
+[8<./Abb/Kraft-Abstands-Kurve.png>]
+<AFM_auswertung/Kreis_durch_vor.png, id=154, 1069.9975pt x 902.37125pt>
+=======
+Package luatex.def Info: Abb/Kraft-Abstands-Kurve.png  used on input line 231.
+(luatex.def)             Requested size: 334.60571pt x 250.2058pt.
+
+Module polyglossia Warning: Language ngerman not found in language.dat.lua on in
+put line 237
+Module polyglossia Warning: Language ngerman not found in language.dat.lua on in
+put line 237
+) (./content/durchfuehrung.tex) (./content/auswertung.tex
+<AFM_auswertung/Kreis_durch_vor.png, id=150, 1069.9975pt x 902.37125pt>
+>>>>>>> aufgabe 1 feddig
 File: AFM_auswertung/Kreis_durch_vor.png Graphic file (type png)
 <use AFM_auswertung/Kreis_durch_vor.png>
 Package luatex.def Info: AFM_auswertung/Kreis_durch_vor.png  used on input line 
-13.
+12.
 (luatex.def)             Requested size: 188.21371pt x 158.71594pt.
+<<<<<<< HEAD
 <AFM_auswertung/Kreis_abs_vor.png, id=190, 1068.99374pt x 902.37125pt>
+||||||| constructed merge base
+<AFM_auswertung/Kreis_abs_vor.png, id=155, 1068.99374pt x 902.37125pt>
+=======
+<AFM_auswertung/Kreis_abs_vor.png, id=151, 1068.99374pt x 902.37125pt>
+>>>>>>> aufgabe 1 feddig
 File: AFM_auswertung/Kreis_abs_vor.png Graphic file (type png)
 <use AFM_auswertung/Kreis_abs_vor.png>
-Package luatex.def Info: AFM_auswertung/Kreis_abs_vor.png  used on input line 19
+Package luatex.def Info: AFM_auswertung/Kreis_abs_vor.png  used on input line 18
 .
 (luatex.def)             Requested size: 188.21371pt x 158.8674pt.
+<<<<<<< HEAD
  [11<./Abb/MSP.png>]
 <AFM_auswertung/quad_durch_vor.png, id=199, 952.55875pt x 824.07875pt>
+||||||| constructed merge base
+
+Underfull \hbox (badness 10000) in paragraph at lines 23--23
+[][]|\TU/lmr/m/n/10 Vermessung der Kreisstruktur auf der Mikrostrukturprobe.
+ []
+
+
+Underfull \hbox (badness 1264) in paragraph at lines 23--23
+\TU/lmr/m/n/10 Aufgenommen wurde eine Fläche der Größe von $\TU/LatinModernM
+ath(1)/m/n/10 (20 × 20) 𝜇𝑚$\TU/lmr/m/n/10 .
+ []
+
+<AFM_auswertung/quad_durch_vor.png, id=156, 952.55875pt x 824.07875pt>
+=======
+
+Underfull \hbox (badness 10000) in paragraph at lines 22--22
+[][]|\TU/lmr/m/n/10 Vermessung der Kreisstruktur auf der Mikrostrukturprobe.
+ []
+
+
+Underfull \hbox (badness 1264) in paragraph at lines 22--22
+\TU/lmr/m/n/10 Aufgenommen wurde eine Fläche der Größe von $\TU/LatinModernM
+ath(1)/m/n/10 (20 × 20) 𝜇𝑚$\TU/lmr/m/n/10 .
+ []
+
+
+Overfull \hbox (7.00203pt too wide) in paragraph at lines 4--24
+\TU/lmr/m/n/10.95 Mikrostrukturprobe betrachtet. Mittels des AFM-Aufbaus werden
+ von den drei vorhandenen
+ []
+
+[8<./Abb/Kraft-Abstands-Kurve.png>]
+<AFM_auswertung/quad_durch_vor.png, id=158, 952.55875pt x 824.07875pt>
+>>>>>>> aufgabe 1 feddig
 File: AFM_auswertung/quad_durch_vor.png Graphic file (type png)
 <use AFM_auswertung/quad_durch_vor.png>
-Package luatex.def Info: AFM_auswertung/quad_durch_vor.png  used on input line 3
-1.
+Package luatex.def Info: AFM_auswertung/quad_durch_vor.png  used on input line 2
+9.
 (luatex.def)             Requested size: 188.21371pt x 162.82607pt.
+<<<<<<< HEAD
 <AFM_auswertung/quad_abb_vor.png, id=200, 948.54375pt x 824.07875pt>
+||||||| constructed merge base
+<AFM_auswertung/quad_abb_vor.png, id=157, 948.54375pt x 824.07875pt>
+=======
+<AFM_auswertung/quad_abb_vor.png, id=159, 948.54375pt x 824.07875pt>
+>>>>>>> aufgabe 1 feddig
 File: AFM_auswertung/quad_abb_vor.png Graphic file (type png)
 <use AFM_auswertung/quad_abb_vor.png>
-Package luatex.def Info: AFM_auswertung/quad_abb_vor.png  used on input line 37.
+Package luatex.def Info: AFM_auswertung/quad_abb_vor.png  used on input line 35.
 
 (luatex.def)             Requested size: 188.21371pt x 163.51765pt.
+<<<<<<< HEAD
 <AFM_auswertung/streif_durch_vor.png, id=201, 954.56625pt x 824.07875pt>
+||||||| constructed merge base
+
+Underfull \hbox (badness 5726) in paragraph at lines 41--41
+[][]|\TU/lmr/m/n/10 Vermessung der Quadratstruktur auf der Mikrostrukturprobe.
+ []
+
+<AFM_auswertung/streif_durch_vor.png, id=158, 954.56625pt x 824.07875pt>
+=======
+
+Underfull \hbox (badness 5726) in paragraph at lines 39--39
+[][]|\TU/lmr/m/n/10 Vermessung der Quadratstruktur auf der Mikrostrukturprobe.
+ []
+
+<AFM_auswertung/streif_durch_vor.png, id=160, 954.56625pt x 824.07875pt>
+>>>>>>> aufgabe 1 feddig
 File: AFM_auswertung/streif_durch_vor.png Graphic file (type png)
 <use AFM_auswertung/streif_durch_vor.png>
 Package luatex.def Info: AFM_auswertung/streif_durch_vor.png  used on input line
- 49.
+ 46.
 (luatex.def)             Requested size: 188.21371pt x 162.47398pt.
+<<<<<<< HEAD
 <AFM_auswertung/streif_abb_vor.png, id=202, 955.57pt x 824.07875pt>
+||||||| constructed merge base
+<AFM_auswertung/streif_abb_vor.png, id=159, 955.57pt x 824.07875pt>
+=======
+<AFM_auswertung/streif_abb_vor.png, id=161, 955.57pt x 824.07875pt>
+>>>>>>> aufgabe 1 feddig
 File: AFM_auswertung/streif_abb_vor.png Graphic file (type png)
 <use AFM_auswertung/streif_abb_vor.png>
 Package luatex.def Info: AFM_auswertung/streif_abb_vor.png  used on input line 5
-5.
+2.
 (luatex.def)             Requested size: 188.21371pt x 162.31052pt.
+<<<<<<< HEAD
  [12<./AFM_auswertung/Kreis_durch_vor.png><./AFM_auswertung/Kreis_abs_vor.png><.
 /AFM_auswertung/quad_durch_vor.png><./AFM_auswertung/quad_abb_vor.png>]
 <AFM_auswertung/cd_3D.png, id=215, 1079.03125pt x 788.9475pt>
+||||||| constructed merge base
+[9<./AFM_auswertung/Kreis_durch_vor.png><./AFM_auswertung/Kreis_abs_vor.png><./A
+FM_auswertung/quad_durch_vor.png><./AFM_auswertung/quad_abb_vor.png>]
+<AFM_auswertung/cd_3D.png, id=173, 1079.03125pt x 788.9475pt>
+=======
+[9<./AFM_auswertung/Kreis_durch_vor.png><./AFM_auswertung/Kreis_abs_vor.png><./A
+FM_auswertung/quad_durch_vor.png><./AFM_auswertung/quad_abb_vor.png>]
+<AFM_auswertung/cd_3D.png, id=178, 1079.03125pt x 788.9475pt>
+>>>>>>> aufgabe 1 feddig
 File: AFM_auswertung/cd_3D.png Graphic file (type png)
 <use AFM_auswertung/cd_3D.png>
-Package luatex.def Info: AFM_auswertung/cd_3D.png  used on input line 87.
+Package luatex.def Info: AFM_auswertung/cd_3D.png  used on input line 90.
 (luatex.def)             Requested size: 188.21371pt x 137.61041pt.
+<<<<<<< HEAD
 <AFM_auswertung/dvd_3d.png, id=216, 1155.31625pt x 797.98125pt>
+||||||| constructed merge base
+<AFM_auswertung/dvd_3d.png, id=174, 1155.31625pt x 797.98125pt>
+=======
+LaTeX Font Info:    Font shape `TU/LatinModernMath(2)/m/n' will be
+(Font)              scaled to size 9.00096pt on input line 91.
+LaTeX Font Info:    Font shape `TU/LatinModernMath(2)/m/n' will be
+(Font)              scaled to size 6.00064pt on input line 91.
+LaTeX Font Info:    Font shape `TU/LatinModernMath(3)/m/n' will be
+(Font)              scaled to size 8.99904pt on input line 91.
+LaTeX Font Info:    Font shape `TU/LatinModernMath(3)/m/n' will be
+(Font)              scaled to size 5.99936pt on input line 91.
+<AFM_auswertung/dvd_3d.png, id=179, 1155.31625pt x 797.98125pt>
+>>>>>>> aufgabe 1 feddig
 File: AFM_auswertung/dvd_3d.png Graphic file (type png)
 <use AFM_auswertung/dvd_3d.png>
-Package luatex.def Info: AFM_auswertung/dvd_3d.png  used on input line 93.
+Package luatex.def Info: AFM_auswertung/dvd_3d.png  used on input line 96.
 (luatex.def)             Requested size: 188.21371pt x 129.99307pt.
+<<<<<<< HEAD
 <AFM_auswertung/bluray_3d.png, id=217, 1154.3125pt x 824.07875pt>
+||||||| constructed merge base
+<AFM_auswertung/bluray_3d.png, id=175, 1154.3125pt x 824.07875pt>
+=======
+<AFM_auswertung/bluray_3d.png, id=180, 1154.3125pt x 824.07875pt>
+>>>>>>> aufgabe 1 feddig
 File: AFM_auswertung/bluray_3d.png Graphic file (type png)
 <use AFM_auswertung/bluray_3d.png>
-Package luatex.def Info: AFM_auswertung/bluray_3d.png  used on input line 99.
+Package luatex.def Info: AFM_auswertung/bluray_3d.png  used on input line 102.
 (luatex.def)             Requested size: 188.21371pt x 134.35759pt.
+<<<<<<< HEAD
  [13<./AFM_auswertung/streif_durch_vor.png><./AFM_auswertung/streif_abb_vor.png>
 ]
 <AFM_auswertung/cd_breite.png, id=225, 946.53625pt x 829.0975pt>
+||||||| constructed merge base
+ [10<./AFM_auswertung/streif_durch_vor.png><./AFM_auswertung/streif_abb_vor.png>
+]
+<AFM_auswertung/cd_breite.png, id=183, 946.53625pt x 829.0975pt>
+=======
+
+Overfull \hbox (2.19977pt too wide) in paragraph at lines 83--108
+\TU/lmr/m/n/10.95 Im zweiten Teil des Versuches wird die Oberfläche von drei u
+nterschiedliche Speichermedien,
+ []
+
+[10<./AFM_auswertung/streif_durch_vor.png><./AFM_auswertung/streif_abb_vor.png>]
+<AFM_auswertung/cd_breite.png, id=193, 946.53625pt x 829.0975pt>
+>>>>>>> aufgabe 1 feddig
 File: AFM_auswertung/cd_breite.png Graphic file (type png)
 <use AFM_auswertung/cd_breite.png>
-Package luatex.def Info: AFM_auswertung/cd_breite.png  used on input line 110.
+Package luatex.def Info: AFM_auswertung/cd_breite.png  used on input line 116.
 (luatex.def)             Requested size: 167.29967pt x 146.53645pt.
+<<<<<<< HEAD
 <AFM_auswertung/cd_abstand.png, id=226, 945.5325pt x 828.09375pt>
+||||||| constructed merge base
+<AFM_auswertung/cd_abstand.png, id=184, 945.5325pt x 828.09375pt>
+=======
+<AFM_auswertung/cd_abstand.png, id=194, 945.5325pt x 828.09375pt>
+>>>>>>> aufgabe 1 feddig
 File: AFM_auswertung/cd_abstand.png Graphic file (type png)
 <use AFM_auswertung/cd_abstand.png>
-Package luatex.def Info: AFM_auswertung/cd_abstand.png  used on input line 116.
+Package luatex.def Info: AFM_auswertung/cd_abstand.png  used on input line 122.
 (luatex.def)             Requested size: 167.29967pt x 146.51067pt.
+<<<<<<< HEAD
 <AFM_auswertung/cd_Lmin.png, id=227, 949.5475pt x 826.08624pt>
+||||||| constructed merge base
+<AFM_auswertung/cd_Lmin.png, id=185, 949.5475pt x 826.08624pt>
+=======
+<AFM_auswertung/cd_Lmin.png, id=195, 949.5475pt x 826.08624pt>
+>>>>>>> aufgabe 1 feddig
 File: AFM_auswertung/cd_Lmin.png Graphic file (type png)
 <use AFM_auswertung/cd_Lmin.png>
-Package luatex.def Info: AFM_auswertung/cd_Lmin.png  used on input line 122.
+Package luatex.def Info: AFM_auswertung/cd_Lmin.png  used on input line 128.
 (luatex.def)             Requested size: 167.29967pt x 145.53784pt.
+<<<<<<< HEAD
 <AFM_auswertung/cd_Lmax.png, id=228, 941.5175pt x 827.09pt>
+||||||| constructed merge base
+<AFM_auswertung/cd_Lmax.png, id=186, 941.5175pt x 827.09pt>
+=======
+<AFM_auswertung/cd_Lmax.png, id=196, 941.5175pt x 827.09pt>
+>>>>>>> aufgabe 1 feddig
 File: AFM_auswertung/cd_Lmax.png Graphic file (type png)
 <use AFM_auswertung/cd_Lmax.png>
-Package luatex.def Info: AFM_auswertung/cd_Lmax.png  used on input line 128.
+Package luatex.def Info: AFM_auswertung/cd_Lmax.png  used on input line 134.
 (luatex.def)             Requested size: 167.29967pt x 146.9641pt.
+<<<<<<< HEAD
  [14<./AFM_auswertung/cd_3D.png><./AFM_auswertung/dvd_3d.png><./AFM_auswertung/b
 luray_3d.png>]
 <AFM_auswertung/cd_tiefe.png, id=237, 948.54375pt x 823.075pt>
+||||||| constructed merge base
+
+[11<./AFM_auswertung/cd_3D.png><./AFM_auswertung/dvd_3d.png><./AFM_auswertung/bl
+uray_3d.png>]
+<AFM_auswertung/cd_tiefe.png, id=196, 948.54375pt x 823.075pt>
+=======
+ [11<./AFM_auswertung/cd_3D.png><./AFM_auswertung/dvd_3d.png><./AFM_auswertung/b
+luray_3d.png>]
+<AFM_auswertung/cd_tiefe.png, id=210, 948.54375pt x 823.075pt>
+>>>>>>> aufgabe 1 feddig
 File: AFM_auswertung/cd_tiefe.png Graphic file (type png)
 <use AFM_auswertung/cd_tiefe.png>
-Package luatex.def Info: AFM_auswertung/cd_tiefe.png  used on input line 139.
+Package luatex.def Info: AFM_auswertung/cd_tiefe.png  used on input line 145.
 (luatex.def)             Requested size: 125.47794pt x 108.8748pt.
+<<<<<<< HEAD
 <AFM_auswertung/dvd_tiefe.png, id=238, 1022.82124pt x 918.43124pt>
+||||||| constructed merge base
+<AFM_auswertung/dvd_tiefe.png, id=197, 1022.82124pt x 918.43124pt>
+=======
+<AFM_auswertung/dvd_tiefe.png, id=211, 1022.82124pt x 918.43124pt>
+>>>>>>> aufgabe 1 feddig
 File: AFM_auswertung/dvd_tiefe.png Graphic file (type png)
 <use AFM_auswertung/dvd_tiefe.png>
-Package luatex.def Info: AFM_auswertung/dvd_tiefe.png  used on input line 145.
+Package luatex.def Info: AFM_auswertung/dvd_tiefe.png  used on input line 151.
 (luatex.def)             Requested size: 125.47794pt x 112.65945pt.
+<<<<<<< HEAD
 <AFM_auswertung/bluray_tiefe.png, id=239, 1006.76125pt x 878.28125pt>
+||||||| constructed merge base
+<AFM_auswertung/bluray_tiefe.png, id=198, 1006.76125pt x 878.28125pt>
+=======
+<AFM_auswertung/bluray_tiefe.png, id=212, 1006.76125pt x 878.28125pt>
+>>>>>>> aufgabe 1 feddig
 File: AFM_auswertung/bluray_tiefe.png Graphic file (type png)
 <use AFM_auswertung/bluray_tiefe.png>
-Package luatex.def Info: AFM_auswertung/bluray_tiefe.png  used on input line 151
+Package luatex.def Info: AFM_auswertung/bluray_tiefe.png  used on input line 157
 .
 (luatex.def)             Requested size: 125.47794pt x 109.46324pt.
+<<<<<<< HEAD
 <AFM_auswertung/cd_tiefe_grafik.png, id=240, 585.18625pt x 894.34125pt>
+||||||| constructed merge base
+<AFM_auswertung/cd_tiefe_grafik.png, id=199, 585.18625pt x 894.34125pt>
+=======
+<AFM_auswertung/cd_tiefe_grafik.png, id=213, 585.18625pt x 894.34125pt>
+>>>>>>> aufgabe 1 feddig
 File: AFM_auswertung/cd_tiefe_grafik.png Graphic file (type png)
 <use AFM_auswertung/cd_tiefe_grafik.png>
 Package luatex.def Info: AFM_auswertung/cd_tiefe_grafik.png  used on input line 
-157.
+163.
 (luatex.def)             Requested size: 125.47794pt x 191.76105pt.
+<<<<<<< HEAD
 <AFM_auswertung/dvd_tiefe_grafik.png, id=241, 568.1225pt x 897.3525pt>
+||||||| constructed merge base
+<AFM_auswertung/dvd_tiefe_grafik.png, id=200, 568.1225pt x 897.3525pt>
+=======
+<AFM_auswertung/dvd_tiefe_grafik.png, id=214, 568.1225pt x 897.3525pt>
+>>>>>>> aufgabe 1 feddig
 File: AFM_auswertung/dvd_tiefe_grafik.png Graphic file (type png)
 <use AFM_auswertung/dvd_tiefe_grafik.png>
 Package luatex.def Info: AFM_auswertung/dvd_tiefe_grafik.png  used on input line
- 163.
+ 169.
 (luatex.def)             Requested size: 125.47794pt x 198.18494pt.
+<<<<<<< HEAD
 <AFM_auswertung/bluray_tiefe_grafik.png, id=242, 539.01375pt x 895.345pt>
+||||||| constructed merge base
+<AFM_auswertung/bluray_tiefe_grafik.png, id=201, 539.01375pt x 895.345pt>
+=======
+<AFM_auswertung/bluray_tiefe_grafik.png, id=215, 539.01375pt x 895.345pt>
+>>>>>>> aufgabe 1 feddig
 File: AFM_auswertung/bluray_tiefe_grafik.png Graphic file (type png)
 <use AFM_auswertung/bluray_tiefe_grafik.png>
 Package luatex.def Info: AFM_auswertung/bluray_tiefe_grafik.png  used on input l
-ine 169.
+ine 175.
 (luatex.def)             Requested size: 125.47794pt x 208.42514pt.
  [15<./AFM_auswertung/cd_breite.png><./AFM_auswertung/cd_abstand.png><./AFM_ausw
 ertung/cd_Lmin.png><./AFM_auswertung/cd_Lmax.png>]
+<<<<<<< HEAD
 <AFM_auswertung/edelstahl_kurve.png, id=252, 526.21594pt x 460.72125pt>
+||||||| constructed merge base
+<AFM_auswertung/edelstahl_kurve.png, id=211, 526.21594pt x 460.72125pt>
+=======
+<AFM_auswertung/edelstahl_kurve.png, id=224, 526.21594pt x 460.72125pt>
+>>>>>>> aufgabe 1 feddig
 File: AFM_auswertung/edelstahl_kurve.png Graphic file (type png)
 <use AFM_auswertung/edelstahl_kurve.png>
 Package luatex.def Info: AFM_auswertung/edelstahl_kurve.png  used on input line 
-201.
+207.
 (luatex.def)             Requested size: 125.47794pt x 109.85829pt.
+<<<<<<< HEAD
 <AFM_auswertung/teflon_kurve.png, id=253, 526.21594pt x 460.72125pt>
+||||||| constructed merge base
+<AFM_auswertung/teflon_kurve.png, id=212, 526.21594pt x 460.72125pt>
+=======
+<AFM_auswertung/teflon_kurve.png, id=225, 526.21594pt x 460.72125pt>
+>>>>>>> aufgabe 1 feddig
 File: AFM_auswertung/teflon_kurve.png Graphic file (type png)
 <use AFM_auswertung/teflon_kurve.png>
-Package luatex.def Info: AFM_auswertung/teflon_kurve.png  used on input line 207
+Package luatex.def Info: AFM_auswertung/teflon_kurve.png  used on input line 213
 .
 (luatex.def)             Requested size: 125.47794pt x 109.85829pt.
+<<<<<<< HEAD
 <AFM_auswertung/TiN_kurve.png, id=254, 526.21594pt x 460.72125pt>
+||||||| constructed merge base
+<AFM_auswertung/TiN_kurve.png, id=213, 526.21594pt x 460.72125pt>
+=======
+<AFM_auswertung/TiN_kurve.png, id=226, 526.21594pt x 460.72125pt>
+>>>>>>> aufgabe 1 feddig
 File: AFM_auswertung/TiN_kurve.png Graphic file (type png)
 <use AFM_auswertung/TiN_kurve.png>
-Package luatex.def Info: AFM_auswertung/TiN_kurve.png  used on input line 213.
+Package luatex.def Info: AFM_auswertung/TiN_kurve.png  used on input line 219.
 (luatex.def)             Requested size: 125.47794pt x 109.85829pt.
  [16<./AFM_auswertung/cd_tiefe.png><./AFM_auswertung/dvd_tiefe.png><./AFM_auswer
 tung/bluray_tiefe.png><./AFM_auswertung/cd_tiefe_grafik.png><./AFM_auswertung/dv
 d_tiefe_grafik.png><./AFM_auswertung/bluray_tiefe_grafik.png>]) (./content/disk
+<<<<<<< HEAD
 ussion.tex) (./content/anhang.tex
 <AFM_auswertung/dvd_breite.png, id=267, 950.55125pt x 844.15375pt>
+||||||| constructed merge base
+ussion.tex)
+(./content/anhang.tex
+<AFM_auswertung/dvd_breite.png, id=226, 950.55125pt x 844.15375pt>
+=======
+ussion.tex) (./content/anhang.tex
+<AFM_auswertung/dvd_breite.png, id=239, 950.55125pt x 844.15375pt>
+>>>>>>> aufgabe 1 feddig
 File: AFM_auswertung/dvd_breite.png Graphic file (type png)
 <use AFM_auswertung/dvd_breite.png>
 Package luatex.def Info: AFM_auswertung/dvd_breite.png  used on input line 7.
 (luatex.def)             Requested size: 167.29967pt x 148.56636pt.
+<<<<<<< HEAD
 <AFM_auswertung/dvd_abstand.png, id=268, 951.555pt x 845.1575pt>
+||||||| constructed merge base
+<AFM_auswertung/dvd_abstand.png, id=227, 951.555pt x 845.1575pt>
+=======
+<AFM_auswertung/dvd_abstand.png, id=240, 951.555pt x 845.1575pt>
+>>>>>>> aufgabe 1 feddig
 File: AFM_auswertung/dvd_abstand.png Graphic file (type png)
 <use AFM_auswertung/dvd_abstand.png>
 Package luatex.def Info: AFM_auswertung/dvd_abstand.png  used on input line 13.
 (luatex.def)             Requested size: 167.29967pt x 148.58826pt.
+<<<<<<< HEAD
 <AFM_auswertung/dvd_Lmin.png, id=269, 952.55875pt x 843.15pt>
+||||||| constructed merge base
+<AFM_auswertung/dvd_Lmin.png, id=228, 952.55875pt x 843.15pt>
+=======
+<AFM_auswertung/dvd_Lmin.png, id=241, 952.55875pt x 843.15pt>
+>>>>>>> aufgabe 1 feddig
 File: AFM_auswertung/dvd_Lmin.png Graphic file (type png)
 <use AFM_auswertung/dvd_Lmin.png>
 Package luatex.def Info: AFM_auswertung/dvd_Lmin.png  used on input line 19.
 (luatex.def)             Requested size: 167.29967pt x 148.08093pt.
+<<<<<<< HEAD
 <AFM_auswertung/dvd_Lmax.png, id=270, 948.54375pt x 847.165pt>
+||||||| constructed merge base
+<AFM_auswertung/dvd_Lmax.png, id=229, 948.54375pt x 847.165pt>
+=======
+<AFM_auswertung/dvd_Lmax.png, id=242, 948.54375pt x 847.165pt>
+>>>>>>> aufgabe 1 feddig
 File: AFM_auswertung/dvd_Lmax.png Graphic file (type png)
 <use AFM_auswertung/dvd_Lmax.png>
 Package luatex.def Info: AFM_auswertung/dvd_Lmax.png  used on input line 25.
 (luatex.def)             Requested size: 167.29967pt x 149.4195pt.
  [17<./AFM_auswertung/edelstahl_kurve.png><./AFM_auswertung/teflon_kurve.png><./
 AFM_auswertung/TiN_kurve.png>]
+<<<<<<< HEAD
 <AFM_auswertung/bluray_breite.png, id=280, 1004.75375pt x 881.2925pt>
+||||||| constructed merge base
+<AFM_auswertung/bluray_breite.png, id=239, 1004.75375pt x 881.2925pt>
+=======
+<AFM_auswertung/bluray_breite.png, id=252, 1004.75375pt x 881.2925pt>
+>>>>>>> aufgabe 1 feddig
 File: AFM_auswertung/bluray_breite.png Graphic file (type png)
 <use AFM_auswertung/bluray_breite.png>
 Package luatex.def Info: AFM_auswertung/bluray_breite.png  used on input line 37
 .
 (luatex.def)             Requested size: 167.29967pt x 146.73828pt.
+<<<<<<< HEAD
 <AFM_auswertung/bluray_abstand.png, id=281, 1008.76875pt x 880.28876pt>
+||||||| constructed merge base
+<AFM_auswertung/bluray_abstand.png, id=240, 1008.76875pt x 880.28876pt>
+=======
+<AFM_auswertung/bluray_abstand.png, id=253, 1008.76875pt x 880.28876pt>
+>>>>>>> aufgabe 1 feddig
 File: AFM_auswertung/bluray_abstand.png Graphic file (type png)
 <use AFM_auswertung/bluray_abstand.png>
 Package luatex.def Info: AFM_auswertung/bluray_abstand.png  used on input line 4
 3.
 (luatex.def)             Requested size: 167.29967pt x 145.98013pt.
+<<<<<<< HEAD
 <AFM_auswertung/bluray_Lmin.png, id=282, 1008.76875pt x 880.28876pt>
+||||||| constructed merge base
+<AFM_auswertung/bluray_Lmin.png, id=241, 1008.76875pt x 880.28876pt>
+=======
+<AFM_auswertung/bluray_Lmin.png, id=254, 1008.76875pt x 880.28876pt>
+>>>>>>> aufgabe 1 feddig
 File: AFM_auswertung/bluray_Lmin.png Graphic file (type png)
 <use AFM_auswertung/bluray_Lmin.png>
 Package luatex.def Info: AFM_auswertung/bluray_Lmin.png  used on input line 49.
 (luatex.def)             Requested size: 167.29967pt x 145.98013pt.
+<<<<<<< HEAD
 <AFM_auswertung/bluray_Lmax.png, id=283, 1004.75375pt x 880.28876pt>
+||||||| constructed merge base
+<AFM_auswertung/bluray_Lmax.png, id=242, 1004.75375pt x 880.28876pt>
+=======
+<AFM_auswertung/bluray_Lmax.png, id=255, 1004.75375pt x 880.28876pt>
+>>>>>>> aufgabe 1 feddig
 File: AFM_auswertung/bluray_Lmax.png Graphic file (type png)
 <use AFM_auswertung/bluray_Lmax.png>
 Package luatex.def Info: AFM_auswertung/bluray_Lmax.png  used on input line 55.
@@ -2015,6 +2449,7 @@ LaTeX Info: Redefining \ttfamily on input line 26.
 )
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 24.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 24.
+<<<<<<< HEAD
 
 Package rerunfilecheck Warning: File `main.aux' has changed. Rerun.
 
@@ -2023,6 +2458,25 @@ Package rerunfilecheck Info: Checksums for `main.aux':
 (rerunfilecheck)             After:  87944CFFF21DE2A7A4EC7703027BB4B4;24046.
 Package rerunfilecheck Info: File `main.toc' has not changed.
 (rerunfilecheck)             Checksum: CBDA95C3AE315655D4CC37AD356829CC;1292.
+||||||| constructed merge base
+
+Package rerunfilecheck Warning: File `main.aux' has changed. Rerun.
+
+Package rerunfilecheck Info: Checksums for `main.aux':
+(rerunfilecheck)             Before: 2E4404D18D2351698C59288B8A866F30;20836
+(rerunfilecheck)             After:  DC3239B42DA0AF8B40D32734DD8050B7;22499.
+
+Package rerunfilecheck Warning: File `main.toc' has changed. Rerun.
+
+Package rerunfilecheck Info: Checksums for `main.toc':
+(rerunfilecheck)             Before: 0C55E11663F4CF9C15362D6BAA6ABEEA;1227
+(rerunfilecheck)             After:  FCB274E8271E62FC5DDB691606826898;1290.
+=======
+Package rerunfilecheck Info: File `main.aux' has not changed.
+(rerunfilecheck)             Checksum: FEB2307F8C5C919BED44A66816C1724F;22304.
+Package rerunfilecheck Info: File `main.toc' has not changed.
+(rerunfilecheck)             Checksum: 5B4C4FDDCC2ADD3D9A790CDBE846302A;1290.
+>>>>>>> aufgabe 1 feddig
 
 LaTeX Warning: There were multiply-defined labels.
 
@@ -2032,11 +2486,18 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 )
 
 Here is how much of LuaTeX's memory you used:
+<<<<<<< HEAD
  37110 strings out of 480883
+||||||| constructed merge base
+ 37205 strings out of 481365
+=======
+ 37257 strings out of 481365
+>>>>>>> aufgabe 1 feddig
  100000,1977958 words of node,token memory allocated
  660 words of node memory still in use:
    6 hlist, 2 vlist, 2 rule, 2 glue, 4 kern, 1 glyph, 15 attribute, 80 glue_spec
 , 15 attribute_list, 1 write nodes
+<<<<<<< HEAD
    avail lists: 2:596,3:142,4:68,5:293,6:40,7:5024,8:49,9:279,10:28,11:549
  53397 multiletter control sequences out of 65536+600000
  196 fonts using 57204371 bytes
@@ -2061,5 +2522,52 @@ Output written on main.pdf (19 pages, 9058317 bytes).
 PDF statistics: 431 PDF objects out of 1000 (max. 8388607)
  274 compressed objects within 3 object streams
  63 named destinations out of 1000 (max. 131072)
+||||||| constructed merge base
+   avail lists: 2:596,3:142,4:29,5:255,6:40,7:3073,8:54,9:279,10:11,11:36
+ 52804 multiletter control sequences out of 65536+600000
+ 196 fonts using 57206863 bytes
+ 62i,15n,111p,10117b,2278s stack positions out of 5000i,500n,10000p,200000b,100000s
+
+warning  (pdf backend): unreferenced destination with name 'section*.17'
+</usr/share/texmf/fonts/opentype/public/lm/lmmono10-regular.otf></usr/share/texm
+f/fonts/opentype/public/lm/lmroman10-italic.otf></usr/share/texmf/fonts/opentype
+/public/lm-math/latinmodern-math.otf></usr/share/texmf/fonts/opentype/public/lm/
+lmroman5-regular.otf></usr/share/texmf/fonts/opentype/public/lm/lmroman9-regular
+.otf></usr/share/texmf/fonts/opentype/public/lm/lmroman9-bold.otf></usr/share/te
+xmf/fonts/opentype/public/lm-math/latinmodern-math.otf></usr/share/texmf/fonts/o
+pentype/public/lm/lmroman8-regular.otf></usr/share/texmf/fonts/opentype/public/l
+m/lmroman10-bold.otf></usr/share/texmf/fonts/opentype/public/lm-math/latinmodern
+-math.otf></usr/share/texmf/fonts/opentype/public/lm/lmroman10-regular.otf></usr
+/share/texmf/fonts/opentype/public/lm/lmroman12-regular.otf></usr/share/texmf/fo
+nts/opentype/public/lm/lmsans10-bold.otf></usr/share/texmf/fonts/opentype/public
+/lm/lmroman12-bold.otf>
+Output written on main.pdf (16 pages, 8661253 bytes).
+
+PDF statistics: 403 PDF objects out of 1000 (max. 8388607)
+ 255 compressed objects within 3 object streams
+ 58 named destinations out of 1000 (max. 131072)
+=======
+   avail lists: 2:600,3:142,4:29,5:255,6:40,7:3073,8:54,9:279,10:11,11:36
+ 52840 multiletter control sequences out of 65536+600000
+ 213 fonts using 62842331 bytes
+ 62i,15n,111p,10117b,2278s stack positions out of 5000i,500n,10000p,200000b,100000s
+</usr/share/texmf/fonts/opentype/public/lm/lmmono10-regular.otf></usr/share/texm
+f/fonts/opentype/public/lm/lmroman10-italic.otf></usr/share/texmf/fonts/opentype
+/public/lm-math/latinmodern-math.otf></usr/share/texmf/fonts/opentype/public/lm/
+lmroman5-regular.otf></usr/share/texmf/fonts/opentype/public/lm/lmroman9-regular
+.otf></usr/share/texmf/fonts/opentype/public/lm/lmroman9-bold.otf></usr/share/te
+xmf/fonts/opentype/public/lm-math/latinmodern-math.otf></usr/share/texmf/fonts/o
+pentype/public/lm/lmroman8-regular.otf></usr/share/texmf/fonts/opentype/public/l
+m/lmroman10-bold.otf></usr/share/texmf/fonts/opentype/public/lm-math/latinmodern
+-math.otf></usr/share/texmf/fonts/opentype/public/lm/lmroman10-regular.otf></usr
+/share/texmf/fonts/opentype/public/lm/lmroman12-regular.otf></usr/share/texmf/fo
+nts/opentype/public/lm/lmsans10-bold.otf></usr/share/texmf/fonts/opentype/public
+/lm/lmroman12-bold.otf>
+Output written on main.pdf (16 pages, 8665253 bytes).
+
+PDF statistics: 411 PDF objects out of 1000 (max. 8388607)
+ 263 compressed objects within 3 object streams
+ 57 named destinations out of 1000 (max. 131072)
+>>>>>>> aufgabe 1 feddig
  113 words of extra memory for PDF output out of 10000 (max. 100000000)
 
