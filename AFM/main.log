@@ -1,62 +1,46 @@
-This is LuaHBTeX, Version 1.12.0 (TeX Live 2020)  (format=lualatex 2020.5.18)  25 SEP 2020 09:42
+This is LuaTeX, Version 1.10.0 (TeX Live 2019/Debian)  (format=lualatex 2020.10.8)  16 OCT 2020 09:29
  restricted system commands enabled.
 **main.tex
 (./main.tex
-LaTeX2e <2020-02-02> patch level 5
-Lua module: luaotfload-main 2020-05-06 3.14 luaotfload entry point
-Lua module: luaotfload-init 2020-05-06 3.14 luaotfload submodule / initializatio
+LaTeX2e <2020-02-02> patch level 2
+Lua module: luaotfload-main 2020-02-02 3.12 luaotfload entry point
+Lua module: luaotfload-init 2020-02-02 3.12 luaotfload submodule / initializatio
 n
-Lua module: lualibs 2020-05-01 2.71 ConTeXt Lua standard libraries.
-Lua module: lualibs-extended 2020-05-01 2.71 ConTeXt Lua libraries -- extended c
+Lua module: lualibs 2020-02-02 2.70 ConTeXt Lua standard libraries.
+Lua module: lualibs-extended 2020-02-02 2.70 ConTeXt Lua libraries -- extended c
 ollection.
-Lua module: luaotfload-log 2020-05-06 3.14 luaotfload submodule / logging
-Lua module: luaotfload-parsers 2020-05-06 3.14 luaotfload submodule / filelist
-Lua module: luaotfload-configuration 2020-05-06 3.14 luaotfload submodule / conf
+Lua module: luaotfload-log 2020-02-02 3.12 luaotfload submodule / logging
+Lua module: luaotfload-parsers 2020-02-02 3.12 luaotfload submodule / filelist
+Lua module: luaotfload-configuration 2020-02-02 3.12 luaotfload submodule / conf
 ig file reader
-luaotfload | conf : Root cache directory is "/home/alex/.local/texlive/2020/texm
-f-var/luatex-cache/generic-dev/names".
-luaotfload | init : Loading fontloader "fontloader-2020-05-06.lua" from kpse-res
-olved path "/home/alex/.local/texlive/2020/texmf-dist/tex/luatex/luaotfload/font
-loader-2020-05-06.lua".
-Lua-only attribute luaotfload@noligature = 1
-Lua-only attribute luaotfload@syllabe = 2
-luaotfload | init : Context OpenType loader version 0x1.8e353f7ced917p+1
-Lua module: luaotfload-fallback 2020-05-06 3.14 luaotfload submodule / fallback
-Lua module: luaotfload-multiscript 2020-05-06 3.14 luaotfload submodule / multis
-cript
-Lua module: luaotfload-script 2020-05-06 3.14 luaotfload submodule / Script help
-ers
+luaotfload | conf : Root cache directory is /home/julia/.texlive2019/texmf-var/l
+uatex-cache/generic-dev/names.
+luaotfload | init : Loading fontloader “fontloader-2020-01-26.lua” from kpse
+-resolved path “/usr/share/texlive/texmf-dist/tex/luatex/luaotfload/fontloader
+-2020-01-26.lua”.
+Lua-only attribute luaotfload@state = 2
+Lua-only attribute luaotfload@noligature = 3
+Lua-only attribute luaotfload@syllabe = 4
+luaotfload | init : Context OpenType loader version “3.11”
 Inserting `luaotfload.node_processor' at position 1 in `pre_linebreak_filter'.
 Inserting `luaotfload.node_processor' at position 1 in `hpack_filter'.
-Lua module: luaotfload-loaders 2020-05-06 3.14 luaotfload submodule / callback h
+Lua module: luaotfload-loaders 2020-02-02 3.12 luaotfload submodule / callback h
 andling
 Inserting `luaotfload.define_font' at position 1 in `define_font'.
-Lua module: luaotfload-database 2020-05-06 3.14 luaotfload submodule / database
-Lua module: luaotfload-unicode 2020-05-06 3.14 luaotfload submodule / Unicode he
+Lua module: luaotfload-database 2020-02-02 3.12 luaotfload submodule / database
+Lua module: luaotfload-unicode 2020-02-02 3.12 luaotfload submodule / Unicode he
 lpers
-Lua module: luaotfload-colors 2020-05-06 3.14 luaotfload submodule / color
-Lua-only attribute luaotfload_color_attribute = 3
-Lua module: luaotfload-resolvers 2020-05-06 3.14 luaotfload submodule / resolver
+Lua module: luaotfload-colors 2020-02-02 3.12 luaotfload submodule / color
+Lua-only attribute luaotfload_color_attribute = 5
+Lua module: luaotfload-resolvers 2020-02-02 3.12 luaotfload submodule / resolver
 s
-luaotfload | conf : Root cache directory is "/home/alex/.local/texlive/2020/texm
-f-var/luatex-cache/generic-dev/names".
-Lua module: luaotfload-features 2020-05-06 3.14 luaotfload submodule / features
-Lua module: luaotfload-harf-define 2020-05-06 3.14 luaotfload submodule / databa
-se
-Inserting `luaotfload.harf.strip_prefix' at position 1 in `find_opentype_file'.
-Inserting `luaotfload.harf.strip_prefix' at position 1 in `find_truetype_file'.
-Lua module: luaotfload-harf-plug 2020-05-06 3.14 luaotfload submodule / database
-Inserting `Harf pre_output_filter callback' at position 1 in `pre_output_filter'
-.
-Inserting `Harf wrapup_run callback' at position 1 in `wrapup_run'.
-Inserting `Harf finish_pdffile callback' at position 1 in `finish_pdffile'.
-Inserting `Harf glyph_info callback' at position 1 in `glyph_info'.
-Lua module: luaotfload-letterspace 2020-05-06 3.14 luaotfload submodule / color
-Lua module: luaotfload-embolden 2020-05-06 3.14 luaotfload submodule / color
-Lua module: luaotfload-notdef 2020-05-06 3.14 luaotfload submodule / color
-Lua module: luaotfload-suppress 2020-05-06 3.14 luaotfload submodule / suppress
-Lua module: luaotfload-szss 2020-05-06 3.14 luaotfload submodule / color
-Lua module: luaotfload-auxiliary 2020-05-06 3.14 luaotfload submodule / auxiliar
+luaotfload | conf : Root cache directory is /home/julia/.texlive2019/texmf-var/l
+uatex-cache/generic-dev/names.
+Lua module: luaotfload-features 2020-02-02 3.12 luaotfload submodule / features
+Lua module: luaotfload-letterspace 2020-02-02 3.12 luaotfload submodule / color
+Lua module: luaotfload-embolden 2020-02-02 3.12 luaotfload submodule / color
+Lua module: luaotfload-notdef 2020-02-02 3.12 luaotfload submodule / color
+Lua module: luaotfload-auxiliary 2020-02-02 3.12 luaotfload submodule / auxiliar
 y functions
 Inserting `luaotfload.aux.set_sscale_dimens' at position 1 in `luaotfload.patch_
 font'.
@@ -69,46 +53,51 @@ t_unsafe'.
 Inserting `luaotfload.aux.set_capheight' at position 4 in `luaotfload.patch_font
 '.
 Inserting `luaotfload.aux.set_xheight' at position 5 in `luaotfload.patch_font'.
-Lua module: luaotfload-tounicode 2020-05-06 3.14 luaotfload submodule / tounicod
+Lua module: luaotfload-fallback 2020-02-02 3.12 luaotfload submodule / fallback
+Lua module: luaotfload-multiscript 2020-02-02 3.12 luaotfload submodule / multis
+cript
+Lua module: luaotfload-script 2020-02-02 3.12 luaotfload submodule / Script help
+ers
+Lua module: luaotfload-tounicode 2020-02-02 3.12 luaotfload submodule / tounicod
 e
 Inserting `luaotfload.rewrite_fontname' at position 6 in `luaotfload.patch_font'
-. L3 programming layer <2020-05-15> (./header.tex
-(/home/alex/.local/texlive/2020/texmf-dist/tex/latex/koma-script/scrartcl.cls
-Document Class: scrartcl 2020/04/19 v3.30 KOMA-Script document class (article)
-(/home/alex/.local/texlive/2020/texmf-dist/tex/latex/koma-script/scrkbase.sty
-Package: scrkbase 2020/04/19 v3.30 KOMA-Script package (KOMA-Script-dependent ba
+. L3 programming layer <2020-02-14> (./header.tex
+(/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrartcl.cls
+Document Class: scrartcl 2020/01/24 v3.29 KOMA-Script document class (article)
+(/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrkbase.sty
+Package: scrkbase 2020/01/24 v3.29 KOMA-Script package (KOMA-Script-dependent ba
 sics and keyval usage)
 
-(/home/alex/.local/texlive/2020/texmf-dist/tex/latex/koma-script/scrbase.sty
-Package: scrbase 2020/04/19 v3.30 KOMA-Script package (KOMA-Script-independent b
+(/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrbase.sty
+Package: scrbase 2020/01/24 v3.29 KOMA-Script package (KOMA-Script-independent b
 asics and keyval usage)
 
-(/home/alex/.local/texlive/2020/texmf-dist/tex/latex/graphics/keyval.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
-\KV@toks@=\toks15
+\KV@toks@=\toks14
 )
-(/home/alex/.local/texlive/2020/texmf-dist/tex/latex/koma-script/scrlfile.sty
-Package: scrlfile 2020/04/19 v3.30 KOMA-Script package (loading files)
-))) (/home/alex/.local/texlive/2020/texmf-dist/tex/latex/koma-script/tocbasic.s
-ty
-Package: tocbasic 2020/04/19 v3.30 KOMA-Script package (handling toc-files)
+(/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrlfile.sty
+Package: scrlfile 2020/01/24 v3.29 KOMA-Script package (loading files)
+)))
+(/usr/share/texlive/texmf-dist/tex/latex/koma-script/tocbasic.sty
+Package: tocbasic 2020/01/24 v3.29 KOMA-Script package (handling toc-files)
 \scr@dte@tocline@numberwidth=\skip47
 \scr@dte@tocline@numbox=\box45
 )
-Package tocbasic Info: babel extension for `toc' omitted
-(tocbasic)             because of missing \bbl@set@language on input line 135.
+Package tocbasic Info: omitting babel extension for `toc'
+(tocbasic)             because of feature `nobabel' available
+(tocbasic)             for `toc' on input line 137.
 Class scrartcl Info: File `scrsize11pt.clo' used instead of
 (scrartcl)           file `scrsize11.clo' to setup font sizes on input line 2212
 .
 
-(/home/alex/.local/texlive/2020/texmf-dist/tex/latex/koma-script/scrsize11pt.cl
-o
-File: scrsize11pt.clo 2020/04/19 v3.30 KOMA-Script font size class option (11pt)
+(/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrsize11pt.clo
+File: scrsize11pt.clo 2020/01/24 v3.29 KOMA-Script font size class option (11pt)
 
-luaotfload | db : Font names database loaded from /home/alex/.local/texlive/2020
-/texmf-var/luatex-cache/generic-dev/names/luaotfload-names.luc)
-(/home/alex/.local/texlive/2020/texmf-dist/tex/latex/koma-script/typearea.sty
-Package: typearea 2020/04/19 v3.30 KOMA-Script package (type area)
+luaotfload | db : Font names database loaded from /home/julia/.texlive2019/texmf
+-var/luatex-cache/generic-dev/names/luaotfload-names.luc)
+(/usr/share/texlive/texmf-dist/tex/latex/koma-script/typearea.sty
+Package: typearea 2020/01/24 v3.29 KOMA-Script package (type area)
 \ta@bcor=\skip48
 \ta@div=\count163
 \ta@hblk=\skip49
@@ -131,7 +120,7 @@ Package typearea Info: These are the values describing the layout:
 (typearea)              \topskip        = 11.0pt
 (typearea)              \footskip       = 47.6pt
 (typearea)              \baselineskip   = 13.6pt
-(typearea)              on input line 1738.
+(typearea)              on input line 1719.
 )
 \c@part=\count164
 \c@section=\count165
@@ -141,134 +130,131 @@ Package typearea Info: These are the values describing the layout:
 \c@subparagraph=\count169
 \scr@dte@section@maxnumwidth=\skip53
 Class scrartcl Info: using compatibility default `runin=bysign'
-(scrartcl)           for `\section on input line 4761.
+(scrartcl)           for `\section on input line 4723.
 Class scrartcl Info: using compatibility default `afterindent=bysign'
-(scrartcl)           for `\section on input line 4761.
+(scrartcl)           for `\section on input line 4723.
 \scr@dte@part@maxnumwidth=\skip54
 Class scrartcl Info: using compatibility default `afterindent=false'
-(scrartcl)           for `\part on input line 4769.
+(scrartcl)           for `\part on input line 4731.
 \scr@dte@subsection@maxnumwidth=\skip55
 Class scrartcl Info: using compatibility default `runin=bysign'
-(scrartcl)           for `\subsection on input line 4779.
+(scrartcl)           for `\subsection on input line 4741.
 Class scrartcl Info: using compatibility default `afterindent=bysign'
-(scrartcl)           for `\subsection on input line 4779.
+(scrartcl)           for `\subsection on input line 4741.
 \scr@dte@subsubsection@maxnumwidth=\skip56
 Class scrartcl Info: using compatibility default `runin=bysign'
-(scrartcl)           for `\subsubsection on input line 4789.
+(scrartcl)           for `\subsubsection on input line 4751.
 Class scrartcl Info: using compatibility default `afterindent=bysign'
-(scrartcl)           for `\subsubsection on input line 4789.
+(scrartcl)           for `\subsubsection on input line 4751.
 \scr@dte@paragraph@maxnumwidth=\skip57
 Class scrartcl Info: using compatibility default `runin=bysign'
-(scrartcl)           for `\paragraph on input line 4799.
+(scrartcl)           for `\paragraph on input line 4761.
 Class scrartcl Info: using compatibility default `afterindent=bysign'
-(scrartcl)           for `\paragraph on input line 4799.
+(scrartcl)           for `\paragraph on input line 4761.
 \scr@dte@subparagraph@maxnumwidth=\skip58
 Class scrartcl Info: using compatibility default `runin=bysign'
-(scrartcl)           for `\subparagraph on input line 4809.
+(scrartcl)           for `\subparagraph on input line 4771.
 Class scrartcl Info: using compatibility default `afterindent=bysign'
-(scrartcl)           for `\subparagraph on input line 4809.
+(scrartcl)           for `\subparagraph on input line 4771.
 \abovecaptionskip=\skip59
 \belowcaptionskip=\skip60
 \c@pti@nb@sid@b@x=\box46
-Package tocbasic Info: babel extension for `lof' omitted
-(tocbasic)             because of missing \bbl@set@language on input line 6040.
+Package tocbasic Info: omitting babel extension for `lof'
+(tocbasic)             because of feature `nobabel' available
+(tocbasic)             for `lof' on input line 6002.
 \scr@dte@figure@maxnumwidth=\skip61
 \c@figure=\count170
-Package tocbasic Info: babel extension for `lot' omitted
-(tocbasic)             because of missing \bbl@set@language on input line 6052.
+Package tocbasic Info: omitting babel extension for `lot'
+(tocbasic)             because of feature `nobabel' available
+(tocbasic)             for `lot' on input line 6014.
 \scr@dte@table@maxnumwidth=\skip62
 \c@table=\count171
-Class scrartcl Info: Redefining `\numberline' on input line 6216.
+Class scrartcl Info: Redefining `\numberline' on input line 6178.
 \bibindent=\dimen134
-) (/home/alex/.local/texlive/2020/texmf-dist/tex/latex/koma-script/scrhack.sty
-Package: scrhack 2020/04/19 v3.30 KOMA-Script package (hacking other packages)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrhack.sty
+Package: scrhack 2020/01/24 v3.29 KOMA-Script package (hacking other packages)
 
-(/home/alex/.local/texlive/2020/texmf-dist/tex/latex/xpatch/xpatch.sty
-(/home/alex/.local/texlive/2020/texmf-dist/tex/latex/l3kernel/expl3.sty
-Package: expl3 2020-05-15 L3 programming layer (loader) 
+(/usr/share/texlive/texmf-dist/tex/latex/xpatch/xpatch.sty
+(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2020-02-14 L3 programming layer (loader) 
 
-(/home/alex/.local/texlive/2020/texmf-dist/tex/latex/l3backend/l3backend-pdfmod
-e.def
-File: l3backend-pdfmode.def 2020-05-05 L3 backend support: PDF mode
+(/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def
+File: l3backend-pdfmode.def 2020-02-03 L3 backend support: PDF mode
 \l__kernel_color_stack_int=\count172
 \l__pdf_internal_box=\box47
 ))
-Package: xpatch 2020/03/25 v0.3a Extending etoolbox patching commands
+Package: xpatch 2012/10/02 v0.3 Extending etoolbox patching commands
 
-(/home/alex/.local/texlive/2020/texmf-dist/tex/latex/l3packages/xparse/xparse.s
-ty
-Package: xparse 2020-05-15 L3 Experimental document command parser
-
-(/home/alex/.local/texlive/2020/texmf-dist/tex/latex/l3packages/xparse/xparse-g
-eneric.tex
+(/usr/share/texlive/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+Package: xparse 2020-02-14 L3 Experimental document command parser
 \l__xparse_current_arg_int=\count173
 \g__xparse_grabber_int=\count174
 \l__xparse_m_args_int=\count175
 \l__xparse_v_nesting_int=\count176
-))
-(/home/alex/.local/texlive/2020/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+)
+(/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty
 Package: etoolbox 2019/09/21 v2.5h e-TeX tools for LaTeX (JAW)
 \etb@tempcnta=\count177
 )))
-(/home/alex/.local/texlive/2020/texmf-dist/tex/latex/rerunfilecheck/rerunfilech
-eck.sty
+(/usr/share/texlive/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
 Package: rerunfilecheck 2019/12/05 v1.9 Rerun checks for auxiliary files (HO)
 
-(/home/alex/.local/texlive/2020/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+(/usr/share/texlive/texmf-dist/tex/latex/kvoptions/kvoptions.sty
 Package: kvoptions 2019/11/29 v3.13 Key value format for package options (HO)
 
-(/home/alex/.local/texlive/2020/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+(/usr/share/texlive/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
 Package: ltxcmds 2019/12/15 v1.24 LaTeX kernel commands for general use (HO)
 )
-(/home/alex/.local/texlive/2020/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.sty
+(/usr/share/texlive/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.sty
 Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
 ))
-(/home/alex/.local/texlive/2020/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+(/usr/share/texlive/texmf-dist/tex/generic/infwarerr/infwarerr.sty
 Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
-) (/home/alex/.local/texlive/2020/texmf-dist/tex/latex/pdftexcmds/pdftexcmds.st
-y
+)
+(/usr/share/texlive/texmf-dist/tex/latex/pdftexcmds/pdftexcmds.sty
 Package: pdftexcmds 2019/11/24 v0.31 Utility functions of pdfTeX for LuaTeX (HO)
 
-(/home/alex/.local/texlive/2020/texmf-dist/tex/generic/iftex/iftex.sty
-Package: iftex 2020/03/06 v1.0d TeX engine tests
+
+(/usr/share/texlive/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2019/11/07 v1.0c TeX engine tests
 )
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
-\pdftexcmds@toks=\toks16
+\pdftexcmds@toks=\toks15
 )
-(/home/alex/.local/texlive/2020/texmf-dist/tex/latex/atveryend/atveryend.sty
+(/usr/share/texlive/texmf-dist/tex/latex/atveryend/atveryend.sty
 Package: atveryend 2019-12-11 v1.11 Hooks at the very end of document (HO)
 )
-(/home/alex/.local/texlive/2020/texmf-dist/tex/generic/uniquecounter/uniquecoun
-ter.sty
+(/usr/share/texlive/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
 Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 
-(/home/alex/.local/texlive/2020/texmf-dist/tex/generic/bigintcalc/bigintcalc.st
-y
+(/usr/share/texlive/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO)
 
 ))
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 28
 6.
-) (/home/alex/.local/texlive/2020/texmf-dist/tex/latex/amsmath/amsmath.sty
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2020/01/20 v2.17e AMS math features
 \@mathmargin=\skip63
 
 For additional information on amsmath, use the `?' option.
-(/home/alex/.local/texlive/2020/texmf-dist/tex/latex/amsmath/amstext.sty
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
 Package: amstext 2000/06/29 v2.01 AMS text
 
-(/home/alex/.local/texlive/2020/texmf-dist/tex/latex/amsmath/amsgen.sty
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
-\@emptytoks=\toks17
+\@emptytoks=\toks16
 \ex@=\dimen135
 ))
-(/home/alex/.local/texlive/2020/texmf-dist/tex/latex/amsmath/amsbsy.sty
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 \pmbraise@=\dimen136
 )
-(/home/alex/.local/texlive/2020/texmf-dist/tex/latex/amsmath/amsopn.sty
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 2016/03/08 v2.02 operator names
 )
 \inf@bad=\count178
@@ -291,28 +277,28 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 734.
 \dotsspace@=\muskip16
 \c@parentequation=\count185
 \dspbrk@lvl=\count186
-\tag@help=\toks18
+\tag@help=\toks17
 \row@=\count187
 \column@=\count188
 \maxfields@=\count189
-\andhelp@=\toks19
+\andhelp@=\toks18
 \eqnshift@=\dimen138
 \alignsep@=\dimen139
 \tagshift@=\dimen140
 \tagwidth@=\dimen141
 \totwidth@=\dimen142
 \lineht@=\dimen143
-\@envbody=\toks20
+\@envbody=\toks19
 \multlinegap=\skip64
 \multlinetaggap=\skip65
-\mathdisplay@stack=\toks21
+\mathdisplay@stack=\toks20
 LaTeX Info: Redefining \[ on input line 2859.
 LaTeX Info: Redefining \] on input line 2860.
 )
-(/home/alex/.local/texlive/2020/texmf-dist/tex/latex/amsfonts/amssymb.sty
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
 
-(/home/alex/.local/texlive/2020/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \symAMSa=\mathgroup4
 \symAMSb=\mathgroup5
@@ -320,10 +306,10 @@ LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 ))
-(/home/alex/.local/texlive/2020/texmf-dist/tex/latex/mathtools/mathtools.sty
-Package: mathtools 2020/03/24 v1.24 mathematical typesetting tools
+(/usr/share/texlive/texmf-dist/tex/latex/mathtools/mathtools.sty
+Package: mathtools 2020/01/17 v1.23 mathematical typesetting tools
 
-(/home/alex/.local/texlive/2020/texmf-dist/tex/latex/tools/calc.sty
+(/usr/share/texlive/texmf-dist/tex/latex/tools/calc.sty
 Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
 \calc@Acount=\count190
 \calc@Bcount=\count191
@@ -336,13 +322,13 @@ LaTeX Info: Redefining \addtolength on input line 81.
 \calc@Ccount=\count192
 \calc@Cskip=\skip68
 )
-(/home/alex/.local/texlive/2020/texmf-dist/tex/latex/mathtools/mhsetup.sty
+(/usr/share/texlive/texmf-dist/tex/latex/mathtools/mhsetup.sty
 Package: mhsetup 2017/03/31 v1.3 programming setup (MH)
 )
-LaTeX Info: Thecontrolsequence`\('isalreadyrobust on input line 130.
-LaTeX Info: Thecontrolsequence`\)'isalreadyrobust on input line 130.
-LaTeX Info: Thecontrolsequence`\['isalreadyrobust on input line 130.
-LaTeX Info: Thecontrolsequence`\]'isalreadyrobust on input line 130.
+LaTeX Info: Thecontrolsequence`\('isalreadyrobust on input line 129.
+LaTeX Info: Thecontrolsequence`\)'isalreadyrobust on input line 129.
+LaTeX Info: Thecontrolsequence`\['isalreadyrobust on input line 129.
+LaTeX Info: Thecontrolsequence`\]'isalreadyrobust on input line 129.
 \g_MT_multlinerow_int=\count193
 \l_MT_multwidth_dim=\dimen146
 \origjot=\skip69
@@ -352,15 +338,12 @@ LaTeX Info: Thecontrolsequence`\]'isalreadyrobust on input line 130.
 \l_MT_below_intertext_sep=\dimen150
 \l_MT_above_shortintertext_sep=\dimen151
 \l_MT_below_shortintertext_sep=\dimen152
-\xmathstrut@box=\box50
-\xmathstrut@dim=\dimen153
 )
-(/home/alex/.local/texlive/2020/texmf-dist/tex/latex/fontspec/fontspec.sty
-Package: fontspec 2020/02/21 v2.7i Font selection for XeLaTeX and LuaLaTeX
-Lua module: fontspec 2020/02/21 2.7i Font selection for XeLaTeX and LuaLaTeX
-(/home/alex/.local/texlive/2020/texmf-dist/tex/latex/fontspec/fontspec-luatex.s
-ty
-Package: fontspec-luatex 2020/02/21 v2.7i Font selection for XeLaTeX and LuaLaTe
+(/usr/share/texlive/texmf-dist/tex/latex/fontspec/fontspec.sty
+Package: fontspec 2020/02/03 v2.7h Font selection for XeLaTeX and LuaLaTeX
+Lua module: fontspec 2020/02/03 2.7h Font selection for XeLaTeX and LuaLaTeX
+(/usr/share/texlive/texmf-dist/tex/latex/fontspec/fontspec-luatex.sty
+Package: fontspec-luatex 2020/02/03 v2.7h Font selection for XeLaTeX and LuaLaTe
 X
 \l__fontspec_script_int=\count194
 \l__fontspec_language_int=\count195
@@ -373,13 +356,14 @@ X
 \l__fontspec_emdef_int=\count268
 \l__fontspec_strong_int=\count269
 \l__fontspec_strongdef_int=\count270
-\l__fontspec_tmpa_dim=\dimen154
-\l__fontspec_tmpb_dim=\dimen155
-\l__fontspec_tmpc_dim=\dimen156
- (/home/alex/.local/texlive/2020/texmf-dist/tex/latex/base/fontenc.sty
+\l__fontspec_tmpa_dim=\dimen153
+\l__fontspec_tmpb_dim=\dimen154
+\l__fontspec_tmpc_dim=\dimen155
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
 Package: fontenc 2020/02/11 v2.0o Standard LaTeX package
 )
-(/home/alex/.local/texlive/2020/texmf-dist/tex/latex/fontspec/fontspec.cfg)))
+(/usr/share/texlive/texmf-dist/tex/latex/fontspec/fontspec.cfg)))
 Package typearea Info: These are the values describing the layout:
 (typearea)             DIV  = 10
 (typearea)             BCOR = 0.0pt
@@ -398,48 +382,45 @@ Package typearea Info: These are the values describing the layout:
 (typearea)              \baselineskip   = 13.6pt
 (typearea)              on input line 30.
 
-(/home/alex/.local/texlive/2020/texmf-dist/tex/latex/polyglossia/polyglossia.st
-y
-Package: polyglossia 2020/04/08 v1.49 Modern multilingual typesetting with XeLaT
+(/usr/share/texlive/texmf-dist/tex/latex/polyglossia/polyglossia.sty
+Package: polyglossia 2020/01/29 v1.47 Modern multilingual typesetting with XeLaT
 eX and LuaLaTeX
- (/home/alex/.local/texlive/2020/texmf-dist/tex/latex/makecmds/makecmds.sty
+
+(/usr/share/texlive/texmf-dist/tex/latex/makecmds/makecmds.sty
 Package: makecmds 2009/09/03 v1.0a extra command making commands
 )
-(/home/alex/.local/texlive/2020/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+(/usr/share/texlive/texmf-dist/tex/latex/xkeyval/xkeyval.sty
 Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
 
-(/home/alex/.local/texlive/2020/texmf-dist/tex/generic/xkeyval/xkeyval.tex
-(/home/alex/.local/texlive/2020/texmf-dist/tex/generic/xkeyval/xkvutils.tex
-\XKV@toks=\toks22
-\XKV@tempa@toks=\toks23
+(/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+(/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkvutils.tex
+\XKV@toks=\toks21
+\XKV@tempa@toks=\toks22
 )
 \XKV@depth=\count271
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 ))
-(/home/alex/.local/texlive/2020/texmf-dist/tex/generic/iftex/ifluatex.sty
+(/usr/share/texlive/texmf-dist/tex/generic/iftex/ifluatex.sty
 Package: ifluatex 2019/10/25 v1.5 ifluatex legacy package. Use iftex instead.
 )
-(/home/alex/.local/texlive/2020/texmf-dist/tex/generic/iftex/ifxetex.sty
+(/usr/share/texlive/texmf-dist/tex/generic/iftex/ifxetex.sty
 Package: ifxetex 2019/10/25 v0.7 ifxetex legacy package. Use iftex instead.
 )
-(/home/alex/.local/texlive/2020/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys
-2e.sty
-Package: l3keys2e 2020-05-15 LaTeX2e option processing using LaTeX3 keys
+(/usr/share/texlive/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
+Package: l3keys2e 2020-02-14 LaTeX2e option processing using LaTeX3 keys
 )
-(/home/alex/.local/texlive/2020/texmf-dist/tex/latex/filehook/filehook.sty
+(/usr/share/texlive/texmf-dist/tex/latex/filehook/filehook.sty
 Package: filehook 2020/02/03 v0.7 Hooks for input files
 
-(/home/alex/.local/texlive/2020/texmf-dist/tex/latex/filehook/filehook-scrlfile
-.sty
+(/usr/share/texlive/texmf-dist/tex/latex/filehook/filehook-scrlfile.sty
 Package: filehook-scrlfile 2020/02/02 v0.2 filehook patch for scrlfile package
 Package filehook Info: Package 'scrlfile' detected and compensated for on input 
 line 107.
 ))
-(/home/alex/.local/texlive/2020/texmf-dist/tex/luatex/luatexbase/luatexbase.sty
+(/usr/share/texlive/texmf-dist/tex/luatex/luatexbase/luatexbase.sty
 Package: luatexbase 2015/10/04 v1.3 luatexbase interface to LuaTeX 
 
-(/home/alex/.local/texlive/2020/texmf-dist/tex/luatex/ctablestack/ctablestack.s
-ty
+(/usr/share/texlive/texmf-dist/tex/luatex/ctablestack/ctablestack.sty
 Package: ctablestack 2015/10/01 v1.0 Catcode table stable support
 \@catcodetablestackcnt=\count272
 )
@@ -447,8 +428,7 @@ Package: ctablestack 2015/10/01 v1.0 Catcode table stable support
 \CatcodeTableExpl=\catcodetable6
 )
 Lua module: polyglossia 2013/05/11 1.3 Polyglossia
-(/home/alex/.local/texlive/2020/texmf-dist/tex/latex/polyglossia/gloss-latex.ld
-f
+(/usr/share/texlive/texmf-dist/tex/latex/polyglossia/gloss-latex.ldf
 File: gloss-latex.ldf polyglossia: module for default language
 The property list \polyglossia@langsetup contains the pairs (without outer
 braces):
@@ -470,9 +450,9 @@ braces):
 >  {latex/Localnumeral}  =>  {polyglossia@C@localnumeral}.
 )
 Package polyglossia Info: Default language is latex.
+Package polyglossia Info: Option: localmarks.
 )
-(/home/alex/.local/texlive/2020/texmf-dist/tex/latex/polyglossia/gloss-german.l
-df
+(/usr/share/texlive/texmf-dist/tex/latex/polyglossia/gloss-german.ldf
 File: gloss-german.ldf polyglossia: module for german
 The property list \polyglossia@langsetup contains the pairs (without outer
 braces):
@@ -508,22 +488,21 @@ braces):
 >  {german/babelname}  =>  {ngerman}
 >  {german/localnumeral}  =>  {polyglossia@C@localnumeral}
 >  {german/Localnumeral}  =>  {polyglossia@C@localnumeral}.
-Module polyglossia Info: Language data for german
-(polyglossia)            lefthyphenmin	2
-(polyglossia)            synonyms	
-(polyglossia)            righthyphenmin	2
-(polyglossia)            patterns	hyph-de-1901.pat.txt
-(polyglossia)            hyphenation	
-(polyglossia)            loader	loadhyph-de-1901.tex on input line 10
-Module polyglossia Info: Language german was not yet loaded; created with id 2 o
-n input line 10
+
+Module polyglossia Warning: Language german not found in language.dat.lua on inp
+ut line 10
+
+Package polyglossia Warning: No hyphenation patterns were loaded for `german'
+(polyglossia)                I will use \language=\l@nohyphenation instead on in
+put line 10.
+
 Package polyglossia Info: Option: German, spelling=new.
 Package polyglossia Info: Option: German, script=latin.
 Package polyglossia Info: Option: German, variant=german.
 Package polyglossia Info: Option: German, variant=german.
 Package polyglossia Info: Option: German, spelling=new.
 Package polyglossia Info: Option: German, script=latin.
- (/home/alex/.local/texlive/2020/texmf-dist/tex/latex/polyglossia/babelsh.def
+(/usr/share/texlive/texmf-dist/tex/latex/polyglossia/babelsh.def
 File: babelsh.def 2019/09/30 Babel common definitions for shorthands
  Taken verbatim from babel files (2019/09/27 v3.34)
 )
@@ -531,22 +510,21 @@ Package polyglossia Info: Making " an active character on input line 177.
 )
 Package polyglossia Info: Default language is german.
 
-(/home/alex/.local/texlive/2020/texmf-dist/tex/latex/unicode-math/unicode-math.
-sty
+(/usr/share/texlive/texmf-dist/tex/latex/unicode-math/unicode-math.sty
 Package: unicode-math 2020/01/31 v0.8q Unicode maths in XeLaTeX and LuaLaTeX
 
-(/home/alex/.local/texlive/2020/texmf-dist/tex/latex/unicode-math/unicode-math-
-luatex.sty
+(/usr/share/texlive/texmf-dist/tex/latex/unicode-math/unicode-math-luatex.sty
 Package: unicode-math-luatex 2020/01/31 v0.8q Unicode maths in XeLaTeX and LuaLa
 TeX
- (/home/alex/.local/texlive/2020/texmf-dist/tex/latex/base/fix-cm.sty
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/fix-cm.sty
 Package: fix-cm 2015/01/14 v1.1t fixes to LaTeX
-(/home/alex/.local/texlive/2020/texmf-dist/tex/latex/base/ts1enc.def
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/ts1enc.def
 File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
 LaTeX Font Info:    Redeclaring font encoding TS1 on input line 47.
 ))
-(/home/alex/.local/texlive/2020/texmf-dist/tex/lualatex/lualatex-math/lualatex-
-math.sty
+(/usr/share/texlive/texmf-dist/tex/lualatex/lualatex-math/lualatex-math.sty
 Package: lualatex-math 2019/01/21 v1.8 Patches for mathematics typesetting with 
 LuaLaTeX
 Lua module: lualatex-math 2013/08/03 1.3 Patches for mathematics typesetting wit
@@ -569,10 +547,9 @@ Package lualatex-math Info: I'm going to patch macro \MT_cramped_internal:Nn.
 \l__um_primecount_int=\count275
 \g__um_primekern_muskip=\muskip17
 
-(/home/alex/.local/texlive/2020/texmf-dist/tex/latex/unicode-math/unicode-math-
-table.tex)))
-luaotfload | cache : Lookup cache loaded from /home/alex/.local/texlive/2020/tex
-mf-var/luatex-cache/generic-dev/names/luaotfload-lookup-cache.luc.
+(/usr/share/texlive/texmf-dist/tex/latex/unicode-math/unicode-math-table.tex)))
+luaotfload | cache : Lookup cache loaded from /home/julia/.texlive2019/texmf-var
+/luatex-cache/generic-dev/names/luaotfload-lookup-cache.luc.
 
 Package fontspec Info: Could not resolve font "LatinModernMath/B" (it probably
 (fontspec)             doesn't exist).
@@ -770,98 +747,29 @@ LaTeX Font Info:    Font shape `TU/LatinModernMath(3)/m/n' will be
 LaTeX Font Info:    Font shape `TU/LatinModernMath(3)/m/n' will be
 (Font)              scaled to size 5.47441pt on input line 53.
 LaTeX Font Info:    Trying to load font information for U+msa on input line 53.
-
-(/home/alex/.local/texlive/2020/texmf-dist/tex/latex/amsfonts/umsa.fd
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Trying to load font information for U+msb on input line 53.
 
-(/home/alex/.local/texlive/2020/texmf-dist/tex/latex/amsfonts/umsb.fd
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
+(/usr/share/texlive/texmf-dist/tex/latex/siunitx/siunitx.sty
+Package: siunitx 2020/01/15 v2.7u A comprehensive (SI) units package
 
-Package fontspec Info: Font family 'XITSMath(0)' created for font 'XITS Math'
-(fontspec)             with options
-(fontspec)             [Renderer=Basic,BoldItalicFont={},ItalicFont={},SmallCaps
-Font={},Script=Math,SizeFeatures={{Size=9.3075-},{Size=6.57-9.3075,Font=XITS
-(fontspec)             Math,Style=MathScript},{Size=-6.57,Font=XITS
-(fontspec)             Math,Style=MathScriptScript}},FontAdjustment={\__um_luate
-x_copy_fontdimens:
-(fontspec)             }].
-(fontspec)              
-(fontspec)              This font family consists of the following NFSS
-(fontspec)             series/shapes:
-(fontspec)              
-(fontspec)             - 'normal' (m/n) with NFSS spec.:
-(fontspec)             <9.3075->"XITSMath:mode=base;script=math;language=dflt;"<
-6.57-9.3075>"XITSMath:mode=base;script=math;language=dflt;+ssty=0;"<-6.57>"XITSM
-ath:mode=base;script=math;language=dflt;+ssty=1;"
-(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
-(fontspec)             and font adjustment code:
-(fontspec)             \__um_luatex_copy_fontdimens: 
-(fontspec)             - 'bold' (b/n) with NFSS spec.:
-(fontspec)             <->"XITSMath/B:mode=base;script=math;language=dflt;"
-(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
-(fontspec)             and font adjustment code:
-(fontspec)             \__um_luatex_copy_fontdimens: 
-
-\sym__um_fam1=\mathgroup6
-LaTeX Font Info:    Overwriting symbol font `__um_fam1' in version `normal'
-(Font)                  TU/XITSMath(0)/m/n --> TU/XITSMath(0)/m/n on input line 
-54.
-LaTeX Font Info:    Overwriting symbol font `__um_fam1' in version `bold'
-(Font)                  TU/XITSMath(0)/m/n --> TU/XITSMath(0)/b/n on input line 
-54.
-
-Package fontspec Info: Font family 'XITSMath(1)' created for font 'XITS Math'
-(fontspec)             with options
-(fontspec)             [Renderer=Basic,BoldItalicFont={},ItalicFont={},SmallCaps
-Font={},Script=Math,SizeFeatures={{Size=9.3075-},{Size=6.57-9.3075,Font=XITS
-(fontspec)             Math,Style=MathScript},{Size=-6.57,Font=XITS
-(fontspec)             Math,Style=MathScriptScript}},FontAdjustment={\__um_luate
-x_copy_fontdimens:
-(fontspec)             },StylisticSet={1}].
-(fontspec)              
-(fontspec)              This font family consists of the following NFSS
-(fontspec)             series/shapes:
-(fontspec)              
-(fontspec)             - 'normal' (m/n) with NFSS spec.:
-(fontspec)             <9.3075->"XITSMath:mode=base;script=math;language=dflt;+s
-s01;"<6.57-9.3075>"XITSMath:mode=base;script=math;language=dflt;+ss01;+ssty=0;"<
--6.57>"XITSMath:mode=base;script=math;language=dflt;+ss01;+ssty=1;"
-(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
-(fontspec)             and font adjustment code:
-(fontspec)             \__um_luatex_copy_fontdimens: 
-(fontspec)             - 'bold' (b/n) with NFSS spec.:
-(fontspec)             <->"XITSMath/B:mode=base;script=math;language=dflt;+ss01;
-"
-(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
-(fontspec)             and font adjustment code:
-(fontspec)             \__um_luatex_copy_fontdimens: 
-
-\sym__um_fam2=\mathgroup7
-LaTeX Font Info:    Overwriting symbol font `__um_fam2' in version `normal'
-(Font)                  TU/XITSMath(1)/m/n --> TU/XITSMath(1)/m/n on input line 
-55.
-LaTeX Font Info:    Overwriting symbol font `__um_fam2' in version `bold'
-(Font)                  TU/XITSMath(1)/m/n --> TU/XITSMath(1)/b/n on input line 
-55.
-
-(/home/alex/.local/texlive/2020/texmf-dist/tex/latex/siunitx/siunitx.sty
-Package: siunitx 2020/02/25 v2.8b A comprehensive (SI) units package
-
-(/home/alex/.local/texlive/2020/texmf-dist/tex/latex/tools/array.sty
+(/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty
 Package: array 2019/08/31 v2.4l Tabular extension package (FMi)
-\col@sep=\dimen157
-\ar@mcellbox=\box51
-\extrarowheight=\dimen158
-\NC@list=\toks24
+\col@sep=\dimen156
+\ar@mcellbox=\box50
+\extrarowheight=\dimen157
+\NC@list=\toks23
 \extratabsurround=\skip70
 \backup@length=\skip71
-\ar@cellbox=\box52
+\ar@cellbox=\box51
 )
-\l__siunitx_tmp_box=\box53
-\l__siunitx_tmp_dim=\dimen159
+\l__siunitx_tmp_box=\box52
+\l__siunitx_tmp_dim=\dimen158
 \l__siunitx_tmp_int=\count276
 \l__siunitx_number_mantissa_length_int=\count277
 \l__siunitx_number_uncert_length_int=\count278
@@ -872,10 +780,10 @@ Package: array 2019/08/31 v2.4l Tabular extension package (FMi)
 \l__siunitx_process_integer_min_int=\count283
 \l__siunitx_process_precision_int=\count284
 \l__siunitx_group_min_int=\count285
-\l__siunitx_angle_marker_box=\box54
-\l__siunitx_angle_unit_box=\box55
-\l__siunitx_angle_marker_dim=\dimen160
-\l__siunitx_angle_unit_dim=\dimen161
+\l__siunitx_angle_marker_box=\box53
+\l__siunitx_angle_unit_box=\box54
+\l__siunitx_angle_marker_dim=\dimen159
+\l__siunitx_angle_unit_dim=\dimen160
 \l__siunitx_unit_int=\count286
 \l__siunitx_unit_denominator_int=\count287
 \l__siunitx_unit_numerator_int=\count288
@@ -885,44 +793,46 @@ Package: array 2019/08/31 v2.4l Tabular extension package (FMi)
 \l__siunitx_number_product_int=\count292
 \c__siunitx_one_fill_skip=\skip72
 \l__siunitx_table_unit_align_skip=\skip73
-\l__siunitx_table_exponent_dim=\dimen162
-\l__siunitx_table_integer_dim=\dimen163
-\l__siunitx_table_mantissa_dim=\dimen164
-\l__siunitx_table_marker_dim=\dimen165
-\l__siunitx_table_result_dim=\dimen166
-\l__siunitx_table_uncert_dim=\dimen167
-\l__siunitx_table_fill_pre_dim=\dimen168
-\l__siunitx_table_fill_post_dim=\dimen169
-\l__siunitx_table_fill_mid_dim=\dimen170
-\l__siunitx_table_pre_box=\box56
-\l__siunitx_table_post_box=\box57
-\l__siunitx_table_mantissa_box=\box58
-\l__siunitx_table_result_box=\box59
+\l__siunitx_table_exponent_dim=\dimen161
+\l__siunitx_table_integer_dim=\dimen162
+\l__siunitx_table_mantissa_dim=\dimen163
+\l__siunitx_table_marker_dim=\dimen164
+\l__siunitx_table_result_dim=\dimen165
+\l__siunitx_table_uncert_dim=\dimen166
+\l__siunitx_table_fill_pre_dim=\dimen167
+\l__siunitx_table_fill_post_dim=\dimen168
+\l__siunitx_table_fill_mid_dim=\dimen169
+\l__siunitx_table_pre_box=\box55
+\l__siunitx_table_post_box=\box56
+\l__siunitx_table_mantissa_box=\box57
+\l__siunitx_table_result_box=\box58
 \l__siunitx_table_number_align_skip=\skip74
 \l__siunitx_table_text_align_skip=\skip75
 
-(/home/alex/.local/texlive/2020/texmf-dist/tex/latex/translator/translator.sty
+(/usr/share/texlive/texmf-dist/tex/latex/translator/translator.sty
 Package: translator 2019-05-31 v1.12a Easy translation of strings in LaTeX
-)) (/home/alex/.local/texlive/2020/texmf-dist/tex/latex/mhchem/mhchem.sty
+))
+(/usr/share/texlive/texmf-dist/tex/latex/mhchem/mhchem.sty
 Package: mhchem 2018/06/22 v4.08 for typesetting chemical formulae
 
-(/home/alex/.local/texlive/2020/texmf-dist/tex/latex/chemgreek/chemgreek.sty
+(/usr/share/texlive/texmf-dist/tex/latex/chemgreek/chemgreek.sty
 Package: chemgreek 2020/01/16 v1.1a interface for upright Greek letters for use 
 in chemistry (CN)
 \l__chemgreek_tmpa_int=\count293
 \g__chemgreek_tmpa_int=\count294
 )
-(/home/alex/.local/texlive/2020/texmf-dist/tex/latex/graphics/graphics.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
 Package: graphics 2019/11/30 v1.4a Standard LaTeX Graphics (DPC,SPQR)
 
-(/home/alex/.local/texlive/2020/texmf-dist/tex/latex/graphics/trig.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 )
-(/home/alex/.local/texlive/2020/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: luatex.def on input line 105.
-(/home/alex/.local/texlive/2020/texmf-dist/tex/latex/graphics-def/luatex.def
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-def/luatex.def
 File: luatex.def 2018/01/08 v1.0l Graphics/color driver for luatex
 ))
 \l__mhchem_ce_distanceFromLastComma_int=\count295
@@ -937,11 +847,12 @@ File: luatex.def 2018/01/08 v1.0l Graphics/color driver for luatex
 \mhchem@bondtmp@minussidebearingleft=\skip84
 \mhchem@bondtmp@minussidebearingright=\skip85
 \l__mhchem_option_version_int=\count296
-\mhchem@option@minusmathsidebearingleft=\dimen171
-\mhchem@option@minusmathsidebearingright=\dimen172
-\mhchem@option@minustextsidebearingleft=\dimen173
-\mhchem@option@minustextsidebearingright=\dimen174
-) (/home/alex/.local/texlive/2020/texmf-dist/tex/latex/csquotes/csquotes.sty
+\mhchem@option@minusmathsidebearingleft=\dimen170
+\mhchem@option@minusmathsidebearingright=\dimen171
+\mhchem@option@minustextsidebearingleft=\dimen172
+\mhchem@option@minustextsidebearingright=\dimen173
+)
+(/usr/share/texlive/texmf-dist/tex/latex/csquotes/csquotes.sty
 Package: csquotes 2019-12-06 v5.2j context-sensitive quotations (JAW)
 \csq@reset=\count297
 \csq@gtype=\count298
@@ -949,79 +860,80 @@ Package: csquotes 2019-12-06 v5.2j context-sensitive quotations (JAW)
 \csq@qlevel=\count300
 \csq@maxlvl=\count301
 \csq@tshold=\count302
-\csq@ltx@everypar=\toks25
+\csq@ltx@everypar=\toks24
 
-(/home/alex/.local/texlive/2020/texmf-dist/tex/latex/csquotes/csquotes.def
+(/usr/share/texlive/texmf-dist/tex/latex/csquotes/csquotes.def
 File: csquotes.def 2019-12-06 v5.2j csquotes generic definitions (JAW)
 )
 Package csquotes Info: Trying to load configuration file 'csquotes.cfg'...
 Package csquotes Info: ... configuration file loaded successfully.
 
-(/home/alex/.local/texlive/2020/texmf-dist/tex/latex/csquotes/csquotes.cfg
+(/usr/share/texlive/texmf-dist/tex/latex/csquotes/csquotes.cfg
 File: csquotes.cfg 
 )
 Package csquotes Info: Enabling multilingual quotes.
 )
-(/home/alex/.local/texlive/2020/texmf-dist/tex/latex/l3packages/xfrac/xfrac.sty
-(/home/alex/.local/texlive/2020/texmf-dist/tex/latex/graphics/graphicx.sty
+(/usr/share/texlive/texmf-dist/tex/latex/l3packages/xfrac/xfrac.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 2019/11/30 v1.2a Enhanced LaTeX Graphics (DPC,SPQR)
-\Gin@req@height=\dimen175
-\Gin@req@width=\dimen176
+\Gin@req@height=\dimen174
+\Gin@req@width=\dimen175
 )
-(/home/alex/.local/texlive/2020/texmf-dist/tex/latex/base/textcomp.sty
+(/usr/share/texlive/texmf-dist/tex/latex/base/textcomp.sty
 Package: textcomp 2020/02/02 v2.0n Standard LaTeX package
 )
-(/home/alex/.local/texlive/2020/texmf-dist/tex/latex/l3packages/xtemplate/xtemp
-late.sty
-Package: xtemplate 2020-05-15 L3 Experimental prototype document functions
-\l__xtemplate_tmp_dim=\dimen177
+(/usr/share/texlive/texmf-dist/tex/latex/l3packages/xtemplate/xtemplate.sty
+Package: xtemplate 2020-02-14 L3 Experimental prototype document functions
+\l__xtemplate_tmp_dim=\dimen176
 \l__xtemplate_tmp_int=\count303
 \l__xtemplate_tmp_muskip=\muskip18
 \l__xtemplate_tmp_skip=\skip86
 )
-Package: xfrac 2020-05-15 L3 Experimental split-level fractions
-\l__xfrac_slash_box=\box60
-\l__xfrac_tmp_box=\box61
-\l__xfrac_denominator_bot_sep_dim=\dimen178
-\l__xfrac_numerator_bot_sep_dim=\dimen179
-\l__xfrac_numerator_top_sep_dim=\dimen180
-\l__xfrac_slash_left_sep_dim=\dimen181
-\l__xfrac_slash_right_sep_dim=\dimen182
+Package: xfrac 2020-02-14 L3 Experimental split-level fractions
+\l__xfrac_slash_box=\box59
+\l__xfrac_tmp_box=\box60
+\l__xfrac_denominator_bot_sep_dim=\dimen177
+\l__xfrac_numerator_bot_sep_dim=\dimen178
+\l__xfrac_numerator_top_sep_dim=\dimen179
+\l__xfrac_slash_left_sep_dim=\dimen180
+\l__xfrac_slash_right_sep_dim=\dimen181
 \l__xfrac_slash_left_muskip=\muskip19
 \l__xfrac_slash_right_muskip=\muskip20
 
 Package xtemplate Info: Declaring object type 'xfrac' taking 3 argument(s) on
 (xtemplate)             line 80.
 
-) (/home/alex/.local/texlive/2020/texmf-dist/tex/latex/float/float.sty
+)
+(/usr/share/texlive/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \c@float@type=\count304
-\float@exts=\toks26
-\float@box=\box62
-\@float@everytoks=\toks27
-\@floatcapt=\box63
+\float@exts=\toks25
+\float@box=\box61
+\@float@everytoks=\toks26
+\@floatcapt=\box62
 )
 Package scrhack Info: loading float hack on input line 79.
- (/home/alex/.local/texlive/2020/texmf-dist/tex/latex/koma-script/float.hak
-File: float.hak 2020/04/19 v3.30 KOMA-Script scrhack part (hacking package float
+
+(/usr/share/texlive/texmf-dist/tex/latex/koma-script/float.hak
+File: float.hak 2020/01/24 v3.29 KOMA-Script scrhack part (hacking package float
 )
 Package scrhack Info: redefining \newfloat on input line 163.
 Package scrhack Info: redefining \listof on input line 163.
 Package scrhack Info: undefining \float@addtolists on input line 163.
 )
-(/home/alex/.local/texlive/2020/texmf-dist/tex/latex/placeins/placeins.sty
+(/usr/share/texlive/texmf-dist/tex/latex/placeins/placeins.sty
 Package: placeins 2005/04/18  v 2.2
 )
-(/home/alex/.local/texlive/2020/texmf-dist/tex/latex/pdflscape/pdflscape.sty
+(/usr/share/texlive/texmf-dist/tex/latex/pdflscape/pdflscape.sty
 Package: pdflscape 2019/12/05 v0.12 Display of landscape pages in PDF (HO)
 
-(/home/alex/.local/texlive/2020/texmf-dist/tex/latex/graphics/lscape.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/lscape.sty
 Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
 )
 Package scrhack Info: loading lscape hack on input line 77.
 
-(/home/alex/.local/texlive/2020/texmf-dist/tex/latex/koma-script/lscape.hak
-File: lscape.hak 2020/04/19 v3.30 KOMA-Script scrhack part (hacking package lsca
+(/usr/share/texlive/texmf-dist/tex/latex/koma-script/lscape.hak
+File: lscape.hak 2020/01/24 v3.29 KOMA-Script scrhack part (hacking package lsca
 pe)
 Package scrhack Info: \landscape patched to make \textheight change optional on 
 input line 90.
@@ -1029,19 +941,19 @@ input line 90.
 )
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 )
-(/home/alex/.local/texlive/2020/texmf-dist/tex/latex/caption/caption.sty
-Package: caption 2020/05/10 v3.4j Customizing captions (AR)
+(/usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2020/01/03 v3.4h Customizing captions (AR)
 
-(/home/alex/.local/texlive/2020/texmf-dist/tex/latex/caption/caption3.sty
-Package: caption3 2020/05/10 v1.11 caption3 kernel (AR)
+(/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2020/01/03 v1.8h caption3 kernel (AR)
 Package caption3 Info: TeX engine: e-TeX on input line 61.
-\captionmargin=\dimen183
-\captionmargin@=\dimen184
-\captionwidth=\dimen185
-\caption@tempdima=\dimen186
-\caption@indent=\dimen187
-\caption@parindent=\dimen188
-\caption@hangindent=\dimen189
+\captionmargin=\dimen182
+\captionmargin@=\dimen183
+\captionwidth=\dimen184
+\caption@tempdima=\dimen185
+\caption@indent=\dimen186
+\caption@parindent=\dimen187
+\caption@hangindent=\dimen188
 Package caption Info: KOMA-Script document class detected.
 )
 Package caption Info: KOMA-Script document class.
@@ -1049,48 +961,47 @@ Package caption Info: KOMA-Script document class.
 \c@continuedfloat=\count306
 Package caption Info: float package is loaded.
 )
-(/home/alex/.local/texlive/2020/texmf-dist/tex/latex/caption/subcaption.sty
+(/usr/share/texlive/texmf-dist/tex/latex/caption/subcaption.sty
 Package: subcaption 2020/01/22 v1.3d Sub-captions (AR)
 \c@subfigure=\count307
 \c@subtable=\count308
 )
-(/home/alex/.local/texlive/2020/texmf-dist/tex/latex/grffile/grffile.sty
+(/usr/share/texlive/texmf-dist/tex/latex/grffile/grffile.sty
 Package: grffile 2019/11/11 v2.1 Extended file name support for graphics (legacy
 )
 Package grffile Info: This package is an empty stub for compatibility on input l
 ine 40.
 )
-(/home/alex/.local/texlive/2020/texmf-dist/tex/latex/booktabs/booktabs.sty
+(/usr/share/texlive/texmf-dist/tex/latex/booktabs/booktabs.sty
 Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
-\heavyrulewidth=\dimen190
-\lightrulewidth=\dimen191
-\cmidrulewidth=\dimen192
-\belowrulesep=\dimen193
-\belowbottomsep=\dimen194
-\aboverulesep=\dimen195
-\abovetopsep=\dimen196
-\cmidrulesep=\dimen197
-\cmidrulekern=\dimen198
-\defaultaddspace=\dimen199
+\heavyrulewidth=\dimen189
+\lightrulewidth=\dimen190
+\cmidrulewidth=\dimen191
+\belowrulesep=\dimen192
+\belowbottomsep=\dimen193
+\aboverulesep=\dimen194
+\abovetopsep=\dimen195
+\cmidrulesep=\dimen196
+\cmidrulekern=\dimen197
+\defaultaddspace=\dimen198
 \@cmidla=\count309
 \@cmidlb=\count310
-\@aboverulesep=\dimen256
-\@belowrulesep=\dimen257
+\@aboverulesep=\dimen199
+\@belowrulesep=\dimen256
 \@thisruleclass=\count311
 \@lastruleclass=\count312
-\@thisrulewidth=\dimen258
+\@thisrulewidth=\dimen257
 )
-(/home/alex/.local/texlive/2020/texmf-dist/tex/latex/microtype/microtype.sty
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype.sty
 Package: microtype 2019/11/18 v2.7d Micro-typographical refinements (RS)
-\MT@toks=\toks28
+\MT@toks=\toks27
 \MT@count=\count313
 LaTeX Info: Redefining \textls on input line 790.
-\MT@outer@kern=\dimen259
+\MT@outer@kern=\dimen258
 LaTeX Info: Redefining \textmicrotypecontext on input line 1354.
 \MT@listname@count=\count314
 
-(/home/alex/.local/texlive/2020/texmf-dist/tex/latex/microtype/microtype-luatex
-.def
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype-luatex.def
 File: microtype-luatex.def 2019/11/18 v2.7d Definitions specific to luatex (RS)
 Module microtype Info: overwriting function `keepligature' on input line 59
 LaTeX Info: Redefining \lsstyle on input line 695.
@@ -1099,23 +1010,23 @@ LaTeX Info: Redefining \lslig on input line 695.
 )
 Package microtype Info: Loading configuration file microtype.cfg.
 
-(/home/alex/.local/texlive/2020/texmf-dist/tex/latex/microtype/microtype.cfg
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype.cfg
 File: microtype.cfg 2019/11/18 v2.7d microtype main configuration file (RS)
 ))
-(/home/alex/.local/texlive/2020/texmf-dist/tex/latex/biblatex/biblatex.sty
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/biblatex.sty
 Package: biblatex 2019/12/01 v3.14 programmable bibliographies (PK/MW)
 
-(/home/alex/.local/texlive/2020/texmf-dist/tex/latex/logreq/logreq.sty
+(/usr/share/texlive/texmf-dist/tex/latex/logreq/logreq.sty
 Package: logreq 2010/08/04 v1.0 xml request logger
 \lrq@indent=\count315
 
-(/home/alex/.local/texlive/2020/texmf-dist/tex/latex/logreq/logreq.def
+(/usr/share/texlive/texmf-dist/tex/latex/logreq/logreq.def
 File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
 ))
-(/home/alex/.local/texlive/2020/texmf-dist/tex/latex/base/ifthen.sty
+(/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
 Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 )
-(/home/alex/.local/texlive/2020/texmf-dist/tex/latex/url/url.sty
+(/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip21
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
@@ -1170,20 +1081,20 @@ Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 \bibhang=\skip96
 \blx@bcfin=\read2
 \blx@bcfout=\write3
-\blx@langwohyphens=\language3
+\blx@langwohyphens=\language2
 \c@mincomprange=\count357
 \c@maxcomprange=\count358
 \c@mincompwidth=\count359
 Package biblatex Info: Trying to load biblatex default data model...
 Package biblatex Info: ... file 'blx-dm.def' found.
 
-(/home/alex/.local/texlive/2020/texmf-dist/tex/latex/biblatex/blx-dm.def
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/blx-dm.def
 File: blx-dm.def 2019/12/01 v3.14 biblatex localization (PK/MW)
 )
 Package biblatex Info: Trying to load biblatex style data model...
 Package biblatex Info: ... file 'phys.dbx' found.
 
-(/home/alex/.local/texlive/2020/texmf-dist/tex/latex/biblatex-phys/phys.dbx
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex-phys/phys.dbx
 File: phys.dbx 2019/12/03 v1.1b biblatex database model extension
 )
 Package biblatex Info: Trying to load biblatex custom data model...
@@ -1273,17 +1184,17 @@ Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
 Package biblatex Info: Trying to load enhanced support for Unicode engines...
 Package biblatex Info: ... file 'blx-unicode.def' found.
 
-(/home/alex/.local/texlive/2020/texmf-dist/tex/latex/biblatex/blx-unicode.def)
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/blx-unicode.def)
 Package biblatex Info: Trying to load compatibility code...
 Package biblatex Info: ... file 'blx-compat.def' found.
 
-(/home/alex/.local/texlive/2020/texmf-dist/tex/latex/biblatex/blx-compat.def
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/blx-compat.def
 File: blx-compat.def 2019/12/01 v3.14 biblatex compatibility (PK/MW)
 )
 Package biblatex Info: Trying to load generic definitions...
 Package biblatex Info: ... file 'biblatex.def' found.
 
-(/home/alex/.local/texlive/2020/texmf-dist/tex/latex/biblatex/biblatex.def
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/biblatex.def
 File: biblatex.def 2019/12/01 v3.14 biblatex compatibility (PK/MW)
 \c@textcitecount=\count428
 \c@textcitetotal=\count429
@@ -1302,7 +1213,7 @@ File: biblatex.def 2019/12/01 v3.14 biblatex compatibility (PK/MW)
 Package biblatex Info: Trying to load natbib compatibility...
 Package biblatex Info: ... file 'blx-natbib.def' found.
 
-(/home/alex/.local/texlive/2020/texmf-dist/tex/latex/biblatex/blx-natbib.def
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/blx-natbib.def
 File: blx-natbib.def 2019/12/01 v3.14 biblatex compatibility (PK/MW)
 Package biblatex Info: Delimiter 'nameyeardelim' in context '' already defined, 
 overwriting.
@@ -1310,36 +1221,35 @@ overwriting.
 Package biblatex Info: Trying to load bibliography style 'phys'...
 Package biblatex Info: ... file 'phys.bbx' found.
 
-(/home/alex/.local/texlive/2020/texmf-dist/tex/latex/biblatex-phys/phys.bbx
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex-phys/phys.bbx
 File: phys.bbx 2019/12/03 v1.1b biblatex bibliography style
 Package biblatex Info: Trying to load bibliography style 'numeric-comp'...
 Package biblatex Info: ... file 'numeric-comp.bbx' found.
 
-(/home/alex/.local/texlive/2020/texmf-dist/tex/latex/biblatex/bbx/numeric-comp.
-bbx
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/bbx/numeric-comp.bbx
 File: numeric-comp.bbx 2019/12/01 v3.14 biblatex bibliography style (PK/MW)
 Package biblatex Info: Trying to load bibliography style 'numeric'...
 Package biblatex Info: ... file 'numeric.bbx' found.
 
-(/home/alex/.local/texlive/2020/texmf-dist/tex/latex/biblatex/bbx/numeric.bbx
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/bbx/numeric.bbx
 File: numeric.bbx 2019/12/01 v3.14 biblatex bibliography style (PK/MW)
 Package biblatex Info: Trying to load bibliography style 'standard'...
 Package biblatex Info: ... file 'standard.bbx' found.
 
-(/home/alex/.local/texlive/2020/texmf-dist/tex/latex/biblatex/bbx/standard.bbx
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/bbx/standard.bbx
 File: standard.bbx 2019/12/01 v3.14 biblatex bibliography style (PK/MW)
 \c@bbx:relatedcount=\count437
 \c@bbx:relatedtotal=\count438
 ))))
 Package biblatex Info: Trying to load citation style 'phys'...
 Package biblatex Info: ... file 'phys.cbx' found.
- (/home/alex/.local/texlive/2020/texmf-dist/tex/latex/biblatex-phys/phys.cbx
+
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex-phys/phys.cbx
 File: phys.cbx 2019/12/03 v1.1b biblatex citation style
 Package biblatex Info: Trying to load citation style 'numeric-comp'...
 Package biblatex Info: ... file 'numeric-comp.cbx' found.
 
-(/home/alex/.local/texlive/2020/texmf-dist/tex/latex/biblatex/cbx/numeric-comp.
-cbx
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/cbx/numeric-comp.cbx
 File: numeric-comp.cbx 2019/12/01 v3.14 biblatex citation style (PK/MW)
 \c@cbx@tempcnta=\count439
 \c@cbx@tempcntb=\count440
@@ -1358,79 +1268,79 @@ Package biblatex Info: Redefining '\smartcites'.
 Package biblatex Info: Trying to load configuration file...
 Package biblatex Info: ... file 'biblatex.cfg' found.
 
-(/home/alex/.local/texlive/2020/texmf-dist/tex/latex/biblatex/biblatex.cfg
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/biblatex.cfg
 File: biblatex.cfg 
 ))
 Package scrhack Info: hyperref hack deactivated because of
 (scrhack)             detection of KOMA-Script class, that doesn't
 (scrhack)             need that hack, on input line 134.
 
-(/home/alex/.local/texlive/2020/texmf-dist/tex/latex/hyperref/hyperref.sty
-Package: hyperref 2020-05-15 v7.00e Hypertext links for LaTeX
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2020/01/14 v7.00d Hypertext links for LaTeX
 
-(/home/alex/.local/texlive/2020/texmf-dist/tex/generic/kvdefinekeys/kvdefinekey
-s.sty
+(/usr/share/texlive/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
 Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
 )
-(/home/alex/.local/texlive/2020/texmf-dist/tex/generic/pdfescape/pdfescape.sty
+(/usr/share/texlive/texmf-dist/tex/generic/pdfescape/pdfescape.sty
 Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
-) (/home/alex/.local/texlive/2020/texmf-dist/tex/latex/hycolor/hycolor.sty
+)
+(/usr/share/texlive/texmf-dist/tex/latex/hycolor/hycolor.sty
 Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
 )
-(/home/alex/.local/texlive/2020/texmf-dist/tex/latex/letltxmacro/letltxmacro.st
-y
+(/usr/share/texlive/texmf-dist/tex/latex/letltxmacro/letltxmacro.sty
 Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
-) (/home/alex/.local/texlive/2020/texmf-dist/tex/latex/auxhook/auxhook.sty
+)
+(/usr/share/texlive/texmf-dist/tex/latex/auxhook/auxhook.sty
 Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
 )
-\@linkdim=\dimen260
+\@linkdim=\dimen259
 \Hy@linkcounter=\count441
 \Hy@pagecounter=\count442
 
-(/home/alex/.local/texlive/2020/texmf-dist/tex/latex/hyperref/pd1enc.def
-File: pd1enc.def 2020-05-15 v7.00e Hyperref: PDFDocEncoding definition (HO)
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2020/01/14 v7.00d Hyperref: PDFDocEncoding definition (HO)
 )
-(/home/alex/.local/texlive/2020/texmf-dist/tex/generic/intcalc/intcalc.sty
+(/usr/share/texlive/texmf-dist/tex/generic/intcalc/intcalc.sty
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 )
-(/home/alex/.local/texlive/2020/texmf-dist/tex/generic/etexcmds/etexcmds.sty
+(/usr/share/texlive/texmf-dist/tex/generic/etexcmds/etexcmds.sty
 Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
 )
 \Hy@SavedSpaceFactor=\count443
-Package hyperref Info: Option `unicode' set `true' on input line 4338.
+Package hyperref Info: Option `unicode' set `true' on input line 4421.
 
-(/home/alex/.local/texlive/2020/texmf-dist/tex/latex/hyperref/puenc.def
-File: puenc.def 2020-05-15 v7.00e Hyperref: PDF Unicode definition (HO)
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/puenc.def
+File: puenc.def 2020/01/14 v7.00d Hyperref: PDF Unicode definition (HO)
 )
-Package hyperref Info: Option `pdfusetitle' set `true' on input line 4338.
-Package hyperref Info: Hyper figures OFF on input line 4464.
-Package hyperref Info: Link nesting OFF on input line 4469.
-Package hyperref Info: Hyper index ON on input line 4472.
-Package hyperref Info: Plain pages OFF on input line 4479.
-Package hyperref Info: Backreferencing OFF on input line 4484.
+Package hyperref Info: Option `pdfusetitle' set `true' on input line 4421.
+Package hyperref Info: Hyper figures OFF on input line 4547.
+Package hyperref Info: Link nesting OFF on input line 4552.
+Package hyperref Info: Hyper index ON on input line 4555.
+Package hyperref Info: Plain pages OFF on input line 4562.
+Package hyperref Info: Backreferencing OFF on input line 4567.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
-Package hyperref Info: Bookmarks ON on input line 4717.
+Package hyperref Info: Bookmarks ON on input line 4800.
 \c@Hy@tempcnt=\count444
-LaTeX Info: Redefining \url on input line 5076.
-\XeTeXLinkMargin=\dimen261
+LaTeX Info: Redefining \url on input line 5159.
+\XeTeXLinkMargin=\dimen260
 
-(/home/alex/.local/texlive/2020/texmf-dist/tex/generic/bitset/bitset.sty
+(/usr/share/texlive/texmf-dist/tex/generic/bitset/bitset.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
 )
 \Fld@menulength=\count445
-\Field@Width=\dimen262
-\Fld@charsize=\dimen263
-Package hyperref Info: Hyper figures OFF on input line 6347.
-Package hyperref Info: Link nesting OFF on input line 6352.
-Package hyperref Info: Hyper index ON on input line 6355.
-Package hyperref Info: backreferencing OFF on input line 6362.
-Package hyperref Info: Link coloring OFF on input line 6367.
-Package hyperref Info: Link coloring with OCG OFF on input line 6372.
-Package hyperref Info: PDF/A mode OFF on input line 6377.
-LaTeX Info: Redefining \ref on input line 6417.
-LaTeX Info: Redefining \pageref on input line 6421.
+\Field@Width=\dimen261
+\Fld@charsize=\dimen262
+Package hyperref Info: Hyper figures OFF on input line 6430.
+Package hyperref Info: Link nesting OFF on input line 6435.
+Package hyperref Info: Hyper index ON on input line 6438.
+Package hyperref Info: backreferencing OFF on input line 6445.
+Package hyperref Info: Link coloring OFF on input line 6450.
+Package hyperref Info: Link coloring with OCG OFF on input line 6455.
+Package hyperref Info: PDF/A mode OFF on input line 6460.
+LaTeX Info: Redefining \ref on input line 6500.
+LaTeX Info: Redefining \pageref on input line 6504.
 
-(/home/alex/.local/texlive/2020/texmf-dist/tex/generic/atbegshi/atbegshi.sty
+(/usr/share/texlive/texmf-dist/tex/generic/atbegshi/atbegshi.sty
 Package: atbegshi 2019/12/05 v1.19 At begin shipout hook (HO)
 )
 \Hy@abspage=\count446
@@ -1439,42 +1349,115 @@ Package: atbegshi 2019/12/05 v1.19 At begin shipout hook (HO)
 )
 Package hyperref Info: Driver (autodetected): hluatex.
 
-(/home/alex/.local/texlive/2020/texmf-dist/tex/latex/hyperref/hluatex.def
-File: hluatex.def 2020-05-15 v7.00e Hyperref driver for luaTeX
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hluatex.def
+File: hluatex.def 2020/01/14 v7.00d Hyperref driver for luaTeX
 
-(/home/alex/.local/texlive/2020/texmf-dist/tex/generic/stringenc/stringenc.sty
+(/usr/share/texlive/texmf-dist/tex/generic/stringenc/stringenc.sty
 Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO)
 
 )
 \Fld@listcount=\count449
 \c@bookmark@seq@number=\count450
 \Hy@SectionHShift=\skip111
-) (/home/alex/.local/texlive/2020/texmf-dist/tex/latex/bookmark/bookmark.sty
+)
+(/usr/share/texlive/texmf-dist/tex/latex/bookmark/bookmark.sty
 Package: bookmark 2019/12/03 v1.28 PDF bookmarks (HO)
 
-(/home/alex/.local/texlive/2020/texmf-dist/tex/latex/bookmark/bkm-pdftex.def
+(/usr/share/texlive/texmf-dist/tex/latex/bookmark/bkm-pdftex.def
 File: bkm-pdftex.def 2019/12/03 v1.28 bookmark driver for pdfTeX (HO)
 \BKM@id=\count451
 ))
-(/home/alex/.local/texlive/2020/texmf-dist/tex/latex/ncctools/extdash.sty
+(/usr/share/texlive/texmf-dist/tex/latex/ncctools/extdash.sty
 Package: extdash 2018/06/24 v1.3 Extended Dash Package (NCC)
 ))
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'polyglossia' package.
-
-(./main.aux
+ (./main.aux
 LaTeX Info: Redefining \rmfamily on input line 26.
 LaTeX Info: Redefining \sffamily on input line 26.
 LaTeX Info: Redefining \ttfamily on input line 26.
-Module polyglossia Info: Language data for ngerman
-(polyglossia)            lefthyphenmin	2
-(polyglossia)            synonyms	
-(polyglossia)            righthyphenmin	2
-(polyglossia)            patterns	hyph-de-1996.pat.txt
-(polyglossia)            hyphenation	
-(polyglossia)            loader	loadhyph-de-1996.tex on input line 26
-Module polyglossia Info: Language ngerman was not yet loaded; created with id 4 
-on input line 26
+
+Module polyglossia Warning: Language ngerman not found in language.dat.lua on in
+put line 26
+
+Package polyglossia Warning: No hyphenation patterns were loaded for `ngerman'
+(polyglossia)                I will use \language=\l@nohyphenation instead on in
+put line 26.
+
+Module polyglossia Warning: Language ngerman not found in language.dat.lua on in
+put line 26
+
+LaTeX Warning: Label `abb:' multiply defined.
+
+
+LaTeX Warning: Label `sub@abb:' multiply defined.
+
+
+LaTeX Warning: Label `abb:' multiply defined.
+
+
+LaTeX Warning: Label `sub@abb:' multiply defined.
+
+
+LaTeX Warning: Label `abb:' multiply defined.
+
+
+LaTeX Warning: Label `sub@abb:' multiply defined.
+
+
+LaTeX Warning: Label `abb:' multiply defined.
+
+
+LaTeX Warning: Label `sub@abb:' multiply defined.
+
+
+LaTeX Warning: Label `abb:' multiply defined.
+
+
+LaTeX Warning: Label `sub@abb:' multiply defined.
+
+
+LaTeX Warning: Label `abb:' multiply defined.
+
+
+LaTeX Warning: Label `sub@abb:' multiply defined.
+
+
+LaTeX Warning: Label `abb:' multiply defined.
+
+
+LaTeX Warning: Label `sub@abb:' multiply defined.
+
+
+LaTeX Warning: Label `abb:' multiply defined.
+
+
+LaTeX Warning: Label `sub@abb:' multiply defined.
+
+
+LaTeX Warning: Label `abb:' multiply defined.
+
+
+LaTeX Warning: Label `sub@abb:' multiply defined.
+
+
+LaTeX Warning: Label `abb:' multiply defined.
+
+
+LaTeX Warning: Label `sub@abb:' multiply defined.
+
+
+LaTeX Warning: Label `abb:' multiply defined.
+
+
+LaTeX Warning: Label `sub@abb:' multiply defined.
+
+
+LaTeX Warning: Label `abb:' multiply defined.
+
+
+LaTeX Warning: Label `sub@abb:' multiply defined.
+
 )
 \openout1 = main.aux
 
@@ -1517,36 +1500,34 @@ LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 (Font)                  OT1/cmtt/m/n --> TU/lmtt/bx/n on input line 8.
 
-(/home/alex/.local/texlive/2020/texmf-dist/tex/latex/translator/translator-basi
-c-dictionary-English.dict
+(/usr/share/texlive/texmf-dist/tex/latex/translator/translator-basic-dictionary
+-English.dict
 Dictionary: translator-basic-dictionary, Language: English 
 )
-(/home/alex/.local/texlive/2020/texmf-dist/tex/latex/siunitx/siunitx-abbreviati
-ons.cfg
+(/usr/share/texlive/texmf-dist/tex/latex/siunitx/siunitx-abbreviations.cfg
 File: siunitx-abbreviations.cfg 2017/11/26 v2.7k siunitx: Abbreviated units
 )
 
 Package chemgreek Info: Activating mapping `fontspec' on line 8.
 
 
-(/home/alex/.local/texlive/2020/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+(/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count452
-\scratchdimen=\dimen264
-\scratchbox=\box64
+\scratchdimen=\dimen263
+\scratchbox=\box63
 \nofMPsegments=\count453
 \nofMParguments=\count454
-\everyMPshowfont=\toks29
+\everyMPshowfont=\toks28
 \MPscratchCnt=\count455
-\MPscratchDim=\dimen265
+\MPscratchDim=\dimen264
 \MPnumerator=\count456
 \makeMPintoPDFobject=\count457
-\everyMPtoPDFconversion=\toks30
-)
-(/home/alex/.local/texlive/2020/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base
-.sty
+\everyMPtoPDFconversion=\toks29
+) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
- (/home/alex/.local/texlive/2020/texmf-dist/tex/latex/grfext/grfext.sty
+
+(/usr/share/texlive/texmf-dist/tex/latex/grfext/grfext.sty
 Package: grfext 2019/12/03 v1.3 Manage graphics extensions (HO)
 )
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
@@ -1556,8 +1537,7 @@ Package grfext Info: Graphics extension search list:
 ,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 504.
 
-(/home/alex/.local/texlive/2020/texmf-dist/tex/latex/latexconfig/epstopdf-sys.c
-fg
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 
 ))
@@ -1576,34 +1556,46 @@ Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of spacing.
 Package microtype Info: No adjustment of kerning.
 
-(/home/alex/.local/texlive/2020/texmf-dist/tex/latex/microtype/mt-LatinModernRo
-man.cfg
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-LatinModernRoman.cfg
 File: mt-LatinModernRoman.cfg 2013/03/13 v1.0 microtype config. file: Latin Mode
 rn Roman (RS)
 )
 Package biblatex Info: Trying to load language 'ngerman'...
 Package biblatex Info: ... file 'ngerman.lbx' found.
 
-(/home/alex/.local/texlive/2020/texmf-dist/tex/latex/biblatex/lbx/ngerman.lbx
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/lbx/ngerman.lbx
 File: ngerman.lbx 2019/12/01 v3.14 biblatex localization (PK/MW)
 Package biblatex Info: Trying to load language 'german'...
 Package biblatex Info: ... file 'german.lbx' found.
 
-(/home/alex/.local/texlive/2020/texmf-dist/tex/latex/biblatex/lbx/german.lbx
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/lbx/german.lbx
 File: german.lbx 2019/12/01 v3.14 biblatex localization (PK/MW)
-Module polyglossia Info: Language ngerman already loaded; id is 4 on input line 
-549
+
+Module polyglossia Warning: Language ngerman not found in language.dat.lua on in
+put line 549
+
+Package biblatex Warning: No hyphenation patterns for 'ngerman' on input line 54
+9.
+
 )
 Package biblatex Info: Trying to load language 'german'...
 Package biblatex Info: ... file 'german.lbx' found.
-
-(/home/alex/.local/texlive/2020/texmf-dist/tex/latex/biblatex/lbx/german.lbx
+ (/usr/share/texlive/texmf-dist/tex/latex/biblatex/lbx/german.lbx
 File: german.lbx 2019/12/01 v3.14 biblatex localization (PK/MW)
-Module polyglossia Info: Language ngerman already loaded; id is 4 on input line 
-549
+
+Module polyglossia Warning: Language ngerman not found in language.dat.lua on in
+put line 549
+
+Package biblatex Warning: No hyphenation patterns for 'ngerman' on input line 54
+9.
+
 )
-Module polyglossia Info: Language ngerman already loaded; id is 4 on input line 
-19
+Module polyglossia Warning: Language ngerman not found in language.dat.lua on in
+put line 19
+
+Package biblatex Warning: No hyphenation patterns for 'ngerman' on input line 19
+.
+
 )
 Package biblatex Info: LuaTeX detected.
 (biblatex)             Assuming input encoding 'utf8'.
@@ -1613,8 +1605,7 @@ Package biblatex Info: Automatic encoding selection.
 \openout3 = main.bcf
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'main.bbl' found.
-
-(./main.bbl
+ (./main.bbl
 
 Package biblatex Warning: Biber reported the following issues
 (biblatex)                with 'V':
@@ -1624,16 +1615,15 @@ date field 'urldate' - ignoring.
 )
 Package biblatex Info: Reference section=0 on input line 8.
 Package biblatex Info: Reference segment=0 on input line 8.
-\AtBeginShipoutBox=\box65
+\AtBeginShipoutBox=\box64
 Package hyperref Info: Link coloring OFF on input line 8.
- (/home/alex/.local/texlive/2020/texmf-dist/tex/latex/hyperref/nameref.sty
+ (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
 
-(/home/alex/.local/texlive/2020/texmf-dist/tex/latex/refcount/refcount.sty
+(/usr/share/texlive/texmf-dist/tex/latex/refcount/refcount.sty
 Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 )
-(/home/alex/.local/texlive/2020/texmf-dist/tex/generic/gettitlestring/gettitles
-tring.sty
+(/usr/share/texlive/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count458
@@ -1644,23 +1634,17 @@ LaTeX Info: Redefining \nameref on input line 8.
 LaTeX Info: Redefining \rmfamily on input line 8.
 LaTeX Info: Redefining \sffamily on input line 8.
 LaTeX Info: Redefining \ttfamily on input line 8.
-Module polyglossia Info: Language ngerman already loaded; id is 4 on input line 
-8
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `LatinModernMath' (encoding: TU).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 
-(/home/alex/.local/texlive/2020/texmf-dist/tex/latex/microtype/mt-msa.cfg
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
-(/home/alex/.local/texlive/2020/texmf-dist/tex/latex/microtype/mt-msb.cfg
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msb.cfg
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 )
-Package microtype Info: Loading generic protrusion settings for font family
-(microtype)             `XITSMath' (encoding: TU).
-(microtype)             For optimal results, create family-specific settings.
-(microtype)             See the microtype manual for details.
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `lmss' (encoding: TU).
 (microtype)             For optimal results, create family-specific settings.
@@ -1686,17 +1670,21 @@ LaTeX Font Info:    Font shape `TU/LatinModernMath(3)/m/n' will be
 (Font)              scaled to size 9.99893pt on input line 10.
 LaTeX Font Info:    Font shape `TU/LatinModernMath(3)/m/n' will be
 (Font)              scaled to size 6.99925pt on input line 10.
+ [1
 
-[1
-
-{/home/alex/.local/texlive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map}<./
-Logo.pdf>]
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}<./Logo.pdf>]
 Package tocbasic Info: character protrusion at toc deactivated on input line 11.
 
  (./main.toc
 LaTeX Info: Redefining \rmfamily on input line 2.
 LaTeX Info: Redefining \sffamily on input line 2.
 LaTeX Info: Redefining \ttfamily on input line 2.
+
+Overfull \hbox (16.67966pt too wide) in paragraph at lines 13--13
+ [][] [][]\TU/lmr/m/n/10.95 Federkonstante, Adhäsionskraft, Elastizitätsmodul
+ mittels Kraft-Abstandskurven[] []  
+ []
+
 )
 \tf@toc=\write4
 
@@ -1704,74 +1692,332 @@ LaTeX Info: Redefining \ttfamily on input line 2.
  [2
 
 ] (./content/ziel.tex) (./content/theorie.tex
-<Abb/AFM.png, id=54, 704.6325pt x 443.6575pt>
+Overfull \hbox (6.95123pt too wide) in paragraph at lines 4--1
+\TU/lmr/m/n/10.95 sowie verschiedene Speichermedien: CD, DVD und Blu-ray mittel
+s des Rasterkraftmikroskop
+ []
+
+<Abb/AFM.png, id=60, 704.6325pt x 443.6575pt>
 File: Abb/AFM.png Graphic file (type png)
 <use Abb/AFM.png>
 Package luatex.def Info: Abb/AFM.png  used on input line 14.
 (luatex.def)             Requested size: 334.60571pt x 210.67856pt.
-
+Module polyglossia Warning: Language ngerman not found in language.dat.lua on in
+put line 20
+Module polyglossia Warning: Language ngerman not found in language.dat.lua on in
+put line 20
 [3]
-<Abb/typ1.png, id=73, 222.8325pt x 133.49875pt>
+Module polyglossia Warning: Language ngerman not found in language.dat.lua on in
+put line 41
+
+Overfull \hbox (3.05104pt too wide) in paragraph at lines 40--54
+\TU/lmr/m/n/10.95 Geschwindigkeiten zu messen. Zusätzlich wird so auch die Sta
+bilität vor Messverfälschungen
+ []
+
+<Abb/typ1.png, id=79, 222.8325pt x 133.49875pt>
 File: Abb/typ1.png Graphic file (type png)
 <use Abb/typ1.png>
 Package luatex.def Info: Abb/typ1.png  used on input line 59.
 (luatex.def)             Requested size: 100.38362pt x 60.13905pt.
-<Abb/typ2.png, id=74, 195.73125pt x 136.51pt>
+<Abb/typ2.png, id=80, 195.73125pt x 136.51pt>
 File: Abb/typ2.png Graphic file (type png)
 <use Abb/typ2.png>
 Package luatex.def Info: Abb/typ2.png  used on input line 65.
 (luatex.def)             Requested size: 92.01672pt x 64.17636pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 66--66
-[][]|\TU/lmr/m/n/9 In-ter-fe-ro-me-trie-
+Overfull \hbox (11.44392pt too wide) in paragraph at lines 66--66
+[][]|\TU/lmr/m/n/9 Interferometrieprinzip| 
  []
 
-<Abb/typ3.png, id=75, 196.735pt x 134.5025pt>
+<Abb/typ3.png, id=81, 196.735pt x 134.5025pt>
 File: Abb/typ3.png Graphic file (type png)
 <use Abb/typ3.png>
 Package luatex.def Info: Abb/typ3.png  used on input line 71.
 (luatex.def)             Requested size: 92.01672pt x 62.90831pt.
 
-Underfull \hbox (badness 1394) in paragraph at lines 72--72
-[][]|\TU/lmr/m/n/9 Pie-zo-re-sis-ti-ver Ef-
+Underfull \hbox (badness 10000) in paragraph at lines 72--72
+[][]|\TU/lmr/m/n/9 Piezoresistiver
  []
 
-<Abb/typ4.png, id=76, 200.75pt x 135.50626pt>
+<Abb/typ4.png, id=82, 200.75pt x 135.50626pt>
 File: Abb/typ4.png Graphic file (type png)
 <use Abb/typ4.png>
 Package luatex.def Info: Abb/typ4.png  used on input line 77.
 (luatex.def)             Requested size: 92.01672pt x 62.11238pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 78--78
-[][]|\TU/lmr/m/n/9 Pie-zo-ele-tri-schen
+[][]|\TU/lmr/m/n/9 Piezoeletrischen
  []
 
 LaTeX Font Info:    Font shape `TU/LatinModernMath(2)/m/n' will be
 (Font)              scaled to size 5.00053pt on input line 82.
 LaTeX Font Info:    Font shape `TU/LatinModernMath(3)/m/n' will be
 (Font)              scaled to size 4.99947pt on input line 82.
-[4<./Abb/AFM.png>] [5<./Abb/typ1.png><./Abb/typ2.png><./Abb/typ3.png><./Abb/typ4
-.png>]
-<Abb/LJ.png, id=109, 218.8175pt x 245.41687pt>
+[4<./Abb/AFM.png>]
+Overfull \hbox (1.02226pt too wide) in paragraph at lines 86--116
+\TU/lmr/m/n/10.95 Verfahren hat allerdings gegenüber Anderer ein schlechteres 
+Signal-zu-Rauschen-Verhältnis.
+ []
+
+
+Overfull \hbox (9.2337pt too wide) in paragraph at lines 86--116
+\TU/lmr/m/n/10.95 entsteht eine Spannung zwischen den beiden Elektroden, welche
+ proportional zur Auslenkung
+ []
+
+Module polyglossia Warning: Language ngerman not found in language.dat.lua on in
+put line 129
+[5<./Abb/typ1.png><./Abb/typ2.png><./Abb/typ3.png><./Abb/typ4.png>]
+Overfull \hbox (22.96767pt too wide) in paragraph at lines 144--148
+\TU/lmr/m/n/10.95 Sobald der Abstand zwischen Messspitze und Probe genügend ge
+ring ist, wirken elektrostatische,
+ []
+
+<Abb/LJ.png, id=115, 218.8175pt x 245.41687pt>
 File: Abb/LJ.png Graphic file (type png)
 <use Abb/LJ.png>
 Package luatex.def Info: Abb/LJ.png  used on input line 166.
 (luatex.def)             Requested size: 209.12778pt x 234.55272pt.
- [6<./Abb/LJ.png>]
-<Abb/const-force.png, id=124, 372.89313pt x 132.495pt>
+Module polyglossia Warning: Language ngerman not found in language.dat.lua on in
+put line 169
+Module polyglossia Warning: Language ngerman not found in language.dat.lua on in
+put line 169
+[6<./Abb/LJ.png>]
+<Abb/const-force.png, id=130, 372.89313pt x 132.495pt>
 File: Abb/const-force.png Graphic file (type png)
 <use Abb/const-force.png>
 Package luatex.def Info: Abb/const-force.png  used on input line 197.
 (luatex.def)             Requested size: 334.60571pt x 118.89462pt.
- [7<./Abb/const-force.png>]
-<Abb/Kraft-Abstands-Kurve.png, id=137, 278.54062pt x 208.27812pt>
+
+Module polyglossia Warning: Language ngerman not found in language.dat.lua on in
+put line 199
+Module polyglossia Warning: Language ngerman not found in language.dat.lua on in
+put line 199
+
+Overfull \hbox (13.47035pt too wide) in paragraph at lines 203--212
+\TU/lmr/m/n/10.95 abgerastert werden. Der $[]$-Modus funktioniert ganz ohne ein
+en $[]$,
+ []
+
+[7<./Abb/const-force.png>]
+<Abb/Kraft-Abstands-Kurve.png, id=143, 278.54062pt x 208.27812pt>
 File: Abb/Kraft-Abstands-Kurve.png Graphic file (type png)
 <use Abb/Kraft-Abstands-Kurve.png>
 Package luatex.def Info: Abb/Kraft-Abstands-Kurve.png  used on input line 231.
 (luatex.def)             Requested size: 334.60571pt x 250.2058pt.
-)
-(./content/durchfuehrung.tex) (./content/auswertung.tex)
-(./content/diskussion.tex) [8<./Abb/Kraft-Abstands-Kurve.png>]
+
+Module polyglossia Warning: Language ngerman not found in language.dat.lua on in
+put line 237
+Module polyglossia Warning: Language ngerman not found in language.dat.lua on in
+put line 237
+) (./content/durchfuehrung.tex) (./content/auswertung.tex
+Overfull \hbox (7.00203pt too wide) in paragraph at lines 5--9
+\TU/lmr/m/n/10.95 Mikrostrukturprobe betrachtet. Mittels des AFM-Aufbaus werden
+ von den drei vorhandenen
+ []
+
+[8<./Abb/Kraft-Abstands-Kurve.png>]
+<AFM_auswertung/Kreis_durch_vor.png, id=154, 1069.9975pt x 902.37125pt>
+File: AFM_auswertung/Kreis_durch_vor.png Graphic file (type png)
+<use AFM_auswertung/Kreis_durch_vor.png>
+Package luatex.def Info: AFM_auswertung/Kreis_durch_vor.png  used on input line 
+13.
+(luatex.def)             Requested size: 188.21371pt x 158.71594pt.
+<AFM_auswertung/Kreis_abs_vor.png, id=155, 1068.99374pt x 902.37125pt>
+File: AFM_auswertung/Kreis_abs_vor.png Graphic file (type png)
+<use AFM_auswertung/Kreis_abs_vor.png>
+Package luatex.def Info: AFM_auswertung/Kreis_abs_vor.png  used on input line 19
+.
+(luatex.def)             Requested size: 188.21371pt x 158.8674pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 23--23
+[][]|\TU/lmr/m/n/10 Vermessung der Kreisstruktur auf der Mikrostrukturprobe.
+ []
+
+
+Underfull \hbox (badness 1264) in paragraph at lines 23--23
+\TU/lmr/m/n/10 Aufgenommen wurde eine Fläche der Größe von $\TU/LatinModernM
+ath(1)/m/n/10 (20 × 20) 𝜇𝑚$\TU/lmr/m/n/10 .
+ []
+
+<AFM_auswertung/quad_durch_vor.png, id=156, 952.55875pt x 824.07875pt>
+File: AFM_auswertung/quad_durch_vor.png Graphic file (type png)
+<use AFM_auswertung/quad_durch_vor.png>
+Package luatex.def Info: AFM_auswertung/quad_durch_vor.png  used on input line 3
+1.
+(luatex.def)             Requested size: 188.21371pt x 162.82607pt.
+<AFM_auswertung/quad_abb_vor.png, id=157, 948.54375pt x 824.07875pt>
+File: AFM_auswertung/quad_abb_vor.png Graphic file (type png)
+<use AFM_auswertung/quad_abb_vor.png>
+Package luatex.def Info: AFM_auswertung/quad_abb_vor.png  used on input line 37.
+
+(luatex.def)             Requested size: 188.21371pt x 163.51765pt.
+
+Underfull \hbox (badness 5726) in paragraph at lines 41--41
+[][]|\TU/lmr/m/n/10 Vermessung der Quadratstruktur auf der Mikrostrukturprobe.
+ []
+
+<AFM_auswertung/streif_durch_vor.png, id=158, 954.56625pt x 824.07875pt>
+File: AFM_auswertung/streif_durch_vor.png Graphic file (type png)
+<use AFM_auswertung/streif_durch_vor.png>
+Package luatex.def Info: AFM_auswertung/streif_durch_vor.png  used on input line
+ 49.
+(luatex.def)             Requested size: 188.21371pt x 162.47398pt.
+<AFM_auswertung/streif_abb_vor.png, id=159, 955.57pt x 824.07875pt>
+File: AFM_auswertung/streif_abb_vor.png Graphic file (type png)
+<use AFM_auswertung/streif_abb_vor.png>
+Package luatex.def Info: AFM_auswertung/streif_abb_vor.png  used on input line 5
+5.
+(luatex.def)             Requested size: 188.21371pt x 162.31052pt.
+[9<./AFM_auswertung/Kreis_durch_vor.png><./AFM_auswertung/Kreis_abs_vor.png><./A
+FM_auswertung/quad_durch_vor.png><./AFM_auswertung/quad_abb_vor.png>]
+<AFM_auswertung/cd_3D.png, id=173, 1079.03125pt x 788.9475pt>
+File: AFM_auswertung/cd_3D.png Graphic file (type png)
+<use AFM_auswertung/cd_3D.png>
+Package luatex.def Info: AFM_auswertung/cd_3D.png  used on input line 87.
+(luatex.def)             Requested size: 188.21371pt x 137.61041pt.
+<AFM_auswertung/dvd_3d.png, id=174, 1155.31625pt x 797.98125pt>
+File: AFM_auswertung/dvd_3d.png Graphic file (type png)
+<use AFM_auswertung/dvd_3d.png>
+Package luatex.def Info: AFM_auswertung/dvd_3d.png  used on input line 93.
+(luatex.def)             Requested size: 188.21371pt x 129.99307pt.
+<AFM_auswertung/bluray_3d.png, id=175, 1154.3125pt x 824.07875pt>
+File: AFM_auswertung/bluray_3d.png Graphic file (type png)
+<use AFM_auswertung/bluray_3d.png>
+Package luatex.def Info: AFM_auswertung/bluray_3d.png  used on input line 99.
+(luatex.def)             Requested size: 188.21371pt x 134.35759pt.
+ [10<./AFM_auswertung/streif_durch_vor.png><./AFM_auswertung/streif_abb_vor.png>
+]
+<AFM_auswertung/cd_breite.png, id=183, 946.53625pt x 829.0975pt>
+File: AFM_auswertung/cd_breite.png Graphic file (type png)
+<use AFM_auswertung/cd_breite.png>
+Package luatex.def Info: AFM_auswertung/cd_breite.png  used on input line 110.
+(luatex.def)             Requested size: 167.29967pt x 146.53645pt.
+<AFM_auswertung/cd_abstand.png, id=184, 945.5325pt x 828.09375pt>
+File: AFM_auswertung/cd_abstand.png Graphic file (type png)
+<use AFM_auswertung/cd_abstand.png>
+Package luatex.def Info: AFM_auswertung/cd_abstand.png  used on input line 116.
+(luatex.def)             Requested size: 167.29967pt x 146.51067pt.
+<AFM_auswertung/cd_Lmin.png, id=185, 949.5475pt x 826.08624pt>
+File: AFM_auswertung/cd_Lmin.png Graphic file (type png)
+<use AFM_auswertung/cd_Lmin.png>
+Package luatex.def Info: AFM_auswertung/cd_Lmin.png  used on input line 122.
+(luatex.def)             Requested size: 167.29967pt x 145.53784pt.
+<AFM_auswertung/cd_Lmax.png, id=186, 941.5175pt x 827.09pt>
+File: AFM_auswertung/cd_Lmax.png Graphic file (type png)
+<use AFM_auswertung/cd_Lmax.png>
+Package luatex.def Info: AFM_auswertung/cd_Lmax.png  used on input line 128.
+(luatex.def)             Requested size: 167.29967pt x 146.9641pt.
+
+[11<./AFM_auswertung/cd_3D.png><./AFM_auswertung/dvd_3d.png><./AFM_auswertung/bl
+uray_3d.png>]
+<AFM_auswertung/cd_tiefe.png, id=196, 948.54375pt x 823.075pt>
+File: AFM_auswertung/cd_tiefe.png Graphic file (type png)
+<use AFM_auswertung/cd_tiefe.png>
+Package luatex.def Info: AFM_auswertung/cd_tiefe.png  used on input line 139.
+(luatex.def)             Requested size: 125.47794pt x 108.8748pt.
+<AFM_auswertung/dvd_tiefe.png, id=197, 1022.82124pt x 918.43124pt>
+File: AFM_auswertung/dvd_tiefe.png Graphic file (type png)
+<use AFM_auswertung/dvd_tiefe.png>
+Package luatex.def Info: AFM_auswertung/dvd_tiefe.png  used on input line 145.
+(luatex.def)             Requested size: 125.47794pt x 112.65945pt.
+<AFM_auswertung/bluray_tiefe.png, id=198, 1006.76125pt x 878.28125pt>
+File: AFM_auswertung/bluray_tiefe.png Graphic file (type png)
+<use AFM_auswertung/bluray_tiefe.png>
+Package luatex.def Info: AFM_auswertung/bluray_tiefe.png  used on input line 151
+.
+(luatex.def)             Requested size: 125.47794pt x 109.46324pt.
+<AFM_auswertung/cd_tiefe_grafik.png, id=199, 585.18625pt x 894.34125pt>
+File: AFM_auswertung/cd_tiefe_grafik.png Graphic file (type png)
+<use AFM_auswertung/cd_tiefe_grafik.png>
+Package luatex.def Info: AFM_auswertung/cd_tiefe_grafik.png  used on input line 
+157.
+(luatex.def)             Requested size: 125.47794pt x 191.76105pt.
+<AFM_auswertung/dvd_tiefe_grafik.png, id=200, 568.1225pt x 897.3525pt>
+File: AFM_auswertung/dvd_tiefe_grafik.png Graphic file (type png)
+<use AFM_auswertung/dvd_tiefe_grafik.png>
+Package luatex.def Info: AFM_auswertung/dvd_tiefe_grafik.png  used on input line
+ 163.
+(luatex.def)             Requested size: 125.47794pt x 198.18494pt.
+<AFM_auswertung/bluray_tiefe_grafik.png, id=201, 539.01375pt x 895.345pt>
+File: AFM_auswertung/bluray_tiefe_grafik.png Graphic file (type png)
+<use AFM_auswertung/bluray_tiefe_grafik.png>
+Package luatex.def Info: AFM_auswertung/bluray_tiefe_grafik.png  used on input l
+ine 169.
+(luatex.def)             Requested size: 125.47794pt x 208.42514pt.
+ [12<./AFM_auswertung/cd_breite.png><./AFM_auswertung/cd_abstand.png><./AFM_ausw
+ertung/cd_Lmin.png><./AFM_auswertung/cd_Lmax.png>]
+<AFM_auswertung/edelstahl_kurve.png, id=211, 526.21594pt x 460.72125pt>
+File: AFM_auswertung/edelstahl_kurve.png Graphic file (type png)
+<use AFM_auswertung/edelstahl_kurve.png>
+Package luatex.def Info: AFM_auswertung/edelstahl_kurve.png  used on input line 
+201.
+(luatex.def)             Requested size: 125.47794pt x 109.85829pt.
+<AFM_auswertung/teflon_kurve.png, id=212, 526.21594pt x 460.72125pt>
+File: AFM_auswertung/teflon_kurve.png Graphic file (type png)
+<use AFM_auswertung/teflon_kurve.png>
+Package luatex.def Info: AFM_auswertung/teflon_kurve.png  used on input line 207
+.
+(luatex.def)             Requested size: 125.47794pt x 109.85829pt.
+<AFM_auswertung/TiN_kurve.png, id=213, 526.21594pt x 460.72125pt>
+File: AFM_auswertung/TiN_kurve.png Graphic file (type png)
+<use AFM_auswertung/TiN_kurve.png>
+Package luatex.def Info: AFM_auswertung/TiN_kurve.png  used on input line 213.
+(luatex.def)             Requested size: 125.47794pt x 109.85829pt.
+ [13<./AFM_auswertung/cd_tiefe.png><./AFM_auswertung/dvd_tiefe.png><./AFM_auswer
+tung/bluray_tiefe.png><./AFM_auswertung/cd_tiefe_grafik.png><./AFM_auswertung/dv
+d_tiefe_grafik.png><./AFM_auswertung/bluray_tiefe_grafik.png>]) (./content/disk
+ussion.tex)
+(./content/anhang.tex
+<AFM_auswertung/dvd_breite.png, id=226, 950.55125pt x 844.15375pt>
+File: AFM_auswertung/dvd_breite.png Graphic file (type png)
+<use AFM_auswertung/dvd_breite.png>
+Package luatex.def Info: AFM_auswertung/dvd_breite.png  used on input line 7.
+(luatex.def)             Requested size: 167.29967pt x 148.56636pt.
+<AFM_auswertung/dvd_abstand.png, id=227, 951.555pt x 845.1575pt>
+File: AFM_auswertung/dvd_abstand.png Graphic file (type png)
+<use AFM_auswertung/dvd_abstand.png>
+Package luatex.def Info: AFM_auswertung/dvd_abstand.png  used on input line 13.
+(luatex.def)             Requested size: 167.29967pt x 148.58826pt.
+<AFM_auswertung/dvd_Lmin.png, id=228, 952.55875pt x 843.15pt>
+File: AFM_auswertung/dvd_Lmin.png Graphic file (type png)
+<use AFM_auswertung/dvd_Lmin.png>
+Package luatex.def Info: AFM_auswertung/dvd_Lmin.png  used on input line 19.
+(luatex.def)             Requested size: 167.29967pt x 148.08093pt.
+<AFM_auswertung/dvd_Lmax.png, id=229, 948.54375pt x 847.165pt>
+File: AFM_auswertung/dvd_Lmax.png Graphic file (type png)
+<use AFM_auswertung/dvd_Lmax.png>
+Package luatex.def Info: AFM_auswertung/dvd_Lmax.png  used on input line 25.
+(luatex.def)             Requested size: 167.29967pt x 149.4195pt.
+ [14<./AFM_auswertung/edelstahl_kurve.png><./AFM_auswertung/teflon_kurve.png><./
+AFM_auswertung/TiN_kurve.png>]
+<AFM_auswertung/bluray_breite.png, id=239, 1004.75375pt x 881.2925pt>
+File: AFM_auswertung/bluray_breite.png Graphic file (type png)
+<use AFM_auswertung/bluray_breite.png>
+Package luatex.def Info: AFM_auswertung/bluray_breite.png  used on input line 37
+.
+(luatex.def)             Requested size: 167.29967pt x 146.73828pt.
+<AFM_auswertung/bluray_abstand.png, id=240, 1008.76875pt x 880.28876pt>
+File: AFM_auswertung/bluray_abstand.png Graphic file (type png)
+<use AFM_auswertung/bluray_abstand.png>
+Package luatex.def Info: AFM_auswertung/bluray_abstand.png  used on input line 4
+3.
+(luatex.def)             Requested size: 167.29967pt x 145.98013pt.
+<AFM_auswertung/bluray_Lmin.png, id=241, 1008.76875pt x 880.28876pt>
+File: AFM_auswertung/bluray_Lmin.png Graphic file (type png)
+<use AFM_auswertung/bluray_Lmin.png>
+Package luatex.def Info: AFM_auswertung/bluray_Lmin.png  used on input line 49.
+(luatex.def)             Requested size: 167.29967pt x 145.98013pt.
+<AFM_auswertung/bluray_Lmax.png, id=242, 1004.75375pt x 880.28876pt>
+File: AFM_auswertung/bluray_Lmax.png Graphic file (type png)
+<use AFM_auswertung/bluray_Lmax.png>
+Package luatex.def Info: AFM_auswertung/bluray_Lmax.png  used on input line 55.
+(luatex.def)             Requested size: 167.29967pt x 146.57115pt.
+) [15<./AFM_auswertung/dvd_breite.png><./AFM_auswertung/dvd_abstand.png><./AFM_a
+uswertung/dvd_Lmin.png><./AFM_auswertung/dvd_Lmax.png>]
+Module polyglossia Warning: Language ngerman not found in language.dat.lua on in
+put line 22
 The property list \polyglossia@langsetup contains the pairs (without outer
 braces):
 >  {latex/script}  =>  {latin}
@@ -1806,55 +2052,65 @@ braces):
 >  {german/babelname}  =>  {ngerman}
 >  {german/localnumeral}  =>  {polyglossia@C@localnumeral}
 >  {german/Localnumeral}  =>  {polyglossia@C@localnumeral}.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 23.
- [9]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 23.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 24.
+[16<./AFM_auswertung/bluray_breite.png><./AFM_auswertung/bluray_abstand.png><./A
+FM_auswertung/bluray_Lmin.png><./AFM_auswertung/bluray_Lmax.png>]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 24.
  (./main.aux
 LaTeX Info: Redefining \rmfamily on input line 26.
 LaTeX Info: Redefining \sffamily on input line 26.
 LaTeX Info: Redefining \ttfamily on input line 26.
 )
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 23.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 23.
-Package rerunfilecheck Info: File `main.aux' has not changed.
-(rerunfilecheck)             Checksum: 33429E9AABB36F7C0ABC670620706286;11176.
-Package rerunfilecheck Info: File `main.toc' has not changed.
-(rerunfilecheck)             Checksum: ABBF0B9D3A871FCF0466473DB29B16A8;865.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 24.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 24.
+
+Package rerunfilecheck Warning: File `main.aux' has changed. Rerun.
+
+Package rerunfilecheck Info: Checksums for `main.aux':
+(rerunfilecheck)             Before: 2E4404D18D2351698C59288B8A866F30;20836
+(rerunfilecheck)             After:  DC3239B42DA0AF8B40D32734DD8050B7;22499.
+
+Package rerunfilecheck Warning: File `main.toc' has changed. Rerun.
+
+Package rerunfilecheck Info: Checksums for `main.toc':
+(rerunfilecheck)             Before: 0C55E11663F4CF9C15362D6BAA6ABEEA;1227
+(rerunfilecheck)             After:  FCB274E8271E62FC5DDB691606826898;1290.
+
+LaTeX Warning: There were multiply-defined labels.
+
 Package logreq Info: Writing requests to 'main.run.xml'.
 
 \openout1 = main.run.xml
 )
 
 Here is how much of LuaTeX's memory you used:
- 36765 strings out of 480883
+ 37205 strings out of 481365
  100000,1977958 words of node,token memory allocated
  660 words of node memory still in use:
    6 hlist, 2 vlist, 2 rule, 2 glue, 4 kern, 1 glyph, 15 attribute, 80 glue_spec
 , 15 attribute_list, 1 write nodes
-   avail lists: 1:3,2:558,3:132,4:55,5:255,6:31,7:3491,8:54,9:227,10:28,11:418
- 53284 multiletter control sequences out of 65536+600000
- 236 fonts using 85791467 bytes
- 62i,15n,114p,10117b,2933s stack positions out of 5000i,500n,10000p,200000b,100000s
-</home/alex/.local/texlive/2020/texmf-dist/fonts/opentype/public/lm/lmmono10-reg
-ular.otf></home/alex/.local/texlive/2020/texmf-dist/fonts/opentype/public/lm/lmr
-oman10-italic.otf></home/alex/.local/texlive/2020/texmf-dist/fonts/opentype/publ
-ic/lm-math/latinmodern-math.otf></home/alex/.local/texlive/2020/texmf-dist/fonts
-/opentype/public/lm/lmroman5-regular.otf></home/alex/.local/texlive/2020/texmf-d
-ist/fonts/opentype/public/lm/lmroman9-regular.otf></home/alex/.local/texlive/202
-0/texmf-dist/fonts/opentype/public/lm/lmroman9-bold.otf></home/alex/.local/texli
-ve/2020/texmf-dist/fonts/opentype/public/lm-math/latinmodern-math.otf></home/ale
-x/.local/texlive/2020/texmf-dist/fonts/opentype/public/lm/lmroman8-regular.otf><
-/home/alex/.local/texlive/2020/texmf-dist/fonts/opentype/public/lm/lmroman10-bol
-d.otf></home/alex/.local/texlive/2020/texmf-dist/fonts/opentype/public/lm-math/l
-atinmodern-math.otf></home/alex/.local/texlive/2020/texmf-dist/fonts/opentype/pu
-blic/lm/lmroman10-regular.otf></home/alex/.local/texlive/2020/texmf-dist/fonts/o
-pentype/public/lm/lmroman12-regular.otf></home/alex/.local/texlive/2020/texmf-di
-st/fonts/opentype/public/lm/lmsans10-bold.otf></home/alex/.local/texlive/2020/te
-xmf-dist/fonts/opentype/public/lm/lmroman12-bold.otf>
-Output written on main.pdf (9 pages, 508886 bytes).
+   avail lists: 2:596,3:142,4:29,5:255,6:40,7:3073,8:54,9:279,10:11,11:36
+ 52804 multiletter control sequences out of 65536+600000
+ 196 fonts using 57206863 bytes
+ 62i,15n,111p,10117b,2278s stack positions out of 5000i,500n,10000p,200000b,100000s
 
-PDF statistics: 277 PDF objects out of 1000 (max. 8388607)
- 197 compressed objects within 2 object streams
- 34 named destinations out of 1000 (max. 131072)
- 81 words of extra memory for PDF output out of 10000 (max. 100000000)
+warning  (pdf backend): unreferenced destination with name 'section*.17'
+</usr/share/texmf/fonts/opentype/public/lm/lmmono10-regular.otf></usr/share/texm
+f/fonts/opentype/public/lm/lmroman10-italic.otf></usr/share/texmf/fonts/opentype
+/public/lm-math/latinmodern-math.otf></usr/share/texmf/fonts/opentype/public/lm/
+lmroman5-regular.otf></usr/share/texmf/fonts/opentype/public/lm/lmroman9-regular
+.otf></usr/share/texmf/fonts/opentype/public/lm/lmroman9-bold.otf></usr/share/te
+xmf/fonts/opentype/public/lm-math/latinmodern-math.otf></usr/share/texmf/fonts/o
+pentype/public/lm/lmroman8-regular.otf></usr/share/texmf/fonts/opentype/public/l
+m/lmroman10-bold.otf></usr/share/texmf/fonts/opentype/public/lm-math/latinmodern
+-math.otf></usr/share/texmf/fonts/opentype/public/lm/lmroman10-regular.otf></usr
+/share/texmf/fonts/opentype/public/lm/lmroman12-regular.otf></usr/share/texmf/fo
+nts/opentype/public/lm/lmsans10-bold.otf></usr/share/texmf/fonts/opentype/public
+/lm/lmroman12-bold.otf>
+Output written on main.pdf (16 pages, 8661253 bytes).
+
+PDF statistics: 403 PDF objects out of 1000 (max. 8388607)
+ 255 compressed objects within 3 object streams
+ 58 named destinations out of 1000 (max. 131072)
+ 113 words of extra memory for PDF output out of 10000 (max. 100000000)
 
