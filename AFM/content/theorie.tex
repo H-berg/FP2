@@ -11,11 +11,11 @@ ist und am anderen Ende frei schwingen kann (siehe Abbildung \ref{fig:AFM}).
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=0.8\textwidth]{Abb/AFM.png}
+	\includegraphics[width=0.63\textwidth]{Abb/AFM.png}
 	\caption{Schematische Darstellung des Rasterkraftmikroskops. In gelb ist die
-  Probe dargestellt. Von link ragt das Cantilever samt Messspitze auf die Probe.
+  Probe dargestellt. Von links ragt das Cantilever samt Messspitze auf die Probe.
   Rotes Laserlicht wird mittels einer Linse auf den Rücken des Cantilevers
-  fokussiert und dort zur Photodiode refelektiert. Es handelt sich in der Abbildung
+  fokussiert und dort zur Photodiode reflektiert. Es handelt sich in der Abbildung
   um eine Zweisegment-Photodiode, anstelle einer in diesem Versuch verwendeten
   Viersegment-Photodiode \cite[161]{AFM}.}
 	\label{fig:AFM}
@@ -38,7 +38,7 @@ die typische Vibrationsfrequenz von Festkörperatomen liegt bei $\omega_{\text{v
 \end{equation}
 
 \noindent
-eine Federkonstante $k$ in der von $\sim\SI{10}{\newton\per\meter}$ \cite[157]{AFM}.
+eine Federkonstante $k$ in der Größenordnung von $\sim\SI{10}{\newton\per\meter}$ \cite[157]{AFM}.
 Ein harmonischer Oszillator wird bekanntlich nur dann zur Schwingungen angeregt,
 wenn die Anregungsfrequenz $\omega_{\text{ex}}$ deutlich kleiner ist, als die
 der Resonanzfrequenz $\omega_{\text{rf}}$. So sollte auch das Cantilever eine
@@ -47,10 +47,10 @@ mit hohen Scan-Geschwindigkeiten zu messen. Zusätzlich wird so auch die Stabili
 vor Messverfälschungen wie externen Vibrationen gewährleistet. Damit nach Formel \ref{eq:F1}
 die Resonanzfrequenz $\omega_{\text{rf}}$ klein gehalten wird, sollte das
 Cantilever wenige $\mu g$ wiegen. In Abbildung \ref{fig:typen} sind vier verschiedene
-Verfahren dargstellt, die es erlauben, die Cantileverauslenkung $\Delta z$ zu bestimmen.
+Verfahren dargestellt, die es erlauben, die Cantileverauslenkung $\Delta z$ zu bestimmen.
 Neben dem im Abbildung \ref{fig:AFM} gezeigten Lichtzeigerprinzip \ref{fig:typ1},
-gibt es das Interferometrieprinzip \ref{fig:typ2}, den Piezoresistiver Effekt
-\ref{fig:typ3} und den Piezoeletrischen Efffekt \ref{fig:typ4}.
+gibt es das Interferometrieprinzip \ref{fig:typ2}, den Piezoresistiven
+\ref{fig:typ3} und den Piezoeletrischen Effekt \ref{fig:typ4}.
 
 
 \begin{figure}[H]
@@ -94,22 +94,22 @@ besteht der Cantilever selber aus einem Piezokristall. Das Cantilever und
 ein weiteres Piezoelement besitzen jeweils eine Elekrode. Erfährt das Piezo-Cantilever
 nun eine Auslenkung, so entsteht eine Spannung zwischen den beiden Elektroden,
 welche proportional zur Auslenkung ist. Ebenso kann das Cantilever durch den
-piezoeletrischen Effekt zur Schwingungen angeregt werden, was für dynamische
+piezoeletrischen Effekt zu Schwingungen angeregt werden, was für dynamische
 Betriebsmodi von großem Interesse ist.
 Das Interferometrie- und das Lichtzeigerprinzip aus Abbildung \ref{fig:typ1} und
-\ref{fig:typ2} benötigen einen refelektierenden Punkt auf dem Rücken des Cantilever.
-Bei dem Interferometrieprinzip wird durch den refelektierende Strahl ein sensibles
-Interferometer erzeugt, wodruch die Cantileverauslenkung sehr genau bestimmt
+\ref{fig:typ2} benötigen einen reflektierenden Punkt auf dem Rücken des Cantilevers.
+Bei dem Interferometrieprinzip wird durch den reflektierende Strahl ein sensibles
+Interferometer erzeugt, wodurch die Cantileverauslenkung sehr genau bestimmt
 werden kann. Allerdings ist die Justage sehr kompliziert.
-Bei dem Lichtzeigerprinzip wird das refelektierende Laserlicht von einem Detektor aufgenommen.
+Bei dem Lichtzeigerprinzip wird das reflektierende Laserlicht von einem Detektor aufgenommen.
 Besteht der Detektor aus zwei Photodioden, so lässt sich die Auslenkung $\Delta z$
 bestimmen (siehe Abbildung \ref{fig:AFM}). Erfährt das Cantilever eine Auslenkung
 in vertikaler Richtung $z$, so ändert sich der Winkel $\theta$ des Strahlenganges
-und damit die Position $\delta y$ des Laserpunktes auf dem Detektor. Die beiden
+und damit die x-Position des Laserpunktes auf dem Detektor. Die beiden
 Photosegmente registrieren nun wesentlich verschiedene Intensitäten, was zurück
 auf die Auslenkung geführt werden kann. Besteht der Detektor aus vier Photodioden,
 können zusätzlich laterale Auslenkungen bestimmt werden. Analog zur vertikalen
-Verschiebung $\Delta y$, lässt sich die Verschiebung $\Delta x$, zur Bestimmung der
+Verschiebung $\Delta x$, lässt sich die Verschiebung $\Delta y$, zur Bestimmung der
 laterale Auslenkung, messen. Die Position des Laserstrahls auf dem Detektor, und
 damit die vertikale und laterale Auslenkung, lässt sich folgendermaßen über die
 Laserintensität der vier Photodioden bestimmen:
@@ -122,11 +122,12 @@ Laserintensität der vier Photodioden bestimmen:
 \end{equation}
 
 \noindent
-wobei die Intensitäten $S_i$ mit $i \in {1,..,4}$ jene der jeweiligen Photodiode sind.
-Da die angekommende Intensität fluktuiert, wird auf die gesamte Intensität $S_0$
+Dabei ist jene Intensität $S_i$ mit $i \in {1,..,4}$ das Signal, welches die
+jeweiligen Photodioden registrierten.
+Da die angekommende Intensität fluktuiert, wird auf die gesamte Intensität $S_0 = \sum_{i=1}^4 S_i$
 normiert. Im Detektor werden $N$ Photonen pro Zeitintervall $\Delta t$ registriert
 und erzeugen damit einen Strom. Mit diesem Ansatz hängt das Auflösungsvermögen
-\cite[165]{AFM} in vertikalen Auslenkung $\Delta z$ von folgenden Faktoren ab:
+\cite[165]{AFM} für die vertikale Auslenkung $\Delta z$ von folgenden Faktoren ab:
 
 \begin{equation}
   \Delta z = \frac{l \lambda}{6 d} \frac{S}{N} \sqrt{\frac{2eB}{S_0 R}},
@@ -135,8 +136,9 @@ und erzeugen damit einen Strom. Mit diesem Ansatz hängt das Auflösungsvermöge
 
 \noindent
 mit der Cantileverlänge $l$, der Wellenlänge des Lasers $\lambda$, dem Durchmesser
-$d$ des Laserstrahls beim reflektieren, dem Signal-zu-Rauschen-Verhältnis $\frac{S}{N}$,
-der Bandbreite $B=\frac{1}{\Delta t}$ und der Sensitivität $R$ der Photodiode.
+$d$ des Laserstrahls beim reflektieren (siehe Abbildung \ref{fig:AFM}),
+dem Signal-zu-Rauschen-Verhältnis $\frac{S}{N}$, der Bandbreite
+$B=\frac{1}{\Delta t}$ und der Sensitivität $R$ der Photodiode.
 
 \subsection{Wechselwirkung}
 \label{sec:Wechselwirkung}
@@ -174,11 +176,11 @@ wieder.
 \label{sec:Messmodi}
 Zunächst werden die Messmodi in dynamische und statische Verfahren unterteilt.
 Bei der dynamischen Messmodi schwingt das Cantilever nahe der Resonanzfrequenz
-kontaktlos an der Probe. Wechselwirkt die Probe nun mit dem Cantilever, so verändert
+kontaktlos über die Probe. Wechselwirkt die Probe nun mit dem Cantilever, so verändert
 sich die Cantileverschwingung geringfügig, wodurch die Topografie der Probe bestimmt
 werden kann.
 Bei der statischen Messmethoden wird die Messspitze über die Probe gerastert und
-die Cantilever erfährt nach dem Hookeschen Gesetz eine Auslenkung. Die beiden
+das Cantilever erfährt nach dem Hookeschen Gesetz eine Auslenkung. Die beiden
 gängisten Messmodi sind der $\textit{Constant-Force}$ und der
 $\textit{Constant-Height}$-Modus. Bei dem $\textit{Constant-Force}$-Modus wird
 die Auslenkung $\Delta z$, und damit die Kraft, konstant gehalten. Dabei kann
@@ -207,14 +209,14 @@ konstant gehalten. So kann beispielsweise bei magnetischen Wechselwirkungen die
 Probe kontaktlos abgerastert werden. Der $\textit{Constant-Height}$-Modus funktioniert
 ganz ohne einen $\textit{Feedback-loops}$, wodurch das Abscannen schneller ist.
 Allerdings findet der $\textit{Constant-Height}$-Modus hauptsächlich bei weitreichende
-Kräfte anwendung. Beide statische Modi finden nur für relativ ebene Proben eine
-Anwendung, denn bei starken Änderungen in der Topografie kommt es zu Artefakten.
+Kräfte Anwendung. Beide statische Modi sind nur für relativ ebene Proben geeignet,
+denn bei starken Änderungen in der Topografie kommt es zu Artefakten.
 
 
 \subsection{Kraft-Abstands-Kurve}
 \label{sec:Kraft-Abstand}
 
-Neben topografische Karten, lassen sich auch mittels der Kraft-Abstands-Kurve das
+Neben topografischen Karten, lässt sich auch mittels der Kraft-Abstands-Kurve das
 Elastizitätsmodul $\epsilon$ einer Probe bestimmen. In Abbildung \ref{fig:Kraft-Abstand}
 ist eine ideale Kraft-Abstands-Kurve dargestellt, wobei die rote/blaue Kurve die
 sich annähernde/entfernende Messspitze beschreibt. Im Punkt (a) sind Probe und
@@ -224,16 +226,18 @@ Punkt (c) zu einem $\textit{snap-to-contact}$. Im Punkt (d) wirkt sofort die rep
 Kraft bedingt durch das Pauli-Prinzip und ein linearer Anstieg ist zu erkennen.
 Sobald die Kraft auf die Probe gemindert wird, nimmt die Kraft-Abstands-Kurve,
 aufgrund der starken attraktiven Adhäsionskraft, linear bis zum Punkt (f) ab.
-Im Punkt (f) kommt es schließlich zum $\textit{snap-out-contact}$.
+Im Punkt (f) kommt es schließlich zum $\textit{snap-out-contact}$. In der oberen
+rechten Ecke der Abbildung \ref{fig:Kraft-Abstand} sind die einzelnen Punkte (a),
+(c), (d) und (f) nochmal im Lennard-Jones-Kraft-Diagramm dargestellt.
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=0.8\textwidth]{Abb/Kraft-Abstands-Kurve.png}
+	\includegraphics[width=0.7\textwidth]{Abb/Kraft-Abstands-Kurve.png}
 	\caption{Ideale Kraft-Abstands-Kurve, wobei rot die annähernde und blau die
 	entfernende Messspitze darstellt. (a) Messspitze noch nicht mit der Probe in
 	Kontakt. (c) Die Messspitze ist genügend nah dran und es kommt zum
-$\textit{snap-to-contact}$. (d) repusilve Kraft bedingt durch das Pauli Prinzip.
+$\textit{snap-to-contact}$. (d) repulsive Kraft bedingt durch das Pauli-Prinzip.
 	(f) Abstand genügend entfernt und es kommt zum $\textit{snap-out-contact}$
-	\cite[184]{AFM}}
+	\cite[184]{AFM}.}
 	\label{fig:Kraft-Abstand}
 \end{figure}

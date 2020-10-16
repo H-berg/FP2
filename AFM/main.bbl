@@ -80,7 +80,7 @@
       \field{title}{Scanning Probe Microscopy - Atomic Force Microscopy and Scanning Tunneling Microscopy}
       \field{year}{2015}
     \endentry
-    \entry{sample}{manual}{}
+    \entry{anleitung}{manual}{}
       \name{author}{1}{}{%
         {{hash=2821a70f99517ac7757c95300d43e95c}{%
            family={Dortmund},
@@ -94,43 +94,13 @@
       \strng{authorbibnamehash}{2821a70f99517ac7757c95300d43e95c}
       \strng{authornamehash}{2821a70f99517ac7757c95300d43e95c}
       \strng{authorfullhash}{2821a70f99517ac7757c95300d43e95c}
-      \field{extraname}{1}
-      \field{sortinit}{3}
-      \field{sortinithash}{a37a8ef248a93c322189792c34fc68c9}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{title}{Versuch zum Literaturverzeichnis}
+      \field{title}{FP2-Versuch: Rasterkraftmikroskopie}
+      \field{version}{3}
       \field{year}{2014}
-      \true{nocite}
-    \endentry
-    \entry{V}{online}{}
-      \name{author}{1}{}{%
-        {{hash=2821a70f99517ac7757c95300d43e95c}{%
-           family={Dortmund},
-           familyi={D\bibinitperiod},
-           given={TU},
-           giveni={T\bibinitperiod}}}%
-      }
-      \strng{namehash}{2821a70f99517ac7757c95300d43e95c}
-      \strng{fullhash}{2821a70f99517ac7757c95300d43e95c}
-      \strng{bibnamehash}{2821a70f99517ac7757c95300d43e95c}
-      \strng{authorbibnamehash}{2821a70f99517ac7757c95300d43e95c}
-      \strng{authornamehash}{2821a70f99517ac7757c95300d43e95c}
-      \strng{authorfullhash}{2821a70f99517ac7757c95300d43e95c}
-      \field{extraname}{2}
-      \field{sortinit}{4}
-      \field{sortinithash}{e071e0bcb44634fab398d68ad04e69f4}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{...}
-      \true{nocite}
-      \verb{urlraw}
-      \verb http...
-      \endverb
-      \verb{url}
-      \verb http...
-      \endverb
-      \warn{\item Entry 'V' (lit.bib): Invalid format 'YYYY-MM-DD' of date field 'urldate' - ignoring}
     \endentry
   \enddatalist
 \endrefsection

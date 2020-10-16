@@ -1,19 +1,17 @@
 [0] Config.pm:304> INFO - This is Biber 2.14
 [0] Config.pm:307> INFO - Logfile is 'main.blg'
-[52] biber:322> INFO - === Do Sep 24, 2020, 09:19:30
+[51] biber:322> INFO - === Fr Okt 16, 2020, 14:15:05
 [62] Biber.pm:415> INFO - Reading 'main.bcf'
-[118] Biber.pm:940> INFO - Using all citekeys in bib section 0
-[128] Biber.pm:4256> INFO - Processing section 0
-[129] Utils.pm:75> INFO - Globbing data source 'lit.bib'
-[129] Utils.pm:91> INFO - Globbed data source 'lit.bib' to lit.bib
-[137] Biber.pm:4455> INFO - Looking for bibtex format file 'lit.bib' for section 0
-[137] bibtex.pm:1653> INFO - LaTeX decoding ...
-[140] bibtex.pm:1471> INFO - Found BibTeX data source 'lit.bib'
-[157] Utils.pm:304> WARN - Entry 'V' (lit.bib): Invalid format 'YYYY-MM-DD' of date field 'urldate' - ignoring
-[184] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[184] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'variable = shifted' with 'variable = non-ignorable'
-[184] Biber.pm:4084> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'de-DE'
-[184] Biber.pm:4090> INFO - No sort tailoring available for locale 'de-DE'
-[188] bbl.pm:652> INFO - Writing 'main.bbl' with encoding 'UTF-8'
-[190] bbl.pm:755> INFO - Output to main.bbl
-[190] Biber.pm:128> INFO - WARNINGS: 1
+[117] Biber.pm:940> INFO - Using all citekeys in bib section 0
+[127] Biber.pm:4256> INFO - Processing section 0
+[128] Utils.pm:75> INFO - Globbing data source 'lit.bib'
+[128] Utils.pm:91> INFO - Globbed data source 'lit.bib' to lit.bib
+[136] Biber.pm:4455> INFO - Looking for bibtex format file 'lit.bib' for section 0
+[136] bibtex.pm:1653> INFO - LaTeX decoding ...
+[139] bibtex.pm:1471> INFO - Found BibTeX data source 'lit.bib'
+[180] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'variable = shifted' with 'variable = non-ignorable'
+[180] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[180] Biber.pm:4084> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'de-DE'
+[180] Biber.pm:4090> INFO - No sort tailoring available for locale 'de-DE'
+[181] bbl.pm:652> INFO - Writing 'main.bbl' with encoding 'UTF-8'
+[183] bbl.pm:755> INFO - Output to main.bbl
