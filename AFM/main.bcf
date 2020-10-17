@@ -2200,17 +2200,15 @@
     <bcf:citekey order="11">AFM</bcf:citekey>
     <bcf:citekey order="12">AFM</bcf:citekey>
     <bcf:citekey order="13">AFM</bcf:citekey>
-<<<<<<< HEAD
     <bcf:citekey order="14">anleitung</bcf:citekey>
     <bcf:citekey order="15">anleitung</bcf:citekey>
     <bcf:citekey order="16">AFM</bcf:citekey>
     <bcf:citekey order="17">AFM</bcf:citekey>
     <bcf:citekey order="18">anleitung</bcf:citekey>
     <bcf:citekey order="19">anleitung</bcf:citekey>
-||||||| constructed merge base
-=======
-    <bcf:citekey order="14">sample</bcf:citekey>
->>>>>>> aufgabe 1 feddig
+    <bcf:citekey order="20">sample</bcf:citekey>
+    <bcf:citekey order="21">sample</bcf:citekey>
+    <bcf:citekey order="22">sample</bcf:citekey>
     <bcf:citekey order="0" nocite="1">*</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
