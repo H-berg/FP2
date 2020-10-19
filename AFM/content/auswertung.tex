@@ -228,6 +228,7 @@ Beispielhaft sind diese Bereiche in Abbildung (\ref{abb:edelstahl}) eingezeichne
 	\begin{subfigure}[t]{0.45\textwidth}
 	\includegraphics[width=\textwidth]{AFM_auswertung/teflon_kurve.png}
 	\caption{Teflon-Probe.}
+	\label{abb:teflon}
 	\end{subfigure}
 	~
 	\begin{subfigure}[t]{0.45\textwidth}
@@ -268,17 +269,24 @@ Die Messergebnisse sind in Tabelle (\ref{tab:auf3}) notiert.
 \end{table}
 Abschlie{\ss}end wird noch das Elastizitätsmodul der Teflon-Probe abgesch\"atzt.
 Hierf\"ur wird die Auslenkung von Teflon mit der h\"arteren Edelstahlprobe verglichen und die Eindringtiefe $d$ der Cantileverspitze in die Teflonprobe bestimmt.
-\\ PLOT ? \\
-%Beachten Sie, dass der halbe Öffnungswinkel der Cantileverspitze laut Hersteller 10° beträgt.
-Mittels Gleichung (\ref{equ:Elastizitaet}) wird das Elastizitätsmodul von Teflon berechnet.
+Dieser Vergleich ist in Abbildung (\ref{abb:3d}) dargestellt.
+Der Abstand der Teflonkurve zur Edelstahlprobe bei maximaler Auslenkung des Cantilevers beschreibt die Eindringtiefe $d$ der Cantileverspitze.
+Die effektive Auslenkung des Cantilevers $\delta$ kann mit $\delta = z_p - d$ berechnet werden.
+Wobei $z_p$ der Auslenkung des Probentisches, dem Verfahrweg, entspricht.
+\begin{figure}[hbtp]
+	\centering
+	\includegraphics[width=0.45\textwidth]{AFM_auswertung/elastizitaet.png}
+	\caption{Vergleich der Annäherungskurven des Cantilevers an die Teflonprobe und die Edelstahlprobe. Eingezeichnet sind die Eindringtiefe d und der Verfahrweg $z_p$.}
+	\label{abb:auf3c}
+\end{figure}
+Mittels den Daten aus Abbildung (\ref{abb:3d}) und Gleichung (\ref{equ:Elastizitaet}) wird das Elastizitätsmodul von Teflon berechnet.
 \begin{align}
-	E = \frac{k_{\text{cantilever}} \cdot d \cdot \pi \cdot \left( 1 - v^2 \right)}{2 tan(\alpha) \cdot s^2}
+	E = \frac{k_{\text{cantilever}} \cdot \delta \cdot \pi \cdot \left( 1 - \upsilon^2 \right)}{2 tan(\alpha) \cdot d^2}
 \label{equ:Elastizitaet}
 \end{align}
-Hierbei gibt $\alpha$ den Öffnungswinkel der pyramidenförmigen Cantileverspitze an, dieser betr\"agt f\"ur den hier verwendeten Cantilever gilt α = 10°.
-Die Poissonzahl von Teflon wird mit ν = 0,46 angenommen.
-Die Eindringtiefe d der Cantileverspitze in die Teflonprobe und die Auslenkung des Cantilevers s werden durch den Vergleich der zwei Proben bestimmt.
+Hierbei gibt $\alpha$ den Öffnungswinkel der pyramidenförmigen Cantileverspitze an, dieser betr\"agt f\"ur den hier verwendeten Cantilever $10^{\circ}$.
+Die Poissonzahl von Teflon wird mit $\upsilon = 0,46$ angenommen.
 Es folgt:
 \begin{align*}
-	E_{\text{Teflon}} = 
+	E_{\text{Teflon}} = 474,83 \, \text{MPa}
 \end{align*}

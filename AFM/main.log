@@ -1,4 +1,4 @@
-This is LuaTeX, Version 1.10.0 (TeX Live 2019/Debian)  (format=lualatex 2020.10.8)  17 OCT 2020 13:05
+This is LuaTeX, Version 1.10.0 (TeX Live 2019/Debian)  (format=lualatex 2020.10.8)  19 OCT 2020 16:30
  restricted system commands enabled.
 **main.tex
 (./main.tex
@@ -2041,29 +2041,46 @@ Package luatex.def Info: AFM_auswertung/teflon_kurve.png  used on input line 229
 <AFM_auswertung/TiN_kurve.png, id=280, 526.21594pt x 460.72125pt>
 File: AFM_auswertung/TiN_kurve.png Graphic file (type png)
 <use AFM_auswertung/TiN_kurve.png>
-Package luatex.def Info: AFM_auswertung/TiN_kurve.png  used on input line 234.
+Package luatex.def Info: AFM_auswertung/TiN_kurve.png  used on input line 235.
 (luatex.def)             Requested size: 188.21371pt x 164.79095pt.
  [17<./AFM_auswertung/edelstahl_pfeile.png>]
-Underfull \hbox (badness 2799) in paragraph at lines 257--257
+Underfull \hbox (badness 2799) in paragraph at lines 258--258
 [][]|\TU/lmr/m/n/10 Ermittelte und berechnete Daten zur Bestimmund der maximale
 
  []
 
+<AFM_auswertung/elastizitaet.png, id=293, 2844.6275pt x 2132.96875pt>
+File: AFM_auswertung/elastizitaet.png Graphic file (type png)
+<use AFM_auswertung/elastizitaet.png>
+Package luatex.def Info: AFM_auswertung/elastizitaet.png  used on input line 278
+.
+(luatex.def)             Requested size: 188.21371pt x 141.12137pt.
+
+Overfull \hbox (19.23091pt too wide) in paragraph at lines 253--283
+\TU/lmr/m/n/10.95 entspricht. Mittels den Daten aus Abbildung ([]12[]) und Glei
+chung ([]7[]) wird das Elastizitätsmodul
+ []
+
 [18<./AFM_auswertung/teflon_kurve.png><./AFM_auswertung/TiN_kurve.png>])
 (./content/diskussion.tex
+Overfull \hbox (2.25674pt too wide) in paragraph at lines 4--6
+\TU/lmr/m/n/10.95 Die im ersten Aufgabenteil vermessenen Strukturgrößen der v
+erschiedenen Mikrostrukturen
+ []
 
-LaTeX Warning: Citation 'sample' on page 19 undefined on input line 6.
+
+LaTeX Warning: Citation 'sample' on page 19 undefined on input line 9.
 
 
-LaTeX Warning: Citation 'sample' on page 19 undefined on input line 6.
+LaTeX Warning: Citation 'sample' on page 19 undefined on input line 9.
 
-) (./content/anhang.tex
-<AFM_auswertung/dvd_breite.png, id=303, 950.55125pt x 844.15375pt>
+[19<./AFM_auswertung/elastizitaet.png>]) (./content/anhang.tex
+<AFM_auswertung/dvd_breite.png, id=322, 950.55125pt x 844.15375pt>
 File: AFM_auswertung/dvd_breite.png Graphic file (type png)
 <use AFM_auswertung/dvd_breite.png>
 Package luatex.def Info: AFM_auswertung/dvd_breite.png  used on input line 7.
 (luatex.def)             Requested size: 167.29967pt x 148.56636pt.
-<AFM_auswertung/dvd_abstand.png, id=304, 951.555pt x 845.1575pt>
+<AFM_auswertung/dvd_abstand.png, id=323, 951.555pt x 845.1575pt>
 File: AFM_auswertung/dvd_abstand.png Graphic file (type png)
 <use AFM_auswertung/dvd_abstand.png>
 Package luatex.def Info: AFM_auswertung/dvd_abstand.png  used on input line 12.
@@ -2073,7 +2090,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 13--13
 [][]|\TU/lmr/m/n/9 Bestimmung des Spurabstands
  []
 
-<AFM_auswertung/dvd_Lmin.png, id=305, 952.55875pt x 843.15pt>
+<AFM_auswertung/dvd_Lmin.png, id=324, 952.55875pt x 843.15pt>
 File: AFM_auswertung/dvd_Lmin.png Graphic file (type png)
 <use AFM_auswertung/dvd_Lmin.png>
 Package luatex.def Info: AFM_auswertung/dvd_Lmin.png  used on input line 17.
@@ -2083,22 +2100,19 @@ Underfull \hbox (badness 2189) in paragraph at lines 18--18
 [][]|\TU/lmr/m/n/9 Vermessung der minimalen Länge
  []
 
-<AFM_auswertung/dvd_Lmax.png, id=306, 948.54375pt x 847.165pt>
+<AFM_auswertung/dvd_Lmax.png, id=325, 948.54375pt x 847.165pt>
 File: AFM_auswertung/dvd_Lmax.png Graphic file (type png)
 <use AFM_auswertung/dvd_Lmax.png>
 Package luatex.def Info: AFM_auswertung/dvd_Lmax.png  used on input line 22.
 (luatex.def)             Requested size: 167.29967pt x 149.4195pt.
-[19
-Missing character: There is no α (U+03B1) in font [lmroman10-regular]:+tlig;!
-Missing character: There is no ν (U+03BD) in font [lmroman10-regular]:+tlig;!
-]
-<AFM_auswertung/bluray_breite.png, id=315, 1004.75375pt x 881.2925pt>
+[20]
+<AFM_auswertung/bluray_breite.png, id=335, 1004.75375pt x 881.2925pt>
 File: AFM_auswertung/bluray_breite.png Graphic file (type png)
 <use AFM_auswertung/bluray_breite.png>
 Package luatex.def Info: AFM_auswertung/bluray_breite.png  used on input line 33
 .
 (luatex.def)             Requested size: 167.29967pt x 146.73828pt.
-<AFM_auswertung/bluray_abstand.png, id=316, 1008.76875pt x 880.28876pt>
+<AFM_auswertung/bluray_abstand.png, id=336, 1008.76875pt x 880.28876pt>
 File: AFM_auswertung/bluray_abstand.png Graphic file (type png)
 <use AFM_auswertung/bluray_abstand.png>
 Package luatex.def Info: AFM_auswertung/bluray_abstand.png  used on input line 3
@@ -2109,7 +2123,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 39--39
 [][]|\TU/lmr/m/n/9 Bestimmung des Spurabstands
  []
 
-<AFM_auswertung/bluray_Lmin.png, id=317, 1008.76875pt x 880.28876pt>
+<AFM_auswertung/bluray_Lmin.png, id=337, 1008.76875pt x 880.28876pt>
 File: AFM_auswertung/bluray_Lmin.png Graphic file (type png)
 <use AFM_auswertung/bluray_Lmin.png>
 Package luatex.def Info: AFM_auswertung/bluray_Lmin.png  used on input line 43.
@@ -2119,17 +2133,25 @@ Underfull \hbox (badness 2189) in paragraph at lines 44--44
 [][]|\TU/lmr/m/n/9 Vermessung der minimalen Länge
  []
 
-<AFM_auswertung/bluray_Lmax.png, id=318, 1004.75375pt x 880.28876pt>
+<AFM_auswertung/bluray_Lmax.png, id=338, 1004.75375pt x 880.28876pt>
 File: AFM_auswertung/bluray_Lmax.png Graphic file (type png)
 <use AFM_auswertung/bluray_Lmax.png>
 Package luatex.def Info: AFM_auswertung/bluray_Lmax.png  used on input line 48.
 (luatex.def)             Requested size: 167.29967pt x 146.57115pt.
-) [20<./AFM_auswertung/dvd_breite.png><./AFM_auswertung/dvd_abstand.png><./AFM_a
+) [21<./AFM_auswertung/dvd_breite.png><./AFM_auswertung/dvd_abstand.png><./AFM_a
 uswertung/dvd_Lmin.png><./AFM_auswertung/dvd_Lmax.png>]
 Module polyglossia Warning: Language ngerman not found in language.dat.lua on in
 put line 22
 Module polyglossia Warning: Language ngerman not found in language.dat.lua on in
 put line 22
+Module polyglossia Warning: Language ngerman not found in language.dat.lua on in
+put line 22
+
+Overfull \hbox (9.30377pt too wide) in paragraph at lines 22--22
+[]\TU/lmr/m/it/10.95 Polytetrafluorethylen (PTFE)\TU/lmr/m/n/10.95 , []$\TU/lmt
+t/m/n/10.95 https : / / www . kern . de / de / technisches - datenblatt /
+ []
+
 The property list \polyglossia@langsetup contains the pairs (without outer
 braces):
 >  {latex/script}  =>  {latin}
@@ -2165,7 +2187,7 @@ braces):
 >  {german/localnumeral}  =>  {polyglossia@C@localnumeral}
 >  {german/Localnumeral}  =>  {polyglossia@C@localnumeral}.
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 24.
-[21<./AFM_auswertung/bluray_breite.png><./AFM_auswertung/bluray_abstand.png><./A
+[22<./AFM_auswertung/bluray_breite.png><./AFM_auswertung/bluray_abstand.png><./A
 FM_auswertung/bluray_Lmin.png><./AFM_auswertung/bluray_Lmax.png>]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 24.
  (./main.aux
@@ -2176,9 +2198,9 @@ LaTeX Info: Redefining \ttfamily on input line 26.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 24.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 24.
 Package rerunfilecheck Info: File `main.aux' has not changed.
-(rerunfilecheck)             Checksum: 33D71DEB3B2F09F90FD68CF1198F412D;27218.
+(rerunfilecheck)             Checksum: E770864759C5045B93EFC2EB9E37D892;28404.
 Package rerunfilecheck Info: File `main.toc' has not changed.
-(rerunfilecheck)             Checksum: DC0F89EF4BB41964D61296DBB90C36AA;1232.
+(rerunfilecheck)             Checksum: 40971F0120B364CC9B70D91D58FD6A80;1232.
 
 LaTeX Warning: There were undefined references.
 
@@ -2196,30 +2218,31 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 )
 
 Here is how much of LuaTeX's memory you used:
- 37546 strings out of 481365
+ 37570 strings out of 481365
  100000,1977958 words of node,token memory allocated
- 744 words of node memory still in use:
-   7 hlist, 2 vlist, 2 rule, 2 glue, 4 kern, 1 glyph, 15 attribute, 95 glue_spec
-, 15 attribute_list, 1 write nodes
-   avail lists: 1:2,2:553,3:128,4:36,5:294,6:34,7:3998,8:49,9:252,10:11,11:38
- 53065 multiletter control sequences out of 65536+600000
+ 754 words of node memory still in use:
+   7 hlist, 2 vlist, 2 rule, 2 glue, 4 kern, 1 glyph, 16 attribute, 95 glue_spec
+, 16 attribute_list, 1 write, 1 pdf_action nodes
+   avail lists: 1:2,2:562,3:162,4:36,5:294,6:35,7:3999,8:88,9:263,10:11,11:38
+ 53079 multiletter control sequences out of 65536+600000
  213 fonts using 62841843 bytes
  62i,15n,111p,10117b,2278s stack positions out of 5000i,500n,10000p,200000b,100000s
-</usr/share/texmf/fonts/opentype/public/lm/lmroman10-italic.otf></usr/share/texm
-f/fonts/opentype/public/lm-math/latinmodern-math.otf></usr/share/texmf/fonts/ope
-ntype/public/lm/lmroman5-regular.otf></usr/share/texmf/fonts/opentype/public/lm/
-lmroman9-regular.otf></usr/share/texmf/fonts/opentype/public/lm/lmroman9-bold.ot
-f></usr/share/texmf/fonts/opentype/public/lm-math/latinmodern-math.otf></usr/sha
-re/texmf/fonts/opentype/public/lm/lmroman8-regular.otf></usr/share/texmf/fonts/o
-pentype/public/lm/lmroman10-bold.otf></usr/share/texmf/fonts/opentype/public/lm-
-math/latinmodern-math.otf></usr/share/texmf/fonts/opentype/public/lm/lmroman10-r
-egular.otf></usr/share/texmf/fonts/opentype/public/lm/lmroman12-regular.otf></us
-r/share/texmf/fonts/opentype/public/lm/lmsans10-bold.otf></usr/share/texmf/fonts
-/opentype/public/lm/lmroman12-bold.otf>
-Output written on main.pdf (21 pages, 9090948 bytes).
+</usr/share/texmf/fonts/opentype/public/lm/lmmono10-regular.otf></usr/share/texm
+f/fonts/opentype/public/lm/lmroman10-italic.otf></usr/share/texmf/fonts/opentype
+/public/lm-math/latinmodern-math.otf></usr/share/texmf/fonts/opentype/public/lm/
+lmroman5-regular.otf></usr/share/texmf/fonts/opentype/public/lm/lmroman9-regular
+.otf></usr/share/texmf/fonts/opentype/public/lm/lmroman9-bold.otf></usr/share/te
+xmf/fonts/opentype/public/lm-math/latinmodern-math.otf></usr/share/texmf/fonts/o
+pentype/public/lm/lmroman8-regular.otf></usr/share/texmf/fonts/opentype/public/l
+m/lmroman10-bold.otf></usr/share/texmf/fonts/opentype/public/lm-math/latinmodern
+-math.otf></usr/share/texmf/fonts/opentype/public/lm/lmroman10-regular.otf></usr
+/share/texmf/fonts/opentype/public/lm/lmroman12-regular.otf></usr/share/texmf/fo
+nts/opentype/public/lm/lmsans10-bold.otf></usr/share/texmf/fonts/opentype/public
+/lm/lmroman12-bold.otf>
+Output written on main.pdf (22 pages, 9297233 bytes).
 
-PDF statistics: 467 PDF objects out of 1000 (max. 8388607)
- 307 compressed objects within 4 object streams
- 71 named destinations out of 1000 (max. 131072)
+PDF statistics: 496 PDF objects out of 1000 (max. 8388607)
+ 329 compressed objects within 4 object streams
+ 75 named destinations out of 1000 (max. 131072)
  113 words of extra memory for PDF output out of 10000 (max. 100000000)
 
