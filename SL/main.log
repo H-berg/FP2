@@ -1,4 +1,4 @@
-This is LuaTeX, Version 1.10.0 (TeX Live 2019/Debian)  (format=lualatex 2020.10.8)  20 OCT 2020 09:01
+This is LuaTeX, Version 1.10.0 (TeX Live 2019/Debian)  (format=lualatex 2020.10.8)  20 OCT 2020 09:07
  restricted system commands enabled.
 **main.tex
 (./main.tex
@@ -1623,13 +1623,6 @@ LaTeX Font Info:    Font shape `TU/LatinModernMath(2)/m/n' will be
 LaTeX Font Info:    Font shape `TU/LatinModernMath(3)/m/n' will be
 (Font)              scaled to size 4.99947pt on input line 48.
 
-
-LaTeX Warning: Citation 'einleitung' on page 3 undefined on input line 48.
-
-
-LaTeX Warning: Citation 'einleitung' on page 3 undefined on input line 48.
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 48--48
 [] []\TU/lmr/bx/n/10 : |\TU/lmr/m/n/10 Dargestellt ist hier
  []
@@ -1645,18 +1638,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 48--48
  []
 
 [3]
-<Plots/kritischesBFeld.png, id=87, 459.7175pt x 718.685pt>
+<Plots/kritischesBFeld.png, id=89, 459.7175pt x 718.685pt>
 File: Plots/kritischesBFeld.png Graphic file (type png)
 <use Plots/kritischesBFeld.png>
 Package luatex.def Info: Plots/kritischesBFeld.png  used on input line 62.
 (luatex.def)             Requested size: 146.39198pt x 228.85437pt.
-
-
-LaTeX Warning: Citation 'einleitung' on page 4 undefined on input line 65.
-
-
-LaTeX Warning: Citation 'einleitung' on page 4 undefined on input line 65.
-
 
 Underfull \hbox (badness 4416) in paragraph at lines 65--65
 [] []\TU/lmr/bx/n/10 : |\TU/lmr/m/n/10 In (a) ist die
@@ -1702,17 +1688,11 @@ Overfull \hbox (1.49266pt too wide) in paragraph at lines 76--85
 eldes. Es liegt ein homogener
  []
 
-<Plots/spezWaerme.png, id=101, 522.95375pt x 389.455pt>
+<Plots/spezWaerme.png, id=106, 522.95375pt x 389.455pt>
 File: Plots/spezWaerme.png Graphic file (type png)
 <use Plots/spezWaerme.png>
 Package luatex.def Info: Plots/spezWaerme.png  used on input line 94.
 (luatex.def)             Requested size: 230.04182pt x 171.31912pt.
-
-LaTeX Warning: Citation 'einleitung' on page 5 undefined on input line 95.
-
-
-LaTeX Warning: Citation 'einleitung' on page 5 undefined on input line 95.
-
 
 Underfull \hbox (badness 1087) in paragraph at lines 95--95
 [] \TU/lmr/bx/n/10 Abbildung 3: |\TU/lmr/m/n/10 Vergleich der Temperaturverläu
@@ -1725,7 +1705,7 @@ Overfull \hbox (21.2765pt too wide) in paragraph at lines 9--20
  []
 
 [6<./Plots/spezWaerme.png>]
-<Plots/aufbau_SL.jpg, id=120, 4047.12pt x 3035.34pt>
+<Plots/aufbau_SL.jpg, id=128, 4047.12pt x 3035.34pt>
 File: Plots/aufbau_SL.jpg Graphic file (type jpg)
 <use Plots/aufbau_SL.jpg>
 Package luatex.def Info: Plots/aufbau_SL.jpg  used on input line 45.
@@ -1753,12 +1733,12 @@ Overfull \hbox (2.63622pt too wide) in paragraph at lines 75--1
  []
 
 [8<./Plots/aufbau_SL.jpg>]
-<Auswertung/SL_1.jpg, id=140, 224.037pt x 207.8967pt>
+<Auswertung/SL_1.jpg, id=148, 224.037pt x 207.8967pt>
 File: Auswertung/SL_1.jpg Graphic file (type jpg)
 <use Auswertung/SL_1.jpg>
 Package luatex.def Info: Auswertung/SL_1.jpg  used on input line 18.
 (luatex.def)             Requested size: 188.21371pt x 174.6574pt.
-<Auswertung/SL_2.jpg, id=141, 2910.875pt x 2549.525pt>
+<Auswertung/SL_2.jpg, id=149, 2910.875pt x 2549.525pt>
 File: Auswertung/SL_2.jpg Graphic file (type jpg)
 <use Auswertung/SL_2.jpg>
 Package luatex.def Info: Auswertung/SL_2.jpg  used on input line 25.
@@ -1773,7 +1753,7 @@ Underfull \hbox (badness 3189) in paragraph at lines 27--27
 \TU/lmr/m/n/9 dem #M2 Permanentmagnet auf einem
  []
 
-<Auswertung/SL_3.jpg, id=146, 260.172pt x 241.3818pt>
+<Auswertung/SL_3.jpg, id=154, 260.172pt x 241.3818pt>
 File: Auswertung/SL_3.jpg Graphic file (type jpg)
 <use Auswertung/SL_3.jpg>
 Package luatex.def Info: Auswertung/SL_3.jpg  used on input line 48.
@@ -1783,7 +1763,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 51--51
 \TU/lmr/m/n/9 und einem Pinning-Stab auf einem
  []
 
-<Auswertung/SL_4.jpg, id=147, 259.6902pt x 241.3818pt>
+<Auswertung/SL_4.jpg, id=155, 259.6902pt x 241.3818pt>
 File: Auswertung/SL_4.jpg Graphic file (type jpg)
 <use Auswertung/SL_4.jpg>
 Package luatex.def Info: Auswertung/SL_4.jpg  used on input line 56.
@@ -1814,7 +1794,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 63.
 
-<Auswertung/T_krit_Si/T_krit.pdf, id=160, 462.528pt x 346.896pt>
+<Auswertung/T_krit_Si/T_krit.pdf, id=168, 462.528pt x 346.896pt>
 File: Auswertung/T_krit_Si/T_krit.pdf Graphic file (type pdf)
 <use Auswertung/T_krit_Si/T_krit.pdf>
 Package luatex.def Info: Auswertung/T_krit_Si/T_krit.pdf  used on input line 106
@@ -1834,20 +1814,20 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 131.
 
 [11<./Auswertung/T_krit_Si/T_krit.pdf>]
-<Auswertung/T_krit_Pt/R_T.pdf, id=202, 462.528pt x 346.896pt>
+<Auswertung/T_krit_Pt/R_T.pdf, id=210, 462.528pt x 346.896pt>
 File: Auswertung/T_krit_Pt/R_T.pdf Graphic file (type pdf)
 <use Auswertung/T_krit_Pt/R_T.pdf>
 Package luatex.def Info: Auswertung/T_krit_Pt/R_T.pdf  used on input line 197.
 (luatex.def)             Requested size: 334.60571pt x 250.96648pt.
  [12]
-<Auswertung/T_krit_Pt/R_T_10mm.pdf, id=219, 462.528pt x 346.896pt>
+<Auswertung/T_krit_Pt/R_T_10mm.pdf, id=227, 462.528pt x 346.896pt>
 File: Auswertung/T_krit_Pt/R_T_10mm.pdf Graphic file (type pdf)
 <use Auswertung/T_krit_Pt/R_T_10mm.pdf>
 Package luatex.def Info: Auswertung/T_krit_Pt/R_T_10mm.pdf  used on input line 2
 31.
 (luatex.def)             Requested size: 334.60571pt x 250.96648pt.
  [13<./Auswertung/T_krit_Pt/R_T.pdf>]
-<Auswertung/T_krit_Pt/R_T_16mm.pdf, id=258, 462.528pt x 346.896pt>
+<Auswertung/T_krit_Pt/R_T_16mm.pdf, id=266, 462.528pt x 346.896pt>
 File: Auswertung/T_krit_Pt/R_T_16mm.pdf Graphic file (type pdf)
 <use Auswertung/T_krit_Pt/R_T_16mm.pdf>
 Package luatex.def Info: Auswertung/T_krit_Pt/R_T_16mm.pdf  used on input line 2
@@ -1880,7 +1860,7 @@ unterschiedlichen Stromstärken
  []
 
 [15<./Auswertung/T_krit_Pt/R_T_16mm.pdf>]
-<Auswertung/I_krit_Pt/I_krit.pdf, id=336, 462.528pt x 346.896pt>
+<Auswertung/I_krit_Pt/I_krit.pdf, id=344, 462.528pt x 346.896pt>
 File: Auswertung/I_krit_Pt/I_krit.pdf Graphic file (type pdf)
 <use Auswertung/I_krit_Pt/I_krit.pdf>
 Package luatex.def Info: Auswertung/I_krit_Pt/I_krit.pdf  used on input line 339
@@ -1894,7 +1874,7 @@ mstärken
  []
 
 [17<./Auswertung/I_krit_Pt/I_krit.pdf>]
-<Auswertung/I_krit_Pt_b/I_krit.pdf, id=376, 462.528pt x 346.896pt>
+<Auswertung/I_krit_Pt_b/I_krit.pdf, id=384, 462.528pt x 346.896pt>
 File: Auswertung/I_krit_Pt_b/I_krit.pdf Graphic file (type pdf)
 <use Auswertung/I_krit_Pt_b/I_krit.pdf>
 Package luatex.def Info: Auswertung/I_krit_Pt_b/I_krit.pdf  used on input line 3
@@ -1954,48 +1934,48 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 4.
 
-<Auswertung/I_krit_Pt/R_T_0.2A.pdf, id=442, 462.528pt x 346.896pt>
+<Auswertung/I_krit_Pt/R_T_0.2A.pdf, id=450, 462.528pt x 346.896pt>
 File: Auswertung/I_krit_Pt/R_T_0.2A.pdf Graphic file (type pdf)
 <use Auswertung/I_krit_Pt/R_T_0.2A.pdf>
 Package luatex.def Info: Auswertung/I_krit_Pt/R_T_0.2A.pdf  used on input line 9
 .
 (luatex.def)             Requested size: 334.60571pt x 250.96648pt.
-<Auswertung/I_krit_Pt/R_T_0.4A.pdf, id=443, 462.528pt x 346.896pt>
+<Auswertung/I_krit_Pt/R_T_0.4A.pdf, id=451, 462.528pt x 346.896pt>
 File: Auswertung/I_krit_Pt/R_T_0.4A.pdf Graphic file (type pdf)
 <use Auswertung/I_krit_Pt/R_T_0.4A.pdf>
 Package luatex.def Info: Auswertung/I_krit_Pt/R_T_0.4A.pdf  used on input line 2
 2.
 (luatex.def)             Requested size: 334.60571pt x 250.96648pt.
 [21<./Auswertung/I_krit_Pt/R_T_0.2A.pdf>]
-<Auswertung/I_krit_Pt/R_T_0.6A.pdf, id=481, 462.528pt x 346.896pt>
+<Auswertung/I_krit_Pt/R_T_0.6A.pdf, id=488, 462.528pt x 346.896pt>
 File: Auswertung/I_krit_Pt/R_T_0.6A.pdf Graphic file (type pdf)
 <use Auswertung/I_krit_Pt/R_T_0.6A.pdf>
 Package luatex.def Info: Auswertung/I_krit_Pt/R_T_0.6A.pdf  used on input line 3
 5.
 (luatex.def)             Requested size: 334.60571pt x 250.96648pt.
  [22<./Auswertung/I_krit_Pt/R_T_0.4A.pdf>]
-<Auswertung/I_krit_Pt/R_T_0.8A.pdf, id=513, 462.528pt x 346.896pt>
+<Auswertung/I_krit_Pt/R_T_0.8A.pdf, id=520, 462.528pt x 346.896pt>
 File: Auswertung/I_krit_Pt/R_T_0.8A.pdf Graphic file (type pdf)
 <use Auswertung/I_krit_Pt/R_T_0.8A.pdf>
 Package luatex.def Info: Auswertung/I_krit_Pt/R_T_0.8A.pdf  used on input line 4
 8.
 (luatex.def)             Requested size: 334.60571pt x 250.96648pt.
  [23<./Auswertung/I_krit_Pt/R_T_0.6A.pdf>]
-<Auswertung/I_krit_Pt/R_T_1.0A.pdf, id=545, 462.528pt x 346.896pt>
+<Auswertung/I_krit_Pt/R_T_1.0A.pdf, id=552, 462.528pt x 346.896pt>
 File: Auswertung/I_krit_Pt/R_T_1.0A.pdf Graphic file (type pdf)
 <use Auswertung/I_krit_Pt/R_T_1.0A.pdf>
 Package luatex.def Info: Auswertung/I_krit_Pt/R_T_1.0A.pdf  used on input line 6
 1.
 (luatex.def)             Requested size: 334.60571pt x 250.96648pt.
  [24<./Auswertung/I_krit_Pt/R_T_0.8A.pdf>]
-<Auswertung/I_krit_Pt_b/R_T_0.6A.pdf, id=577, 462.528pt x 346.896pt>
+<Auswertung/I_krit_Pt_b/R_T_0.6A.pdf, id=584, 462.528pt x 346.896pt>
 File: Auswertung/I_krit_Pt_b/R_T_0.6A.pdf Graphic file (type pdf)
 <use Auswertung/I_krit_Pt_b/R_T_0.6A.pdf>
 Package luatex.def Info: Auswertung/I_krit_Pt_b/R_T_0.6A.pdf  used on input line
  74.
 (luatex.def)             Requested size: 334.60571pt x 250.96648pt.
  [25<./Auswertung/I_krit_Pt/R_T_1.0A.pdf>]
-<Auswertung/I_krit_Pt_b/R_T_0.8A.pdf, id=609, 462.528pt x 346.896pt>
+<Auswertung/I_krit_Pt_b/R_T_0.8A.pdf, id=616, 462.528pt x 346.896pt>
 File: Auswertung/I_krit_Pt_b/R_T_0.8A.pdf Graphic file (type pdf)
 <use Auswertung/I_krit_Pt_b/R_T_0.8A.pdf>
 Package luatex.def Info: Auswertung/I_krit_Pt_b/R_T_0.8A.pdf  used on input line
@@ -2046,13 +2026,20 @@ LaTeX Info: Redefining \ttfamily on input line 26.
 )
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 25.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 25.
-Package rerunfilecheck Info: File `main.aux' has not changed.
-(rerunfilecheck)             Checksum: CEF1EB09DBA27A0CDF1592EC6376D2B4;35669.
+
+
+Package rerunfilecheck Warning: File `main.aux' has changed. Rerun.
+
+Package rerunfilecheck Info: Checksums for `main.aux':
+(rerunfilecheck)             Before: CEF1EB09DBA27A0CDF1592EC6376D2B4;35669
+(rerunfilecheck)             After:  32124EA2E1044A4644CCEBBEFD1B3BEE;35651.
 Package rerunfilecheck Info: File `main.toc' has not changed.
 (rerunfilecheck)             Checksum: 0454E367B049BC060EEE6AE38C8208DE;2521.
 
-
 LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
 
 Package biblatex Warning: Please (re)run Biber on the file:
@@ -2072,7 +2059,7 @@ Here is how much of LuaTeX's memory you used:
 , 16 attribute_list, 1 write, 1 pdf_action nodes
    avail lists: 1:2,2:1400,3:236,4:53,5:431,6:46,7:6377,8:72,9:348,10:9,11:24
  52974 multiletter control sequences out of 65536+600000
- 277 fonts using 83157603 bytes
+ 277 fonts using 83156947 bytes
  62i,21n,111p,10117b,2278s stack positions out of 5000i,500n,10000p,200000b,100000s
 </usr/share/texmf/fonts/opentype/public/lm/lmmono10-regular.otf></usr/share/texm
 f/fonts/opentype/public/lm/lmromancaps10-regular.otf></usr/share/texmf/fonts/ope
@@ -2087,10 +2074,10 @@ gular.otf></usr/share/texmf/fonts/opentype/public/lm-math/latinmodern-math.otf><
 f/fonts/opentype/public/lm/lmroman12-regular.otf></usr/share/texmf/fonts/opentyp
 e/public/lm/lmsans10-bold.otf></usr/share/texmf/fonts/opentype/public/lm/lmroman
 12-bold.otf>
-Output written on main.pdf (27 pages, 9937141 bytes).
+Output written on main.pdf (27 pages, 9937196 bytes).
 
-PDF statistics: 836 PDF objects out of 1000 (max. 8388607)
- 646 compressed objects within 7 object streams
+PDF statistics: 843 PDF objects out of 1000 (max. 8388607)
+ 650 compressed objects within 7 object streams
  84 named destinations out of 1000 (max. 131072)
  169 words of extra memory for PDF output out of 10000 (max. 100000000)
 
