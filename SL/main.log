@@ -1,4 +1,4 @@
-This is LuaTeX, Version 1.10.0 (TeX Live 2019/Debian)  (format=lualatex 2020.10.8)  13 OCT 2020 16:18
+This is LuaTeX, Version 1.10.0 (TeX Live 2019/Debian)  (format=lualatex 2020.10.8)  20 OCT 2020 09:01
  restricted system commands enabled.
 **main.tex
 (./main.tex
@@ -1630,19 +1630,18 @@ LaTeX Warning: Citation 'einleitung' on page 3 undefined on input line 48.
 LaTeX Warning: Citation 'einleitung' on page 3 undefined on input line 48.
 
 
-Underfull \hbox (badness 3557) in paragraph at lines 48--48
-[] []\TU/lmr/bx/n/10 : |\TU/lmr/m/n/10 Dargestellt ist hier der
+Underfull \hbox (badness 10000) in paragraph at lines 48--48
+[] []\TU/lmr/bx/n/10 : |\TU/lmr/m/n/10 Dargestellt ist hier
  []
 
 
-Underfull \hbox (badness 2150) in paragraph at lines 48--48
-\TU/lmr/m/n/10 (NL) und (b) einem Supraleiter (SL).
+Underfull \hbox (badness 10000) in paragraph at lines 48--48
+\TU/lmr/m/n/10 der Unterschied zwischen (a) einem
  []
 
 
-Underfull \hbox (badness 2689) in paragraph at lines 48--48
-\TU/lmr/m/n/10 und nachdem $\TU/LatinModernMath(1)/m/n/10 𝐵[]$ \TU/lmr/m/n/1
-0 eingeschaltet wird.
+Underfull \hbox (badness 10000) in paragraph at lines 48--48
+\TU/lmr/m/n/10 Normalleiter (NL) und (b) einem
  []
 
 [3]
@@ -1674,38 +1673,54 @@ Underfull \hbox (badness 10000) in paragraph at lines 65--65
  []
 
 
-Underfull \hbox (badness 4492) in paragraph at lines 65--65
-\TU/lmr/m/n/10 des externen Magnetfelds zu
+Underfull \hbox (badness 1033) in paragraph at lines 65--65
+\TU/lmr/m/n/10 dargestellt und in (b) ist die
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 65--65
-\TU/lmr/m/n/10 sehen. Hier bei bezeichnet
+\TU/lmr/m/n/10 als Funktion des externen
  []
 
 
-Underfull \hbox (badness 1314) in paragraph at lines 65--65
-\TU/LatinModernMath(1)/m/n/10 𝐵[]$ \TU/lmr/m/n/10 das kritische Magnetfeld.
+Underfull \hbox (badness 10000) in paragraph at lines 65--65
+\TU/lmr/m/n/10 Magnetfelds zu sehen. Hier
+ []
+
+
+Underfull \hbox (badness 3343) in paragraph at lines 65--65
+\TU/lmr/m/n/10 bezeichnet $\TU/LatinModernMath(1)/m/n/10 𝐵[]$ \TU/lmr/m/n/10
+ das kritische
  []
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [4<./Plots/MO_Effekt.png>]
+Overfull \hbox (1.49266pt too wide) in paragraph at lines 76--85
+\TU/lmr/m/n/10.95 Ochsenfeld-Effekts eine vollständige Abschirmung des Magnetf
+eldes. Es liegt ein homogener
+ []
+
 <Plots/spezWaerme.png, id=101, 522.95375pt x 389.455pt>
 File: Plots/spezWaerme.png Graphic file (type png)
 <use Plots/spezWaerme.png>
 Package luatex.def Info: Plots/spezWaerme.png  used on input line 94.
 (luatex.def)             Requested size: 230.04182pt x 171.31912pt.
 
-
 LaTeX Warning: Citation 'einleitung' on page 5 undefined on input line 95.
 
 
 LaTeX Warning: Citation 'einleitung' on page 5 undefined on input line 95.
+
+
+Underfull \hbox (badness 1087) in paragraph at lines 95--95
+[] \TU/lmr/bx/n/10 Abbildung 3: |\TU/lmr/m/n/10 Vergleich der Temperaturverläu
+fe der spezifischen Wärme von
+ []
 
 ) (./content/durchfuehrung.tex [5<./Plots/kritischesBFeld.png>]
-Overfull \hbox (22.39014pt too wide) in paragraph at lines 9--20
+Overfull \hbox (21.2765pt too wide) in paragraph at lines 9--20
  [][] 
  []
 
@@ -1730,7 +1745,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 69--73
 
  []
 
-) (./content/auswertung.tex [8<./Plots/aufbau_SL.jpg>]
+) (./content/auswertung.tex
+Overfull \hbox (2.63622pt too wide) in paragraph at lines 75--1
+[]\TU/lmr/m/n/10.95 Als letztes wird der induzierte Strom $\TU/LatinModernMath(
+1)/m/n/10.95 𝐼[]$ \TU/lmr/m/n/10.95 an dem supraleitenden Ring SL #4 abgesch
+ätzt.
+ []
+
+[8<./Plots/aufbau_SL.jpg>]
 <Auswertung/SL_1.jpg, id=140, 224.037pt x 207.8967pt>
 File: Auswertung/SL_1.jpg Graphic file (type jpg)
 <use Auswertung/SL_1.jpg>
@@ -2025,9 +2047,9 @@ LaTeX Info: Redefining \ttfamily on input line 26.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 25.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 25.
 Package rerunfilecheck Info: File `main.aux' has not changed.
-(rerunfilecheck)             Checksum: 249AF179AEBD18D04B049A775F8262FC;35738.
+(rerunfilecheck)             Checksum: CEF1EB09DBA27A0CDF1592EC6376D2B4;35669.
 Package rerunfilecheck Info: File `main.toc' has not changed.
-(rerunfilecheck)             Checksum: DFF9925E28D2B41B4FF1ECD652880BE2;2522.
+(rerunfilecheck)             Checksum: 0454E367B049BC060EEE6AE38C8208DE;2521.
 
 
 LaTeX Warning: There were undefined references.
@@ -2048,9 +2070,9 @@ Here is how much of LuaTeX's memory you used:
  764 words of node memory still in use:
    7 hlist, 2 vlist, 2 rule, 2 glue, 4 kern, 1 glyph, 16 attribute, 97 glue_spec
 , 16 attribute_list, 1 write, 1 pdf_action nodes
-   avail lists: 1:2,2:1400,3:236,4:55,5:431,6:46,7:6377,8:72,9:348,10:9,11:27
+   avail lists: 1:2,2:1400,3:236,4:53,5:431,6:46,7:6377,8:72,9:348,10:9,11:24
  52974 multiletter control sequences out of 65536+600000
- 277 fonts using 83157275 bytes
+ 277 fonts using 83157603 bytes
  62i,21n,111p,10117b,2278s stack positions out of 5000i,500n,10000p,200000b,100000s
 </usr/share/texmf/fonts/opentype/public/lm/lmmono10-regular.otf></usr/share/texm
 f/fonts/opentype/public/lm/lmromancaps10-regular.otf></usr/share/texmf/fonts/ope
@@ -2065,7 +2087,7 @@ gular.otf></usr/share/texmf/fonts/opentype/public/lm-math/latinmodern-math.otf><
 f/fonts/opentype/public/lm/lmroman12-regular.otf></usr/share/texmf/fonts/opentyp
 e/public/lm/lmsans10-bold.otf></usr/share/texmf/fonts/opentype/public/lm/lmroman
 12-bold.otf>
-Output written on main.pdf (27 pages, 9937372 bytes).
+Output written on main.pdf (27 pages, 9937141 bytes).
 
 PDF statistics: 836 PDF objects out of 1000 (max. 8388607)
  646 compressed objects within 7 object streams
