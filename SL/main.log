@@ -1,4 +1,4 @@
-This is LuaTeX, Version 1.10.0 (TeX Live 2019/Debian)  (format=lualatex 2020.10.8)  20 OCT 2020 09:07
+This is LuaTeX, Version 1.10.0 (TeX Live 2019/Debian)  (format=lualatex 2020.10.8)  22 OCT 2020 15:53
  restricted system commands enabled.
 **main.tex
 (./main.tex
@@ -1612,78 +1612,74 @@ LaTeX Info: Redefining \ttfamily on input line 2.
  [2
 
 ]
-(./content/ziel.tex) (./content/theorie.tex
-<Plots/MO_Effekt.png, id=78, 808.01875pt x 603.25375pt>
+(./content/ziel.tex) (./content/theorie.tex [3]
+<Plots/MO_Effekt.png, id=84, 808.01875pt x 603.25375pt>
 File: Plots/MO_Effekt.png Graphic file (type png)
 <use Plots/MO_Effekt.png>
-Package luatex.def Info: Plots/MO_Effekt.png  used on input line 45.
+Package luatex.def Info: Plots/MO_Effekt.png  used on input line 47.
 (luatex.def)             Requested size: 209.12778pt x 156.12428pt.
 LaTeX Font Info:    Font shape `TU/LatinModernMath(2)/m/n' will be
-(Font)              scaled to size 5.00053pt on input line 48.
+(Font)              scaled to size 5.00053pt on input line 50.
 LaTeX Font Info:    Font shape `TU/LatinModernMath(3)/m/n' will be
-(Font)              scaled to size 4.99947pt on input line 48.
+(Font)              scaled to size 4.99947pt on input line 50.
 
-Underfull \hbox (badness 10000) in paragraph at lines 48--48
+Underfull \hbox (badness 10000) in paragraph at lines 50--50
 [] []\TU/lmr/bx/n/10 : |\TU/lmr/m/n/10 Dargestellt ist hier
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 48--48
+Underfull \hbox (badness 10000) in paragraph at lines 50--50
 \TU/lmr/m/n/10 der Unterschied zwischen (a) einem
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 48--48
+Underfull \hbox (badness 10000) in paragraph at lines 50--50
 \TU/lmr/m/n/10 Normalleiter (NL) und (b) einem
  []
 
-[3]
 <Plots/kritischesBFeld.png, id=89, 459.7175pt x 718.685pt>
 File: Plots/kritischesBFeld.png Graphic file (type png)
 <use Plots/kritischesBFeld.png>
-Package luatex.def Info: Plots/kritischesBFeld.png  used on input line 62.
+Package luatex.def Info: Plots/kritischesBFeld.png  used on input line 64.
 (luatex.def)             Requested size: 146.39198pt x 228.85437pt.
 
-Underfull \hbox (badness 4416) in paragraph at lines 65--65
+Underfull \hbox (badness 4416) in paragraph at lines 67--67
 [] []\TU/lmr/bx/n/10 : |\TU/lmr/m/n/10 In (a) ist die
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 65--65
+Underfull \hbox (badness 10000) in paragraph at lines 67--67
 \TU/lmr/m/n/10 magnetische Flussdichte im
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 65--65
+Underfull \hbox (badness 10000) in paragraph at lines 67--67
 \TU/lmr/m/n/10 Inneren eines Supraleiters
  []
 
 
-Underfull \hbox (badness 1033) in paragraph at lines 65--65
+Underfull \hbox (badness 1033) in paragraph at lines 67--67
 \TU/lmr/m/n/10 dargestellt und in (b) ist die
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 65--65
+Underfull \hbox (badness 10000) in paragraph at lines 67--67
 \TU/lmr/m/n/10 als Funktion des externen
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 65--65
+Underfull \hbox (badness 10000) in paragraph at lines 67--67
 \TU/lmr/m/n/10 Magnetfelds zu sehen. Hier
  []
 
 
-Underfull \hbox (badness 3343) in paragraph at lines 65--65
+Underfull \hbox (badness 3343) in paragraph at lines 67--67
 \TU/lmr/m/n/10 bezeichnet $\TU/LatinModernMath(1)/m/n/10 𝐵[]$ \TU/lmr/m/n/10
  das kritische
  []
 
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
 [4<./Plots/MO_Effekt.png>]
-Overfull \hbox (1.49266pt too wide) in paragraph at lines 76--85
+Overfull \hbox (1.49266pt too wide) in paragraph at lines 78--87
 \TU/lmr/m/n/10.95 Ochsenfeld-Effekts eine vollständige Abschirmung des Magnetf
 eldes. Es liegt ein homogener
  []
@@ -1691,15 +1687,15 @@ eldes. Es liegt ein homogener
 <Plots/spezWaerme.png, id=106, 522.95375pt x 389.455pt>
 File: Plots/spezWaerme.png Graphic file (type png)
 <use Plots/spezWaerme.png>
-Package luatex.def Info: Plots/spezWaerme.png  used on input line 94.
+Package luatex.def Info: Plots/spezWaerme.png  used on input line 96.
 (luatex.def)             Requested size: 230.04182pt x 171.31912pt.
 
-Underfull \hbox (badness 1087) in paragraph at lines 95--95
+Underfull \hbox (badness 1087) in paragraph at lines 97--97
 [] \TU/lmr/bx/n/10 Abbildung 3: |\TU/lmr/m/n/10 Vergleich der Temperaturverläu
 fe der spezifischen Wärme von
  []
 
-) (./content/durchfuehrung.tex [5<./Plots/kritischesBFeld.png>]
+[5<./Plots/kritischesBFeld.png>]) (./content/durchfuehrung.tex
 Overfull \hbox (21.2765pt too wide) in paragraph at lines 9--20
  [][] 
  []
@@ -2031,20 +2027,12 @@ Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 25.
 Package rerunfilecheck Warning: File `main.aux' has changed. Rerun.
 
 Package rerunfilecheck Info: Checksums for `main.aux':
-(rerunfilecheck)             Before: CEF1EB09DBA27A0CDF1592EC6376D2B4;35669
-(rerunfilecheck)             After:  32124EA2E1044A4644CCEBBEFD1B3BEE;35651.
+(rerunfilecheck)             Before: CC0FC993F8847324D8F7BEC500BC5CFD;35651
+(rerunfilecheck)             After:  346DFEA86ED90BD8051976D32A0FDACD;35651.
 Package rerunfilecheck Info: File `main.toc' has not changed.
 (rerunfilecheck)             Checksum: 0454E367B049BC060EEE6AE38C8208DE;2521.
 
-LaTeX Warning: There were undefined references.
-
-
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-
-Package biblatex Warning: Please (re)run Biber on the file:
-(biblatex)                main
-(biblatex)                and rerun LaTeX afterwards.
 
 Package logreq Info: Writing requests to 'main.run.xml'.
 
@@ -2057,9 +2045,9 @@ Here is how much of LuaTeX's memory you used:
  764 words of node memory still in use:
    7 hlist, 2 vlist, 2 rule, 2 glue, 4 kern, 1 glyph, 16 attribute, 97 glue_spec
 , 16 attribute_list, 1 write, 1 pdf_action nodes
-   avail lists: 1:2,2:1400,3:236,4:53,5:431,6:46,7:6377,8:72,9:348,10:9,11:24
+   avail lists: 1:2,2:1400,3:236,4:47,5:431,6:46,7:6377,8:72,9:348,10:9,11:25
  52974 multiletter control sequences out of 65536+600000
- 277 fonts using 83156947 bytes
+ 277 fonts using 83157275 bytes
  62i,21n,111p,10117b,2278s stack positions out of 5000i,500n,10000p,200000b,100000s
 </usr/share/texmf/fonts/opentype/public/lm/lmmono10-regular.otf></usr/share/texm
 f/fonts/opentype/public/lm/lmromancaps10-regular.otf></usr/share/texmf/fonts/ope
@@ -2074,7 +2062,7 @@ gular.otf></usr/share/texmf/fonts/opentype/public/lm-math/latinmodern-math.otf><
 f/fonts/opentype/public/lm/lmroman12-regular.otf></usr/share/texmf/fonts/opentyp
 e/public/lm/lmsans10-bold.otf></usr/share/texmf/fonts/opentype/public/lm/lmroman
 12-bold.otf>
-Output written on main.pdf (27 pages, 9937196 bytes).
+Output written on main.pdf (27 pages, 9937464 bytes).
 
 PDF statistics: 843 PDF objects out of 1000 (max. 8388607)
  650 compressed objects within 7 object streams
