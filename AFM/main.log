@@ -1,4 +1,4 @@
-This is LuaTeX, Version 1.10.0 (TeX Live 2019/Debian)  (format=lualatex 2020.10.8)  25 NOV 2020 17:37
+This is LuaTeX, Version 1.10.0 (TeX Live 2019/Debian)  (format=lualatex 2020.10.8)  25 NOV 2020 18:04
  restricted system commands enabled.
 **main.tex
 (./main.tex
@@ -1666,7 +1666,7 @@ LaTeX Info: Redefining \ttfamily on input line 2.
 
 ]
 (./content/ziel.tex) (./content/theorie.tex
-<Abb/AFM.png, id=60, 704.6325pt x 443.6575pt>
+<Abb/AFM.png, id=62, 704.6325pt x 443.6575pt>
 File: Abb/AFM.png Graphic file (type png)
 <use Abb/AFM.png>
 Package luatex.def Info: Abb/AFM.png  used on input line 14.
@@ -1679,12 +1679,12 @@ put line 20
 [3<./Abb/AFM.png>]
 Module polyglossia Warning: Language ngerman not found in language.dat.lua on in
 put line 41
-<Abb/typ1.png, id=82, 222.8325pt x 133.49875pt>
+<Abb/typ1.png, id=84, 222.8325pt x 133.49875pt>
 File: Abb/typ1.png Graphic file (type png)
 <use Abb/typ1.png>
 Package luatex.def Info: Abb/typ1.png  used on input line 59.
 (luatex.def)             Requested size: 100.38362pt x 60.13905pt.
-<Abb/typ2.png, id=83, 195.73125pt x 136.51pt>
+<Abb/typ2.png, id=85, 195.73125pt x 136.51pt>
 File: Abb/typ2.png Graphic file (type png)
 <use Abb/typ2.png>
 Package luatex.def Info: Abb/typ2.png  used on input line 65.
@@ -1699,7 +1699,7 @@ Overfull \hbox (0.63739pt too wide) in paragraph at lines 66--66
 |\TU/lmr/m/n/9 Interferometrieprinzip| 
  []
 
-<Abb/typ3.png, id=84, 196.735pt x 134.5025pt>
+<Abb/typ3.png, id=86, 196.735pt x 134.5025pt>
 File: Abb/typ3.png Graphic file (type png)
 <use Abb/typ3.png>
 Package luatex.def Info: Abb/typ3.png  used on input line 71.
@@ -1709,7 +1709,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 72--72
 [] \TU/lmr/bx/n/9 (c) |\TU/lmr/m/n/9 Piezoresistiver
  []
 
-<Abb/typ4.png, id=85, 200.75pt x 135.50626pt>
+<Abb/typ4.png, id=87, 200.75pt x 135.50626pt>
 File: Abb/typ4.png Graphic file (type png)
 <use Abb/typ4.png>
 Package luatex.def Info: Abb/typ4.png  used on input line 77.
@@ -1732,7 +1732,7 @@ Signal-zu-Rauschen-Verhältnis.
 [4<./Abb/typ1.png><./Abb/typ2.png><./Abb/typ3.png><./Abb/typ4.png>]
 Module polyglossia Warning: Language ngerman not found in language.dat.lua on in
 put line 130
-<Abb/LJ.png, id=110, 218.8175pt x 245.41687pt>
+<Abb/LJ.png, id=112, 218.8175pt x 245.41687pt>
 File: Abb/LJ.png Graphic file (type png)
 <use Abb/LJ.png>
 Package luatex.def Info: Abb/LJ.png  used on input line 168.
@@ -1742,7 +1742,7 @@ put line 171
 Module polyglossia Warning: Language ngerman not found in language.dat.lua on in
 put line 171
 [5]
-<Abb/const-force.png, id=124, 372.89313pt x 132.495pt>
+<Abb/const-force.png, id=126, 372.89313pt x 132.495pt>
 File: Abb/const-force.png Graphic file (type png)
 <use Abb/const-force.png>
 Package luatex.def Info: Abb/const-force.png  used on input line 199.
@@ -1753,7 +1753,7 @@ put line 201
 Module polyglossia Warning: Language ngerman not found in language.dat.lua on in
 put line 201
 [6<./Abb/LJ.png>]
-<Abb/Kraft-Abstands-Kurve.png, id=138, 278.54062pt x 208.27812pt>
+<Abb/Kraft-Abstands-Kurve.png, id=140, 278.54062pt x 208.27812pt>
 File: Abb/Kraft-Abstands-Kurve.png Graphic file (type png)
 <use Abb/Kraft-Abstands-Kurve.png>
 Package luatex.def Info: Abb/Kraft-Abstands-Kurve.png  used on input line 235.
@@ -1764,7 +1764,7 @@ put line 241
 Module polyglossia Warning: Language ngerman not found in language.dat.lua on in
 put line 241
 ) (./content/durchfuehrung.tex [7<./Abb/const-force.png>]
-<Abb/Aufbau.png, id=150, 872.25874pt x 565.11125pt>
+<Abb/Aufbau.png, id=152, 872.25874pt x 565.11125pt>
 File: Abb/Aufbau.png Graphic file (type png)
 <use Abb/Aufbau.png>
 Package luatex.def Info: Abb/Aufbau.png  used on input line 19.
@@ -1775,7 +1775,7 @@ put line 20
 Module polyglossia Warning: Language ngerman not found in language.dat.lua on in
 put line 20
 [8<./Abb/Kraft-Abstands-Kurve.png>] [9<./Abb/Aufbau.png>]
-<Abb/butterfly.png, id=170, 705.63625pt x 484.81125pt>
+<Abb/butterfly.png, id=172, 705.63625pt x 484.81125pt>
 File: Abb/butterfly.png Graphic file (type png)
 <use Abb/butterfly.png>
 Package luatex.def Info: Abb/butterfly.png  used on input line 64.
@@ -1785,7 +1785,7 @@ Module polyglossia Warning: Language ngerman not found in language.dat.lua on in
 put line 70
 Module polyglossia Warning: Language ngerman not found in language.dat.lua on in
 put line 70
-<Abb/MSP.png, id=174, 342.27875pt x 340.27126pt>
+<Abb/MSP.png, id=176, 342.27875pt x 340.27126pt>
 File: Abb/MSP.png Graphic file (type png)
 <use Abb/MSP.png>
 Package luatex.def Info: Abb/MSP.png  used on input line 91.
@@ -1795,13 +1795,13 @@ put line 94
 Module polyglossia Warning: Language ngerman not found in language.dat.lua on in
 put line 94
 [10<./Abb/butterfly.png>]) (./content/auswertung.tex
-<AFM_auswertung/Kreis_durch_vor.png, id=187, 1069.9975pt x 902.37125pt>
+<AFM_auswertung/Kreis_durch_vor.png, id=189, 1069.9975pt x 902.37125pt>
 File: AFM_auswertung/Kreis_durch_vor.png Graphic file (type png)
 <use AFM_auswertung/Kreis_durch_vor.png>
 Package luatex.def Info: AFM_auswertung/Kreis_durch_vor.png  used on input line 
 12.
 (luatex.def)             Requested size: 188.21371pt x 158.71594pt.
-<AFM_auswertung/Kreis_abs_vor.png, id=188, 1068.99374pt x 902.37125pt>
+<AFM_auswertung/Kreis_abs_vor.png, id=190, 1068.99374pt x 902.37125pt>
 File: AFM_auswertung/Kreis_abs_vor.png Graphic file (type png)
 <use AFM_auswertung/Kreis_abs_vor.png>
 Package luatex.def Info: AFM_auswertung/Kreis_abs_vor.png  used on input line 18
@@ -1820,25 +1820,25 @@ Overfull \hbox (7.00203pt too wide) in paragraph at lines 4--24
  []
 
 [11<./Abb/MSP.png>]
-<AFM_auswertung/quad_durch_vor.png, id=197, 952.55875pt x 824.07875pt>
+<AFM_auswertung/quad_durch_vor.png, id=199, 952.55875pt x 824.07875pt>
 File: AFM_auswertung/quad_durch_vor.png Graphic file (type png)
 <use AFM_auswertung/quad_durch_vor.png>
 Package luatex.def Info: AFM_auswertung/quad_durch_vor.png  used on input line 2
 8.
 (luatex.def)             Requested size: 188.21371pt x 162.82607pt.
-<AFM_auswertung/quad_abb_vor.png, id=198, 948.54375pt x 824.07875pt>
+<AFM_auswertung/quad_abb_vor.png, id=200, 948.54375pt x 824.07875pt>
 File: AFM_auswertung/quad_abb_vor.png Graphic file (type png)
 <use AFM_auswertung/quad_abb_vor.png>
 Package luatex.def Info: AFM_auswertung/quad_abb_vor.png  used on input line 34.
 
 (luatex.def)             Requested size: 188.21371pt x 163.51765pt.
-<AFM_auswertung/streif_durch_vor.png, id=199, 954.56625pt x 824.07875pt>
+<AFM_auswertung/streif_durch_vor.png, id=201, 954.56625pt x 824.07875pt>
 File: AFM_auswertung/streif_durch_vor.png Graphic file (type png)
 <use AFM_auswertung/streif_durch_vor.png>
 Package luatex.def Info: AFM_auswertung/streif_durch_vor.png  used on input line
  45.
 (luatex.def)             Requested size: 188.21371pt x 162.47398pt.
-<AFM_auswertung/streif_abb_vor.png, id=200, 955.57pt x 824.07875pt>
+<AFM_auswertung/streif_abb_vor.png, id=202, 955.57pt x 824.07875pt>
 File: AFM_auswertung/streif_abb_vor.png Graphic file (type png)
 <use AFM_auswertung/streif_abb_vor.png>
 Package luatex.def Info: AFM_auswertung/streif_abb_vor.png  used on input line 5
@@ -1846,7 +1846,7 @@ Package luatex.def Info: AFM_auswertung/streif_abb_vor.png  used on input line 5
 (luatex.def)             Requested size: 188.21371pt x 162.31052pt.
  [12<./AFM_auswertung/Kreis_durch_vor.png><./AFM_auswertung/Kreis_abs_vor.png><.
 /AFM_auswertung/quad_durch_vor.png><./AFM_auswertung/quad_abb_vor.png>]
-<AFM_auswertung/cd_3D.png, id=217, 1079.03125pt x 788.9475pt>
+<AFM_auswertung/cd_3D.png, id=219, 1079.03125pt x 788.9475pt>
 File: AFM_auswertung/cd_3D.png Graphic file (type png)
 <use AFM_auswertung/cd_3D.png>
 Package luatex.def Info: AFM_auswertung/cd_3D.png  used on input line 89.
@@ -1859,12 +1859,12 @@ LaTeX Font Info:    Font shape `TU/LatinModernMath(3)/m/n' will be
 (Font)              scaled to size 8.99904pt on input line 90.
 LaTeX Font Info:    Font shape `TU/LatinModernMath(3)/m/n' will be
 (Font)              scaled to size 5.99936pt on input line 90.
-<AFM_auswertung/dvd_3d.png, id=218, 1155.31625pt x 797.98125pt>
+<AFM_auswertung/dvd_3d.png, id=220, 1155.31625pt x 797.98125pt>
 File: AFM_auswertung/dvd_3d.png Graphic file (type png)
 <use AFM_auswertung/dvd_3d.png>
 Package luatex.def Info: AFM_auswertung/dvd_3d.png  used on input line 95.
 (luatex.def)             Requested size: 209.12778pt x 144.43405pt.
-<AFM_auswertung/bluray_3d.png, id=219, 1154.3125pt x 824.07875pt>
+<AFM_auswertung/bluray_3d.png, id=221, 1154.3125pt x 824.07875pt>
 File: AFM_auswertung/bluray_3d.png Graphic file (type png)
 <use AFM_auswertung/bluray_3d.png>
 Package luatex.def Info: AFM_auswertung/bluray_3d.png  used on input line 101.
@@ -1876,7 +1876,7 @@ nterschiedlichen Speichermedien,
  []
 
 [13<./AFM_auswertung/streif_durch_vor.png><./AFM_auswertung/streif_abb_vor.png>]
-<AFM_auswertung/cd_breite.png, id=233, 946.53625pt x 829.0975pt>
+<AFM_auswertung/cd_breite.png, id=235, 946.53625pt x 829.0975pt>
 File: AFM_auswertung/cd_breite.png Graphic file (type png)
 <use AFM_auswertung/cd_breite.png>
 Package luatex.def Info: AFM_auswertung/cd_breite.png  used on input line 115.
@@ -1896,7 +1896,7 @@ Underfull \hbox (badness 4416) in paragraph at lines 118--118
 \TU/lmr/m/n/10 auch mehrfach vermessen und Pits, bei
  []
 
-<AFM_auswertung/cd_abstand.png, id=234, 945.5325pt x 828.09375pt>
+<AFM_auswertung/cd_abstand.png, id=236, 945.5325pt x 828.09375pt>
 File: AFM_auswertung/cd_abstand.png Graphic file (type png)
 <use AFM_auswertung/cd_abstand.png>
 Package luatex.def Info: AFM_auswertung/cd_abstand.png  used on input line 122.
@@ -1906,17 +1906,17 @@ Underfull \hbox (badness 1062) in paragraph at lines 125--125
 [] []\TU/lmr/bx/n/10 : |\TU/lmr/m/n/10 Der Abstand zwischen den
  []
 
-<AFM_auswertung/cd_Lmin.png, id=235, 949.5475pt x 826.08624pt>
+<AFM_auswertung/cd_Lmin.png, id=237, 949.5475pt x 826.08624pt>
 File: AFM_auswertung/cd_Lmin.png Graphic file (type png)
 <use AFM_auswertung/cd_Lmin.png>
 Package luatex.def Info: AFM_auswertung/cd_Lmin.png  used on input line 129.
 (luatex.def)             Requested size: 209.12778pt x 181.9286pt.
-<AFM_auswertung/cd_Lmax.png, id=236, 941.5175pt x 827.09pt>
+<AFM_auswertung/cd_Lmax.png, id=238, 941.5175pt x 827.09pt>
 File: AFM_auswertung/cd_Lmax.png Graphic file (type png)
 <use AFM_auswertung/cd_Lmax.png>
 Package luatex.def Info: AFM_auswertung/cd_Lmax.png  used on input line 136.
 (luatex.def)             Requested size: 209.12778pt x 183.70197pt.
-<AFM_auswertung/cd_tiefe.png, id=237, 948.54375pt x 823.075pt>
+<AFM_auswertung/cd_tiefe.png, id=239, 948.54375pt x 823.075pt>
 File: AFM_auswertung/cd_tiefe.png Graphic file (type png)
 <use AFM_auswertung/cd_tiefe.png>
 Package luatex.def Info: AFM_auswertung/cd_tiefe.png  used on input line 146.
@@ -1926,7 +1926,7 @@ Overfull \hbox (41.30852pt too wide) in paragraph at lines 146--147
 [][] 
  []
 
-<AFM_auswertung/cd_tiefe_grafik.png, id=238, 585.18625pt x 894.34125pt>
+<AFM_auswertung/cd_tiefe_grafik.png, id=240, 585.18625pt x 894.34125pt>
 File: AFM_auswertung/cd_tiefe_grafik.png Graphic file (type png)
 <use AFM_auswertung/cd_tiefe_grafik.png>
 Package luatex.def Info: AFM_auswertung/cd_tiefe_grafik.png  used on input line 
@@ -1934,7 +1934,7 @@ Package luatex.def Info: AFM_auswertung/cd_tiefe_grafik.png  used on input line
 (luatex.def)             Requested size: 186.17406pt x 284.52756pt.
 [14<./AFM_auswertung/cd_3D.png><./AFM_auswertung/dvd_3d.png><./AFM_auswertung/bl
 uray_3d.png>]
-<AFM_auswertung/dvd_tiefe.png, id=246, 1022.82124pt x 918.43124pt>
+<AFM_auswertung/dvd_tiefe.png, id=248, 1022.82124pt x 918.43124pt>
 File: AFM_auswertung/dvd_tiefe.png Graphic file (type png)
 <use AFM_auswertung/dvd_tiefe.png>
 Package luatex.def Info: AFM_auswertung/dvd_tiefe.png  used on input line 162.
@@ -1944,7 +1944,7 @@ Overfull \hbox (33.5926pt too wide) in paragraph at lines 162--163
 [][] 
  []
 
-<AFM_auswertung/dvd_tiefe_grafik.png, id=247, 568.1225pt x 897.3525pt>
+<AFM_auswertung/dvd_tiefe_grafik.png, id=249, 568.1225pt x 897.3525pt>
 File: AFM_auswertung/dvd_tiefe_grafik.png Graphic file (type png)
 <use AFM_auswertung/dvd_tiefe_grafik.png>
 Package luatex.def Info: AFM_auswertung/dvd_tiefe_grafik.png  used on input line
@@ -1952,7 +1952,7 @@ Package luatex.def Info: AFM_auswertung/dvd_tiefe_grafik.png  used on input line
 (luatex.def)             Requested size: 180.12982pt x 284.52756pt.
 [15<./AFM_auswertung/cd_breite.png><./AFM_auswertung/cd_abstand.png>] [16<./AFM_
 auswertung/cd_Lmin.png><./AFM_auswertung/cd_Lmax.png>]
-<AFM_auswertung/bluray_tiefe.png, id=269, 1006.76125pt x 878.28125pt>
+<AFM_auswertung/bluray_tiefe.png, id=271, 1006.76125pt x 878.28125pt>
 File: AFM_auswertung/bluray_tiefe.png Graphic file (type png)
 <use AFM_auswertung/bluray_tiefe.png>
 Package luatex.def Info: AFM_auswertung/bluray_tiefe.png  used on input line 178
@@ -1963,7 +1963,7 @@ Overfull \hbox (40.07977pt too wide) in paragraph at lines 178--179
 [][] 
  []
 
-<AFM_auswertung/bluray_tiefe_grafik.png, id=270, 539.01375pt x 895.345pt>
+<AFM_auswertung/bluray_tiefe_grafik.png, id=272, 539.01375pt x 895.345pt>
 File: AFM_auswertung/bluray_tiefe_grafik.png Graphic file (type png)
 <use AFM_auswertung/bluray_tiefe_grafik.png>
 Package luatex.def Info: AFM_auswertung/bluray_tiefe_grafik.png  used on input l
@@ -1973,37 +1973,37 @@ ine 183.
 [18<./AFM_auswertung/dvd_tiefe.png><./AFM_auswertung/dvd_tiefe_grafik.png>]
 [19<./AFM_auswertung/bluray_tiefe.png><./AFM_auswertung/bluray_tiefe_grafik.png>
 ]
-<AFM_auswertung/edelstahl_pfeile.png, id=301, 637.38126pt x 555.07375pt>
+<AFM_auswertung/edelstahl_pfeile.png, id=303, 637.38126pt x 555.07375pt>
 File: AFM_auswertung/edelstahl_pfeile.png Graphic file (type png)
 <use AFM_auswertung/edelstahl_pfeile.png>
 Package luatex.def Info: AFM_auswertung/edelstahl_pfeile.png  used on input line
- 232.
+ 233.
 (luatex.def)             Requested size: 188.21371pt x 163.90625pt.
-<AFM_auswertung/teflon_kurve.png, id=303, 526.21594pt x 460.72125pt>
+<AFM_auswertung/teflon_kurve.png, id=305, 526.21594pt x 460.72125pt>
 File: AFM_auswertung/teflon_kurve.png Graphic file (type png)
 <use AFM_auswertung/teflon_kurve.png>
-Package luatex.def Info: AFM_auswertung/teflon_kurve.png  used on input line 241
+Package luatex.def Info: AFM_auswertung/teflon_kurve.png  used on input line 242
 .
 (luatex.def)             Requested size: 188.21371pt x 164.79095pt.
-<AFM_auswertung/TiN_kurve.png, id=304, 526.21594pt x 460.72125pt>
+<AFM_auswertung/TiN_kurve.png, id=306, 526.21594pt x 460.72125pt>
 File: AFM_auswertung/TiN_kurve.png Graphic file (type png)
 <use AFM_auswertung/TiN_kurve.png>
-Package luatex.def Info: AFM_auswertung/TiN_kurve.png  used on input line 247.
+Package luatex.def Info: AFM_auswertung/TiN_kurve.png  used on input line 248.
 (luatex.def)             Requested size: 188.21371pt x 164.79095pt.
  [20<./AFM_auswertung/edelstahl_pfeile.png>]
-Underfull \hbox (badness 1152) in paragraph at lines 270--270
+Underfull \hbox (badness 1152) in paragraph at lines 271--271
 [] \TU/lmr/bx/n/10 Tabelle 4: |\TU/lmr/m/n/10 Ermittelte und berechnete Daten z
 ur Bestimmund der maximale
  []
 
-<AFM_auswertung/elastizitaet.png, id=317, 2844.6275pt x 2132.96875pt>
+<AFM_auswertung/elastizitaet.png, id=319, 2844.6275pt x 2132.96875pt>
 File: AFM_auswertung/elastizitaet.png Graphic file (type png)
 <use AFM_auswertung/elastizitaet.png>
-Package luatex.def Info: AFM_auswertung/elastizitaet.png  used on input line 290
+Package luatex.def Info: AFM_auswertung/elastizitaet.png  used on input line 291
 .
 (luatex.def)             Requested size: 188.21371pt x 141.12137pt.
 
-Overfull \hbox (8.49992pt too wide) in paragraph at lines 265--295
+Overfull \hbox (8.49992pt too wide) in paragraph at lines 266--296
 \TU/lmr/m/n/10.95 entspricht. Mittels der Daten aus Abbildung []12[] und Gleich
 ung ([]7[]) wird der Elastizitätsmodul
  []
@@ -2027,12 +2027,12 @@ zitätsmodul ist die experimentelle
  []
 
 ) (./content/anhang.tex [23]
-<AFM_auswertung/dvd_breite.png, id=367, 950.55125pt x 844.15375pt>
+<AFM_auswertung/dvd_breite.png, id=369, 950.55125pt x 844.15375pt>
 File: AFM_auswertung/dvd_breite.png Graphic file (type png)
 <use AFM_auswertung/dvd_breite.png>
 Package luatex.def Info: AFM_auswertung/dvd_breite.png  used on input line 7.
 (luatex.def)             Requested size: 167.29967pt x 148.56636pt.
-<AFM_auswertung/dvd_abstand.png, id=368, 951.555pt x 845.1575pt>
+<AFM_auswertung/dvd_abstand.png, id=370, 951.555pt x 845.1575pt>
 File: AFM_auswertung/dvd_abstand.png Graphic file (type png)
 <use AFM_auswertung/dvd_abstand.png>
 Package luatex.def Info: AFM_auswertung/dvd_abstand.png  used on input line 12.
@@ -2042,23 +2042,23 @@ Underfull \hbox (badness 10000) in paragraph at lines 13--13
 [] \TU/lmr/bx/n/9 (b) |\TU/lmr/m/n/9 Bestimmung des Spurabstands
  []
 
-<AFM_auswertung/dvd_Lmin.png, id=369, 952.55875pt x 843.15pt>
+<AFM_auswertung/dvd_Lmin.png, id=371, 952.55875pt x 843.15pt>
 File: AFM_auswertung/dvd_Lmin.png Graphic file (type png)
 <use AFM_auswertung/dvd_Lmin.png>
 Package luatex.def Info: AFM_auswertung/dvd_Lmin.png  used on input line 17.
 (luatex.def)             Requested size: 167.29967pt x 148.08093pt.
-<AFM_auswertung/dvd_Lmax.png, id=370, 948.54375pt x 847.165pt>
+<AFM_auswertung/dvd_Lmax.png, id=372, 948.54375pt x 847.165pt>
 File: AFM_auswertung/dvd_Lmax.png Graphic file (type png)
 <use AFM_auswertung/dvd_Lmax.png>
 Package luatex.def Info: AFM_auswertung/dvd_Lmax.png  used on input line 22.
 (luatex.def)             Requested size: 167.29967pt x 149.4195pt.
-<AFM_auswertung/bluray_breite.png, id=371, 1004.75375pt x 881.2925pt>
+<AFM_auswertung/bluray_breite.png, id=373, 1004.75375pt x 881.2925pt>
 File: AFM_auswertung/bluray_breite.png Graphic file (type png)
 <use AFM_auswertung/bluray_breite.png>
 Package luatex.def Info: AFM_auswertung/bluray_breite.png  used on input line 33
 .
 (luatex.def)             Requested size: 167.29967pt x 146.73828pt.
-<AFM_auswertung/bluray_abstand.png, id=372, 1008.76875pt x 880.28876pt>
+<AFM_auswertung/bluray_abstand.png, id=374, 1008.76875pt x 880.28876pt>
 File: AFM_auswertung/bluray_abstand.png Graphic file (type png)
 <use AFM_auswertung/bluray_abstand.png>
 Package luatex.def Info: AFM_auswertung/bluray_abstand.png  used on input line 3
@@ -2069,12 +2069,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 39--39
 [] \TU/lmr/bx/n/9 (b) |\TU/lmr/m/n/9 Bestimmung des Spurabstands
  []
 
-<AFM_auswertung/bluray_Lmin.png, id=373, 1008.76875pt x 880.28876pt>
+<AFM_auswertung/bluray_Lmin.png, id=375, 1008.76875pt x 880.28876pt>
 File: AFM_auswertung/bluray_Lmin.png Graphic file (type png)
 <use AFM_auswertung/bluray_Lmin.png>
 Package luatex.def Info: AFM_auswertung/bluray_Lmin.png  used on input line 43.
 (luatex.def)             Requested size: 167.29967pt x 145.98013pt.
-<AFM_auswertung/bluray_Lmax.png, id=374, 1004.75375pt x 880.28876pt>
+<AFM_auswertung/bluray_Lmax.png, id=376, 1004.75375pt x 880.28876pt>
 File: AFM_auswertung/bluray_Lmax.png Graphic file (type png)
 <use AFM_auswertung/bluray_Lmax.png>
 Package luatex.def Info: AFM_auswertung/bluray_Lmax.png  used on input line 48.
@@ -2144,14 +2144,10 @@ Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 24.
 Package rerunfilecheck Warning: File `main.aux' has changed. Rerun.
 
 Package rerunfilecheck Info: Checksums for `main.aux':
-(rerunfilecheck)             Before: 8D0E7BC7F8EE868EBAF8DA37A1F3AD3F;30587
-(rerunfilecheck)             After:  971E60EF06283E02AB50927FF98A6DA2;31358.
-
-Package rerunfilecheck Warning: File `main.toc' has changed. Rerun.
-
-Package rerunfilecheck Info: Checksums for `main.toc':
-(rerunfilecheck)             Before: 7B54EFCBD3C8C03E6774C5C17C93D525;1165
-(rerunfilecheck)             After:  7CBF90A820A29BF61F2456770D23534B;1232.
+(rerunfilecheck)             Before: 971E60EF06283E02AB50927FF98A6DA2;31358
+(rerunfilecheck)             After:  E1369B7C28DC50D01D6EBDF085F149D5;31358.
+Package rerunfilecheck Info: File `main.toc' has not changed.
+(rerunfilecheck)             Checksum: 7CBF90A820A29BF61F2456770D23534B;1232.
 
 LaTeX Warning: There were multiply-defined labels.
 
@@ -2168,7 +2164,7 @@ Here is how much of LuaTeX's memory you used:
 , 16 attribute_list, 1 write, 1 pdf_action nodes
    avail lists: 1:2,2:592,3:185,4:37,5:294,6:45,7:4002,8:92,9:291,10:10,11:38
  53198 multiletter control sequences out of 65536+600000
- 232 fonts using 63973831 bytes
+ 232 fonts using 63972611 bytes
  62i,15n,111p,10117b,2278s stack positions out of 5000i,500n,10000p,200000b,100000s
 </usr/share/texmf/fonts/opentype/public/lm/lmmono10-regular.otf></usr/share/texm
 f/fonts/opentype/public/lm/lmroman10-italic.otf></usr/share/texmf/fonts/opentype
@@ -2182,10 +2178,10 @@ m/lmroman10-bold.otf></usr/share/texmf/fonts/opentype/public/lm-math/latinmodern
 /share/texmf/fonts/opentype/public/lm/lmroman12-regular.otf></usr/share/texmf/fo
 nts/opentype/public/lm/lmsans10-bold.otf></usr/share/texmf/fonts/opentype/public
 /lm/lmroman12-bold.otf>
-Output written on main.pdf (25 pages, 9301345 bytes).
+Output written on main.pdf (25 pages, 9301400 bytes).
 
-PDF statistics: 533 PDF objects out of 1000 (max. 8388607)
- 360 compressed objects within 4 object streams
+PDF statistics: 534 PDF objects out of 1000 (max. 8388607)
+ 361 compressed objects within 4 object streams
  87 named destinations out of 1000 (max. 131072)
  113 words of extra memory for PDF output out of 10000 (max. 100000000)
 
