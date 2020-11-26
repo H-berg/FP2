@@ -2206,11 +2206,15 @@
     <bcf:citekey order="17">AFM</bcf:citekey>
     <bcf:citekey order="18">anleitung</bcf:citekey>
     <bcf:citekey order="19">anleitung</bcf:citekey>
-    <bcf:citekey order="20">sample</bcf:citekey>
-    <bcf:citekey order="21">sample</bcf:citekey>
-    <bcf:citekey order="22">sample</bcf:citekey>
-    <bcf:citekey order="23">teflon</bcf:citekey>
-    <bcf:citekey order="24">teflon</bcf:citekey>
+    <bcf:citekey order="20">anleitung</bcf:citekey>
+    <bcf:citekey order="21">anleitung</bcf:citekey>
+    <bcf:citekey order="22">anleitung</bcf:citekey>
+    <bcf:citekey order="23">CD_kapa</bcf:citekey>
+    <bcf:citekey order="24">adhae</bcf:citekey>
+    <bcf:citekey order="25">edelstahl</bcf:citekey>
+    <bcf:citekey order="26">edelstahl</bcf:citekey>
+    <bcf:citekey order="27">teflon</bcf:citekey>
+    <bcf:citekey order="28">teflon</bcf:citekey>
     <bcf:citekey order="0" nocite="1">*</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->

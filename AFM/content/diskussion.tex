@@ -6,12 +6,12 @@ In Tabelle (\ref{tab:auf1_disk}) sind die Messergebnisse inklusive Abweichung no
 
 \begin{table}
 	\centering
-	\caption{Messergebnisse der Mikrostrukturen im Vergleich zu den Kenngr\"o{\ss}en aus dem Datenblatt \cite{sample}.}
+	\caption{Messergebnisse der Mikrostrukturen im Vergleich zu den Kenngr\"o{\ss}en aus dem Datenblatt \cite{anleitung}.}
 \begin{tabular}{|r|ccc|}
 	\hline
 	{} & {Kreis} & {Quadrat} & {Streifen} \\
 	\hline
-	Struckturabstand / $\mu m$ & $4,865 \pm 0,109$ & $ 9,797 \pm 0,149$ & $4,869 \pm 0,072$ \\
+	Strukturabstand / $\mu m$ & $4,865 \pm 0,109$ & $ 9,797 \pm 0,149$ & $4,869 \pm 0,072$ \\
 	Datenblatt / $\mu m$ & 5 & 10 & 5 \\
 	Abweichung / \%	& 2,7 & 2,03 & 2,62 \\
 	\hline
@@ -21,10 +21,10 @@ In Tabelle (\ref{tab:auf1_disk}) sind die Messergebnisse inklusive Abweichung no
 
 %aufgabe2
 \bigskip
-Die Vermessung der drei verschiedenen Speichermedien in der zweiten Versuchsreihe wurde mit dem selben Auswertungsprogramm, welches schon f\"ur den ersten Versuchsteil verwendet wurde, durchgef\"uhrt.
+Die Vermessung der drei verschiedenen Speichermedien in der zweiten Versuchsreihe wurde mit demselben Auswertungsprogramm, welches schon f\"ur den ersten Versuchsteil verwendet wurde, durchgef\"uhrt.
 Die Fehler der Mittelwerte aus Tabelle (\ref{tab:auf2}) lassen auch hier auf gute Messwerte schlie{\ss}en.
 Da alle Abst\"ande und Gr\"o{\ss}en der Pits auf den Speichermedien manuell mit dem Distance-Tool vermessen wurden, ist es schwer zu sagen, wie genau diese Werte sind.
-Denn beispielsweise die AFM-Aufnahmen der Blu-ray (siehe Anhang) sind im Verglich mit den aufgenommenen Bilder der CD unscharf.
+Denn beispielsweise die AFM-Aufnahmen der Blu-ray (siehe Anhang) sind im Verglich mit den aufgenommenen Bildern der CD unscharf.
 So lassen sich die R\"ander der Pits auf der Blu-ray nicht exakt bestimmen.
 Zus\"atzlich wurde in diesem Aufgabenteil die Speicherkapazit\"at der CD abgesch\"atzt.
 Wie in Tabelle (\ref{tab:auf2_disk}) gezeigt ist, liegt diese berechnete Speicherkapazit\"at \"uber der gew\"ohnlich Speicherkapazit\"at einer CD.
@@ -32,13 +32,13 @@ Die Abweichung liegt zum einen an den Abweichungen der gemessenen Pitl\"angen un
 Beispielsweise wurde f\"ur die Bestimmung der minimalen Pitl\"ange ausschlie{\ss}lich der Mittelwert aus sechs Messungen berechnet.
 %Auch die Vorgehensweise zur Absch\"atzung der Speicherkapazit\"at birgt ungenauigkeiten, die zu Abweichungen f\"uhren k\"onnen.
 %Es wurde angenommen, dass die kleinste Strecke zwischen zwei H\"ohen\"uberg\"angen einer Folge von vier Bit entspricht.
-Au{\ss}erdem handelt es sich hier lediglich um eine Absch\"atzung und nicht um eine genau Berechnung.
+Au{\ss}erdem handelt es sich hier lediglich um eine Absch\"atzung und nicht um eine genaue Berechnung.
 \begin{table}
 	\centering
 	\caption{Vergleich der Abgesch\"atzten Speicherkapazit\"at der untersuchten CD.}
 \begin{tabular}{|ccc|}
 	\hline
-	{Kapazit\"at exp.} & {Kapazit\"at theo.} & {Abweichung} \\
+	{Kapazit\"at exp.} & {Kapazit\"at theo. \citep{CD_kapa}} & {Abweichung} \\
 	\hline
 	$1081,17 \,$MB & $900 \,$MB & $20,13 \,$\% \\
 	\hline
@@ -51,13 +51,26 @@ Au{\ss}erdem handelt es sich hier lediglich um eine Absch\"atzung und nicht um e
 Die gemessenen Kraft-Abstandskurven weisen alle einen typischen Verauf auf.
 Der Snap-Out Bereich ist jedoch nicht bei allen untersuchten Materialien deutlich erkennbar.
 So konnte bei Teflon dieser Werte nicht exakt aus der Grafik (siehe Abbildung (\ref{abb:teflon})) entnommen werden.
-Die berechneten Adh\"asionskr\"afte liegen alle in der gleichen Gr\"o{\ss}en{\-}ord{\-}nung.
-Zur Bestimmung des Elastizit\"atsmoduls der Teflon-Probe wurde die Cantileverspitze als kegelförmig angenommen.
-Der Öffnungswinkel und die Federkonstante des Cantilevers sowie die Poissonzahl wurden aus Literaturangaben gewonnen.
-Im Vergleich mit dem theoreitsch erwarteten Wert f\"ur das Elastizit\"atsmodul ist die experimentelle Berechnung sehr gut, siehe Tabelle(\ref{tab:auf3d}).
+Die berechneten Adh\"asionskr\"afte liegen alle in der zu erwartenden Gr\"o{\ss}en{\-}ord{\-}nung von $F_{\text{}Adh\"a} ~ 10^{-8} - 10^{-9} \,$ N \cite{adhae}.
+In Tabelle \ref{tab:auf3_edelstahl} ist zu erkennen, dass die experimentell Bestimmte Adh\"asionskraft von Edelstahl auch gut mit dem Literaturwert \"ubereinstimmmt.
 \begin{table}
 	\centering
-	\caption{Vergleich des Elastizit\"atsmoduls der Teflon-Probe mit dem Literaturwerte \cite{teflon}.}
+	\caption{Vergleich der errechneten Adh\"asionskraft mit dem Literaturwert \cite{edelstahl}.}
+\begin{tabular}{|ccc|}
+	\hline
+	{Adh\"asionskraft exp.} & {Adh\"asionskraft theo.} & {Abweichung} \\
+	\hline
+	$8,704 \cdot 10^{-8} \,$N & $7,5 \cdot 10^{-8} \,$N & $16,05 \,$\% \\
+	\hline
+\end{tabular}
+\label{tab:auf3_edelstahl}
+\end{table}
+Zur Bestimmung des Elastizit\"atsmoduls der Teflon-Probe wurde die Cantileverspitze als kegelförmig angenommen.
+Der Öffnungswinkel und die Federkonstante des Cantilevers sowie die Poissonzahl wurden aus Literaturangaben gewonnen.
+Im Vergleich mit dem theoretisch erwarteten Wert f\"ur den Elastizit\"atsmodul ist die experimentelle Berechnung sehr gut, siehe Tabelle(\ref{tab:auf3d}).
+\begin{table}
+	\centering
+	\caption{Vergleich des Elastizit\"atsmoduls der Teflon-Probe mit dem Literaturwert \cite{teflon}.}
 \begin{tabular}{|ccc|}
 	\hline
 	{Elastizit\"atsmodul exp.} & {Elastizit\"atsmodul theo.} & {Abweichung} \\
@@ -67,9 +80,9 @@ Im Vergleich mit dem theoreitsch erwarteten Wert f\"ur das Elastizit\"atsmodul i
 \end{tabular}
 \label{tab:auf3d}
 \end{table}
-Die Abweichung des Elastizit\"atsmodul ist durch den nicht linearen Verlauf des Kontaktbereichs der Edelstahlprobe zu erkl\"aren.
-Diese wurde bei der Bestimmung der Eindringsteife als als Referenzprobe verwendet.
-Die Eindringtiefe $d$ in die Teflon-Probe wurde hier deim maximale Verfahrweg $z_p$ der Probe gemessen.
+Die Abweichung des Elastizit\"atsmoduls ist durch den nicht{\-}linearen Verlauf des Kontaktbereichs der Edelstahlprobe zu erkl\"aren.
+Diese wurde bei der Bestimmung der Eindringtiefe als Referenzprobe verwendet.
+Die Eindringtiefe $d$ in die Teflon-Probe wurde hier beim maximale Verfahrweg $z_p$ der Probe gemessen.
 
 \bigskip
 Insgesamt ist das Rasterkraftmikrokop (AFM) eine gute Variante zur Bestimmung von Topographien einer makroskopisch glatten Oberfläche sowie deren Materialeigenschaften.

@@ -102,6 +102,56 @@
       \field{version}{3}
       \field{year}{2014}
     \endentry
+    \entry{CD_kapa}{online}{}
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{labeltitlesource}{title}
+      \field{title}{Compact Disc}
+      \field{urlday}{24}
+      \field{urlmonth}{11}
+      \field{urlyear}{2020}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://de.wikipedia.org/wiki/Compact_Disc
+      \endverb
+      \verb{url}
+      \verb https://de.wikipedia.org/wiki/Compact_Disc
+      \endverb
+    \endentry
+    \entry{adhae}{manual}{}
+      \name{author}{1}{}{%
+        {{hash=a04b7f0c54d54f8b57474594995081fe}{%
+           family={Bröll},
+           familyi={B\bibinitperiod},
+           given={Clemens},
+           giveni={C\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Universität Würzburg}%
+      }
+      \strng{namehash}{a04b7f0c54d54f8b57474594995081fe}
+      \strng{fullhash}{a04b7f0c54d54f8b57474594995081fe}
+      \strng{bibnamehash}{a04b7f0c54d54f8b57474594995081fe}
+      \strng{authorbibnamehash}{a04b7f0c54d54f8b57474594995081fe}
+      \strng{authornamehash}{a04b7f0c54d54f8b57474594995081fe}
+      \strng{authorfullhash}{a04b7f0c54d54f8b57474594995081fe}
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Rasterkraftmikroskopie-Potenzial und Funktionsweise im Hinblick auf den Einsatz im außerschulischen Lernort}
+      \field{year}{2013}
+    \endentry
+    \entry{edelstahl}{book}{}
+      \list{publisher}{1}{%
+        {THORLABS}%
+      }
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{labeltitlesource}{title}
+      \field{title}{Rasterkraftmikroskop Handbuch}
+      \field{year}{2018}
+    \endentry
     \entry{teflon}{online}{}
       \field{sortinit}{2}
       \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
@@ -111,7 +161,6 @@
       \field{urlmonth}{10}
       \field{urlyear}{2020}
       \field{urldateera}{ce}
-      \true{nocite}
       \verb{urlraw}
       \verb https://www.kern.de/de/technisches-datenblatt/polytetrafluorethylen-ptfe?n=1601_1
       \endverb

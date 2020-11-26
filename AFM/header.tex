@@ -61,6 +61,10 @@
   per-mode=symbol-or-fraction, % / in inline math, fraction in display math
 ]{siunitx}
 
+%griechische Buchstaben NICHT kusiv, fuer einheiten
+\usepackage{upgreek}
+
+
 % chemische Formeln
 \usepackage[
   version=4,
@@ -96,12 +100,16 @@
 ]{caption}
 % subfigure, subtable, subref
 \usepackage{subcaption}
+%fuer eingerueckte bildunterschrift
+\setcapindent{0.2cm}
 
 % Grafiken können eingebunden werden
 \usepackage{graphicx}
 % größere Variation von Dateinamen möglich
 \usepackage{grffile}
 \usepackage{wrapfig}
+% subfigure, subtable, subref
+\usepackage{subcaption}
 \usepackage[rightcaption]{sidecap}
 
 % schöne Tabellen
