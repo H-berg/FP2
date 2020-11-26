@@ -30,7 +30,7 @@ for i in range(1,3):
 
 
 def R(U,I):
-    return U/IWert
+    return U/I
 
 # Kalibrierungsdaten des Platin-Temp-Sensors
 
@@ -130,8 +130,8 @@ print("b = ",params1[1], "+-", uncertainties1[1])
 plt.plot(Temp, lin(Temp, *params1), label="Ausgleichsgerade",color="#acb2ba",zorder=2)
 Ikrit = lin(77, *params1)
 plt.plot(77, Ikrit, "o", mew=1,markerfacecolor="white", markersize=8,color="#e5961c",zorder=1)
-plt.plot(77, Ikrit, ".", color="#e5961c",label=r"Kritscher Strom I$_{krit}$")
 plt.text(78, lin(78, *params1)+0.05, s=str(round(Ikrit, 2))+"$\,$A",color="#e5961c")
+plt.plot(77, Ikrit, ".", color="#e5961c",label=r"Kritscher Strom I$_{c}$")
 
 plt.axis([76,119,0,3])
 plt.xlabel(r"Temperatur T / K")

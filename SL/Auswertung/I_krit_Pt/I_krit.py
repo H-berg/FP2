@@ -105,10 +105,6 @@ for i in range(1,6):
     print("Tempaenderung beim Ablesen = ", dTmittel[i-1], " K")
     print()
 
-# lin. Fit
-def lin(T,m,b):
-    return m*T+b
-
 Temp = np.linspace(75,120,100)
 # I(Tkrit) zu Bestimmung des kritischen Stroms
 
@@ -131,7 +127,7 @@ plt.plot(Temp, lin(Temp, *params1), label="Ausgleichsgerade",color="#acb2ba",zor
 Ikrit       = lin(77, *params1)
 Ikrit_err   = np.sqrt(77*77*uncertainties1[0]*uncertainties1[0]+uncertainties1[1]*uncertainties1[1])
 plt.plot(77, Ikrit, "o", mew=1,markerfacecolor="white", markersize=8,color="#e5961c",zorder=1)
-plt.errorbar(77, Ikrit, yerr=Ikrit_err, capsize=3, fmt='.',label=r"Kritscher Strom I$_{krit}$", color="#e5961c", zorder=1)
+plt.errorbar(77, Ikrit, yerr=Ikrit_err, capsize=3, fmt='.',label=r"Kritscher Strom I$_{c}$", color="#e5961c", zorder=1)
 #plt.plot(77, Ikrit, ".", color="#e5961c")
 plt.text(78, lin(78, *params1)+0.2, s=str(round(Ikrit, 2))+"$\,$A",color="#e5961c")
 

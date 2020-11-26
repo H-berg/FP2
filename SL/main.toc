@@ -15,15 +15,15 @@
 \contentsline {subsection}{\numberline {3.2}Experiment}{7}{subsection.3.2}%
 \contentsline {section}{\numberline {4}Auswertung}{9}{section.4}%
 \contentsline {subsection}{\numberline {4.1}Phänomenologische Beobachtungen des Supraleiters}{9}{subsection.4.1}%
-\contentsline {subsection}{\numberline {4.2}Bestimmung der kritschen Temperatur $T_{\text {c}}$ via Meißner-Ochsenfeld-Effekt}{10}{subsection.4.2}%
-\contentsline {subsection}{\numberline {4.3}Bestimmung der kritschen Temperatur $T_{\text {c}}$ via 4-Punkt-Messung}{11}{subsection.4.3}%
+\contentsline {subsection}{\numberline {4.2}Bestimmung der kritischen Temperatur $T_{\text {c}}$ via Meißner-Ochsenfeld-Effekt}{10}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}Bestimmung der kritischen Temperatur $T_{\text {c}}$ via 4-Punkt-Messung}{11}{subsection.4.3}%
 \contentsline {subsubsection}{\numberline {4.3.1}Ohne Magnet}{12}{subsubsection.4.3.1}%
 \contentsline {subsubsection}{\numberline {4.3.2}Mit Magnet}{13}{subsubsection.4.3.2}%
-\contentsline {subsection}{\numberline {4.4}Abschätzung der kritschen Stromstärke $I_{\text {c}}$}{15}{subsection.4.4}%
+\contentsline {subsection}{\numberline {4.4}Abschätzung der kritischen Stromstärke $I_{\text {c}}$}{15}{subsection.4.4}%
 \contentsline {subsubsection}{\numberline {4.4.1}Ohne Magnet}{16}{subsubsection.4.4.1}%
 \contentsline {subsubsection}{\numberline {4.4.2}Mit Magnet}{17}{subsubsection.4.4.2}%
 \contentsline {subsection}{\numberline {4.5}Abschätzung des induzierten Stroms $I_{\text {ind}}$}{18}{subsection.4.5}%
 \contentsline {section}{\numberline {5}Diskussion}{19}{section.5}%
 \contentsline {section}{\nonumberline Literatur}{21}{section*.26}%
-\contentsline {section}{\numberline {6}Anhang}{21}{section.6}%
-\contentsline {subsection}{\numberline {6.1}Bestimmung der kritschen Stromstärke $I_{\text {c}}$}{21}{subsection.6.1}%
+\contentsline {section}{\numberline {6}Anhang}{22}{section.6}%
+\contentsline {subsection}{\numberline {6.1}Bestimmung der kritischen Stromstärke $I_{\text {c}}$}{22}{subsection.6.1}%
