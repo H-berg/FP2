@@ -5,7 +5,7 @@
 \contentsline {subsection}{\numberline {2.1}Funktionsweise des Rasterkraftmikroskops}{3}{subsection.2.1}%
 \contentsline {subsection}{\numberline {2.2}Wechselwirkung}{5}{subsection.2.2}%
 \contentsline {subsection}{\numberline {2.3}Messmodi}{6}{subsection.2.3}%
-\contentsline {subsection}{\numberline {2.4}Kraft-Abstands-Kurve}{7}{subsection.2.4}%
+\contentsline {subsection}{\numberline {2.4}Kraft-Abstand-Kurve}{7}{subsection.2.4}%
 \contentsline {section}{\numberline {3}Durchführung}{8}{section.3}%
 \contentsline {section}{\numberline {4}Auswertung}{11}{section.4}%
 \contentsline {subsection}{\numberline {4.1}Messung der Topografie einer Mikrostruktur}{11}{subsection.4.1}%
