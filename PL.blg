@@ -1,5 +1,0 @@
-[0] Config.pm:304> INFO - This is Biber 2.14
-[0] Config.pm:307> INFO - Logfile is 'PL.blg'
-[52] biber:322> INFO - === Di Okt  6, 2020, 15:55:24
-[147] Utils.pm:320> ERROR - Cannot find 'PL.bcf'!
-[147] Biber.pm:132> INFO - ERRORS: 1
